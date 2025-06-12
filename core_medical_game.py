@@ -196,7 +196,6 @@ class MedicalGameEngine:
         game_state = self._load_session(session_id)
         if game_state:
             self.active_sessions[session_id] = game_state
-        self._save_session(session_id, game_state)
             return game_state
         
         # Session not found
