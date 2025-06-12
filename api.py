@@ -27,7 +27,7 @@ class SetupPatientGameRequest(BaseModel):
     patient_age: int
     patient_gender: str
     chief_complaint: str
-    specialty: str
+    specialty: Optional[str] = ""  # Empty string means "any specialty"
 
 class SendMessageRequest(BaseModel):
     session_id: str
@@ -150,7 +150,15 @@ async def create_game(request: CreateGameRequest):
 async def setup_patient_game(request: SetupPatientGameRequest):
     """Setup patient game session."""
     try:
-        if request.specialty not in [s.value for s in Specialty]:
+        # Handle "any specialty" (empty string) by selecting a random specialty
+        specialty = request.specialty
+        if not specialty or specialty == "":
+            # Get available specialties and choose one randomly
+            import random
+            available_specialties = [s.value for s in Specialty]
+            specialty = random.choice(available_specialties)
+            print(f"[PATIENT] Selected random specialty: {specialty}")
+        elif specialty not in [s.value for s in Specialty]:
             raise HTTPException(status_code=400, detail="Invalid specialty")
         
         result = game_engine.setup_patient_game(
@@ -159,7 +167,7 @@ async def setup_patient_game(request: SetupPatientGameRequest):
             patient_age=request.patient_age,
             patient_gender=request.patient_gender,
             chief_complaint=request.chief_complaint,
-            specialty=request.specialty
+            specialty=specialty
         )
         
         # Start patient interaction logging
@@ -168,7 +176,7 @@ async def setup_patient_game(request: SetupPatientGameRequest):
             "patient_age": request.patient_age,
             "patient_gender": request.patient_gender,
             "chief_complaint": request.chief_complaint,
-            "specialty": request.specialty
+            "specialty": specialty  # Use the selected specialty, not the request one
         })
         
         return result
