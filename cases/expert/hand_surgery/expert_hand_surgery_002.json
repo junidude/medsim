@@ -1,0 +1,52 @@
+{
+  "name": "Triangular Fibrocartilage Complex (TFCC) Avulsion with Ulnar Impaction Syndrome",
+  "specialty": "hand_surgery",
+  "chief_complaint": "I have sharp pain on the pinky side of my wrist, especially when twisting or gripping things. It's been getting worse over the past few months.",
+  "symptoms": [
+    "Ulnar-sided wrist pain",
+    "Pain worsens with forearm rotation",
+    "Clicking or popping sensation with movement",
+    "Weak grip strength",
+    "Swelling along ulnar wrist"
+  ],
+  "physical_findings": [
+    "Positive ulnar fovea sign",
+    "Painful limited supination",
+    "Tenderness over distal radioulnar joint",
+    "Positive piano key test",
+    "Decreased range of motion"
+  ],
+  "lab_results": {
+    "MRI": "TFCC avulsion with ulnar-positive variance",
+    "X-ray": "ulnar impaction with cystic changes in lunate"
+  },
+  "treatment": [
+    "Wrist arthroscopy with TFCC repair",
+    "Ulnar shortening osteotomy",
+    "Intra-articular steroid injection",
+    "Custom wrist splint immobilization",
+    "Physical therapy post-op"
+  ],
+  "prognosis": "Good with surgical intervention, though full recovery may take 6-12 months. Untreated cases may lead to progressive degenerative changes.",
+  "description": "Complex injury involving both traumatic avulsion of the TFCC and chronic ulnar impaction due to positive ulnar variance. The condition combines acute ligamentous injury with chronic bony overload, requiring both soft tissue and bony correction.",
+  "risk_factors": [
+    "Repetitive axial loading activities",
+    "Congenital ulnar-positive variance",
+    "Previous wrist trauma",
+    "Occupational overuse",
+    "Gymnastics/weightlifting"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "expert_hand_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Ulnar styloid fracture",
+    "Triangular Fibrocartilage Complex (TFCC) Avulsion with Ulnar Impaction Syndrome",
+    "Extensor carpi ulnaris tendinitis",
+    "Distal radioulnar joint instability"
+  ]
+}

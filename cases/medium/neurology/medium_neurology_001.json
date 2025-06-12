@@ -1,0 +1,43 @@
+{
+  "name": "Transient Global Amnesia",
+  "specialty": "neurology",
+  "chief_complaint": "I can't remember anything that happened today, and I keep asking the same questions over and over.",
+  "symptoms": [
+    "Sudden memory loss",
+    "Repetitive questioning",
+    "Confusion about recent events",
+    "No loss of personal identity"
+  ],
+  "physical_findings": [
+    "Normal cognitive function except for amnesia",
+    "No focal neurological deficits"
+  ],
+  "lab_results": {
+    "MRI": "No acute abnormalities",
+    "EEG": "Normal"
+  },
+  "treatment": [
+    "Reassurance and observation",
+    "Symptomatic management if needed"
+  ],
+  "prognosis": "Excellent, with full recovery typically within 24 hours and no recurrence in most cases",
+  "description": "Transient Global Amnesia is a sudden, temporary episode of memory loss that can't be attributed to a more common neurological condition, such as epilepsy or stroke. During an episode, the patient retains personal identity but is unable to form new memories or recall recent events. The exact cause is unknown, but it may be related to temporary disruption of blood flow or neuronal activity in memory-related brain areas.",
+  "risk_factors": [
+    "Age (50-80 years)",
+    "History of migraines",
+    "Physical exertion or emotional stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "1"
+  },
+  "case_id": "medium_neurology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Complex partial seizure",
+    "Transient Global Amnesia",
+    "Psychogenic amnesia",
+    "Postictal confusion"
+  ]
+}

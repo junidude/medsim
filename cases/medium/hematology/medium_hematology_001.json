@@ -1,0 +1,45 @@
+{
+  "name": "Hereditary Spherocytosis",
+  "specialty": "hematology",
+  "chief_complaint": "I feel tired all the time and my skin looks yellow sometimes.",
+  "symptoms": [
+    "fatigue",
+    "jaundice",
+    "abdominal pain",
+    "pale skin"
+  ],
+  "physical_findings": [
+    "splenomegaly",
+    "icteric sclera"
+  ],
+  "lab_results": {
+    "CBC": "decreased hemoglobin, increased reticulocytes",
+    "peripheral smear": "spherocytes present",
+    "bilirubin": "elevated indirect bilirubin",
+    "osmotic fragility test": "positive"
+  },
+  "treatment": [
+    "folic acid supplementation",
+    "splenectomy in severe cases",
+    "blood transfusions as needed"
+  ],
+  "prognosis": "Good with proper management, though may have recurrent episodes of anemia",
+  "description": "Hereditary spherocytosis is an inherited hemolytic anemia characterized by spherical-shaped red blood cells (spherocytes) that are prone to premature destruction in the spleen. This leads to anemia, jaundice, and potential complications like gallstones.",
+  "risk_factors": [
+    "family history of the condition",
+    "Northern European ancestry"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_hematology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Autoimmune Hemolytic Anemia",
+    "Hereditary Spherocytosis",
+    "Gilbert Syndrome",
+    "Sickle Cell Anemia"
+  ]
+}

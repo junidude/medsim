@@ -1,0 +1,48 @@
+{
+  "name": "Granulomatosis with Polyangiitis (GPA)",
+  "specialty": "family_medicine",
+  "chief_complaint": "I've had a persistent sinus infection, nosebleeds, and now I'm coughing up blood.",
+  "symptoms": [
+    "chronic sinusitis",
+    "epistaxis (nosebleeds)",
+    "hemoptysis (coughing up blood)",
+    "fatigue",
+    "joint pain"
+  ],
+  "physical_findings": [
+    "nasal crusting and septal perforation",
+    "lung crackles on auscultation",
+    "palpable purpura on lower extremities"
+  ],
+  "lab_results": {
+    "c-ANCA": "positive",
+    "ESR": "elevated",
+    "CRP": "elevated",
+    "urinalysis": "hematuria and proteinuria"
+  },
+  "treatment": [
+    "high-dose corticosteroids (e.g., prednisone)",
+    "immunosuppressants (e.g., cyclophosphamide or rituximab)",
+    "plasmapheresis in severe cases"
+  ],
+  "prognosis": "Variable; early treatment improves outcomes, but relapses are common. Organ damage (e.g., kidney failure) may occur if untreated.",
+  "description": "Granulomatosis with Polyangiitis (GPA) is a rare autoimmune disease causing vasculitis, primarily affecting small- to medium-sized blood vessels. It often involves the upper respiratory tract, lungs, and kidneys. Characterized by granuloma formation and necrotizing inflammation.",
+  "risk_factors": [
+    "middle-aged adults (40-65 years)",
+    "genetic predisposition",
+    "environmental triggers (e.g., silica exposure)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_family_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Eosinophilic Granulomatosis with Polyangiitis",
+    "Granulomatosis with Polyangiitis (GPA)",
+    "Goodpasture Syndrome",
+    "Microscopic Polyangiitis"
+  ]
+}

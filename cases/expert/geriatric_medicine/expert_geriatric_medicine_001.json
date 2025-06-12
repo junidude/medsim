@@ -1,0 +1,50 @@
+{
+  "name": "Multisystemic Tauopathy with Parkinsonism",
+  "specialty": "geriatric_medicine",
+  "chief_complaint": "I've been forgetting things more often, my hands shake, and I feel like I'm moving slower every day.",
+  "symptoms": [
+    "progressive memory loss",
+    "bradykinesia",
+    "postural instability",
+    "visual hallucinations",
+    "dysphagia"
+  ],
+  "physical_findings": [
+    "cogwheel rigidity",
+    "impaired postural reflexes",
+    "micrographia",
+    "hypomimia (reduced facial expression)"
+  ],
+  "lab_results": {
+    "CSF analysis": "elevated tau protein",
+    "Genetic testing": "MAPT gene mutation positive",
+    "MRI brain": "frontotemporal atrophy with hippocampal involvement"
+  },
+  "treatment": [
+    "levodopa-carbidopa trial (limited response expected)",
+    "cholinesterase inhibitors",
+    "physical therapy for gait training",
+    "speech therapy for dysphagia",
+    "caregiver support and safety modifications"
+  ],
+  "prognosis": "Progressive neurodegenerative disorder with median survival of 7-10 years from symptom onset. Motor symptoms typically less responsive to dopaminergic therapy than in Parkinson's disease.",
+  "description": "A rare neurodegenerative disorder characterized by abnormal tau protein accumulation affecting multiple brain systems. Presents with overlapping features of parkinsonism and frontotemporal dementia, distinguished from typical Parkinson's disease by early cognitive decline, poor response to dopaminergic therapy, and specific tau pathology on post-mortem examination.",
+  "risk_factors": [
+    "family history of neurodegenerative disorders",
+    "advanced age (typically onset 60-80 years)",
+    "specific MAPT gene mutations"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_geriatric_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Parkinson's Disease",
+    "Lewy Body Dementia",
+    "Multisystemic Tauopathy with Parkinsonism",
+    "Progressive Supranuclear Palsy"
+  ]
+}

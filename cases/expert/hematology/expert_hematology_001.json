@@ -1,0 +1,54 @@
+{
+  "name": "Erythrocytic Microangiopathic Hemolysis with Thrombocytopenia (EMHT-9666)",
+  "specialty": "hematology",
+  "chief_complaint": "I've been feeling extremely tired, have bruises everywhere, and my urine looks like cola.",
+  "symptoms": [
+    "severe fatigue",
+    "unexplained bruising",
+    "dark urine",
+    "shortness of breath",
+    "confusion"
+  ],
+  "physical_findings": [
+    "petechiae on lower extremities",
+    "jaundice",
+    "tachycardia",
+    "hepatosplenomegaly"
+  ],
+  "lab_results": {
+    "CBC": "Hb 6.8 g/dL, platelets 28,000/μL",
+    "peripheral smear": "schistocytes (3+)",
+    "LDH": "1,850 U/L",
+    "haptoglobin": "<10 mg/dL",
+    "direct Coombs": "negative",
+    "ADAMTS13 activity": "5% (severe deficiency)"
+  },
+  "treatment": [
+    "daily therapeutic plasma exchange",
+    "high-dose corticosteroids",
+    "rituximab infusion",
+    "caplacizumab (anti-vWF nanobody)",
+    "packed RBC transfusions (leukoreduced)"
+  ],
+  "prognosis": "Guarded - 40% mortality without treatment. With aggressive therapy, 70% survival at 1 year but high relapse risk.",
+  "description": "A novel variant of thrombotic microangiopathy characterized by acquired ADAMTS13 deficiency with unique erythrocyte fragmentation patterns. Pathogenesis involves autoantibodies against both ADAMTS13 and glycophorin C, causing simultaneous platelet consumption and hemolysis. Distinct from classic TTP by presence of hepatosplenic sequestration.",
+  "risk_factors": [
+    "recent Campylobacter jejuni infection",
+    "HLA-DRB1*11 haplotype",
+    "prior exposure to ticlopidine",
+    "undiagnosed autoimmune predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_hematology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Thrombotic thrombocytopenic purpura",
+    "Erythrocytic Microangiopathic Hemolysis with Thrombocytopenia (EMHT-9666)",
+    "Disseminated intravascular coagulation",
+    "Hemolytic uremic syndrome"
+  ]
+}

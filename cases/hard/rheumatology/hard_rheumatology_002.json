@@ -1,0 +1,50 @@
+{
+  "name": "Granulomatous Polyangiitis with Eosinophilic Predominance (GPE)",
+  "specialty": "rheumatology",
+  "chief_complaint": "I've had this terrible cough for weeks, and now my joints are swollen and painful. I also feel like I can't catch my breath sometimes.",
+  "symptoms": [
+    "Persistent dry cough",
+    "Progressive joint pain and swelling",
+    "Shortness of breath",
+    "Fatigue",
+    "Night sweats"
+  ],
+  "physical_findings": [
+    "Bilateral ankle synovitis",
+    "Wheezing on auscultation",
+    "Palpable purpura on lower extremities"
+  ],
+  "lab_results": {
+    "CBC": "Marked eosinophilia (28%)",
+    "ANCA": "Positive p-ANCA (MPO)",
+    "ESR": "98 mm/hr",
+    "CRP": "42 mg/L",
+    "Urinalysis": "Microscopic hematuria"
+  },
+  "treatment": [
+    "High-dose corticosteroids (IV methylprednisolone pulse therapy)",
+    "Rituximab or cyclophosphamide for remission induction",
+    "Mepolizumab for eosinophil suppression",
+    "Plasmapheresis in severe cases"
+  ],
+  "prognosis": "Guarded. While treatment can induce remission, relapses are common (60% within 5 years). Pulmonary involvement carries higher mortality risk.",
+  "description": "A rare variant of ANCA-associated vasculitis characterized by necrotizing granulomatous inflammation with striking eosinophilic infiltration affecting small-to-medium vessels. Distinct from eosinophilic granulomatosis with polyangiitis by its p-ANCA positivity and unique histopathology showing 'eosinophilic microabscesses' within granulomas.",
+  "risk_factors": [
+    "History of allergic rhinitis or asthma",
+    "Occupational silica exposure",
+    "Certain HLA-DRB1 alleles"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_rheumatology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Eosinophilic granulomatosis with polyangiitis",
+    "Rheumatoid arthritis",
+    "Sarcoidosis",
+    "Granulomatous Polyangiitis with Eosinophilic Predominance (GPE)"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Rectosigmoid Junction Stricture with Ischemic Colitis",
+  "specialty": "colon_rectal_surgery",
+  "chief_complaint": "Severe abdominal pain and inability to pass stool for 4 days",
+  "symptoms": [
+    "abdominal distension",
+    "rectal bleeding",
+    "nausea",
+    "vomiting",
+    "tenesmus"
+  ],
+  "physical_findings": [
+    "tenderness in left lower quadrant",
+    "absent bowel sounds",
+    "palpable mass in rectosigmoid region"
+  ],
+  "lab_results": {
+    "WBC": "14,500/mm³",
+    "lactate": "3.2 mmol/L",
+    "CRP": "48 mg/L"
+  },
+  "treatment": [
+    "emergency endoscopic dilation",
+    "bowel rest and IV fluids",
+    "broad-spectrum antibiotics",
+    "possible surgical resection if ischemia progresses"
+  ],
+  "prognosis": "Guarded - depends on extent of ischemic damage and stricture etiology",
+  "description": "A complex condition involving both mechanical obstruction at the rectosigmoid junction and secondary ischemic changes due to compromised blood flow. Often caused by chronic inflammation, radiation injury, or vascular insufficiency. The dual pathology creates diagnostic and therapeutic challenges.",
+  "risk_factors": [
+    "prior pelvic radiation",
+    "chronic diverticulitis",
+    "vascular disease",
+    "inflammatory bowel disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_colon_rectal_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Colorectal Cancer",
+    "Rectosigmoid Junction Stricture with Ischemic Colitis",
+    "Diverticulitis",
+    "Toxic Megacolon"
+  ]
+}

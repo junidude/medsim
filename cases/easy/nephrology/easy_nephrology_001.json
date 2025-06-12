@@ -1,0 +1,45 @@
+{
+  "name": "Uncomplicated Urinary Tract Infection (UTI)",
+  "specialty": "nephrology",
+  "chief_complaint": "It burns when I pee, and I feel like I have to go all the time.",
+  "symptoms": [
+    "dysuria",
+    "urinary frequency",
+    "urgency",
+    "suprapubic discomfort"
+  ],
+  "physical_findings": [
+    "suprapubic tenderness",
+    "no costovertebral angle tenderness"
+  ],
+  "lab_results": {
+    "urinalysis": "positive for leukocyte esterase and nitrites",
+    "urine culture": "E. coli >100,000 CFU/mL"
+  },
+  "treatment": [
+    "oral antibiotics (e.g., nitrofurantoin or trimethoprim-sulfamethoxazole)",
+    "increased fluid intake",
+    "phenazopyridine for symptom relief"
+  ],
+  "prognosis": "Excellent with prompt treatment; symptoms typically resolve within 48 hours of antibiotics",
+  "description": "A bacterial infection of the lower urinary tract (bladder) without involvement of the kidneys or systemic symptoms. Most commonly caused by E. coli ascending from the urethra.",
+  "risk_factors": [
+    "female anatomy",
+    "sexual activity",
+    "dehydration",
+    "use of spermicides"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_nephrology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Urethritis",
+    "Uncomplicated Urinary Tract Infection (UTI)",
+    "Interstitial cystitis",
+    "Bladder stones"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Posterior Tibial Tendon Dysfunction with Subtalar Joint Instability",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "I can't walk properly anymore - my inner ankle collapses inward and hurts terribly",
+  "symptoms": [
+    "progressive medial ankle pain",
+    "difficulty standing on toes",
+    "visible foot deformity",
+    "fatigue after minimal activity",
+    "swelling along tendon course"
+  ],
+  "physical_findings": [
+    "Single-leg heel rise test positive",
+    "Too many toes sign present",
+    "Palpable tenderness posterior to medial malleolus",
+    "Loss of medial longitudinal arch",
+    "Hindfoot valgus deformity"
+  ],
+  "lab_results": {
+    "CRP": "12.8 mg/L",
+    "ESR": "34 mm/hr",
+    "MRI": "Complete longitudinal tear of posterior tibial tendon with spring ligament attenuation"
+  },
+  "treatment": [
+    "Custom molded ankle-foot orthosis",
+    "Stage-appropriate surgical reconstruction (FDL transfer, calcaneal osteotomy)",
+    "Biologic augmentation with PRP injection",
+    "Gait retraining therapy",
+    "NSAIDs for acute flares"
+  ],
+  "prognosis": "Guarded without surgical intervention; progressive deformity leads to rigid flatfoot. Early reconstruction yields 70-80% functional recovery.",
+  "description": "Advanced stage 3 PTTD involving complete tendon failure with secondary subtalar joint instability and peritalar subluxation. The dysfunctional posterior tibial tendon fails to support the medial arch, leading to progressive collapse of the midfoot and forefoot abduction. Often misdiagnosed as simple tendonitis in early stages.",
+  "risk_factors": [
+    "Obesity (BMI >30)",
+    "Hypermobility spectrum disorders",
+    "Previous ankle trauma",
+    "Systemic inflammatory conditions",
+    "Repetitive overuse activities"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_orthopedic_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Tarsal Tunnel Syndrome",
+    "Posterior Tibial Tendon Dysfunction with Subtalar Joint Instability",
+    "Flexor Hallucis Longus Tendinopathy",
+    "Deltoid Ligament Insufficiency"
+  ]
+}

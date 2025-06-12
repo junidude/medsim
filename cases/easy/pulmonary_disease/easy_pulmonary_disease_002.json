@@ -1,0 +1,46 @@
+{
+  "name": "Acute Viral Bronchitis",
+  "specialty": "pulmonary_disease",
+  "chief_complaint": "I've had this nagging cough for about a week now, and it's getting worse. I feel tightness in my chest when I cough.",
+  "symptoms": [
+    "persistent cough",
+    "chest discomfort",
+    "mild shortness of breath",
+    "fatigue",
+    "low-grade fever"
+  ],
+  "physical_findings": [
+    "wheezing on auscultation",
+    "clear lung sounds without consolidation"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "chest X-ray": "no infiltrates"
+  },
+  "treatment": [
+    "rest",
+    "increased fluid intake",
+    "OTC cough suppressants as needed",
+    "inhaled bronchodilators if wheezing persists"
+  ],
+  "prognosis": "Excellent with full recovery expected within 2-3 weeks",
+  "description": "An acute inflammation of the bronchial tubes caused by viral infection, typically following an upper respiratory infection. Characterized by cough lasting 1-3 weeks without evidence of pneumonia.",
+  "risk_factors": [
+    "recent URI",
+    "smoke exposure",
+    "cold weather"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_pulmonary_disease_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Asthma exacerbation",
+    "Acute Viral Bronchitis",
+    "Community-acquired pneumonia",
+    "Postnasal drip syndrome"
+  ]
+}

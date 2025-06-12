@@ -1,0 +1,45 @@
+{
+  "name": "Acute Lower Back Strain",
+  "specialty": "pain_medicine",
+  "chief_complaint": "I have sharp pain in my lower back that started after lifting heavy boxes yesterday",
+  "symptoms": [
+    "localized lower back pain",
+    "muscle stiffness",
+    "pain worsens with movement"
+  ],
+  "physical_findings": [
+    "tenderness on palpation of lumbar paraspinal muscles",
+    "limited range of motion in lumbar spine"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "CRP": "normal"
+  },
+  "treatment": [
+    "NSAIDs for pain relief",
+    "muscle relaxants as needed",
+    "heat therapy",
+    "gentle stretching exercises"
+  ],
+  "prognosis": "Excellent with proper rest and treatment, typically resolves within 2-4 weeks",
+  "description": "A common musculoskeletal condition caused by overstretching or tearing of muscles and ligaments in the lower back, often due to improper lifting or sudden movements",
+  "risk_factors": [
+    "heavy lifting",
+    "poor posture",
+    "sedentary lifestyle",
+    "previous back injuries"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "easy_pain_medicine_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Lumbar Herniated Disc",
+    "Acute Lower Back Strain",
+    "Lumbar Spondylosis",
+    "Kidney Stone"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Granulomatosis with Polyangiitis (GPA) with Atypical Ocular Manifestations",
+  "specialty": "rheumatology",
+  "chief_complaint": "Persistent eye pain, blurred vision, and joint swelling for the past 3 months",
+  "symptoms": [
+    "Eye pain and redness",
+    "Blurred vision",
+    "Joint pain and swelling",
+    "Chronic sinusitis",
+    "Fatigue"
+  ],
+  "physical_findings": [
+    "Scleritis with corneal ulceration",
+    "Synovitis in small joints of hands",
+    "Nasal crusting and epistaxis"
+  ],
+  "lab_results": {
+    "c-ANCA": "positive",
+    "PR3-ANCA": "elevated",
+    "ESR": "78 mm/hr",
+    "CRP": "42 mg/L"
+  },
+  "treatment": [
+    "High-dose glucocorticoids (prednisone 1 mg/kg/day)",
+    "Rituximab or cyclophosphamide for remission induction",
+    "Methotrexate for maintenance therapy",
+    "Ophthalmologic consultation for ocular complications"
+  ],
+  "prognosis": "Guarded - requires aggressive immunosuppression to prevent vision loss and renal involvement. 5-year survival >80% with proper treatment but risk of relapse remains high.",
+  "description": "A rare variant of GPA presenting with predominant ocular involvement (scleritis, uveitis, or retinal vasculitis) before systemic manifestations become apparent. This form is particularly challenging as it may mimic infectious or other autoimmune ocular diseases. The condition represents a vasculitis of small-to-medium vessels with granulomatous inflammation.",
+  "risk_factors": [
+    "Genetic predisposition (HLA-DPB1)",
+    "Environmental triggers (silica exposure)",
+    "Chronic nasal carriage of S. aureus"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_rheumatology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Rheumatoid arthritis",
+    "Granulomatosis with Polyangiitis (GPA) with Atypical Ocular Manifestations",
+    "Sarcoidosis",
+    "Behçet's disease"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Congenital Ventricular Septal Aneurysm with Eisenmenger Syndrome",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child gets tired very quickly and turns blue when playing",
+  "symptoms": [
+    "fatigue",
+    "cyanosis",
+    "shortness of breath",
+    "poor feeding",
+    "fainting spells"
+  ],
+  "physical_findings": [
+    "loud holosystolic murmur",
+    "clubbing of fingers",
+    "hepatomegaly",
+    "precordial bulge"
+  ],
+  "lab_results": {
+    "ABG": "hypoxemia",
+    "BNP": "elevated",
+    "Echocardiogram": "large ventricular septal aneurysm with right-to-left shunt"
+  },
+  "treatment": [
+    "oxygen therapy",
+    "phlebotomy (if polycythemic)",
+    "pulmonary vasodilators",
+    "eventual heart-lung transplant evaluation"
+  ],
+  "prognosis": "Guarded; irreversible pulmonary hypertension limits life expectancy without transplant",
+  "description": "A rare congenital cardiac anomaly where a ventricular septal defect develops an aneurysmal pouch, leading to Eisenmenger physiology due to chronic left-to-right shunting causing pulmonary vascular disease and shunt reversal. Presents with progressive cyanosis and exercise intolerance.",
+  "risk_factors": [
+    "large unrepaired VSD",
+    "Down syndrome",
+    "maternal rubella infection"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "hard_pediatric_cardiology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Tetralogy of Fallot",
+    "Congenital Ventricular Septal Aneurysm with Eisenmenger Syndrome",
+    "Atrial Septal Defect",
+    "Pulmonary Hypertension"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+  "specialty": "oncology",
+  "chief_complaint": "I've been having blurry vision, weakness in my legs, and I feel like I can't control my bladder anymore.",
+  "symptoms": [
+    "rapid vision loss",
+    "lower extremity weakness",
+    "urinary incontinence",
+    "Lhermitte's sign (electric shock sensation with neck flexion)",
+    "nausea/vomiting"
+  ],
+  "physical_findings": [
+    "optic disc edema on fundoscopy",
+    "hyperreflexia in lower extremities",
+    "positive Babinski sign",
+    "sensory level at T10"
+  ],
+  "lab_results": {
+    "AQP4-IgG": "positive",
+    "CSF analysis": "pleocytosis (>50 WBCs), elevated protein",
+    "CT chest/abdomen/pelvis": "occult small cell lung carcinoma (2.1cm right hilar mass)"
+  },
+  "treatment": [
+    "high-dose IV methylprednisolone",
+    "plasma exchange",
+    "tumor resection",
+    "rituximab maintenance therapy",
+    "aggressive cancer treatment (cisplatin/etoposide)"
+  ],
+  "prognosis": "Guarded - neurological damage may be permanent even with treatment; 5-year survival ~40% due to underlying malignancy",
+  "description": "A rare paraneoplastic syndrome where antibodies against aquaporin-4 (AQP4-IgG) cross-react with both neural tissue and occult malignancy, causing severe demyelination of optic nerves and spinal cord. Often associated with small cell lung cancer. Distinct from classic NMO by its rapid progression and poorer response to immunotherapy.",
+  "risk_factors": [
+    "smoking history >20 pack-years",
+    "family history of autoimmune disorders",
+    "prior radiation exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_oncology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Multiple Sclerosis",
+    "Spinal Cord Compression",
+    "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+    "Acute Disseminated Encephalomyelitis"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Chronic Systemic Inflammatory Response Syndrome (CSIRS)",
+  "specialty": "preventive_medicine",
+  "chief_complaint": "I feel exhausted all the time, my joints ache, and I keep getting low-grade fevers",
+  "symptoms": [
+    "persistent fatigue",
+    "diffuse joint pain",
+    "recurrent low-grade fever",
+    "brain fog",
+    "unexplained weight loss"
+  ],
+  "physical_findings": [
+    "low-grade fever (37.5-38.3°C)",
+    "tender but non-swollen joints",
+    "palpable cervical lymphadenopathy"
+  ],
+  "lab_results": {
+    "CRP": "elevated (12.8 mg/dL)",
+    "ESR": "elevated (42 mm/hr)",
+    "IL-6": "elevated (28 pg/mL)",
+    "TNF-alpha": "elevated (15 pg/mL)",
+    "ANA": "negative"
+  },
+  "treatment": [
+    "low-dose immunomodulators",
+    "anti-inflammatory diet",
+    "targeted cytokine therapy",
+    "cognitive behavioral therapy for stress management",
+    "graded exercise program"
+  ],
+  "prognosis": "Variable; condition often follows chronic relapsing-remitting course. Early intervention improves long-term outcomes.",
+  "description": "CSIRS is a state of chronic, low-grade systemic inflammation without identifiable infectious or autoimmune etiology. Characterized by dysregulated innate immune response and elevated pro-inflammatory cytokines. Often triggered by environmental factors in genetically predisposed individuals.",
+  "risk_factors": [
+    "chronic stress exposure",
+    "environmental toxin exposure",
+    "epigenetic predisposition",
+    "prior severe infections",
+    "microbiome dysbiosis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "hard_preventive_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Lymphoma",
+    "Chronic Systemic Inflammatory Response Syndrome (CSIRS)",
+    "Rheumatoid Arthritis",
+    "Systemic Lupus Erythematosus"
+  ]
+}

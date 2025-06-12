@@ -1,0 +1,56 @@
+{
+  "name": "Acute Mesenteric Ischemia with Bowel Perforation",
+  "specialty": "surgical_critical_care",
+  "chief_complaint": "Excruciating abdominal pain that came on suddenly and won't go away",
+  "symptoms": [
+    "sudden severe abdominal pain",
+    "nausea and vomiting",
+    "bloody diarrhea",
+    "abdominal distension",
+    "fever"
+  ],
+  "physical_findings": [
+    "rigid abdomen with rebound tenderness",
+    "absent bowel sounds",
+    "tachycardia",
+    "hypotension",
+    "signs of systemic inflammatory response"
+  ],
+  "lab_results": {
+    "lactate": "6.8 mmol/L",
+    "WBC": "22,000/mm3",
+    "pH": "7.18",
+    "base deficit": "-12",
+    "D-dimer": ">5000 ng/mL"
+  },
+  "treatment": [
+    "emergent exploratory laparotomy",
+    "bowel resection with possible ostomy",
+    "broad-spectrum antibiotics",
+    "vasopressor support",
+    "aggressive fluid resuscitation",
+    "postoperative ICU monitoring"
+  ],
+  "prognosis": "Guarded - mortality rates exceed 60% even with prompt intervention. Survivors often require long-term nutritional support and may have permanent digestive impairments.",
+  "description": "A life-threatening vascular emergency where sudden occlusion of mesenteric blood supply leads to bowel necrosis and perforation. Typically involves superior mesenteric artery embolism or thrombosis. Requires immediate surgical intervention to prevent fatal sepsis.",
+  "risk_factors": [
+    "atrial fibrillation",
+    "advanced atherosclerosis",
+    "hypercoagulable states",
+    "recent myocardial infarction",
+    "congestive heart failure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor due to severe pain",
+    "pain_level": "10"
+  },
+  "case_id": "hard_surgical_critical_care_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Perforated Peptic Ulcer",
+    "Acute Mesenteric Ischemia with Bowel Perforation",
+    "Acute Pancreatitis",
+    "Ruptured Abdominal Aortic Aneurysm"
+  ]
+}

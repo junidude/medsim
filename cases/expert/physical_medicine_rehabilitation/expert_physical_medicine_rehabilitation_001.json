@@ -1,0 +1,53 @@
+{
+  "name": "Post-Traumatic Heterotopic Ossification with Neurogenic Component",
+  "specialty": "physical_medicine_rehabilitation",
+  "chief_complaint": "I can't move my elbow anymore, and it feels like there's bone growing where it shouldn't be",
+  "symptoms": [
+    "progressive joint stiffness",
+    "localized warmth and swelling",
+    "neuropathic pain radiating to forearm",
+    "loss of range of motion",
+    "palpable hard mass near joint"
+  ],
+  "physical_findings": [
+    "ankylosis of elbow joint at 45° flexion",
+    "allodynia in C7 dermatome",
+    "2cm x 3cm immobile osseous mass on medial epicondyle",
+    "diminished triceps reflex",
+    "positive Tinel's sign at cubital tunnel"
+  ],
+  "lab_results": {
+    "ALP": "320 U/L (elevated)",
+    "CRP": "18 mg/L",
+    "Heterotopic Ossification CT Grading": "Type III (bridging ossification)"
+  },
+  "treatment": [
+    "pulsed electromagnetic field therapy",
+    "indomethacin prophylaxis",
+    "focused radial shockwave therapy",
+    "nerve gliding exercises",
+    "surgical resection if conservative measures fail"
+  ],
+  "prognosis": "Guarded - 60% recurrence rate without aggressive rehabilitation; may develop permanent contractures",
+  "description": "A rare complication of traumatic brain injury where ectopic bone forms in soft tissues around joints, compounded by neurogenic inflammation from concomitant brachial plexus traction injury. The condition involves pathological osteogenic differentiation of mesenchymal stem cells triggered by combined neurological and mechanical factors.",
+  "risk_factors": [
+    "severe TBI with GCS <8",
+    "prolonged mechanical ventilation",
+    "concurrent peripheral nerve injury",
+    "history of deep tissue burns",
+    "genetic predisposition (ACVR1 mutations)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_physical_medicine_rehabilitation_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Osteochondroma",
+    "Post-Traumatic Heterotopic Ossification with Neurogenic Component",
+    "Cubital Tunnel Syndrome",
+    "Elbow Septic Arthritis"
+  ]
+}

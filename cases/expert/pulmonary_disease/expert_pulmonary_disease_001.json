@@ -1,0 +1,51 @@
+{
+  "name": "Idiopathic Pulmonary Hemosiderosis with Secondary Capillaritis",
+  "specialty": "pulmonary_disease",
+  "chief_complaint": "I keep coughing up blood and feel like I can't catch my breath, especially when I walk up stairs.",
+  "symptoms": [
+    "hemoptysis (blood-streaked sputum)",
+    "progressive dyspnea on exertion",
+    "fatigue",
+    "intermittent low-grade fever",
+    "unintentional weight loss (5kg over 3 months)"
+  ],
+  "physical_findings": [
+    "fine bilateral inspiratory crackles on lung auscultation",
+    "mild digital clubbing",
+    "pale conjunctiva suggesting anemia"
+  ],
+  "lab_results": {
+    "CBC": "microcytic anemia (Hb 8.2 g/dL)",
+    "iron studies": "low serum iron, low ferritin",
+    "sputum analysis": "hemosiderin-laden macrophages (>20%)",
+    "ANCA": "negative",
+    "bronchoalveolar lavage": "progressively bloodier aliquots"
+  },
+  "treatment": [
+    "high-dose corticosteroids (prednisone 1mg/kg/day)",
+    "immunosuppressants (azathioprine or cyclophosphamide)",
+    "iron supplementation",
+    "oxygen therapy as needed",
+    "consider plasmapheresis in refractory cases"
+  ],
+  "prognosis": "Variable - depends on treatment response. Approximately 50% mortality within 5 years without treatment. With therapy, may achieve long-term remission but often requires lifelong immunosuppression.",
+  "description": "A rare diffuse alveolar hemorrhage syndrome characterized by recurrent pulmonary hemorrhage leading to hemosiderin deposition in lungs, without evidence of vasculitis, infection, or other secondary causes. Pathogenesis involves autoimmune-mediated damage to pulmonary capillaries. Most common in children but can present in adults with more insidious course.",
+  "risk_factors": [
+    "history of autoimmune disorders in patient or family",
+    "exposure to environmental toxins (molds, pesticides)",
+    "certain HLA genotypes (DRB1*1501)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "expert_pulmonary_disease_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Tuberculosis",
+    "Idiopathic Pulmonary Hemosiderosis with Secondary Capillaritis",
+    "Goodpasture Syndrome",
+    "Bronchogenic Carcinoma"
+  ]
+}

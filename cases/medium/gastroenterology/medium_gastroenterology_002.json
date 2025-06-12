@@ -1,0 +1,46 @@
+{
+  "name": "Biliary Dyskinesia",
+  "specialty": "gastroenterology",
+  "chief_complaint": "Recurrent right upper quadrant pain after eating, especially fatty foods",
+  "symptoms": [
+    "Episodic right upper quadrant pain",
+    "Nausea",
+    "Bloating",
+    "Food intolerance (particularly fats)"
+  ],
+  "physical_findings": [
+    "Mild tenderness in right upper quadrant",
+    "No palpable masses or organomegaly"
+  ],
+  "lab_results": {
+    "Liver function tests": "Normal",
+    "Lipase": "Normal",
+    "CBC": "Normal"
+  },
+  "treatment": [
+    "Low-fat diet",
+    "Cholecystectomy (if severe and unresponsive to conservative measures)",
+    "Pain management with antispasmodics"
+  ],
+  "prognosis": "Good with dietary modifications; excellent after cholecystectomy if indicated",
+  "description": "A functional gallbladder disorder characterized by impaired gallbladder emptying without gallstones. Diagnosed via HIDA scan showing reduced ejection fraction (<35%). Often confused with biliary colic but lacks structural abnormalities.",
+  "risk_factors": [
+    "Female gender",
+    "Obesity",
+    "Rapid weight loss",
+    "Hormonal fluctuations"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_gastroenterology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Biliary Dyskinesia",
+    "Cholelithiasis",
+    "Chronic Cholecystitis",
+    "Peptic Ulcer Disease"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Radiation-Induced Brachial Plexopathy",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "Severe pain and weakness in my right arm, with tingling and numbness that's getting worse over time",
+  "symptoms": [
+    "Progressive arm weakness",
+    "Burning pain in shoulder/arm",
+    "Paresthesia (tingling/numbness)",
+    "Muscle atrophy in affected limb",
+    "Loss of fine motor control"
+  ],
+  "physical_findings": [
+    "Positive Tinel's sign at supraclavicular fossa",
+    "Muscle fasciculations in deltoid and biceps",
+    "Diminished reflexes in affected arm",
+    "Sensory deficit in C5-T1 dermatomes",
+    "Positive Lhermitte's sign (in some cases)"
+  ],
+  "lab_results": {
+    "EMG": "Denervation potentials in C5-T1 myotomes",
+    "MRI": "Fibrosis and scarring of brachial plexus with nerve root thickening",
+    "PET-CT": "No evidence of tumor recurrence"
+  },
+  "treatment": [
+    "High-dose corticosteroids (pulse therapy)",
+    "Nerve sheath injections with local anesthetic/steroid",
+    "Pregabalin or gabapentin for neuropathic pain",
+    "Physical therapy to prevent contractures",
+    "Consideration of hyperbaric oxygen therapy",
+    "Surgical neurolysis in refractory cases"
+  ],
+  "prognosis": "Guarded - typically progressive with incomplete recovery. Early intervention may slow progression but complete functional restoration is uncommon. Quality of life focus becomes primary in advanced cases.",
+  "description": "A delayed complication of radiation therapy (typically 6 months to 20 years post-treatment) causing progressive fibrosis and demyelination of the brachial plexus. Most common after treatment for breast cancer, lymphoma, or lung cancer when the plexus was in the radiation field. Pathophysiology involves microvascular damage, axonal degeneration, and perineural fibrosis leading to both motor and sensory deficits.",
+  "risk_factors": [
+    "Radiation dose >60Gy to plexus",
+    "Concurrent chemotherapy (especially vinca alkaloids)",
+    "Previous surgical trauma to plexus",
+    "Underlying vascular disease",
+    "Younger age at time of radiation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_radiation_oncology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Cervical Radiculopathy",
+    "Radiation-Induced Brachial Plexopathy",
+    "Thoracic Outlet Syndrome",
+    "Pancoast Tumor"
+  ]
+}

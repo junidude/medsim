@@ -1,0 +1,52 @@
+{
+  "name": "Congenital Erythropoietic Porphyria with Secondary Hemochromatosis",
+  "specialty": "pediatric_hematology_oncology",
+  "chief_complaint": "My child's skin blisters easily in sunlight and their urine is dark red.",
+  "symptoms": [
+    "Severe photosensitivity",
+    "Hemolytic anemia",
+    "Dark red/brown urine",
+    "Splenomegaly",
+    "Failure to thrive"
+  ],
+  "physical_findings": [
+    "Fragile blistering skin on sun-exposed areas",
+    "Hyperpigmentation",
+    "Hepatomegaly",
+    "Scleral icterus"
+  ],
+  "lab_results": {
+    "Porphyrins (urine)": "Markedly elevated uroporphyrin I",
+    "Ferritin": ">1000 ng/mL",
+    "Hemoglobin": "6.8 g/dL",
+    "Reticulocyte count": "8.2%",
+    "Liver enzymes": "2-3x elevated"
+  },
+  "treatment": [
+    "Strict sunlight avoidance with protective clothing",
+    "Hypertransfusion therapy to suppress erythropoiesis",
+    "Iron chelation therapy for hemochromatosis",
+    "Hematopoietic stem cell transplantation evaluation",
+    "Symptomatic pain management"
+  ],
+  "prognosis": "Guarded. Progressive disease with risk of liver failure and complications from chronic hemolysis. Early HSCT may improve outcomes.",
+  "description": "An ultra-rare autosomal recessive disorder of heme biosynthesis causing accumulation of non-physiologic porphyrin isomers. The condition leads to cutaneous photosensitivity, chronic hemolytic anemia, and secondary iron overload from repeated transfusions and ineffective erythropoiesis.",
+  "risk_factors": [
+    "Consanguinity",
+    "Northern European ancestry",
+    "Previous family history of porphyria"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_pediatric_hematology_oncology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Erythropoietic Protoporphyria",
+    "Congenital Erythropoietic Porphyria with Secondary Hemochromatosis",
+    "Hereditary Coproporphyria",
+    "Gunther Disease"
+  ]
+}

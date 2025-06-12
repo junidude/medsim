@@ -1,0 +1,44 @@
+{
+  "name": "Pediatric Viral Gastroenteritis",
+  "specialty": "pediatric_critical_care",
+  "chief_complaint": "My tummy hurts and I keep throwing up",
+  "symptoms": [
+    "abdominal pain",
+    "vomiting",
+    "diarrhea",
+    "low-grade fever"
+  ],
+  "physical_findings": [
+    "mild abdominal tenderness",
+    "dry mucous membranes"
+  ],
+  "lab_results": {
+    "stool test": "negative for bacteria",
+    "electrolytes": "mild imbalance"
+  },
+  "treatment": [
+    "oral rehydration solution",
+    "bland diet",
+    "anti-emetics if severe"
+  ],
+  "prognosis": "Excellent with proper hydration; typically resolves in 3-5 days",
+  "description": "Common viral infection causing inflammation of stomach and intestines, often caused by rotavirus or norovirus in pediatric populations",
+  "risk_factors": [
+    "daycare attendance",
+    "poor hand hygiene",
+    "immunocompromised status"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "easy_pediatric_critical_care_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Acute Appendicitis",
+    "Pediatric Viral Gastroenteritis",
+    "Food Poisoning",
+    "Urinary Tract Infection"
+  ]
+}

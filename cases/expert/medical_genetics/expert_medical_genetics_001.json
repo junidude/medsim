@@ -1,0 +1,49 @@
+{
+  "name": "Mitochondrial Neurogastrointestinal Encephalomyopathy (MNGIE)",
+  "specialty": "medical_genetics",
+  "chief_complaint": "I feel weak all the time, my stomach hurts after eating, and I've lost a lot of weight.",
+  "symptoms": [
+    "progressive external ophthalmoplegia",
+    "severe gastrointestinal dysmotility",
+    "peripheral neuropathy",
+    "cachexia",
+    "recurrent nausea and vomiting"
+  ],
+  "physical_findings": [
+    "ptosis",
+    "thin body habitus",
+    "decreased deep tendon reflexes",
+    "abdominal distension"
+  ],
+  "lab_results": {
+    "thymidine phosphorylase activity": "markedly reduced",
+    "plasma thymidine": "elevated",
+    "plasma deoxyuridine": "elevated",
+    "lactate/pyruvate ratio": "elevated"
+  },
+  "treatment": [
+    "allogeneic hematopoietic stem cell transplantation",
+    "enzyme replacement therapy (investigational)",
+    "symptomatic management of GI dysmotility",
+    "nutritional support"
+  ],
+  "prognosis": "Poor without treatment, with progressive deterioration leading to death typically in 3rd-4th decade. Early diagnosis and treatment may improve outcomes.",
+  "description": "MNGIE is an ultra-rare autosomal recessive disorder caused by mutations in the TYMP gene leading to thymidine phosphorylase deficiency. This results in accumulation of toxic nucleosides that impair mitochondrial DNA replication, causing multi-system dysfunction particularly affecting the nervous system and gastrointestinal tract.",
+  "risk_factors": [
+    "consanguinity",
+    "family history of similar symptoms"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "expert_medical_genetics_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Chronic Inflammatory Demyelinating Polyneuropathy",
+    "Mitochondrial Neurogastrointestinal Encephalomyopathy (MNGIE)",
+    "Myasthenia Gravis",
+    "Systemic Sclerosis"
+  ]
+}

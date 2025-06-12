@@ -1,0 +1,48 @@
+{
+  "name": "Triangular Fibrocartilage Complex (TFCC) Tear with Ulnar Impaction Syndrome",
+  "specialty": "hand_surgery",
+  "chief_complaint": "I have persistent pain on the pinky side of my wrist, especially when twisting or gripping things.",
+  "symptoms": [
+    "Ulnar-sided wrist pain",
+    "Clicking or popping sensation with wrist rotation",
+    "Weak grip strength",
+    "Worsening pain with forearm rotation"
+  ],
+  "physical_findings": [
+    "Tenderness over the ulnar fovea",
+    "Positive ulnar grind test",
+    "Decreased range of motion in wrist supination/pronation",
+    "Possible wrist instability"
+  ],
+  "lab_results": {
+    "MRI": "TFCC perforation with positive ulnar variance",
+    "X-ray": "Ulnar-positive variance >2mm"
+  },
+  "treatment": [
+    "Wrist immobilization with ulnar gutter splint",
+    "Arthroscopic TFCC debridement/repair",
+    "Ulnar shortening osteotomy if structural abnormality present",
+    "Corticosteroid injection for temporary relief"
+  ],
+  "prognosis": "Good with surgical intervention, though recovery may take 3-6 months. Chronic cases may develop degenerative changes.",
+  "description": "Complex injury involving both the TFCC (a stabilizer of the distal radioulnar joint) and ulnar impaction from positive ulnar variance, causing progressive wear of the ulnocarpal joint. Often seen in athletes or workers with repetitive loading of the ulnar wrist.",
+  "risk_factors": [
+    "Repetitive wrist rotation (mechanics, athletes)",
+    "Traumatic fall onto outstretched hand",
+    "Congenital ulnar-positive variance",
+    "Rheumatoid arthritis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "hard_hand_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Ulnar Collateral Ligament Tear",
+    "Triangular Fibrocartilage Complex (TFCC) Tear with Ulnar Impaction Syndrome",
+    "Lunotriquetral Instability",
+    "Distal Radioulnar Joint Arthritis"
+  ]
+}

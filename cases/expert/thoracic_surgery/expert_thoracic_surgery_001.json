@@ -1,0 +1,44 @@
+{
+  "name": "Idiopathic Tracheobronchial Amyloidosis",
+  "specialty": "thoracic_surgery",
+  "chief_complaint": "I can't stop coughing and feel like I'm choking when I lie down",
+  "symptoms": [
+    "progressive dyspnea",
+    "biphasic stridor",
+    "hemoptysis",
+    "recurrent pneumonia"
+  ],
+  "physical_findings": [
+    "wheezing on forced expiration",
+    "supraglottic edema on laryngoscopy"
+  ],
+  "lab_results": {
+    "bronchoscopy biopsy": "apple-green birefringence under polarized light",
+    "serum protein electrophoresis": "monoclonal gammopathy"
+  },
+  "treatment": [
+    "rigid bronchoscopy with laser ablation",
+    "localized tracheal resection with end-to-end anastomosis",
+    "systemic chemotherapy for underlying plasma cell dyscrasia"
+  ],
+  "prognosis": "Guarded - progressive disease often requires repeated interventions with 5-year survival of 60-70%",
+  "description": "A rare form of localized amyloid deposition in tracheobronchial tree causing progressive airway obstruction. Characterized by extracellular deposition of misfolded immunoglobulin light chain proteins forming β-pleated sheets that disrupt normal tissue architecture.",
+  "risk_factors": [
+    "history of plasma cell dyscrasia",
+    "chronic inflammatory conditions",
+    "age >50 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_thoracic_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Tracheal Stenosis",
+    "Idiopathic Tracheobronchial Amyloidosis",
+    "Relapsing Polychondritis",
+    "Tracheobronchial Tumors"
+  ]
+}

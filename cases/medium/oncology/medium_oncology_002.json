@@ -1,0 +1,47 @@
+{
+  "name": "Paraneoplastic Polyneuropathy",
+  "specialty": "oncology",
+  "chief_complaint": "I've been feeling weak in my arms and legs, and I keep stumbling when I walk.",
+  "symptoms": [
+    "progressive limb weakness",
+    "numbness in extremities",
+    "unsteady gait",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "distal muscle atrophy",
+    "diminished deep tendon reflexes",
+    "sensory loss in glove-and-stocking distribution"
+  ],
+  "lab_results": {
+    "anti-Hu antibodies": "positive",
+    "CSF analysis": "elevated protein",
+    "EMG": "axonal neuropathy pattern"
+  },
+  "treatment": [
+    "treat underlying malignancy",
+    "intravenous immunoglobulin (IVIG)",
+    "corticosteroids",
+    "physical therapy"
+  ],
+  "prognosis": "Variable; depends on early detection and treatment of underlying cancer. Neurological symptoms may improve with tumor treatment but often have residual deficits.",
+  "description": "A rare immune-mediated neurological disorder associated with occult malignancies, particularly small cell lung cancer. Antibodies against neuronal antigens cross-react with peripheral nerves, causing progressive sensorimotor neuropathy.",
+  "risk_factors": [
+    "smoking history",
+    "age >50",
+    "undiagnosed malignancy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_oncology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Chronic Inflammatory Demyelinating Polyneuropathy",
+    "Paraneoplastic Polyneuropathy",
+    "Diabetic Neuropathy",
+    "Guillain-Barré Syndrome"
+  ]
+}

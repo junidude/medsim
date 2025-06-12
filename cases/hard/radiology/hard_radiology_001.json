@@ -1,0 +1,43 @@
+{
+  "name": "Idiopathic Intracranial Hypertension with Venous Sinus Stenosis",
+  "specialty": "radiology",
+  "chief_complaint": "Persistent headaches and blurred vision, especially when lying down",
+  "symptoms": [
+    "Pulsatile tinnitus",
+    "Transient visual obscurations",
+    "Nausea exacerbated by head movement"
+  ],
+  "physical_findings": [
+    "Papilledema on fundoscopy",
+    "Abducens nerve palsy (unilateral)"
+  ],
+  "lab_results": {
+    "Lumbar puncture opening pressure": ">25 cm H2O",
+    "CSF composition": "Normal"
+  },
+  "treatment": [
+    "Acetazolamide therapy",
+    "Venous sinus stenting if refractory to medical management",
+    "Therapeutic lumbar punctures"
+  ],
+  "prognosis": "Variable; may lead to permanent vision loss if untreated, but often manageable with therapy",
+  "description": "A condition of elevated intracranial pressure without identifiable cause, often associated with venous outflow obstruction. Characterized by headache, visual disturbances, and papilledema. MRV typically demonstrates transverse sinus stenosis.",
+  "risk_factors": [
+    "Young obese females",
+    "Recent significant weight gain",
+    "Tetracycline antibiotic use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_radiology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Cerebral venous thrombosis",
+    "Idiopathic Intracranial Hypertension with Venous Sinus Stenosis",
+    "Chiari malformation",
+    "Meningioma"
+  ]
+}

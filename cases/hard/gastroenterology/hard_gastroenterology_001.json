@@ -1,0 +1,46 @@
+{
+  "name": "Chronic Mesenteric Ischemia with Collateral Vasculopathy",
+  "specialty": "gastroenterology",
+  "chief_complaint": "I get severe abdominal pain after eating, and I've lost a lot of weight without trying",
+  "symptoms": [
+    "Postprandial abdominal pain (30-60 mins after eating)",
+    "Unintentional weight loss (15% of body weight over 6 months)",
+    "Food fear (avoidance of meals due to pain)",
+    "Nausea without vomiting"
+  ],
+  "physical_findings": [
+    "Abdominal bruit on auscultation",
+    "Muscle wasting in extremities"
+  ],
+  "lab_results": {
+    "Fecal fat": "Elevated (steatorrhea)",
+    "Albumin": "2.8 g/dL (low)",
+    "CRP": "12 mg/L (elevated)"
+  },
+  "treatment": [
+    "Angioplasty with stenting of mesenteric arteries",
+    "Parenteral nutrition during acute episodes",
+    "Low-residue, high-calorie small frequent meals",
+    "Antiplatelet therapy"
+  ],
+  "prognosis": "Guarded - depends on revascularization success. Untreated carries high mortality (50-80% at 2 years)",
+  "description": "A rare vascular disorder where chronic insufficient blood flow to the intestines leads to ischemic damage. Unlike acute mesenteric ischemia, this develops gradually due to atherosclerotic narrowing of 2+ mesenteric arteries with inadequate collateral circulation. The intestinal mucosa becomes chronically hypoxic, impairing absorption and causing pain when metabolic demand increases during digestion.",
+  "risk_factors": [
+    "Advanced atherosclerosis",
+    "Hypercoagulable states",
+    "Prior abdominal radiation therapy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "8"
+  },
+  "case_id": "hard_gastroenterology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Gastric outlet obstruction",
+    "Chronic mesenteric ischemia with collateral vasculopathy",
+    "Superior mesenteric artery syndrome",
+    "Pancreatic cancer"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Chronic Systemic Inflammatory Response Syndrome (CSIRS)",
+  "specialty": "preventive_medicine",
+  "chief_complaint": "I feel exhausted all the time, have constant low-grade fevers, and my joints ache",
+  "symptoms": [
+    "Persistent fatigue",
+    "Low-grade fever (99-100.5°F)",
+    "Diffuse joint pain",
+    "Cognitive dysfunction ('brain fog')",
+    "Sleep disturbances"
+  ],
+  "physical_findings": [
+    "Low-grade fever (99.1°F)",
+    "Mild peripheral edema",
+    "Tender but non-swollen joints"
+  ],
+  "lab_results": {
+    "CRP": "Elevated (8.2 mg/L)",
+    "ESR": "Elevated (42 mm/hr)",
+    "IL-6": "Elevated (15 pg/mL)",
+    "Ferritin": "Elevated (450 ng/mL)",
+    "ANA": "Negative"
+  },
+  "treatment": [
+    "Anti-inflammatory diet (Mediterranean diet)",
+    "Low-dose naltrexone",
+    "Curcumin supplementation",
+    "Graded exercise program",
+    "Cognitive behavioral therapy for sleep"
+  ],
+  "prognosis": "Variable; condition often follows chronic course with periods of remission and exacerbation. Early intervention improves long-term outcomes.",
+  "description": "CSIRS is a state of chronic, low-grade systemic inflammation without clear infectious or autoimmune etiology. It represents a dysregulated immune response potentially triggered by environmental factors, chronic stress, or metabolic dysfunction. The condition shares features with chronic fatigue syndrome and fibromyalgia but is distinguished by specific inflammatory markers.",
+  "risk_factors": [
+    "Chronic psychological stress",
+    "Sedentary lifestyle",
+    "Western diet (high in processed foods)",
+    "History of multiple minor infections",
+    "Sleep deprivation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "hard_preventive_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Fibromyalgia",
+    "Chronic Systemic Inflammatory Response Syndrome (CSIRS)",
+    "Lyme disease",
+    "Systemic lupus erythematosus"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Mast Cell Activation Syndrome (MCAS) with Angioedema",
+  "specialty": "allergy_immunology",
+  "chief_complaint": "Recurrent episodes of facial swelling, hives, and dizziness after eating unfamiliar foods",
+  "symptoms": [
+    "Flushing",
+    "Pruritus without rash",
+    "Gastrointestinal cramping",
+    "Presyncope",
+    "Episodic angioedema"
+  ],
+  "physical_findings": [
+    "Non-pitting edema of lips/eyelids",
+    "Dermatographism on examination",
+    "Tachycardia without hypotension"
+  ],
+  "lab_results": {
+    "Serum tryptase": "Normal baseline (5 ng/mL) with 225% increase during flare",
+    "24-hour urinary prostaglandin D2": "Elevated (1800 pg/mg creatinine)",
+    "KIT D816V mutation": "Negative"
+  },
+  "treatment": [
+    "High-dose H1/H2 antihistamines",
+    "Mast cell stabilizers (cromolyn sodium)",
+    "Leukotriene inhibitors",
+    "Emergency epinephrine autoinjector",
+    "Low-histamine diet trial"
+  ],
+  "prognosis": "Chronic condition requiring lifelong management; 30% develop progressive systemic involvement",
+  "description": "A non-clonal mast cell disorder characterized by recurrent, severe idiopathic activation episodes with mediator release. Differs from mastocytosis by absence of mast cell proliferation. Pathogenesis involves aberrant IgE-independent mast cell signaling thresholds.",
+  "risk_factors": [
+    "Female sex",
+    "Concurrent dysautonomia",
+    "History of multiple drug sensitivities"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "expert_allergy_immunology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Hereditary Angioedema",
+    "Systemic Mastocytosis",
+    "Idiopathic Mast Cell Activation Syndrome (MCAS) with Angioedema",
+    "Allergic Contact Dermatitis"
+  ]
+}

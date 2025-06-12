@@ -1,0 +1,49 @@
+{
+  "name": "Progressive Idiopathic Facial Fibroplasia",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "My face feels tight and is changing shape uncontrollably",
+  "symptoms": [
+    "progressive facial asymmetry",
+    "painless facial hardening",
+    "restricted jaw movement",
+    "visual field obstruction from tissue overgrowth"
+  ],
+  "physical_findings": [
+    "irregular fibrotic plaques in subcutaneous tissue",
+    "unilateral malar prominence with woody induration",
+    "loss of nasolabial fold definition",
+    "inability to fully close eyelids"
+  ],
+  "lab_results": {
+    "TGF-β1": "elevated (4.8 ng/mL)",
+    "IL-13": "markedly elevated",
+    "skin biopsy": "dense collagen bundles with fibroblast proliferation"
+  },
+  "treatment": [
+    "experimental TGF-β inhibitor therapy",
+    "focused ultrasound fibrolysis",
+    "custom external tissue expanders",
+    "staged surgical debulking with fat grafting"
+  ],
+  "prognosis": "guarded with progressive functional impairment likely without aggressive intervention",
+  "description": "A rare, progressive fibroproliferative disorder of unknown etiology causing uncontrolled collagen deposition in facial soft tissues. Distinct from scleroderma by its localized presentation and lack of systemic involvement. Pathogenesis involves dysregulated fibroblast activity and abnormal extracellular matrix remodeling.",
+  "risk_factors": [
+    "previous facial trauma (even minor)",
+    "certain HLA haplotypes",
+    "prolonged corticosteroid use",
+    "history of keloid formation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_plastic_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Scleroderma",
+    "Progressive Idiopathic Facial Fibroplasia",
+    "Parry-Romberg Syndrome",
+    "Amyloidosis"
+  ]
+}

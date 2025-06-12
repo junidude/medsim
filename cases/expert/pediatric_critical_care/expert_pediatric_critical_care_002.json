@@ -1,0 +1,53 @@
+{
+  "name": "Idiopathic Pulmonary Hemosiderosis with Secondary Capillary Leak Syndrome",
+  "specialty": "pediatric_critical_care",
+  "chief_complaint": "Mom says 'He's coughing up blood and his whole body is swelling up!'",
+  "symptoms": [
+    "Hemoptysis",
+    "Peripheral edema",
+    "Respiratory distress",
+    "Fatigue",
+    "Pallor"
+  ],
+  "physical_findings": [
+    "Crackles on lung auscultation",
+    "Generalized anasarca",
+    "Tachycardia",
+    "Hepatomegaly"
+  ],
+  "lab_results": {
+    "Hemoglobin": "6.2 g/dL",
+    "Haptoglobin": "<10 mg/dL",
+    "Chest X-ray": "Diffuse alveolar infiltrates",
+    "Bronchoalveolar lavage": "Hemosiderin-laden macrophages",
+    "Albumin": "2.1 g/dL"
+  },
+  "treatment": [
+    "High-dose corticosteroids",
+    "Immunosuppressants (cyclophosphamide)",
+    "Plasmapheresis for capillary leak",
+    "Packed RBC transfusion",
+    "Diuretics with careful fluid management",
+    "Mechanical ventilation if needed"
+  ],
+  "prognosis": "Guarded - depends on early recognition and aggressive treatment. May progress to respiratory failure or multi-organ dysfunction.",
+  "description": "A rare condition characterized by recurrent diffuse alveolar hemorrhage leading to pulmonary hemosiderosis, complicated by systemic capillary leak causing profound edema. Pathogenesis involves autoimmune-mediated damage to pulmonary capillaries with secondary systemic vascular permeability.",
+  "risk_factors": [
+    "Previous viral illness (often antecedent)",
+    "Family history of autoimmune disorders",
+    "Age 2-10 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "6"
+  },
+  "case_id": "expert_pediatric_critical_care_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Goodpasture Syndrome",
+    "Idiopathic Pulmonary Hemosiderosis with Secondary Capillary Leak Syndrome",
+    "Congestive Heart Failure",
+    "Nephrotic Syndrome"
+  ]
+}

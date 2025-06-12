@@ -1,0 +1,49 @@
+{
+  "name": "Dissociative Amnesia with Fugue State",
+  "specialty": "psychiatry",
+  "chief_complaint": "I woke up in a different city with no memory of how I got there or who I am",
+  "symptoms": [
+    "sudden memory loss",
+    "confusion about identity",
+    "unexplained travel",
+    "emotional numbness",
+    "depersonalization"
+  ],
+  "physical_findings": [
+    "normal neurological exam",
+    "mild tachycardia",
+    "no signs of physical trauma"
+  ],
+  "lab_results": {
+    "toxicology_screen": "negative",
+    "MRI_brain": "normal",
+    "EEG": "normal"
+  },
+  "treatment": [
+    "psychotherapy (trauma-focused CBT)",
+    "hypnotherapy",
+    "temporary benzodiazepines for acute anxiety",
+    "family reintegration therapy"
+  ],
+  "prognosis": "Variable; most recover memories within days to weeks, but some develop chronic dissociative symptoms requiring long-term therapy",
+  "description": "A rare dissociative disorder characterized by sudden, unexpected travel away from home with inability to recall one's past and confusion about personal identity. Often precipitated by severe psychological stress or trauma. Differs from standard dissociative amnesia by the purposeful travel component.",
+  "risk_factors": [
+    "history of childhood trauma",
+    "recent extreme stress (combat, natural disaster)",
+    "cluster B personality traits",
+    "family history of dissociative disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_psychiatry_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Complex Partial Seizure",
+    "Dissociative Amnesia with Fugue State",
+    "Transient Global Amnesia",
+    "Substance-Induced Amnesia"
+  ]
+}

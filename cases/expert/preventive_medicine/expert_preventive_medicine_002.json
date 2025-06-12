@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Systemic Capillary Leak Syndrome (ISCLS)",
+  "specialty": "preventive_medicine",
+  "chief_complaint": "Recurrent episodes of severe swelling, weakness, and low blood pressure",
+  "symptoms": [
+    "Sudden edema in limbs and trunk",
+    "Severe fatigue",
+    "Hypotension",
+    "Hemoconcentration",
+    "Generalized weakness"
+  ],
+  "physical_findings": [
+    "Pitting edema in extremities",
+    "Cold clammy skin",
+    "Tachycardia"
+  ],
+  "lab_results": {
+    "Hemoglobin": "Elevated (>16 g/dL)",
+    "Hematocrit": ">50%",
+    "Albumin": "Low (<3.0 g/dL)",
+    "White blood cells": "Elevated with left shift"
+  },
+  "treatment": [
+    "IV immunoglobulin prophylaxis",
+    "Aggressive fluid resuscitation during crises",
+    "Vasopressor support",
+    "Corticosteroids during acute episodes"
+  ],
+  "prognosis": "Guarded; recurrent episodes can lead to organ damage or death, but long-term prophylaxis may reduce frequency",
+  "description": "A rare, life-threatening condition characterized by recurrent episodes of capillary hyperpermeability leading to severe intravascular volume depletion, hemoconcentration, and shock. The pathophysiology involves unexplained systemic capillary leakage with shifts of fluid and proteins into interstitial spaces.",
+  "risk_factors": [
+    "Recent viral illness",
+    "Strenuous exercise",
+    "Monoclonal gammopathy of undetermined significance (MGUS)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "expert_preventive_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Nephrotic syndrome",
+    "Idiopathic Systemic Capillary Leak Syndrome (ISCLS)",
+    "Cardiogenic shock",
+    "Anaphylaxis"
+  ]
+}

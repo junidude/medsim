@@ -1,0 +1,51 @@
+{
+  "name": "Congenital Dyserythropoietic Anemia Type IV (CDA-IV)",
+  "specialty": "hematology",
+  "chief_complaint": "I feel extremely tired all the time, and my skin has been turning yellow.",
+  "symptoms": [
+    "severe fatigue",
+    "jaundice",
+    "shortness of breath on exertion",
+    "dark urine",
+    "abdominal discomfort"
+  ],
+  "physical_findings": [
+    "pallor",
+    "scleral icterus",
+    "hepatosplenomegaly"
+  ],
+  "lab_results": {
+    "hemoglobin": "6.2 g/dL",
+    "reticulocyte count": "0.8%",
+    "indirect bilirubin": "3.5 mg/dL",
+    "LDH": "1200 U/L",
+    "peripheral smear": "marked anisopoikilocytosis with basophilic stippling",
+    "bone marrow biopsy": "multinucleated erythroblasts with nuclear bridging"
+  },
+  "treatment": [
+    "regular packed red blood cell transfusions",
+    "iron chelation therapy",
+    "folic acid supplementation",
+    "consideration for hematopoietic stem cell transplantation in eligible patients"
+  ],
+  "prognosis": "variable; depends on transfusion dependence and complications (e.g., iron overload). Some patients develop progressive liver fibrosis.",
+  "description": "CDA-IV is an ultra-rare inherited disorder of erythropoiesis characterized by ineffective red blood cell production and hemolysis. It results from mutations in the KLF1 gene, leading to abnormal erythroblast maturation. The condition presents in childhood or early adulthood with transfusion-dependent anemia and secondary hemochromatosis.",
+  "risk_factors": [
+    "family history of CDA",
+    "Mediterranean descent",
+    "consanguinity"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_hematology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Hereditary spherocytosis",
+    "Congenital Dyserythropoietic Anemia Type IV (CDA-IV)",
+    "Autoimmune hemolytic anemia",
+    "Thalassemia major"
+  ]
+}

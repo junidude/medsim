@@ -1,0 +1,43 @@
+{
+  "name": "Mild Radiation Dermatitis",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "My skin is red and itchy where I had radiation treatment",
+  "symptoms": [
+    "erythema",
+    "pruritus",
+    "mild tenderness"
+  ],
+  "physical_findings": [
+    "focal erythema in radiation field",
+    "dry desquamation"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "Inflammatory markers": "within normal limits"
+  },
+  "treatment": [
+    "topical corticosteroids",
+    "moisturizing creams",
+    "avoiding sun exposure"
+  ],
+  "prognosis": "Excellent with proper skin care, typically resolves within 2-4 weeks post-treatment",
+  "description": "Grade 1 radiation-induced skin reaction characterized by faint erythema and dry desquamation in the treatment field, occurring 2-3 weeks into radiotherapy",
+  "risk_factors": [
+    "fair skin",
+    "concurrent chemotherapy",
+    "large treatment field"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_radiation_oncology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Allergic Contact Dermatitis",
+    "Mild Radiation Dermatitis",
+    "Atopic Dermatitis",
+    "Superficial Burn"
+  ]
+}

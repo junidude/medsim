@@ -1,0 +1,45 @@
+{
+  "name": "Flexor Digitorum Profundus Tendon Entrapment",
+  "specialty": "hand_surgery",
+  "chief_complaint": "I can't straighten my ring finger, and it's painful when I try to move it",
+  "symptoms": [
+    "Pain in the palm when bending fingers",
+    "Catching or locking sensation in the affected finger",
+    "Weakness in grip strength"
+  ],
+  "physical_findings": [
+    "Tenderness over the A2 pulley region",
+    "Passive flexion greater than active flexion of the affected digit",
+    "Palpable nodule along the flexor tendon sheath"
+  ],
+  "lab_results": {
+    "CRP": "Normal",
+    "ESR": "Normal"
+  },
+  "treatment": [
+    "Rest and activity modification",
+    "NSAIDs for pain and inflammation",
+    "Corticosteroid injection into the tendon sheath",
+    "Surgical release of the A2 pulley if conservative measures fail"
+  ],
+  "prognosis": "Good with early intervention, may develop permanent stiffness if left untreated",
+  "description": "A condition where the flexor digitorum profundus tendon becomes entrapped at the A2 pulley, often due to repetitive gripping activities or acute trauma. This leads to painful triggering and limited finger extension.",
+  "risk_factors": [
+    "Repetitive hand use (e.g., rock climbing, weight lifting)",
+    "Diabetes mellitus",
+    "Previous hand trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_hand_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Trigger Finger",
+    "Flexor Digitorum Profundus Tendon Entrapment",
+    "Dupuytren's Contracture",
+    "Flexor Tendon Laceration"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Paroxysmal Nocturnal Dissociative Episodes (PNDE)",
+  "specialty": "psychiatry",
+  "chief_complaint": "I wake up screaming and don't recognize my own family for several minutes",
+  "symptoms": [
+    "Nocturnal episodes of disorientation",
+    "Transient inability to recognize familiar people",
+    "Retrograde amnesia during episodes",
+    "Hyperventilation",
+    "Tachycardia"
+  ],
+  "physical_findings": [
+    "Dilated pupils during episodes",
+    "Elevated blood pressure post-episode"
+  ],
+  "lab_results": {
+    "EEG": "Normal during waking hours, abnormal theta waves during episodes",
+    "Polysomnography": "No seizure activity detected"
+  },
+  "treatment": [
+    "Cognitive Behavioral Therapy (CBT) adapted for dissociative disorders",
+    "Controlled sleep environment modifications",
+    "Low-dose clonazepam for acute episodes"
+  ],
+  "prognosis": "Variable; some patients achieve full remission with therapy while others experience chronic episodic symptoms",
+  "description": "A rare dissociative disorder characterized by sudden nocturnal episodes of profound disorientation and identity confusion. Episodes typically last 5-30 minutes and occur during NREM sleep transitions. Distinct from night terrors by the presence of preserved complex motor function and coherent speech during episodes.",
+  "risk_factors": [
+    "History of childhood trauma",
+    "Family history of dissociative disorders",
+    "Recent severe psychosocial stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "hard_psychiatry_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Nocturnal panic disorder",
+    "Paroxysmal Nocturnal Dissociative Episodes (PNDE)",
+    "Temporal lobe epilepsy",
+    "REM sleep behavior disorder"
+  ]
+}

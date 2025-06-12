@@ -1,0 +1,54 @@
+{
+  "name": "Idiopathic Systemic Capillary Leak Syndrome",
+  "specialty": "internal_medicine",
+  "chief_complaint": "Recurrent episodes of severe swelling, weakness, and low blood pressure",
+  "symptoms": [
+    "Sudden edema (especially limbs/face)",
+    "Severe fatigue",
+    "Hypotensive syncope",
+    "Hemoconcentration",
+    "Oliguria"
+  ],
+  "physical_findings": [
+    "Pitting edema (non-pitting in later stages)",
+    "Cold mottled extremities",
+    "Hypotension (SBP <90mmHg)",
+    "Tachycardia",
+    "Decreased skin turgor"
+  ],
+  "lab_results": {
+    "Hemoglobin": ">20g/dL (hemoconcentration)",
+    "Hematocrit": ">60%",
+    "Albumin": "<2g/dL",
+    "BUN/Creatinine": "Elevated",
+    "CPK": "Mild elevation"
+  },
+  "treatment": [
+    "IVIG prophylaxis (monthly)",
+    "Aggressive IV crystalloid/colloid resuscitation during crises",
+    "Vasopressor support (norepinephrine)",
+    "Therapeutic plasma exchange",
+    "High-dose corticosteroids during acute episodes"
+  ],
+  "prognosis": "Guarded - 30% 5-year mortality from complications (renal failure, compartment syndrome, thromboembolism)",
+  "description": "A rare, life-threatening condition characterized by recurrent episodes of capillary hyperpermeability leading to massive third-spacing of fluids, hemoconcentration, and shock. Episodes are often preceded by viral prodrome. Pathogenesis involves monoclonal gammopathy in 80% of cases and cytokine-mediated endothelial damage.",
+  "risk_factors": [
+    "Monoclonal gammopathy of undetermined significance (MGUS)",
+    "Recent viral illness",
+    "Female gender (3:1 ratio)",
+    "Age 40-60 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair (due to hypoperfusion-related confusion)",
+    "pain_level": "6 (muscle cramping from hypovolemia)"
+  },
+  "case_id": "expert_internal_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Anaphylactic shock",
+    "Idiopathic Systemic Capillary Leak Syndrome",
+    "Cardiogenic shock",
+    "Sepsis"
+  ]
+}

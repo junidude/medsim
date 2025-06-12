@@ -1,0 +1,49 @@
+{
+  "name": "Acute Hypertensive Crisis with End-Organ Damage",
+  "specialty": "critical_care_medicine",
+  "chief_complaint": "I have a terrible headache and can't see clearly",
+  "symptoms": [
+    "severe headache",
+    "blurred vision",
+    "nausea",
+    "shortness of breath",
+    "chest discomfort"
+  ],
+  "physical_findings": [
+    "BP 210/120 mmHg",
+    "retinal hemorrhages on fundoscopy",
+    "bilateral crackles on lung auscultation"
+  ],
+  "lab_results": {
+    "troponin": "elevated",
+    "creatinine": "2.4 mg/dL",
+    "BNP": "850 pg/mL"
+  },
+  "treatment": [
+    "IV antihypertensives (labetalol or nicardipine)",
+    "continuous cardiac monitoring",
+    "oxygen therapy",
+    "diuretics if pulmonary edema present"
+  ],
+  "prognosis": "Guarded - depends on speed of BP control and extent of organ damage. Risk of permanent vision loss, renal impairment, or cardiac injury.",
+  "description": "A life-threatening elevation of blood pressure causing acute damage to target organs (eyes, brain, heart, kidneys). Often occurs in patients with chronic hypertension who miss medications or have secondary causes.",
+  "risk_factors": [
+    "chronic hypertension",
+    "non-adherence to antihypertensive medications",
+    "renal artery stenosis",
+    "cocaine use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "medium_critical_care_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Subarachnoid Hemorrhage",
+    "Acute Hypertensive Crisis with End-Organ Damage",
+    "Acute Angle-Closure Glaucoma",
+    "Malignant Hypertension"
+  ]
+}

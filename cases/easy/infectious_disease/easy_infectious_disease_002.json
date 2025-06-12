@@ -1,0 +1,44 @@
+{
+  "name": "Acute Viral Pharyngitis",
+  "specialty": "infectious_disease",
+  "chief_complaint": "My throat hurts so bad I can barely swallow",
+  "symptoms": [
+    "sore throat",
+    "mild fever",
+    "swollen lymph nodes",
+    "hoarse voice"
+  ],
+  "physical_findings": [
+    "erythematous pharynx",
+    "tonsillar hypertrophy"
+  ],
+  "lab_results": {
+    "rapid strep test": "negative",
+    "white blood cell count": "normal"
+  },
+  "treatment": [
+    "warm salt water gargles",
+    "acetaminophen for pain/fever",
+    "increased fluid intake",
+    "throat lozenges"
+  ],
+  "prognosis": "Excellent with complete resolution expected within 7-10 days",
+  "description": "Common viral infection causing inflammation of the pharynx, typically caused by adenovirus, rhinovirus, or other common respiratory viruses. Highly contagious through respiratory droplets.",
+  "risk_factors": [
+    "close contact with infected individuals",
+    "recent upper respiratory infection"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "easy_infectious_disease_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Acute Viral Pharyngitis",
+    "Streptococcal Pharyngitis",
+    "Infectious Mononucleosis",
+    "Bacterial Tonsillitis"
+  ]
+}

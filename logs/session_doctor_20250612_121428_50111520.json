@@ -1,0 +1,80 @@
+{
+  "session_id": "50111520-ac73-468f-8336-8c7520c641da",
+  "start_time": "2025-06-12T12:13:47.729783",
+  "role": "doctor",
+  "end_time": "2025-06-12T12:14:28.653354",
+  "user_data": {
+    "role": "doctor",
+    "difficulty": "medium",
+    "specialty": null
+  },
+  "difficulty": "medium",
+  "specialty": null,
+  "patient_name": "Brandon Walker",
+  "patient_age": 44,
+  "patient_gender": "male",
+  "chief_complaint": "Severe left lower abdominal pain for 3 days",
+  "hidden_condition": "Acute Diverticulitis",
+  "case_data": {
+    "name": "Acute Diverticulitis",
+    "specialty": "Gastroenterology",
+    "chief_complaint": "Severe left lower abdominal pain for 3 days",
+    "symptoms": [
+      "Left lower quadrant pain",
+      "Fever",
+      "Change in bowel habits",
+      "Nausea",
+      "Loss of appetite"
+    ],
+    "physical_findings": [
+      "Tenderness in left lower quadrant",
+      "Low-grade fever (100.4°F)",
+      "Guarding on abdominal examination",
+      "Decreased bowel sounds"
+    ],
+    "lab_results": {
+      "WBC": "14,500/µL (elevated)",
+      "CRP": "75 mg/L (elevated)",
+      "Hemoglobin": "13.5 g/dL (normal)"
+    },
+    "treatment": [
+      "Oral antibiotics (ciprofloxacin and metronidazole)",
+      "Clear liquid diet",
+      "Gradual advancement to low-fiber diet",
+      "Pain management",
+      "Rest"
+    ],
+    "prognosis": "Good with appropriate treatment; 70-80% respond to conservative management. Risk of recurrence exists.",
+    "description": "Inflammation of diverticula in the colon, most commonly affecting the sigmoid colon. Occurs when small pouches (diverticula) in the digestive tract become infected and inflamed.",
+    "risk_factors": [
+      "Age over 50",
+      "Low-fiber diet",
+      "Obesity",
+      "Smoking",
+      "Physical inactivity"
+    ],
+    "patient_behavior": {
+      "anxiety_level": "medium",
+      "cooperation": "good",
+      "pain_level": "7"
+    },
+    "multiple_choice": [
+      "Acute Diverticulitis",
+      "Appendicitis",
+      "Irritable Bowel Syndrome",
+      "Sigmoid Colon Cancer"
+    ],
+    "case_id": "generated_20250612121347_9965"
+  },
+  "chat_history": [],
+  "diagnostic_attempts": [
+    "Sigmoid Colon Cancer",
+    "Acute Diverticulitis"
+  ],
+  "correct_diagnosis": true,
+  "physical_exam_performed": false,
+  "lab_tests_performed": false,
+  "answer_shown": true,
+  "total_messages": 0,
+  "session_duration_minutes": 0.68
+}

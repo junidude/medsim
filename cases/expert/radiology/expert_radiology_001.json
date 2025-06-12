@@ -1,0 +1,50 @@
+{
+  "name": "Multifocal Fibrosing Pseudotumor of the Liver",
+  "specialty": "radiology",
+  "chief_complaint": "I've had persistent right upper quadrant pain and unexplained weight loss for months",
+  "symptoms": [
+    "right upper quadrant abdominal pain",
+    "unintentional weight loss",
+    "fatigue",
+    "intermittent low-grade fever"
+  ],
+  "physical_findings": [
+    "palpable liver edge 3cm below costal margin",
+    "mild hepatomegaly on percussion",
+    "no jaundice or scleral icterus"
+  ],
+  "lab_results": {
+    "ALT": "85 U/L",
+    "AST": "78 U/L",
+    "ALP": "210 U/L",
+    "CRP": "4.2 mg/dL",
+    "CA 19-9": "Normal",
+    "AFP": "Normal"
+  },
+  "treatment": [
+    "image-guided biopsy for definitive diagnosis",
+    "corticosteroid therapy for inflammatory component",
+    "surgical resection for symptomatic lesions",
+    "serial imaging for monitoring"
+  ],
+  "prognosis": "Variable; depends on extent of involvement and response to therapy. Some cases show spontaneous regression while others progress to liver fibrosis",
+  "description": "An extremely rare benign condition characterized by multiple fibroinflammatory pseudotumors in the liver parenchyma. The lesions mimic malignancy on imaging but show characteristic histopathological features of dense fibrosis with chronic inflammatory infiltrates. Differential diagnosis includes metastatic disease, primary liver tumors, and hepatic sarcoidosis.",
+  "risk_factors": [
+    "history of autoimmune disorders",
+    "previous abdominal infections",
+    "exposure to certain environmental toxins"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "expert_radiology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Hepatocellular Carcinoma",
+    "Multifocal Fibrosing Pseudotumor of the Liver",
+    "Hepatic Sarcoidosis",
+    "Primary Sclerosing Cholangitis"
+  ]
+}

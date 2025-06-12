@@ -1,0 +1,50 @@
+{
+  "name": "Idiopathic Segmental Arterial Mediolysis",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "Sudden, severe abdominal pain with episodes of dizziness",
+  "symptoms": [
+    "intermittent abdominal pain",
+    "nausea",
+    "unexplained weight loss",
+    "episodic dizziness",
+    "hematochezia (in severe cases)"
+  ],
+  "physical_findings": [
+    "abdominal tenderness without rebound",
+    "audible bruit over mesenteric arteries",
+    "mild tachycardia"
+  ],
+  "lab_results": {
+    "CBC": "mild anemia",
+    "CRP": "elevated",
+    "D-Dimer": "negative",
+    "Lactate": "normal"
+  },
+  "treatment": [
+    "angiographic embolization of bleeding vessels",
+    "surgical resection of affected arterial segments",
+    "corticosteroid therapy (controversial)",
+    "antihypertensive management"
+  ],
+  "prognosis": "Guarded - high risk of recurrent arterial dissections or ruptures without intervention",
+  "description": "A rare non-atherosclerotic, non-inflammatory arteriopathy characterized by vacuolization and lysis of arterial medial smooth muscle cells, leading to segmental arterial weakness, dissection, and rupture. Most commonly affects visceral arteries in middle-aged patients without traditional vascular risk factors.",
+  "risk_factors": [
+    "middle age (40-60 years)",
+    "history of migraine",
+    "hypertension (though not required)",
+    "possible genetic predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "8"
+  },
+  "case_id": "expert_vascular_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Mesenteric ischemia",
+    "Idiopathic Segmental Arterial Mediolysis",
+    "Abdominal aortic aneurysm",
+    "Vasculitis"
+  ]
+}

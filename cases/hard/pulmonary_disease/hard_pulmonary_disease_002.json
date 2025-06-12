@@ -1,0 +1,47 @@
+{
+  "name": "Idiopathic Pulmonary Hemosiderosis",
+  "specialty": "pulmonary_disease",
+  "chief_complaint": "I keep coughing up blood and feel short of breath all the time.",
+  "symptoms": [
+    "hemoptysis",
+    "progressive dyspnea",
+    "fatigue",
+    "pallor"
+  ],
+  "physical_findings": [
+    "bilateral crackles on auscultation",
+    "tachycardia",
+    "pale conjunctiva"
+  ],
+  "lab_results": {
+    "CBC": "microcytic anemia",
+    "iron studies": "low serum iron, low ferritin",
+    "sputum analysis": "hemosiderin-laden macrophages"
+  },
+  "treatment": [
+    "systemic corticosteroids",
+    "immunosuppressants",
+    "iron supplementation",
+    "oxygen therapy"
+  ],
+  "prognosis": "Variable; may progress to pulmonary fibrosis with poor long-term outcomes without treatment",
+  "description": "A rare condition characterized by recurrent diffuse alveolar hemorrhage leading to hemosiderin deposition in the lungs. Pathogenesis involves autoimmune-mediated damage to pulmonary capillaries. Diagnosis requires exclusion of other causes of pulmonary hemorrhage.",
+  "risk_factors": [
+    "young age (pediatric onset more common)",
+    "family history of autoimmune disease",
+    "environmental toxin exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "hard_pulmonary_disease_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Goodpasture Syndrome",
+    "Idiopathic Pulmonary Hemosiderosis",
+    "Pulmonary Tuberculosis",
+    "Wegener Granulomatosis"
+  ]
+}

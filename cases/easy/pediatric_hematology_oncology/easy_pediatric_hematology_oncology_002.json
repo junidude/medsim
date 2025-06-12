@@ -1,0 +1,41 @@
+{
+  "name": "Mild Iron Deficiency Anemia",
+  "specialty": "pediatric_hematology_oncology",
+  "chief_complaint": "My child gets tired easily and looks pale",
+  "symptoms": [
+    "fatigue",
+    "pallor",
+    "mild dizziness"
+  ],
+  "physical_findings": [
+    "pale conjunctiva",
+    "tachycardia"
+  ],
+  "lab_results": {
+    "hemoglobin": "9.8 g/dL",
+    "ferritin": "12 ng/mL"
+  },
+  "treatment": [
+    "oral iron supplementation",
+    "dietary iron enrichment"
+  ],
+  "prognosis": "Excellent with proper treatment",
+  "description": "A common pediatric condition caused by insufficient iron stores leading to reduced hemoglobin production. Typically develops gradually due to poor dietary intake or minor blood loss.",
+  "risk_factors": [
+    "rapid growth spurts",
+    "vegetarian diet"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "1"
+  },
+  "case_id": "easy_pediatric_hematology_oncology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Beta Thalassemia Minor",
+    "Mild Iron Deficiency Anemia",
+    "Chronic Blood Loss",
+    "Lead Poisoning"
+  ]
+}

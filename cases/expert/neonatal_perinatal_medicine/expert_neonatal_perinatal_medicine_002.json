@@ -1,0 +1,47 @@
+{
+  "name": "Congenital Chylothorax with Refractory Hypoproteinemia",
+  "specialty": "neonatal_perinatal_medicine",
+  "chief_complaint": "Baby has difficulty breathing and appears swollen",
+  "symptoms": [
+    "respiratory distress",
+    "generalized edema",
+    "poor feeding",
+    "lethargy"
+  ],
+  "physical_findings": [
+    "decreased breath sounds on auscultation",
+    "pleural effusion on chest X-ray",
+    "pallor"
+  ],
+  "lab_results": {
+    "serum albumin": "1.8 g/dL (severely low)",
+    "lymphocyte count": "500 cells/μL (lymphopenia)",
+    "pleural fluid analysis": "chylous (triglycerides >110 mg/dL)"
+  },
+  "treatment": [
+    "thoracentesis for drainage",
+    "medium-chain triglyceride (MCT) formula",
+    "octreotide infusion",
+    "parenteral nutrition with albumin supplementation"
+  ],
+  "prognosis": "Guarded; depends on response to therapy and underlying etiology. High risk of complications like sepsis or chronic lung disease.",
+  "description": "A rare condition where lymphatic fluid accumulates in the pleural space due to malformation or trauma to the thoracic duct. The resulting protein loss leads to severe hypoproteinemia, complicating management. Often idiopathic but may be associated with genetic syndromes like Noonan or Down syndrome.",
+  "risk_factors": [
+    "prematurity",
+    "birth trauma",
+    "lymphatic malformations"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high (parental)",
+    "cooperation": "poor (neonate requires intensive care)",
+    "pain_level": "4 (during procedures)"
+  },
+  "case_id": "expert_neonatal_perinatal_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Congenital Chylothorax with Refractory Hypoproteinemia",
+    "Congenital Heart Failure",
+    "Neonatal Sepsis",
+    "Hydrops Fetalis"
+  ]
+}

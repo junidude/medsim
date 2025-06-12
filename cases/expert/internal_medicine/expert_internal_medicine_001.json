@@ -1,0 +1,50 @@
+{
+  "name": "Idiopathic Systemic Capillary Leak Syndrome",
+  "specialty": "internal_medicine",
+  "chief_complaint": "Recurrent episodes of severe swelling, weakness, and low blood pressure",
+  "symptoms": [
+    "Sudden generalized edema",
+    "Severe fatigue",
+    "Hypotension",
+    "Hemoconcentration",
+    "Oliguria"
+  ],
+  "physical_findings": [
+    "Pitting edema in extremities",
+    "Cool clammy skin",
+    "Tachycardia"
+  ],
+  "lab_results": {
+    "Hemoglobin": ">20 g/dL (due to hemoconcentration)",
+    "Hematocrit": ">60%",
+    "Albumin": "low",
+    "Renal function": "elevated creatinine"
+  },
+  "treatment": [
+    "IV albumin infusion",
+    "Vasopressor support",
+    "Glucocorticoids during acute episodes",
+    "Prophylactic theophylline or terbutaline",
+    "Aggressive fluid management"
+  ],
+  "prognosis": "Guarded; recurrent episodes carry high mortality risk (30-40% in first 5 years)",
+  "description": "A rare, life-threatening condition characterized by recurrent episodes of capillary hyperpermeability leading to massive fluid shifts from intravascular to extravascular space. Episodes often preceded by viral illness. Diagnosis requires exclusion of other causes of capillary leak.",
+  "risk_factors": [
+    "Recent viral illness",
+    "Monoclonal gammopathy",
+    "Autoimmune predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_internal_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Nephrotic Syndrome",
+    "Idiopathic Systemic Capillary Leak Syndrome",
+    "Cardiogenic Shock",
+    "Sepsis"
+  ]
+}

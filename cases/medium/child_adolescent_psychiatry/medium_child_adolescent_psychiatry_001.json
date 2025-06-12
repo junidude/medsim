@@ -1,0 +1,42 @@
+{
+  "name": "Social Communication Anxiety Disorder (SCAD)",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "I can't talk to people at school without feeling like I'll say something stupid",
+  "symptoms": [
+    "excessive fear of social scrutiny",
+    "avoidance of group activities",
+    "physical distress before social interactions",
+    "selective mutism in specific settings"
+  ],
+  "physical_findings": [
+    "tachycardia during social stress",
+    "visible trembling when speaking to authority figures"
+  ],
+  "lab_results": {
+    "cortisol_level": "elevated AM serum (22 mcg/dL)"
+  },
+  "treatment": [
+    "cognitive behavioral therapy (CBT) with social skills training",
+    "gradual exposure therapy",
+    "consideration of SSRI if impairing function"
+  ],
+  "prognosis": "Good with early intervention, though may require long-term management during developmental transitions",
+  "description": "A developmental anxiety disorder characterized by disproportionate distress in social communication contexts, distinct from generalized social anxiety by its specific manifestation in verbal expression difficulties and situational mutism episodes. Typically emerges during middle school years.",
+  "risk_factors": [
+    "family history of anxiety disorders",
+    "history of speech/language delays"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "medium_child_adolescent_psychiatry_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Social Phobia",
+    "Selective Mutism",
+    "Social Communication Anxiety Disorder (SCAD)",
+    "Generalized Anxiety Disorder"
+  ]
+}

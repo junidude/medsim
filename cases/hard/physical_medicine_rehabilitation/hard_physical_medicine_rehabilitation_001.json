@@ -1,0 +1,55 @@
+{
+  "name": "Post-Traumatic Heterotopic Ossification with Neurogenic Component",
+  "specialty": "physical_medicine_rehabilitation",
+  "chief_complaint": "I can't move my right elbow anymore, and it's getting stiffer every day with burning pain down my arm",
+  "symptoms": [
+    "progressive joint stiffness",
+    "neuropathic pain in affected limb",
+    "reduced range of motion",
+    "visible hard mass near joint",
+    "temperature sensitivity in affected area"
+  ],
+  "physical_findings": [
+    "palpable bony mass in antecubital fossa",
+    "20-degree flexion contracture of right elbow",
+    "allodynia in C7 dermatome",
+    "diminished triceps reflex",
+    "soft tissue edema distal to ossification"
+  ],
+  "lab_results": {
+    "ALP": "280 U/L (elevated)",
+    "CRP": "4.2 mg/dL",
+    "BMP": "WNL",
+    "Heterotopic Ossification Panel": "positive for BMP-4 antibodies"
+  },
+  "treatment": [
+    "multimodal pain management (gabapentin + NSAIDs)",
+    "custom dynamic elbow orthosis",
+    "low-dose radiation therapy (single fraction)",
+    "indomethacin prophylaxis",
+    "neurorehabilitation with desensitization techniques",
+    "ultrasound-guided hydrodissection of entrapped ulnar nerve"
+  ],
+  "prognosis": "Guarded - 60% achieve functional ROM with aggressive intervention, high recurrence risk without comprehensive neurorehab",
+  "description": "Pathologic bone formation in soft tissues following traumatic brain injury with concurrent peripheral nerve entrapment, combining features of neurogenic inflammation and mesenchymal cell differentiation. Unique triple pathology involving 1) TBI-induced osteoprogenitor cell activation 2) peripheral nerve injury-mediated neurogenic HO 3) localized autonomic dysregulation.",
+  "risk_factors": [
+    "severe traumatic brain injury (GCS <8 at presentation)",
+    "concurrent peripheral nerve injury",
+    "prolonged mechanical ventilation",
+    "history of aggressive passive ROM exercises",
+    "genetic predisposition (ALPL mutations)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_physical_medicine_rehabilitation_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Complex Regional Pain Syndrome",
+    "Post-Traumatic Heterotopic Ossification with Neurogenic Component",
+    "Cervical Radiculopathy",
+    "Septic Arthritis"
+  ]
+}

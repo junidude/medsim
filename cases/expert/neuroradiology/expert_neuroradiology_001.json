@@ -1,0 +1,46 @@
+{
+  "name": "Bilateral Trigeminal-Tentorial Dural Arteriovenous Fistula",
+  "specialty": "neuroradiology",
+  "chief_complaint": "I have unbearable facial pain and hear a constant whooshing sound in my ears",
+  "symptoms": [
+    "severe unilateral facial pain (trigeminal distribution)",
+    "pulsatile tinnitus",
+    "progressive visual disturbances",
+    "episodic vertigo",
+    "cognitive fog"
+  ],
+  "physical_findings": [
+    "bruit auscultated over mastoid region",
+    "mild ptosis on affected side",
+    "abnormal corneal reflex"
+  ],
+  "lab_results": {
+    "D-dimer": "elevated (780 ng/mL)",
+    "CSF analysis": "normal protein, mild RBCs"
+  },
+  "treatment": [
+    "endovascular embolization",
+    "stereotactic radiosurgery",
+    "corticosteroids for acute inflammation"
+  ],
+  "prognosis": "Guarded - high recurrence rate without complete occlusion, potential for catastrophic hemorrhage if untreated",
+  "description": "An extremely rare neurovascular condition where abnormal connections form between meningeal arteries and the tentorial venous plexus, with simultaneous involvement of trigeminal nerve feeding vessels. The dual drainage pathways create complex hemodynamic stresses on the cavernous sinus and petrosal venous systems.",
+  "risk_factors": [
+    "previous posterior fossa trauma",
+    "hereditary hemorrhagic telangiectasia",
+    "chronic intracranial hypotension"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_neuroradiology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Glomus jugulare tumor",
+    "Bilateral Trigeminal-Tentorial Dural Arteriovenous Fistula",
+    "Carotid-cavernous fistula",
+    "Trigeminal neuralgia"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Post-Traumatic Abdominal Compartment Syndrome with Concurrent Anastomotic Leak",
+  "specialty": "surgical_critical_care",
+  "chief_complaint": "Severe abdominal pain and difficulty breathing after recent bowel surgery",
+  "symptoms": [
+    "abdominal distension",
+    "oliguria",
+    "tachycardia",
+    "hypotension",
+    "respiratory distress"
+  ],
+  "physical_findings": [
+    "tense, board-like abdomen",
+    "decreased bowel sounds",
+    "elevated peak airway pressures",
+    "cool extremities"
+  ],
+  "lab_results": {
+    "lactate": "4.8 mmol/L",
+    "creatinine": "2.4 mg/dL",
+    "WBC": "18,000/mm3",
+    "base deficit": "-8 mEq/L"
+  },
+  "treatment": [
+    "emergent decompressive laparotomy",
+    "temporary abdominal closure with negative pressure dressing",
+    "vasopressor support",
+    "broad-spectrum antibiotics",
+    "damage control resuscitation"
+  ],
+  "prognosis": "Guarded - mortality approaches 60% when combined with anastomotic failure. Survivors often require multiple reoperations and prolonged ICU care.",
+  "description": "A life-threatening condition where increased intra-abdominal pressure (>20mmHg) causes multi-organ dysfunction following trauma or major abdominal surgery, complicated by breakdown of a surgical bowel connection. This creates a perfect storm of mechanical compression, systemic inflammation, and peritoneal contamination.",
+  "risk_factors": [
+    "damage control laparotomy",
+    "massive fluid resuscitation",
+    "coagulopathy",
+    "delayed fascial closure",
+    "hypotensive episodes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "9"
+  },
+  "case_id": "expert_surgical_critical_care_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Septic Shock",
+    "Post-Traumatic Abdominal Compartment Syndrome with Concurrent Anastomotic Leak",
+    "Acute Mesenteric Ischemia",
+    "Perforated Viscus"
+  ]
+}

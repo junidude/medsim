@@ -1,0 +1,48 @@
+{
+  "name": "Tropical Spotted Fever",
+  "specialty": "infectious_disease",
+  "chief_complaint": "I've had high fever with red spots all over my body for 5 days, and my joints ache terribly",
+  "symptoms": [
+    "high fever (39-40°C)",
+    "maculopapular rash",
+    "severe arthralgia",
+    "headache",
+    "photophobia"
+  ],
+  "physical_findings": [
+    "generalized petechial rash",
+    "conjunctival injection",
+    "tender hepatomegaly"
+  ],
+  "lab_results": {
+    "WBC": "leukopenia (2.8 x10^9/L)",
+    "Platelets": "thrombocytopenia (85 x10^9/L)",
+    "Liver enzymes": "elevated AST/ALT",
+    "PCR": "positive for Rickettsia africae"
+  },
+  "treatment": [
+    "doxycycline 100mg BID for 7-10 days",
+    "IV fluids for hydration",
+    "acetaminophen for fever/pain"
+  ],
+  "prognosis": "Excellent with prompt treatment, though fatigue may persist for weeks. Untreated cases risk severe complications including meningoencephalitis.",
+  "description": "An acute febrile illness caused by Rickettsia africae transmitted through Amblyomma tick bites. Endemic in sub-Saharan Africa and increasingly reported in returning travelers. Characterized by eschar at bite site (absent in 40% of cases), fever, and distinctive spotted rash.",
+  "risk_factors": [
+    "recent travel to rural Africa",
+    "outdoor activities in endemic areas",
+    "exposure to cattle or game animals"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_infectious_disease_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Dengue Fever",
+    "Tropical Spotted Fever",
+    "Leptospirosis",
+    "Chikungunya"
+  ]
+}

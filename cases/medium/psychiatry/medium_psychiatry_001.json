@@ -1,0 +1,47 @@
+{
+  "name": "Circadian Rhythm Disruption Syndrome",
+  "specialty": "psychiatry",
+  "chief_complaint": "I can't sleep at night but I'm exhausted all day, and my mood is all over the place",
+  "symptoms": [
+    "persistent insomnia",
+    "daytime fatigue",
+    "irritability",
+    "difficulty concentrating",
+    "mood swings"
+  ],
+  "physical_findings": [
+    "dark circles under eyes",
+    "mild tachycardia"
+  ],
+  "lab_results": {
+    "melatonin levels": "abnormally low at night",
+    "cortisol levels": "elevated during evening hours"
+  },
+  "treatment": [
+    "light therapy in mornings",
+    "melatonin supplementation",
+    "cognitive behavioral therapy for insomnia",
+    "sleep hygiene education"
+  ],
+  "prognosis": "Good with consistent treatment, though prone to relapse during stressful periods",
+  "description": "A disorder of the internal biological clock characterized by misalignment between sleep-wake cycles and environmental light-dark cycles, leading to significant impairment in daily functioning and emotional regulation. Often triggered by irregular work schedules or excessive screen time before bed.",
+  "risk_factors": [
+    "shift work",
+    "frequent time zone changes",
+    "prolonged screen use before bedtime",
+    "irregular sleep schedules"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_psychiatry_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Bipolar Disorder",
+    "Circadian Rhythm Disruption Syndrome",
+    "Generalized Anxiety Disorder",
+    "Major Depressive Disorder"
+  ]
+}

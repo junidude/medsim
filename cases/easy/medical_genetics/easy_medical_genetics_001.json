@@ -1,0 +1,43 @@
+{
+  "name": "Familial Hypercholesterolemia",
+  "specialty": "medical_genetics",
+  "chief_complaint": "I have yellowish bumps on my skin and my cholesterol is always high, even with diet.",
+  "symptoms": [
+    "xanthomas (yellowish skin bumps)",
+    "chest pain",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "tendon xanthomas",
+    "corneal arcus (white ring around iris)"
+  ],
+  "lab_results": {
+    "LDL cholesterol": ">190 mg/dL",
+    "genetic_testing": "LDLR gene mutation"
+  },
+  "treatment": [
+    "statins",
+    "PCSK9 inhibitors",
+    "LDL apheresis"
+  ],
+  "prognosis": "Good with early treatment; high risk of cardiovascular events if untreated",
+  "description": "An inherited disorder causing extremely high LDL cholesterol levels due to impaired LDL receptor function. Leads to premature atherosclerosis if untreated.",
+  "risk_factors": [
+    "family history",
+    "high-fat diet",
+    "sedentary lifestyle"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_medical_genetics_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Hyperlipidemia",
+    "Familial Hypercholesterolemia",
+    "Hypothyroidism",
+    "Biliary Cirrhosis"
+  ]
+}

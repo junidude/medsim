@@ -1,0 +1,44 @@
+{
+  "name": "Acute Viral Pharyngitis",
+  "specialty": "pathology",
+  "chief_complaint": "My throat hurts and it's hard to swallow",
+  "symptoms": [
+    "sore throat",
+    "fever",
+    "fatigue",
+    "mild headache"
+  ],
+  "physical_findings": [
+    "erythematous pharynx",
+    "swollen tonsils without exudate"
+  ],
+  "lab_results": {
+    "rapid strep test": "negative",
+    "white blood cell count": "normal"
+  },
+  "treatment": [
+    "rest",
+    "hydration",
+    "acetaminophen for pain/fever"
+  ],
+  "prognosis": "Full recovery within 7-10 days with supportive care",
+  "description": "Inflammation of the pharynx caused by common respiratory viruses, most frequently adenovirus or rhinovirus. Typically self-limiting with supportive care.",
+  "risk_factors": [
+    "recent exposure to sick contacts",
+    "crowded environments",
+    "smoking"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_pathology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Strep Pharyngitis",
+    "Acute Viral Pharyngitis",
+    "Tonsillitis",
+    "Infectious Mononucleosis"
+  ]
+}

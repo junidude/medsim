@@ -1,0 +1,52 @@
+{
+  "name": "Acute Mesenteric Ischemia",
+  "specialty": "emergency_medicine",
+  "chief_complaint": "Severe abdominal pain that came on suddenly and feels worse after eating",
+  "symptoms": [
+    "sudden severe abdominal pain",
+    "nausea",
+    "vomiting",
+    "diarrhea (possibly bloody)",
+    "abdominal distension"
+  ],
+  "physical_findings": [
+    "abdominal tenderness with guarding",
+    "absent bowel sounds",
+    "tachycardia",
+    "hypotension"
+  ],
+  "lab_results": {
+    "lactate": "elevated (>4 mmol/L)",
+    "WBC": "leukocytosis",
+    "ABG": "metabolic acidosis"
+  },
+  "treatment": [
+    "immediate IV fluid resuscitation",
+    "broad-spectrum antibiotics",
+    "emergent surgical consultation",
+    "angiography for possible thrombolysis",
+    "bowel resection if necrotic"
+  ],
+  "prognosis": "Poor if not treated within first few hours; mortality rate 60-80% if bowel necrosis occurs",
+  "description": "Sudden loss of blood flow to the small intestine due to embolism, thrombosis, or low-flow states. Leads to bowel necrosis if untreated within 6-8 hours. Most common in elderly with cardiovascular disease.",
+  "risk_factors": [
+    "atrial fibrillation",
+    "recent myocardial infarction",
+    "hypercoagulable states",
+    "congestive heart failure",
+    "advanced age"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "hard_emergency_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Acute Pancreatitis",
+    "Acute Mesenteric Ischemia",
+    "Perforated Peptic Ulcer",
+    "Small Bowel Obstruction"
+  ]
+}

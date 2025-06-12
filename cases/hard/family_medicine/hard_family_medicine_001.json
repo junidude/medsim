@@ -1,0 +1,52 @@
+{
+  "name": "Autoimmune Hemolytic Anemia with Cold Agglutinin Disease",
+  "specialty": "family_medicine",
+  "chief_complaint": "I feel extremely tired, my hands and feet turn blue in the cold, and I've been having dark urine.",
+  "symptoms": [
+    "fatigue",
+    "pallor",
+    "jaundice",
+    "dark urine",
+    "cold-induced acrocyanosis (blue fingers/toes)"
+  ],
+  "physical_findings": [
+    "pale conjunctiva",
+    "mild scleral icterus",
+    "acrocyanosis in cold exposure"
+  ],
+  "lab_results": {
+    "CBC": "Hemoglobin 7.2 g/dL (low)",
+    "Reticulocyte count": "8% (high)",
+    "Direct Coombs test": "positive",
+    "Cold agglutinin titer": "1:1024 (elevated)",
+    "Bilirubin (indirect)": "3.1 mg/dL (elevated)"
+  },
+  "treatment": [
+    "avoid cold exposure",
+    "folic acid supplementation",
+    "rituximab (anti-CD20 therapy)",
+    "blood transfusion if severe (warmed blood)",
+    "consider immunosuppressants in refractory cases"
+  ],
+  "prognosis": "Variable - many patients achieve remission with treatment, but relapses can occur. Severe cases may require long-term management.",
+  "description": "A rare form of autoimmune hemolytic anemia where IgM antibodies bind to red blood cells at cold temperatures, causing complement-mediated intravascular hemolysis. The condition is often idiopathic but may be associated with lymphoproliferative disorders or infections like Mycoplasma.",
+  "risk_factors": [
+    "age over 60",
+    "history of lymphoproliferative disorders",
+    "recent Mycoplasma pneumonia infection",
+    "female gender (slight predominance)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "hard_family_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Cryoglobulinemia",
+    "Autoimmune Hemolytic Anemia with Cold Agglutinin Disease",
+    "Paroxysmal Cold Hemoglobinuria",
+    "Raynaud's Phenomenon with Hemolysis"
+  ]
+}

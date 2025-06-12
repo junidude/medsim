@@ -1,0 +1,44 @@
+{
+  "name": "Anal Fissure",
+  "specialty": "colon_rectal_surgery",
+  "chief_complaint": "Pain during bowel movements and bright red blood on toilet paper",
+  "symptoms": [
+    "Sharp pain during defecation",
+    "Bright red blood on stool or toilet paper",
+    "Itching or irritation around the anus"
+  ],
+  "physical_findings": [
+    "Visible tear in the anal mucosa",
+    "Sphincter spasm on examination"
+  ],
+  "lab_results": {
+    "None required": "Diagnosis is clinical"
+  },
+  "treatment": [
+    "High-fiber diet",
+    "Stool softeners",
+    "Topical anesthetics or nitroglycerin ointment",
+    "Sitz baths"
+  ],
+  "prognosis": "Excellent with proper treatment, most heal within 4-6 weeks",
+  "description": "A small tear in the thin, moist tissue (mucosa) lining the anus. Often caused by passing large or hard stools, chronic diarrhea, or childbirth.",
+  "risk_factors": [
+    "Constipation",
+    "Low-fiber diet",
+    "Recent childbirth",
+    "Anal intercourse"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "easy_colon_rectal_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Hemorrhoids",
+    "Anal Fissure",
+    "Anal Abscess",
+    "Rectal Prolapse"
+  ]
+}

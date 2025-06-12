@@ -1,0 +1,42 @@
+{
+  "name": "Uncomplicated Renal Cyst",
+  "specialty": "radiology",
+  "chief_complaint": "I have a dull pain in my right side that comes and goes",
+  "symptoms": [
+    "intermittent flank discomfort",
+    "no urinary symptoms",
+    "no fever"
+  ],
+  "physical_findings": [
+    "mild right flank tenderness",
+    "no abdominal distension"
+  ],
+  "lab_results": {
+    "urinalysis": "normal",
+    "creatinine": "0.9 mg/dL"
+  },
+  "treatment": [
+    "observation",
+    "pain management if needed",
+    "follow-up imaging in 6-12 months"
+  ],
+  "prognosis": "excellent, typically benign and asymptomatic",
+  "description": "A simple fluid-filled sac in the kidney, usually discovered incidentally on imaging. Most common in adults over 50. No malignant potential when classic imaging features are present.",
+  "risk_factors": [
+    "increasing age",
+    "male gender"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_radiology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Nephrolithiasis",
+    "Uncomplicated Renal Cyst",
+    "Muscle Strain",
+    "Pyelonephritis"
+  ]
+}

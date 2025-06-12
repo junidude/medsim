@@ -1,0 +1,47 @@
+{
+  "name": "Posterior Tibial Tendon Dysplasia with Accessory Navicular Syndrome",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "I have this painful bump on my inner foot that makes walking unbearable, and my arch is collapsing",
+  "symptoms": [
+    "Progressive medial foot pain",
+    "Visible foot deformity",
+    "Difficulty standing on toes",
+    "Fatigue after minimal activity"
+  ],
+  "physical_findings": [
+    "Palpable bony prominence at medial midfoot",
+    "Single-leg heel rise test positive",
+    "Collapsed medial longitudinal arch",
+    "Forefoot abduction"
+  ],
+  "lab_results": {
+    "inflammatory_markers": "normal",
+    "rheumatoid_factor": "negative"
+  },
+  "treatment": [
+    "Custom orthotics with medial arch support",
+    "Stage II posterior tibial tendon reconstruction",
+    "Accessory navicular excision with tendon reattachment",
+    "Controlled ankle motion (CAM) boot immobilization"
+  ],
+  "prognosis": "Guarded - depends on degree of deformity correction and tendon integrity restoration. Full return to high-impact activities unlikely without surgical intervention.",
+  "description": "A complex congenital/acquired foot deformity combining dysplastic posterior tibial tendon anatomy with a symptomatic type II accessory navicular bone, leading to progressive adult-acquired flatfoot deformity. The dysplastic tendon fails to support the medial arch, while the accessory bone creates mechanical irritation.",
+  "risk_factors": [
+    "Female gender (3:1 predominance)",
+    "Collagen disorders (Ehlers-Danlos, Marfan)",
+    "Repetitive medial foot stress (ballet, basketball)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_orthopedic_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Tarsal Tunnel Syndrome",
+    "Posterior Tibial Tendon Dysplasia with Accessory Navicular Syndrome",
+    "Adult Acquired Flatfoot",
+    "Lisfranc Injury"
+  ]
+}

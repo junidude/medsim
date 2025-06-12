@@ -1,0 +1,50 @@
+{
+  "name": "Paroxysmal Atrial Fibrillation with Rapid Ventricular Response",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I feel like my heart is racing and skipping beats, and I'm getting lightheaded.",
+  "symptoms": [
+    "palpitations",
+    "lightheadedness",
+    "fatigue",
+    "shortness of breath"
+  ],
+  "physical_findings": [
+    "irregularly irregular pulse",
+    "tachycardia (HR 110-160 bpm)",
+    "mild hypotension"
+  ],
+  "lab_results": {
+    "troponin": "negative",
+    "BNP": "mildly elevated",
+    "electrolytes": "normal",
+    "TSH": "normal"
+  },
+  "treatment": [
+    "rate control with beta-blockers or calcium channel blockers",
+    "consider anticoagulation based on CHA2DS2-VASc score",
+    "electrolyte repletion if needed",
+    "cardioversion if hemodynamically unstable"
+  ],
+  "prognosis": "Good with proper management, though recurrent episodes are common. Long-term risk of stroke if not properly anticoagulated.",
+  "description": "A type of irregular heart rhythm originating in the atria characterized by rapid, disorganized electrical activity. Episodes start and stop suddenly. The rapid ventricular response can lead to decreased cardiac output and symptoms.",
+  "risk_factors": [
+    "hypertension",
+    "obesity",
+    "sleep apnea",
+    "alcohol use",
+    "advanced age"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_cardiovascular_disease_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Atrial Flutter",
+    "Paroxysmal Atrial Fibrillation with Rapid Ventricular Response",
+    "Supraventricular Tachycardia",
+    "Sinus Tachycardia"
+  ]
+}

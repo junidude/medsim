@@ -1,0 +1,48 @@
+{
+  "name": "Paroxysmal Sympathetic Hyperactivity Syndrome (PSHS)",
+  "specialty": "neurology",
+  "chief_complaint": "Episodes of uncontrollable sweating, high blood pressure, and muscle spasms",
+  "symptoms": [
+    "Paroxysmal hypertension",
+    "Profuse sweating",
+    "Tachycardia",
+    "Dystonic posturing",
+    "Hyperthermia"
+  ],
+  "physical_findings": [
+    "Autonomic instability during episodes",
+    "Hyperreflexia",
+    "Clonus"
+  ],
+  "lab_results": {
+    "Serum catecholamines": "Elevated during episodes",
+    "MRI brain": "No structural lesions",
+    "EEG": "No epileptiform activity"
+  },
+  "treatment": [
+    "Gabapentin or pregabalin",
+    "Clonidine",
+    "Benzodiazepines for acute episodes",
+    "Physical therapy"
+  ],
+  "prognosis": "Variable; some patients experience gradual improvement over months to years, while others have persistent symptoms requiring long-term management",
+  "description": "PSHS is a rare dysautonomic condition characterized by episodic sympathetic overactivity, often occurring after severe brain injury. The pathophysiology involves disruption of inhibitory pathways between the brainstem and spinal cord, leading to unopposed sympathetic outflow. Episodes can be triggered by noxious stimuli or occur spontaneously.",
+  "risk_factors": [
+    "Severe traumatic brain injury",
+    "Hypoxic brain injury",
+    "Central nervous system infections"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_neurology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Neuroleptic Malignant Syndrome",
+    "Paroxysmal Sympathetic Hyperactivity Syndrome (PSHS)",
+    "Serotonin Syndrome",
+    "Malignant Hyperthermia"
+  ]
+}

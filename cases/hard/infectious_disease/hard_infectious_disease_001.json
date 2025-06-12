@@ -1,0 +1,50 @@
+{
+  "name": "Cerebral Melioidosis Encephalitis",
+  "specialty": "infectious_disease",
+  "chief_complaint": "I've had a high fever for days, my head hurts terribly, and I can't think straight",
+  "symptoms": [
+    "persistent high fever (39-40°C)",
+    "severe headache",
+    "confusion/disorientation",
+    "photophobia",
+    "nuchal rigidity"
+  ],
+  "physical_findings": [
+    "positive Kernig's sign",
+    "decreased consciousness (GCS 12)",
+    "focal neurological deficits"
+  ],
+  "lab_results": {
+    "CSF analysis": "elevated WBCs (800/mm3, 80% neutrophils), protein 120 mg/dL, glucose 40 mg/dL",
+    "blood culture": "Burkholderia pseudomallei isolated",
+    "PCR": "positive for B. pseudomallei DNA",
+    "MRI brain": "multiple small ring-enhancing lesions with surrounding edema"
+  },
+  "treatment": [
+    "IV ceftazidime or meropenem (intensive phase)",
+    "oral trimethoprim-sulfamethoxazole (eradication phase)",
+    "ICP monitoring and management",
+    "supportive ICU care"
+  ],
+  "prognosis": "Guarded - mortality ~40% even with treatment. Survivors often have residual neurological deficits",
+  "description": "A rare but severe CNS manifestation of melioidosis caused by B. pseudomallei, typically occurring in immunocompromised hosts or those with chronic conditions. Presents as a subacute meningoencephalitis with characteristic abscess formation. Endemic in Southeast Asia and Northern Australia.",
+  "risk_factors": [
+    "diabetes mellitus",
+    "chronic kidney disease",
+    "exposure to contaminated soil/water in endemic areas",
+    "alcoholism"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_infectious_disease_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Tuberculous Meningitis",
+    "Cerebral Melioidosis Encephalitis",
+    "Herpes Simplex Encephalitis",
+    "Bacterial Meningitis"
+  ]
+}

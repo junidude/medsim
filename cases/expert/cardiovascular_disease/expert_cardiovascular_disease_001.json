@@ -1,0 +1,48 @@
+{
+  "name": "Idiopathic Giant Cell Myocarditis",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I feel like an elephant is sitting on my chest and I can't catch my breath",
+  "symptoms": [
+    "sudden onset crushing chest pain",
+    "severe dyspnea at rest",
+    "palpitations",
+    "presyncope"
+  ],
+  "physical_findings": [
+    "jugular venous distension",
+    "bilateral basal crackles",
+    "pulsus alternans"
+  ],
+  "lab_results": {
+    "troponin": "markedly elevated (15.2 ng/mL)",
+    "BNP": ">2000 pg/mL",
+    "CRP": "48 mg/L",
+    "ESR": "78 mm/hr"
+  },
+  "treatment": [
+    "mechanical circulatory support (ECMO)",
+    "high-dose immunosuppressive therapy",
+    "endomyocardial biopsy for confirmation",
+    "urgent evaluation for cardiac transplantation"
+  ],
+  "prognosis": "guarded with high mortality without aggressive intervention; 75% mortality at 1 year without transplant",
+  "description": "A rare, rapidly progressive form of myocarditis characterized by diffuse myocardial necrosis with multinucleated giant cells on histology. Often presents with fulminant heart failure and life-threatening arrhythmias. Distinct from lymphocytic myocarditis by its aggressive course and specific histopathology.",
+  "risk_factors": [
+    "young to middle-aged adults (20-50 years)",
+    "history of autoimmune disorders",
+    "recent viral illness (though no causative link established)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair (limited by respiratory distress)",
+    "pain_level": "9"
+  },
+  "case_id": "expert_cardiovascular_disease_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Acute Myocardial Infarction",
+    "Idiopathic Giant Cell Myocarditis",
+    "Acute Decompensated Heart Failure",
+    "Cardiac Tamponade"
+  ]
+}

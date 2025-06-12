@@ -1,0 +1,47 @@
+{
+  "name": "Idiopathic Retroperitoneal Fibrosis with Ureteral Obstruction",
+  "specialty": "urology",
+  "chief_complaint": "Severe flank pain and difficulty urinating",
+  "symptoms": [
+    "unilateral or bilateral flank pain",
+    "oliguria",
+    "fatigue",
+    "unintentional weight loss"
+  ],
+  "physical_findings": [
+    "palpable abdominal mass",
+    "costovertebral angle tenderness"
+  ],
+  "lab_results": {
+    "ESR": "elevated",
+    "CRP": "elevated",
+    "Creatinine": "2.8 mg/dL",
+    "WBC": "normal"
+  },
+  "treatment": [
+    "high-dose corticosteroids",
+    "immunosuppressive therapy (e.g., mycophenolate mofetil)",
+    "ureteral stenting or percutaneous nephrostomy",
+    "surgical ureterolysis in refractory cases"
+  ],
+  "prognosis": "Variable; depends on early diagnosis and treatment. Progressive renal failure may occur if untreated.",
+  "description": "A rare inflammatory condition characterized by fibrotic tissue proliferation in the retroperitoneum, often encasing and compressing the ureters. Etiology is unknown in idiopathic cases (Ormond's disease), though secondary forms may relate to malignancies, infections, or certain medications. Diagnosis typically requires CT/MRI and often biopsy to rule out malignancy.",
+  "risk_factors": [
+    "history of autoimmune disorders",
+    "asbestos exposure",
+    "certain medications (e.g., methysergide, beta-blockers)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_urology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Ureteral Stricture",
+    "Idiopathic Retroperitoneal Fibrosis with Ureteral Obstruction",
+    "Nephrolithiasis",
+    "Retroperitoneal Lymphoma"
+  ]
+}

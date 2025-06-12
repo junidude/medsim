@@ -1,0 +1,50 @@
+{
+  "name": "Idiopathic Systemic Capillary Leak Syndrome (ISCLS)",
+  "specialty": "critical_care_medicine",
+  "chief_complaint": "I feel like I'm swelling up and can't breathe",
+  "symptoms": [
+    "sudden severe edema",
+    "hypotension",
+    "generalized weakness",
+    "nausea",
+    "abdominal pain"
+  ],
+  "physical_findings": [
+    "pitting edema in extremities",
+    "cold clammy skin",
+    "tachycardia",
+    "decreased breath sounds"
+  ],
+  "lab_results": {
+    "hemoglobin": "elevated (hemoconcentration)",
+    "albumin": "low",
+    "hematocrit": ">50%",
+    "BUN/Cr": "elevated"
+  },
+  "treatment": [
+    "aggressive IV fluid resuscitation with colloids",
+    "vasopressor support",
+    "high-dose IV corticosteroids",
+    "prophylactic IVIG in recurrent cases"
+  ],
+  "prognosis": "High mortality (30-40%) in acute episodes; recurrent episodes common in survivors",
+  "description": "A rare, life-threatening condition characterized by recurrent episodes of capillary hyperpermeability leading to massive fluid shifts from intravascular to extravascular space. The pathophysiology involves endothelial dysfunction with unknown triggers. Presents as sudden-onset shock with hemoconcentration and hypoalbuminemia without other explanation.",
+  "risk_factors": [
+    "previous viral illness",
+    "monoclonal gammopathy",
+    "female gender (3:1 ratio)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_critical_care_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Idiopathic Systemic Capillary Leak Syndrome (ISCLS)",
+    "Cardiogenic shock",
+    "Idiopathic Systemic Capillary Leak Syndrome",
+    "Sepsis"
+  ]
+}

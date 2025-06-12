@@ -1,0 +1,45 @@
+{
+  "name": "Disruptive Mood Dysregulation Disorder with Atypical Psychotic Features",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "I can't control my anger and sometimes I see shadows that aren't there",
+  "symptoms": [
+    "chronic irritability",
+    "severe temper outbursts",
+    "visual hallucinations",
+    "sleep disturbances",
+    "social withdrawal"
+  ],
+  "physical_findings": [
+    "elevated heart rate during episodes",
+    "self-inflicted scratches on arms"
+  ],
+  "lab_results": {
+    "cortisol_level": "elevated",
+    "thyroid_function": "normal"
+  },
+  "treatment": [
+    "atypical antipsychotics (low dose)",
+    "cognitive behavioral therapy",
+    "family therapy",
+    "mood stabilizers"
+  ],
+  "prognosis": "guarded; requires long-term management with possible symptom evolution",
+  "description": "A rare variant of DMDD where patients experience psychotic-like symptoms during severe mood episodes, distinct from bipolar disorder or schizophrenia. Characterized by persistent irritability and frequent, severe temper outbursts that are grossly out of proportion to the situation, accompanied by transient psychotic phenomena.",
+  "risk_factors": [
+    "early childhood trauma",
+    "family history of mood disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_child_adolescent_psychiatry_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Bipolar Disorder",
+    "Disruptive Mood Dysregulation Disorder with Atypical Psychotic Features",
+    "Schizophrenia",
+    "Post-Traumatic Stress Disorder"
+  ]
+}

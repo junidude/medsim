@@ -1,0 +1,50 @@
+{
+  "name": "Congenital Erythropoietic Porphyria with Secondary Hemophagocytic Lymphohistiocytosis",
+  "specialty": "pediatric_hematology_oncology",
+  "chief_complaint": "My child has been very pale, tired, and their urine is dark red.",
+  "symptoms": [
+    "severe photosensitivity",
+    "fatigue",
+    "abdominal pain",
+    "dark red urine",
+    "easy bruising"
+  ],
+  "physical_findings": [
+    "hepatosplenomegaly",
+    "hypertrichosis (excessive hair growth)",
+    "erythrodontia (reddish-brown teeth)"
+  ],
+  "lab_results": {
+    "hemoglobin": "6.2 g/dL",
+    "reticulocyte count": "0.8%",
+    "ferritin": "3200 ng/mL",
+    "urine porphyrins": "markedly elevated",
+    "soluble IL-2 receptor": "8500 U/mL"
+  },
+  "treatment": [
+    "strict photoprotection",
+    "hematopoietic stem cell transplantation evaluation",
+    "erythrocyte transfusions",
+    "immunosuppressive therapy for HLH",
+    "heme arginate infusions"
+  ],
+  "prognosis": "Guarded without HSCT; potential for progressive liver damage and life-threatening HLH complications",
+  "description": "An extremely rare autosomal recessive disorder of heme biosynthesis characterized by uroporphyrinogen III synthase deficiency, leading to accumulation of nonphysiologic porphyrin isomers. The secondary HLH represents a potentially fatal hyperinflammatory complication triggered by the underlying metabolic disease.",
+  "risk_factors": [
+    "consanguinity",
+    "family history of porphyria"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_pediatric_hematology_oncology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Acute Intermittent Porphyria",
+    "Congenital Erythropoietic Porphyria with Secondary Hemophagocytic Lymphohistiocytosis",
+    "Lead Poisoning",
+    "Hereditary Spherocytosis"
+  ]
+}

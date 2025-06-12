@@ -1,0 +1,47 @@
+{
+  "name": "Idiopathic Mesenteric Arteriolar Vasospasm Syndrome (IMAVS)",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "Severe abdominal pain that comes and goes, worse after eating",
+  "symptoms": [
+    "Episodic severe abdominal pain",
+    "Nausea without vomiting",
+    "Weight loss due to fear of eating",
+    "Postprandial pain exacerbation"
+  ],
+  "physical_findings": [
+    "Abdominal tenderness without rebound",
+    "Bruits in mesenteric artery regions",
+    "Normal bowel sounds during asymptomatic periods"
+  ],
+  "lab_results": {
+    "CTA": "Diffuse segmental vasospasm of mesenteric arterioles without occlusion",
+    "Lactate": "Normal",
+    "Inflammatory markers": "Normal"
+  },
+  "treatment": [
+    "Intra-arterial vasodilator infusion during acute episodes",
+    "Calcium channel blockers (long-acting nifedipine)",
+    "Low-dose phosphodiesterase inhibitors",
+    "Psychological support for chronic pain management"
+  ],
+  "prognosis": "Variable; some patients respond well to medical therapy while others develop chronic pain syndrome",
+  "description": "A rare vascular disorder characterized by recurrent, transient vasospasm of mesenteric arterioles without underlying atherosclerotic disease. The pathophysiology involves abnormal smooth muscle reactivity in small mesenteric vessels, leading to episodic ischemia. Diagnosis requires exclusion of other mesenteric pathologies and demonstration of dynamic vasospasm on angiography.",
+  "risk_factors": [
+    "History of migraine or Raynaud's phenomenon",
+    "Female gender (3:1 female predominance)",
+    "Autoimmune disease predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_vascular_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Chronic mesenteric ischemia",
+    "Idiopathic Mesenteric Arteriolar Vasospasm Syndrome (IMAVS)",
+    "Superior mesenteric artery syndrome",
+    "Abdominal migraine"
+  ]
+}

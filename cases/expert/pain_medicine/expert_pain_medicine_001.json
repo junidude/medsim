@@ -1,0 +1,49 @@
+{
+  "name": "Glossopharyngeal Neuralgia with Cardiac Syncope",
+  "specialty": "pain_medicine",
+  "chief_complaint": "Severe, stabbing pain in my throat and ear, sometimes makes me pass out",
+  "symptoms": [
+    "Episodic lancinating throat pain",
+    "Otalgia (ear pain)",
+    "Syncope (fainting) triggered by pain",
+    "Dysphagia (difficulty swallowing)",
+    "Hypersalivation"
+  ],
+  "physical_findings": [
+    "Trigger point in tonsillar fossa",
+    "Bradycardia during pain episodes",
+    "No cranial nerve deficits"
+  ],
+  "lab_results": {
+    "ECG during episode": "Sinus bradycardia",
+    "MRI brain": "No structural abnormalities",
+    "ESR": "Normal"
+  },
+  "treatment": [
+    "Carbamazepine or oxcarbazepine first-line",
+    "Nerve blocks (glossopharyngeal)",
+    "Microvascular decompression surgery if refractory",
+    "Cardiac pacing for severe bradycardia"
+  ],
+  "prognosis": "Variable - medical management successful in ~70% cases, surgical options for refractory cases",
+  "description": "A rare neuropathic pain syndrome involving the glossopharyngeal nerve (CN IX) characterized by severe paroxysmal pain in the throat, ear, and tongue. In some cases, pain triggers a vagal response leading to bradycardia and syncope (cardioinhibitory response). Often misdiagnosed as trigeminal neuralgia initially.",
+  "risk_factors": [
+    "Vascular compression of CN IX",
+    "Multiple sclerosis",
+    "Head/neck tumors",
+    "Prior throat surgery"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_pain_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Trigeminal Neuralgia",
+    "Glossopharyngeal Neuralgia with Cardiac Syncope",
+    "Eagle Syndrome",
+    "Tonsillar Abscess"
+  ]
+}

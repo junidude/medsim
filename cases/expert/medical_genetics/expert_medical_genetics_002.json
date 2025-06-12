@@ -1,0 +1,49 @@
+{
+  "name": "Chromosome 17q21.31 Microduplication Syndrome",
+  "specialty": "medical_genetics",
+  "chief_complaint": "My child has severe developmental delays and unusual facial features",
+  "symptoms": [
+    "global developmental delay",
+    "intellectual disability",
+    "hypotonia",
+    "seizures",
+    "feeding difficulties"
+  ],
+  "physical_findings": [
+    "hypertelorism (wide-set eyes)",
+    "low-set ears",
+    "high-arched palate",
+    "brachycephaly (short skull)"
+  ],
+  "lab_results": {
+    "chromosomal microarray": "1.6 Mb duplication at 17q21.31",
+    "karyotype": "46,XX/46,XY",
+    "EEG": "abnormal epileptiform activity"
+  },
+  "treatment": [
+    "multidisciplinary care (genetics, neurology, developmental pediatrics)",
+    "antiepileptic drugs for seizure control",
+    "speech and occupational therapy",
+    "nutritional support"
+  ],
+  "prognosis": "Variable depending on duplication size and affected genes; most patients require lifelong support with moderate-severe developmental impairment",
+  "description": "A rare genomic disorder caused by a microduplication of the 17q21.31 region, containing multiple genes including KANSL1. The phenotype overlaps with but is distinct from the reciprocal deletion causing Koolen-de Vries syndrome. The condition affects multiple systems with prominent neurological involvement.",
+  "risk_factors": [
+    "de novo mutation (most cases)",
+    "inherited from parent with balanced translocation",
+    "advanced paternal age"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_medical_genetics_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Smith-Magenis syndrome",
+    "Chromosome 17q21.31 Microduplication Syndrome",
+    "Cri-du-chat syndrome",
+    "17q21.31 microduplication"
+  ]
+}

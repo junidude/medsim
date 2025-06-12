@@ -1,0 +1,49 @@
+{
+  "name": "Uterine Arteriovenous Malformation (UAVM)",
+  "specialty": "obstetrics_gynecology",
+  "chief_complaint": "Heavy vaginal bleeding and pelvic pain after recent miscarriage",
+  "symptoms": [
+    "Profuse vaginal bleeding",
+    "Severe pelvic pain",
+    "Lightheadedness",
+    "Palpitations"
+  ],
+  "physical_findings": [
+    "Pallor",
+    "Tachycardia",
+    "Uterine bruit on auscultation",
+    "Boggy uterus on palpation"
+  ],
+  "lab_results": {
+    "Hemoglobin": "7.2 g/dL",
+    "Beta-hCG": "Negative",
+    "Coagulation panel": "Normal"
+  },
+  "treatment": [
+    "Uterine artery embolization (primary treatment)",
+    "Hysterectomy (for refractory cases)",
+    "Blood transfusion if hemodynamically unstable",
+    "Pelvic angiography for diagnosis"
+  ],
+  "prognosis": "Good with prompt treatment, but high risk of recurrence if not completely treated. Can be life-threatening if bleeding is uncontrolled.",
+  "description": "A rare vascular anomaly where abnormal connections form between uterine arteries and veins, often triggered by pregnancy events (miscarriage, D&C, or cesarean delivery). The fragile vessels can rupture causing life-threatening hemorrhage. Diagnosis requires high clinical suspicion and imaging confirmation.",
+  "risk_factors": [
+    "Previous uterine surgery",
+    "Multiple curettage procedures",
+    "History of gestational trophoblastic disease",
+    "Prior uterine trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_obstetrics_gynecology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Retained products of conception",
+    "Uterine Arteriovenous Malformation (UAVM)",
+    "Uterine atony",
+    "Cervical laceration"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Caffeine Use Disorder",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I can't function without multiple energy drinks daily, and I get terrible headaches when I try to stop",
+  "symptoms": [
+    "Persistent caffeine cravings",
+    "Withdrawal headaches",
+    "Insomnia",
+    "Anxiety",
+    "Fatigue without caffeine"
+  ],
+  "physical_findings": [
+    "Elevated heart rate",
+    "Mild hand tremors"
+  ],
+  "lab_results": {
+    "Blood pressure": "138/88 mmHg",
+    "Heart rate": "92 bpm"
+  },
+  "treatment": [
+    "Gradual caffeine reduction plan",
+    "Hydration therapy",
+    "Behavioral counseling",
+    "Sleep hygiene education"
+  ],
+  "prognosis": "Excellent with proper tapering and lifestyle adjustments, withdrawal symptoms typically resolve within 2-9 days",
+  "description": "A pattern of problematic caffeine use leading to clinically significant impairment or distress, characterized by persistent desire or unsuccessful efforts to cut down use and continued use despite knowledge of physical or psychological problems caused by caffeine",
+  "risk_factors": [
+    "High-stress occupation",
+    "Poor sleep habits",
+    "History of substance use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "easy_addiction_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Generalized Anxiety Disorder",
+    "Caffeine Use Disorder",
+    "Migraine Disorder",
+    "Substance Withdrawal"
+  ]
+}

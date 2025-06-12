@@ -1,0 +1,49 @@
+{
+  "name": "Congenital Chylothorax with Refractory Hydrops",
+  "specialty": "neonatal_perinatal_medicine",
+  "chief_complaint": "Severe respiratory distress and swelling noted at birth",
+  "symptoms": [
+    "respiratory distress",
+    "generalized edema",
+    "poor feeding",
+    "tachycardia"
+  ],
+  "physical_findings": [
+    "pleural effusion (bilateral)",
+    "ascites",
+    "pallor",
+    "decreased breath sounds"
+  ],
+  "lab_results": {
+    "pleural fluid analysis": "chylous (triglycerides >110 mg/dL)",
+    "lymphocyte count": ">80% of white cells in pleural fluid",
+    "albumin": "<2.0 g/dL"
+  },
+  "treatment": [
+    "thoracentesis with chest tube placement",
+    "total parenteral nutrition",
+    "octreotide infusion",
+    "pleurodesis if refractory"
+  ],
+  "prognosis": "Guarded (50% mortality if bilateral; higher with hydrops)",
+  "description": "A rare condition where lymphatic fluid accumulates in the pleural space due to maldevelopment or trauma to the thoracic duct, often causing life-threatening respiratory compromise and hydrops fetalis. Most severe cases present in utero or immediately after birth.",
+  "risk_factors": [
+    "Turner syndrome",
+    "Noonan syndrome",
+    "congenital lymphatic malformations",
+    "birth trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor (critically ill neonate)",
+    "pain_level": "8"
+  },
+  "case_id": "expert_neonatal_perinatal_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Congenital Chylothorax with Refractory Hydrops",
+    "Fetal Anemia",
+    "Congenital Heart Disease",
+    "Lymphatic Malformation"
+  ]
+}

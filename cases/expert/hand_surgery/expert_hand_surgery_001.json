@@ -1,0 +1,48 @@
+{
+  "name": "Triphalangeal Thumb Syndrome with Radial Polydactyly",
+  "specialty": "hand_surgery",
+  "chief_complaint": "My baby's thumb looks abnormal and has an extra finger on the side",
+  "symptoms": [
+    "abnormal thumb appearance",
+    "extra digit on radial side",
+    "limited thumb mobility",
+    "parental distress"
+  ],
+  "physical_findings": [
+    "triphalangeal thumb",
+    "preaxial polydactyly",
+    "hypoplastic thenar muscles",
+    "radial deviation of wrist"
+  ],
+  "lab_results": {
+    "chromosomal analysis": "normal karyotype",
+    "X-ray": "bifid first metacarpal with duplicated proximal phalanx"
+  },
+  "treatment": [
+    "surgical reconstruction of thumb",
+    "excision of supernumerary digit",
+    "tendon realignment",
+    "post-operative splinting",
+    "hand therapy"
+  ],
+  "prognosis": "Good functional outcome with early surgical intervention, though may require multiple staged procedures",
+  "description": "A rare congenital hand anomaly characterized by a thumb with three phalanges (instead of two) accompanied by preaxial (radial) polydactyly. This results from abnormal differentiation of the radial ray during embryonic development. The condition often requires complex reconstruction to create a functional, opposable thumb.",
+  "risk_factors": [
+    "familial history of radial ray anomalies",
+    "maternal diabetes",
+    "prenatal exposure to certain medications"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "2"
+  },
+  "case_id": "expert_hand_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Holt-Oram Syndrome",
+    "Triphalangeal Thumb Syndrome with Radial Polydactyly",
+    "Fanconi Anemia",
+    "VACTERL Association"
+  ]
+}

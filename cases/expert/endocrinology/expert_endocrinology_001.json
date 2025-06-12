@@ -1,0 +1,53 @@
+{
+  "name": "Hypophosphatemic Osteomalacia with Tertiary Hyperparathyroidism",
+  "specialty": "endocrinology",
+  "chief_complaint": "Persistent bone pain and muscle weakness for several months, worsening fatigue",
+  "symptoms": [
+    "chronic bone pain (especially in hips and legs)",
+    "proximal muscle weakness",
+    "fatigue",
+    "difficulty walking",
+    "frequent fractures"
+  ],
+  "physical_findings": [
+    "waddling gait",
+    "tenderness on palpation of long bones",
+    "positive Gower's sign (difficulty rising from seated position)"
+  ],
+  "lab_results": {
+    "serum phosphate": "1.2 mg/dL (low)",
+    "urinary phosphate": "elevated",
+    "alkaline phosphatase": "markedly elevated",
+    "PTH": "350 pg/mL (high)",
+    "1,25-dihydroxyvitamin D": "low-normal",
+    "FGF23": "elevated"
+  },
+  "treatment": [
+    "oral phosphate supplements",
+    "calcitriol or alfacalcidol",
+    "monitoring for nephrocalcinosis",
+    "possible parathyroidectomy if tertiary hyperparathyroidism persists",
+    "FGF23-lowering therapies (investigational)"
+  ],
+  "prognosis": "Variable; requires lifelong management. Bone pain and muscle weakness typically improve with treatment, but complete resolution is uncommon. Risk of progressive renal impairment due to nephrocalcinosis.",
+  "description": "A complex metabolic bone disorder characterized by renal phosphate wasting due to elevated FGF23, leading to osteomalacia. The condition is complicated by autonomous parathyroid hormone secretion (tertiary hyperparathyroidism) developing secondary to chronic hypocalcemia and vitamin D deficiency. This creates a challenging therapeutic paradox where treating the osteomalacia may exacerbate the hyperparathyroidism.",
+  "risk_factors": [
+    "tumor-induced osteomalacia (though none detected in this case)",
+    "certain genetic mutations (e.g., XLH)",
+    "chronic kidney disease",
+    "prolonged anticonvulsant use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "expert_endocrinology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Multiple Myeloma",
+    "Hypophosphatemic Osteomalacia with Tertiary Hyperparathyroidism",
+    "Primary Hyperparathyroidism",
+    "Metastatic Bone Disease"
+  ]
+}

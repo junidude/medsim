@@ -1,0 +1,52 @@
+{
+  "name": "Idiopathic Progressive Facial Hemiatrophy (Parry-Romberg Syndrome)",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "My face is shrinking on one side and it's getting worse over time",
+  "symptoms": [
+    "Unilateral facial atrophy",
+    "Facial pain (trigeminal neuralgia)",
+    "Visual disturbances",
+    "Seizures (in severe cases)",
+    "Hair loss on affected side"
+  ],
+  "physical_findings": [
+    "Progressive hemifacial tissue wasting (skin, fat, muscle, bone)",
+    "Hyperpigmentation of affected skin",
+    "Enophthalmos on affected side",
+    "Dental abnormalities",
+    "Facial asymmetry worsening over 2-10 years"
+  ],
+  "lab_results": {
+    "Autoantibody panel": "Negative",
+    "MRI brain": "Ipsilateral cerebral atrophy in 45% of cases",
+    "Skin biopsy": "Fibrosis and lymphocytic infiltration"
+  },
+  "treatment": [
+    "Microvascular free tissue transfer for volume restoration",
+    "Fat grafting (multiple stages)",
+    "Orthognathic surgery for skeletal correction",
+    "Botox for contralateral muscle hypertrophy",
+    "Immunomodulators in active phase"
+  ],
+  "prognosis": "Progression typically stabilizes after 2-10 years, but existing damage is permanent. Reconstructive outcomes vary based on timing and extent of atrophy.",
+  "description": "A rare neurocutaneous syndrome characterized by progressive shrinkage and degeneration of tissues beneath the skin, typically affecting one side of the face. The condition often begins in childhood or adolescence with unknown etiology, though autoimmune and sympathetic nervous system theories exist. The atrophy progresses through active and stable phases, affecting all tissue layers including bone in severe cases.",
+  "risk_factors": [
+    "Female gender (3:1 ratio)",
+    "History of trauma to trigeminal nerve distribution",
+    "Autoimmune disorders in family history",
+    "Onset between ages 5-15 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "expert_plastic_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Trigeminal trophic syndrome",
+    "Idiopathic Progressive Facial Hemiatrophy (Parry-Romberg Syndrome)",
+    "Idiopathic Progressive Facial Hemiatrophy",
+    "Facial lipodystrophy"
+  ]
+}

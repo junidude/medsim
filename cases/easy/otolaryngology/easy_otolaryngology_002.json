@@ -1,0 +1,43 @@
+{
+  "name": "Acute Otitis Externa",
+  "specialty": "otolaryngology",
+  "chief_complaint": "My ear hurts and feels itchy, especially when I touch it.",
+  "symptoms": [
+    "ear pain",
+    "itching in ear canal",
+    "mild hearing loss",
+    "ear fullness"
+  ],
+  "physical_findings": [
+    "erythema of ear canal",
+    "tenderness with tragus pressure"
+  ],
+  "lab_results": {
+    "ear swab culture": "normal skin flora"
+  },
+  "treatment": [
+    "topical antibiotic ear drops",
+    "pain management (ibuprofen)",
+    "keep ear dry"
+  ],
+  "prognosis": "Excellent with treatment; resolves within 7-10 days",
+  "description": "Inflammation of the external ear canal, often caused by bacterial infection or moisture exposure (swimmer's ear). Differs from otitis media by location (external vs middle ear).",
+  "risk_factors": [
+    "frequent swimming",
+    "ear cleaning with cotton swabs",
+    "humid environments"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "easy_otolaryngology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Acute Otitis Externa",
+    "Otitis Media",
+    "Cerumen Impaction",
+    "Foreign Body in Ear"
+  ]
+}

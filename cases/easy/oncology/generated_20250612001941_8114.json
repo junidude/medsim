@@ -1,0 +1,46 @@
+{
+  "name": "Early Stage Basal Cell Carcinoma",
+  "specialty": "oncology",
+  "chief_complaint": "I have a shiny, pearly bump on my nose that won't go away and sometimes bleeds",
+  "symptoms": [
+    "persistent skin lesion",
+    "occasional bleeding when touched",
+    "slow growth over months",
+    "waxy or pearly appearance"
+  ],
+  "physical_findings": [
+    "4mm raised, pearly nodule on nasal bridge",
+    "small telangiectasias visible on lesion surface",
+    "no surrounding inflammation"
+  ],
+  "lab_results": {
+    "skin biopsy": "confirmed basal cell carcinoma, superficial type"
+  },
+  "treatment": [
+    "surgical excision with clear margins",
+    "topical chemotherapy (fluorouracil) as alternative",
+    "regular skin checks every 6 months"
+  ],
+  "prognosis": "excellent with early detection and complete removal; 98% cure rate",
+  "description": "A common, slow-growing skin cancer that typically appears on sun-exposed areas. Usually non-aggressive and rarely metastasizes.",
+  "risk_factors": [
+    "fair skin",
+    "sun exposure",
+    "older age",
+    "history of sunburns",
+    "outdoor occupation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "generated_20250612001941_8114",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Squamous Cell Carcinoma",
+    "Early Stage Basal Cell Carcinoma",
+    "Actinic Keratosis",
+    "Seborrheic Keratosis"
+  ]
+}

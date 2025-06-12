@@ -1,0 +1,49 @@
+{
+  "name": "Subacute Thyroiditis",
+  "specialty": "internal_medicine",
+  "chief_complaint": "I've had a sore throat and neck pain for a few weeks, and I feel feverish and tired all the time",
+  "symptoms": [
+    "neck pain radiating to jaw/ears",
+    "fatigue",
+    "low-grade fever",
+    "palpitations",
+    "weight loss"
+  ],
+  "physical_findings": [
+    "tender, enlarged thyroid",
+    "mild tachycardia",
+    "hand tremors"
+  ],
+  "lab_results": {
+    "TSH": "low",
+    "Free T4": "elevated",
+    "ESR": "markedly elevated",
+    "CRP": "elevated"
+  },
+  "treatment": [
+    "NSAIDs for pain/inflammation",
+    "beta-blockers for symptomatic tachycardia",
+    "short-course corticosteroids if severe",
+    "monitor for hypothyroid phase"
+  ],
+  "prognosis": "Generally excellent with complete recovery in 2-4 months, though may transiently pass through hypothyroid phase",
+  "description": "Post-viral inflammatory thyroid condition causing thyroid follicle destruction and transient thyrotoxicosis followed by recovery phase. Often follows URI. Three phases: thyrotoxic (2-6 weeks), hypothyroid (weeks-months), and recovery.",
+  "risk_factors": [
+    "recent viral illness",
+    "female gender",
+    "age 20-50"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "medium_internal_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Graves' Disease",
+    "Subacute Thyroiditis",
+    "Acute Pharyngitis",
+    "Lymphoma"
+  ]
+}

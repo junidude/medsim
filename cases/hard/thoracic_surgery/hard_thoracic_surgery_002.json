@@ -1,0 +1,43 @@
+{
+  "name": "Idiopathic Tracheobronchial Amyloidosis",
+  "specialty": "thoracic_surgery",
+  "chief_complaint": "I can't breathe properly and I keep wheezing",
+  "symptoms": [
+    "progressive dyspnea",
+    "chronic cough",
+    "stridor",
+    "hemoptysis"
+  ],
+  "physical_findings": [
+    "bilateral wheezing on auscultation",
+    "reduced air entry in lower lobes"
+  ],
+  "lab_results": {
+    "bronchoscopy": "diffuse submucosal nodular deposits",
+    "biopsy": "Congo red-positive amyloid deposits"
+  },
+  "treatment": [
+    "rigid bronchoscopy with laser ablation",
+    "systemic corticosteroids",
+    "consideration for tracheobronchial stenting"
+  ],
+  "prognosis": "Variable; progressive disease may lead to respiratory failure without intervention",
+  "description": "A rare form of localized amyloidosis characterized by abnormal protein deposition in tracheobronchial walls, causing progressive airway obstruction. Often misdiagnosed as asthma or COPD initially.",
+  "risk_factors": [
+    "chronic inflammatory conditions",
+    "family history of amyloidosis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_thoracic_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Chronic Obstructive Pulmonary Disease",
+    "Idiopathic Tracheobronchial Amyloidosis",
+    "Bronchogenic Carcinoma",
+    "Relapsing Polychondritis"
+  ]
+}

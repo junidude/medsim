@@ -1,0 +1,47 @@
+{
+  "name": "Acute Idiopathic Corneal Hydrops",
+  "specialty": "ophthalmology",
+  "chief_complaint": "Sudden blurry vision and eye pain in my left eye",
+  "symptoms": [
+    "acute vision loss",
+    "severe eye pain",
+    "photophobia",
+    "excessive tearing"
+  ],
+  "physical_findings": [
+    "corneal edema with stromal thickening",
+    "Descemet's membrane folds visible on slit lamp",
+    "conjunctival injection"
+  ],
+  "lab_results": {
+    "corneal topography": "irregular astigmatism",
+    "pachymetry": "increased corneal thickness"
+  },
+  "treatment": [
+    "hypertonic saline eye drops",
+    "bandage contact lens",
+    "oral analgesics",
+    "close monitoring for resolution"
+  ],
+  "prognosis": "Variable; most cases resolve spontaneously within weeks to months, but may leave residual corneal scarring",
+  "description": "A sudden onset of corneal edema due to rupture of Descemet's membrane, typically occurring in patients with pre-existing keratoconus. The condition causes dramatic corneal thickening and vision impairment.",
+  "risk_factors": [
+    "keratoconus",
+    "eye rubbing",
+    "history of atopy",
+    "Down syndrome"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "medium_ophthalmology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute angle-closure glaucoma",
+    "Acute Idiopathic Corneal Hydrops",
+    "Corneal ulcer",
+    "Herpetic keratitis"
+  ]
+}

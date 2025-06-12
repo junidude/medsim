@@ -1,0 +1,47 @@
+{
+  "name": "Bilateral Acute Retinal Pigment Epitheliopathy (BARPE)",
+  "specialty": "ophthalmology",
+  "chief_complaint": "I've been seeing dark spots in both eyes for the past week, and my vision seems blurry in bright light.",
+  "symptoms": [
+    "bilateral central scotomas",
+    "photopsia",
+    "metamorphopsia",
+    "reduced visual acuity in bright light"
+  ],
+  "physical_findings": [
+    "multifocal yellow-white lesions at the level of RPE",
+    "mild vitreous cells without flare",
+    "normal anterior segment examination"
+  ],
+  "lab_results": {
+    "FA (Fluorescein Angiography)": "early hypofluorescence with late staining of lesions",
+    "OCT (Optical Coherence Tomography)": "disruption of ellipsoid zone and RPE thickening",
+    "CBC": "normal",
+    "ESR": "slightly elevated"
+  },
+  "treatment": [
+    "oral corticosteroids (prednisone taper)",
+    "monitoring with serial OCT",
+    "low-vision rehabilitation if persistent deficits"
+  ],
+  "prognosis": "Guarded; 60% recover near-normal vision within 3-6 months, but 40% develop permanent paracentral scotomas",
+  "description": "BARPE is a rare, idiopathic inflammatory condition affecting the retinal pigment epithelium. It presents with acute-onset bilateral visual disturbances, often following a viral illness. The pathophysiology involves transient dysfunction of the RPE pump mechanism, leading to fluid accumulation and photoreceptor disruption. Differential includes MEWDS, APMPPE, and syphilitic uveitis.",
+  "risk_factors": [
+    "recent viral illness (especially coxsackievirus)",
+    "HLA-B51 haplotype",
+    "history of autoimmune conditions"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "expert_ophthalmology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Acute Posterior Multifocal Placoid Pigment Epitheliopathy (APMPPE)",
+    "Bilateral Acute Retinal Pigment Epitheliopathy (BARPE)",
+    "Multiple Evanescent White Dot Syndrome (MEWDS)",
+    "Serpiginous Choroiditis"
+  ]
+}

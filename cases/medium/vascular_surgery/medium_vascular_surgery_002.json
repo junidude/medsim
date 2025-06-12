@@ -1,0 +1,42 @@
+{
+  "name": "Iliac Artery Entrapment Syndrome",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "I get this sharp pain in my lower abdomen and leg when I walk, but it goes away when I rest",
+  "symptoms": [
+    "Intermittent claudication in lower extremities",
+    "Numbness in affected leg",
+    "Muscle cramping during activity"
+  ],
+  "physical_findings": [
+    "Diminished femoral pulse with hip extension",
+    "Bruit over iliac artery region"
+  ],
+  "lab_results": {
+    "Ankle-brachial index (ABI)": "0.6 (abnormal)"
+  },
+  "treatment": [
+    "Surgical release of entrapped artery",
+    "Antiplatelet therapy",
+    "Physical therapy for gait modification"
+  ],
+  "prognosis": "Good with surgical intervention, though recurrence possible if anatomical abnormalities persist",
+  "description": "A rare vascular compression syndrome where the iliac artery becomes compressed by surrounding musculoskeletal structures during certain movements, leading to intermittent ischemia. Most common in young, athletic individuals.",
+  "risk_factors": [
+    "Intense athletic training",
+    "Abnormal iliopsoas muscle anatomy",
+    "Hyperlordosis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_vascular_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Peripheral Artery Disease",
+    "Iliac Artery Entrapment Syndrome",
+    "Chronic Venous Insufficiency",
+    "Lumbar Spinal Stenosis"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Granulomatous Lymphocytic Interstitial Lung Disease (GLILD)",
+  "specialty": "pathology",
+  "chief_complaint": "I've been having a persistent dry cough and feel short of breath, especially when walking.",
+  "symptoms": [
+    "progressive dyspnea",
+    "chronic dry cough",
+    "fatigue",
+    "unintentional weight loss",
+    "recurrent infections"
+  ],
+  "physical_findings": [
+    "bibasilar crackles on auscultation",
+    "digital clubbing",
+    "mild hepatosplenomegaly"
+  ],
+  "lab_results": {
+    "CBC": "lymphocytopenia",
+    "Immunoglobulin levels": "hypogammaglobulinemia",
+    "CT chest": "diffuse ground-glass opacities with nodules",
+    "Bronchoalveolar lavage": "CD4+/CD8+ T-cell ratio inversion"
+  },
+  "treatment": [
+    "corticosteroid therapy",
+    "rituximab infusions",
+    "IV immunoglobulin replacement",
+    "prophylactic antibiotics"
+  ],
+  "prognosis": "Variable; may progress to respiratory failure without treatment. Early immunosuppressive therapy can stabilize lung function.",
+  "description": "GLILD is a rare pulmonary complication of common variable immunodeficiency (CVID) characterized by granuloma formation and lymphocytic infiltration of lung parenchyma. It represents a complex interplay between immune dysregulation and chronic inflammation.",
+  "risk_factors": [
+    "underlying CVID",
+    "family history of immunodeficiency",
+    "autoimmune conditions"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "hard_pathology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Idiopathic Pulmonary Fibrosis",
+    "Granulomatous Lymphocytic Interstitial Lung Disease (GLILD)",
+    "Sarcoidosis",
+    "Hypersensitivity Pneumonitis"
+  ]
+}

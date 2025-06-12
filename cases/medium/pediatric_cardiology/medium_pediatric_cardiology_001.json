@@ -1,0 +1,44 @@
+{
+  "name": "Congenital Partial Anomalous Pulmonary Venous Return (PAPVR)",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child gets tired easily during play and sometimes turns blue",
+  "symptoms": [
+    "fatigue with exertion",
+    "mild cyanosis during activity",
+    "frequent respiratory infections",
+    "poor weight gain"
+  ],
+  "physical_findings": [
+    "fixed split S2 heart sound",
+    "systolic ejection murmur at upper left sternal border",
+    "mild clubbing of fingers"
+  ],
+  "lab_results": {
+    "oxygen saturation": "92% on room air",
+    "BNP": "150 pg/mL (mildly elevated)"
+  },
+  "treatment": [
+    "surgical correction (rerouting of anomalous veins)",
+    "diuretics for symptom management",
+    "prophylactic antibiotics for dental procedures"
+  ],
+  "prognosis": "Good with early surgical intervention, may have normal life expectancy with appropriate follow-up",
+  "description": "A congenital heart defect where some (but not all) pulmonary veins drain into systemic veins or right atrium instead of the left atrium, creating a left-to-right shunt. This medium-complexity condition often presents with subtle symptoms in childhood.",
+  "risk_factors": [
+    "family history of congenital heart disease",
+    "maternal diabetes during pregnancy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "medium_pediatric_cardiology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Atrial Septal Defect",
+    "Congenital Partial Anomalous Pulmonary Venous Return (PAPVR)",
+    "Ventricular Septal Defect",
+    "Tetralogy of Fallot"
+  ]
+}

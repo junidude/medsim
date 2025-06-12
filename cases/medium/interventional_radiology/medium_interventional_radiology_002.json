@@ -1,0 +1,47 @@
+{
+  "name": "Portal Vein Thrombosis with Cavernous Transformation",
+  "specialty": "interventional_radiology",
+  "chief_complaint": "I've had this dull pain in my upper right belly for weeks and my skin looks yellow",
+  "symptoms": [
+    "abdominal pain (right upper quadrant)",
+    "jaundice",
+    "fatigue",
+    "unintentional weight loss"
+  ],
+  "physical_findings": [
+    "hepatomegaly",
+    "ascites",
+    "scleral icterus"
+  ],
+  "lab_results": {
+    "bilirubin": "elevated",
+    "ALT/AST": "mildly elevated",
+    "INR": "prolonged",
+    "platelets": "decreased"
+  },
+  "treatment": [
+    "anticoagulation therapy",
+    "transjugular intrahepatic portosystemic shunt (TIPS)",
+    "thrombolytic therapy (in select cases)"
+  ],
+  "prognosis": "Variable depending on underlying cause; can lead to portal hypertension complications if untreated",
+  "description": "A condition where thrombus forms in the portal vein, leading to development of collateral veins (cavernous transformation) as alternative drainage pathways. Often secondary to cirrhosis, malignancy, or hypercoagulable states.",
+  "risk_factors": [
+    "cirrhosis",
+    "pancreatitis",
+    "hypercoagulable disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "medium_interventional_radiology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Hepatocellular Carcinoma",
+    "Portal Vein Thrombosis with Cavernous Transformation",
+    "Cholangiocarcinoma",
+    "Budd-Chiari Syndrome"
+  ]
+}

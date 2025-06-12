@@ -1,0 +1,45 @@
+{
+  "name": "Iron Deficiency Anemia",
+  "specialty": "pediatric_hematology_oncology",
+  "chief_complaint": "My child is always tired and pale",
+  "symptoms": [
+    "fatigue",
+    "pallor",
+    "irritability",
+    "decreased appetite"
+  ],
+  "physical_findings": [
+    "pale conjunctiva",
+    "tachycardia"
+  ],
+  "lab_results": {
+    "hemoglobin": "9.2 g/dL",
+    "ferritin": "8 ng/mL",
+    "MCV": "75 fL"
+  },
+  "treatment": [
+    "oral iron supplementation",
+    "dietary iron-rich foods",
+    "follow-up blood tests"
+  ],
+  "prognosis": "Excellent with proper treatment and dietary changes",
+  "description": "A common nutritional deficiency in children characterized by inadequate iron stores leading to reduced hemoglobin production. Often caused by rapid growth phases, poor dietary intake, or minor chronic blood loss.",
+  "risk_factors": [
+    "premature birth",
+    "exclusive breastfeeding beyond 6 months without iron supplementation",
+    "low socioeconomic status"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_pediatric_hematology_oncology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Lead Poisoning",
+    "Iron Deficiency Anemia",
+    "Thalassemia",
+    "Vitamin B12 Deficiency"
+  ]
+}

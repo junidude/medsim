@@ -1,0 +1,54 @@
+{
+  "name": "Viral Bronchiolitis",
+  "specialty": "pediatrics",
+  "chief_complaint": "My baby is wheezing and having trouble breathing",
+  "symptoms": [
+    "wheezing",
+    "rapid breathing",
+    "nasal congestion",
+    "cough",
+    "poor feeding",
+    "irritability"
+  ],
+  "physical_findings": [
+    "tachypnea (fast breathing)",
+    "retractions between ribs",
+    "wheezing on auscultation",
+    "nasal flaring",
+    "mild fever"
+  ],
+  "lab_results": {
+    "pulse oximetry": "94-96%",
+    "respiratory rate": "45-60 breaths/min",
+    "chest x-ray": "hyperinflation with peribronchial thickening"
+  },
+  "treatment": [
+    "supportive care",
+    "nasal suctioning",
+    "humidified air",
+    "hydration maintenance",
+    "monitoring of respiratory status"
+  ],
+  "prognosis": "Usually self-limiting with recovery in 7-14 days; most cases can be managed at home with careful monitoring",
+  "description": "Common respiratory infection in infants caused by RSV or other viruses, characterized by inflammation and congestion of small airways",
+  "risk_factors": [
+    "age under 12 months",
+    "prematurity",
+    "exposure to tobacco smoke",
+    "lack of breastfeeding",
+    "daycare attendance"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "multiple_choice": [
+    "Viral Bronchiolitis",
+    "Asthma exacerbation",
+    "Bacterial pneumonia",
+    "Croup"
+  ],
+  "case_id": "easy_pediatrics_001",
+  "difficulty": "easy"
+}

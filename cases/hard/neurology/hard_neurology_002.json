@@ -1,0 +1,45 @@
+{
+  "name": "Bilateral Thalamic Infarction Syndrome",
+  "specialty": "neurology",
+  "chief_complaint": "I feel like I'm in a fog and can't remember anything from this morning",
+  "symptoms": [
+    "acute confusion",
+    "anterograde amnesia",
+    "vertical gaze palsy",
+    "bilateral limb weakness"
+  ],
+  "physical_findings": [
+    "bilateral ptosis",
+    "pupillary light-near dissociation"
+  ],
+  "lab_results": {
+    "MRI brain": "acute bilateral paramedian thalamic infarcts",
+    "coagulation panel": "elevated antiphospholipid antibodies"
+  },
+  "treatment": [
+    "intravenous thrombolysis (if within window)",
+    "dual antiplatelet therapy",
+    "anticoagulation for underlying hypercoagulable state",
+    "cognitive rehabilitation"
+  ],
+  "prognosis": "Guarded - significant risk for persistent memory deficits and executive dysfunction, though motor symptoms may improve with time",
+  "description": "A rare stroke syndrome caused by occlusion of the artery of Percheron, a variant thalamic blood supply. Results in simultaneous infarction of both medial thalami and often the midbrain. Disrupts memory circuits, consciousness modulation, and vertical eye movement pathways.",
+  "risk_factors": [
+    "hypercoagulable states",
+    "atrial fibrillation",
+    "small vessel disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "hard_neurology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Wernicke's Encephalopathy",
+    "Bilateral Thalamic Infarction Syndrome",
+    "Creutzfeldt-Jakob Disease",
+    "Central Pontine Myelinolysis"
+  ]
+}

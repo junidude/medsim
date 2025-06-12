@@ -1,0 +1,44 @@
+{
+  "name": "Hereditary Spherocytosis",
+  "specialty": "hematology",
+  "chief_complaint": "I've been feeling very tired lately, and my skin looks yellowish.",
+  "symptoms": [
+    "fatigue",
+    "jaundice",
+    "pale skin",
+    "abdominal pain"
+  ],
+  "physical_findings": [
+    "splenomegaly",
+    "scleral icterus"
+  ],
+  "lab_results": {
+    "CBC": "decreased hemoglobin, increased reticulocyte count",
+    "peripheral smear": "spherocytes present",
+    "bilirubin": "elevated indirect bilirubin"
+  },
+  "treatment": [
+    "folic acid supplementation",
+    "splenectomy in severe cases",
+    "blood transfusions if needed"
+  ],
+  "prognosis": "Good with proper management; most patients live normal lives with treatment",
+  "description": "Hereditary spherocytosis is an inherited disorder of the red blood cell membrane that causes spherical-shaped RBCs, leading to hemolysis, anemia, and jaundice. The abnormal RBCs are destroyed prematurely in the spleen.",
+  "risk_factors": [
+    "family history of the condition",
+    "Northern European ancestry"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_hematology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Autoimmune Hemolytic Anemia",
+    "Hereditary Spherocytosis",
+    "Gilbert Syndrome",
+    "Sickle Cell Anemia"
+  ]
+}

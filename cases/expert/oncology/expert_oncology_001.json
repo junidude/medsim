@@ -1,0 +1,50 @@
+{
+  "name": "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+  "specialty": "oncology",
+  "chief_complaint": "I've been having blurry vision, weakness in my legs, and I feel like I can't control my bladder anymore.",
+  "symptoms": [
+    "rapid vision loss",
+    "progressive limb weakness",
+    "bladder dysfunction",
+    "nausea/vomiting",
+    "intractable hiccups"
+  ],
+  "physical_findings": [
+    "bilateral optic disc edema",
+    "lower extremity hyperreflexia",
+    "positive Babinski sign",
+    "sensory level at T10"
+  ],
+  "lab_results": {
+    "AQP4-IgG": "positive",
+    "CSF analysis": "pleocytosis (>50 WBCs), elevated protein",
+    "CT chest/abdomen": "occult small cell lung carcinoma"
+  },
+  "treatment": [
+    "high-dose IV methylprednisolone",
+    "plasma exchange",
+    "rituximab immunotherapy",
+    "tumor resection",
+    "long-term immunosuppression"
+  ],
+  "prognosis": "Guarded - neurological deficits often persist despite treatment; survival dependent on underlying malignancy control",
+  "description": "A rare paraneoplastic variant of NMOSD where autoantibodies against aquaporin-4 channels cross-react with tumor antigens, causing severe demyelination of optic nerves and spinal cord. Distinct from classic NMOSD by its rapid progression and association with occult malignancies.",
+  "risk_factors": [
+    "age >50 years",
+    "smoking history",
+    "family history of autoimmune disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_oncology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Multiple Sclerosis",
+    "Spinal Cord Tumor",
+    "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+    "Acute Disseminated Encephalomyelitis"
+  ]
+}

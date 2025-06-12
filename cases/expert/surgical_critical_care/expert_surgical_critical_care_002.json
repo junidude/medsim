@@ -1,0 +1,53 @@
+{
+  "name": "Post-Traumatic Abdominal Compartment Syndrome with Concurrent Necrotizing Pancreatitis",
+  "specialty": "surgical_critical_care",
+  "chief_complaint": "My belly feels like it's going to explode and I can't breathe properly",
+  "symptoms": [
+    "severe abdominal distension",
+    "respiratory distress",
+    "oliguria",
+    "altered mental status",
+    "intractable nausea"
+  ],
+  "physical_findings": [
+    "abdominal wall rigidity",
+    "markedly elevated intra-abdominal pressure (>25mmHg)",
+    "decreased breath sounds bilaterally",
+    "mottled lower extremities"
+  ],
+  "lab_results": {
+    "lactate": "6.8 mmol/L",
+    "amylase": "1,200 U/L",
+    "lipase": "2,500 U/L",
+    "WBC": "28,000/mm3",
+    "creatinine": "3.4 mg/dL"
+  },
+  "treatment": [
+    "emergent decompressive laparotomy",
+    "continuous renal replacement therapy",
+    "aggressive fluid resuscitation with invasive hemodynamic monitoring",
+    "broad-spectrum antibiotics (meropenem + vancomycin)",
+    "pancreatic debridement as needed"
+  ],
+  "prognosis": "Guarded with high mortality risk (40-60%); survivors often require prolonged ICU stay and multiple reoperations",
+  "description": "A life-threatening condition where trauma-induced intra-abdominal hypertension progresses to multi-organ failure, complicated by enzymatic autodigestion from concurrent pancreatic necrosis. Presents with the triad of abdominal distension, respiratory compromise, and renal dysfunction.",
+  "risk_factors": [
+    "recent high-impact abdominal trauma",
+    "massive fluid resuscitation (>10L in 24h)",
+    "pre-existing pancreatic pathology",
+    "coagulopathy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "10"
+  },
+  "case_id": "expert_surgical_critical_care_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Septic shock",
+    "Post-Traumatic Abdominal Compartment Syndrome with Concurrent Necrotizing Pancreatitis",
+    "Bowel obstruction",
+    "Ruptured abdominal aortic aneurysm"
+  ]
+}

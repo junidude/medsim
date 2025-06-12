@@ -1,0 +1,53 @@
+{
+  "name": "Hypophosphatemic Osteomalacia with Hypercalciuria",
+  "specialty": "endocrinology",
+  "chief_complaint": "I've been having severe bone pain and muscle weakness for months, and I keep getting kidney stones",
+  "symptoms": [
+    "chronic bone pain",
+    "proximal muscle weakness",
+    "recurrent kidney stones",
+    "fatigue",
+    "pathologic fractures"
+  ],
+  "physical_findings": [
+    "tenderness on bone palpation",
+    "waddling gait due to muscle weakness",
+    "positive Chvostek's sign (suggestive of phosphate depletion)"
+  ],
+  "lab_results": {
+    "serum phosphate": "1.2 mg/dL (low)",
+    "urine calcium": "400 mg/24h (high)",
+    "alkaline phosphatase": "320 U/L (elevated)",
+    "PTH": "25 pg/mL (normal)",
+    "1,25-dihydroxyvitamin D": "45 pg/mL (elevated)",
+    "FGF23": "180 RU/mL (elevated)"
+  },
+  "treatment": [
+    "oral phosphate supplements",
+    "active vitamin D analogs (calcitriol)",
+    "thiazide diuretics to reduce hypercalciuria",
+    "regular bone density monitoring",
+    "pain management"
+  ],
+  "prognosis": "Chronic condition requiring lifelong management. With proper treatment, bone mineralization can improve and fracture risk decreases, but kidney stone recurrence remains a challenge.",
+  "description": "A rare renal phosphate wasting disorder characterized by defective phosphate reabsorption in proximal tubules, leading to osteomalacia and paradoxical hypercalciuria. Often caused by FGF23-mediated phosphate wasting or intrinsic renal defects. Distinguished from other forms of hypophosphatemia by the presence of elevated 1,25-dihydroxyvitamin D levels.",
+  "risk_factors": [
+    "family history of renal phosphate wasting",
+    "certain mesenchymal tumors",
+    "autosomal recessive inheritance patterns",
+    "prolonged use of certain antacids"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "hard_endocrinology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Primary Hyperparathyroidism",
+    "Hypophosphatemic Osteomalacia with Hypercalciuria",
+    "Multiple Myeloma",
+    "Vitamin D Deficiency"
+  ]
+}

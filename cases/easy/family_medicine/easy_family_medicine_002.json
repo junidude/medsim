@@ -1,0 +1,43 @@
+{
+  "name": "Acute Viral Pharyngitis",
+  "specialty": "family_medicine",
+  "chief_complaint": "Sore throat and difficulty swallowing for 2 days",
+  "symptoms": [
+    "sore throat",
+    "mild fever",
+    "fatigue",
+    "hoarse voice"
+  ],
+  "physical_findings": [
+    "erythematous pharynx",
+    "mild cervical lymphadenopathy"
+  ],
+  "lab_results": {
+    "rapid strep test": "negative"
+  },
+  "treatment": [
+    "warm salt water gargles",
+    "acetaminophen for pain/fever",
+    "increased fluid intake"
+  ],
+  "prognosis": "Excellent; typically resolves within 7-10 days",
+  "description": "Inflammation of the pharynx caused by common viral pathogens, most frequently adenovirus or rhinovirus. Characterized by throat discomfort without purulent exudate.",
+  "risk_factors": [
+    "recent viral illness exposure",
+    "smoking/secondhand smoke",
+    "allergies"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_family_medicine_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Strep Pharyngitis",
+    "Acute Viral Pharyngitis",
+    "Epiglottitis",
+    "Tonsillitis"
+  ]
+}

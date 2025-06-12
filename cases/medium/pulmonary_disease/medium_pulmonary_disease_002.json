@@ -1,0 +1,45 @@
+{
+  "name": "Subacute Hypersensitivity Pneumonitis",
+  "specialty": "pulmonary_disease",
+  "chief_complaint": "I've had this nagging cough and shortness of breath for weeks, and it's getting worse.",
+  "symptoms": [
+    "progressive dyspnea",
+    "non-productive cough",
+    "fatigue",
+    "low-grade fever"
+  ],
+  "physical_findings": [
+    "bibasilar crackles on auscultation",
+    "tachypnea at rest"
+  ],
+  "lab_results": {
+    "CBC": "mild leukocytosis",
+    "CRP": "elevated",
+    "Precipitating antibodies": "positive for avian proteins"
+  },
+  "treatment": [
+    "antigen avoidance",
+    "oral corticosteroids",
+    "supplemental oxygen if needed"
+  ],
+  "prognosis": "Good with early intervention and antigen avoidance, but may progress to fibrosis if untreated",
+  "description": "An immune-mediated inflammatory lung disease caused by repeated inhalation of organic antigens (commonly bird proteins or mold). Presents subacutely with progressive respiratory symptoms over weeks to months. Characterized by lymphocytic infiltration and granuloma formation on histology.",
+  "risk_factors": [
+    "bird ownership",
+    "mold exposure",
+    "occupational antigen exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_pulmonary_disease_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Idiopathic Pulmonary Fibrosis",
+    "Subacute Hypersensitivity Pneumonitis",
+    "Chronic Bronchitis",
+    "Atypical Pneumonia"
+  ]
+}

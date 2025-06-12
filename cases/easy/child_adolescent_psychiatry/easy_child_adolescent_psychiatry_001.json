@@ -1,0 +1,44 @@
+{
+  "name": "Adjustment Disorder with Anxiety",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "I can't stop worrying about school and my friends",
+  "symptoms": [
+    "excessive worry",
+    "difficulty concentrating",
+    "sleep disturbances",
+    "irritability"
+  ],
+  "physical_findings": [
+    "restlessness",
+    "mild tachycardia"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "Thyroid panel": "normal"
+  },
+  "treatment": [
+    "cognitive behavioral therapy",
+    "family counseling",
+    "temporary school accommodations"
+  ],
+  "prognosis": "Good with early intervention and support, typically resolves within 6 months",
+  "description": "A maladaptive reaction to identifiable psychosocial stressor (typically school-related in this age group) characterized by disproportionate anxiety symptoms that impair daily functioning",
+  "risk_factors": [
+    "recent school transition",
+    "family stress",
+    "perfectionist tendencies"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "2"
+  },
+  "case_id": "easy_child_adolescent_psychiatry_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Generalized Anxiety Disorder",
+    "Adjustment Disorder with Anxiety",
+    "Attention Deficit Hyperactivity Disorder",
+    "Major Depressive Disorder"
+  ]
+}

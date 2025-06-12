@@ -1,0 +1,43 @@
+{
+  "name": "Disruptive Mood Dysregulation Disorder (DMDD)",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "My child has extreme temper outbursts and is always irritable",
+  "symptoms": [
+    "Severe recurrent temper outbursts",
+    "Chronic irritability",
+    "Difficulty functioning in multiple settings",
+    "Mood disturbances between outbursts"
+  ],
+  "physical_findings": [
+    "Elevated heart rate during outbursts",
+    "Agitation or restlessness"
+  ],
+  "lab_results": {
+    "Thyroid function tests": "Normal",
+    "Complete blood count": "Normal"
+  },
+  "treatment": [
+    "Cognitive Behavioral Therapy (CBT)",
+    "Parent training programs",
+    "Medication (e.g., SSRIs or mood stabilizers if necessary)"
+  ],
+  "prognosis": "Variable; with early intervention, many children show significant improvement by adolescence",
+  "description": "DMDD is a childhood condition characterized by extreme irritability, anger, and frequent, intense temper outbursts that are disproportionate to the situation. These symptoms must be present for at least 12 months in multiple settings and typically begin before age 10. The disorder can significantly impair a child's ability to function at home, school, or with peers.",
+  "risk_factors": [
+    "Family history of mood disorders",
+    "Exposure to chronic stress or trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "3"
+  },
+  "case_id": "hard_child_adolescent_psychiatry_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Bipolar Disorder",
+    "Oppositional Defiant Disorder",
+    "Disruptive Mood Dysregulation Disorder (DMDD)",
+    "Attention-Deficit/Hyperactivity Disorder (ADHD)"
+  ]
+}

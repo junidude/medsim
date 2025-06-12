@@ -1,0 +1,46 @@
+{
+  "name": "Lichen Planopilaris",
+  "specialty": "dermatology",
+  "chief_complaint": "I've been losing hair in patches, and my scalp is itchy and scaly.",
+  "symptoms": [
+    "patchy hair loss",
+    "scalp itching",
+    "scalp burning sensation",
+    "visible scaling"
+  ],
+  "physical_findings": [
+    "perifollicular erythema",
+    "follicular hyperkeratosis",
+    "scarring alopecia"
+  ],
+  "lab_results": {
+    "scalp biopsy": "lymphocytic infiltrate around hair follicles"
+  },
+  "treatment": [
+    "topical corticosteroids",
+    "intralesional steroid injections",
+    "oral hydroxychloroquine",
+    "immunosuppressive therapy (severe cases)"
+  ],
+  "prognosis": "Variable; early treatment may halt progression, but hair regrowth in scarred areas is unlikely",
+  "description": "Lichen planopilaris is a rare inflammatory condition causing scarring hair loss, considered a variant of lichen planus affecting the scalp. It involves immune-mediated destruction of hair follicles.",
+  "risk_factors": [
+    "female sex",
+    "middle age",
+    "personal history of lichen planus",
+    "autoimmune conditions"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_dermatology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Discoid Lupus",
+    "Tinea Capitis",
+    "Lichen Planopilaris",
+    "Folliculitis Decalvans"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Palindromic Rheumatism",
+  "specialty": "rheumatology",
+  "chief_complaint": "Recurring episodes of joint pain and swelling that come and go unpredictably",
+  "symptoms": [
+    "Sudden joint pain",
+    "Swelling in joints (often knees, fingers, wrists)",
+    "Redness and warmth over affected joints",
+    "Episodes lasting hours to days",
+    "Complete resolution between attacks"
+  ],
+  "physical_findings": [
+    "Tender, swollen joints during flare",
+    "No residual joint damage between attacks",
+    "Possible low-grade fever during episodes"
+  ],
+  "lab_results": {
+    "Rheumatoid factor": "Negative or low positive",
+    "Anti-CCP": "Negative",
+    "CRP": "Elevated during attacks",
+    "ESR": "Elevated during attacks",
+    "Synovial fluid analysis": "Mild inflammation"
+  },
+  "treatment": [
+    "NSAIDs for symptom relief",
+    "Colchicine for prevention",
+    "Hydroxychloroquine for frequent episodes",
+    "Corticosteroids for severe flares"
+  ],
+  "prognosis": "Variable - may progress to rheumatoid arthritis in some cases, while others remain episodic without permanent joint damage",
+  "description": "A rare inflammatory arthritis characterized by sudden, recurrent attacks of joint inflammation that resolve completely between episodes. The unpredictable nature and absence of permanent damage distinguish it from rheumatoid arthritis, though some cases may evolve into RA.",
+  "risk_factors": [
+    "Family history of autoimmune disease",
+    "Smoking",
+    "Female gender (slightly more common)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6-8 during attacks"
+  },
+  "case_id": "medium_rheumatology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gout",
+    "Palindromic Rheumatism",
+    "Rheumatoid Arthritis",
+    "Lupus Arthritis"
+  ]
+}

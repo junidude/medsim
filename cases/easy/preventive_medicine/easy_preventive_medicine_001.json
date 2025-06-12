@@ -1,0 +1,42 @@
+{
+  "name": "Seasonal Allergic Rhinitis",
+  "specialty": "preventive_medicine",
+  "chief_complaint": "My nose won't stop running and I can't stop sneezing",
+  "symptoms": [
+    "sneezing",
+    "runny nose",
+    "itchy eyes",
+    "nasal congestion"
+  ],
+  "physical_findings": [
+    "pale nasal mucosa",
+    "allergic shiners (dark circles under eyes)"
+  ],
+  "lab_results": {
+    "allergen-specific IgE": "elevated to pollen antigens"
+  },
+  "treatment": [
+    "antihistamines",
+    "nasal corticosteroids",
+    "allergen avoidance strategies"
+  ],
+  "prognosis": "Excellent with proper management; symptoms typically resolve when allergen exposure ends",
+  "description": "An IgE-mediated inflammatory response of the nasal mucosa to airborne allergens like pollen, characterized by sneezing, rhinorrhea, and nasal congestion",
+  "risk_factors": [
+    "family history of atopy",
+    "outdoor exposure during high pollen counts"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_preventive_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Viral Rhinitis",
+    "Seasonal Allergic Rhinitis",
+    "Non-Allergic Rhinitis",
+    "Sinusitis"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Malignant Hyperthermia Crisis",
+  "specialty": "anesthesiology",
+  "chief_complaint": "Muscle stiffness and high fever during surgery",
+  "symptoms": [
+    "Severe muscle rigidity",
+    "Tachycardia",
+    "Hyperthermia (rapid temperature rise)",
+    "Dark-colored urine (myoglobinuria)"
+  ],
+  "physical_findings": [
+    "Generalized muscle rigidity (especially jaw)",
+    "Skin mottling with hyperthermia (up to 42°C/107.6°F)",
+    "Tachypnea with respiratory acidosis"
+  ],
+  "lab_results": {
+    "Arterial Blood Gas": "Metabolic and respiratory acidosis",
+    "Serum CK": "Markedly elevated (>20,000 IU/L)",
+    "Serum Potassium": "Hyperkalemia (>5.5 mEq/L)",
+    "Myoglobin": "Elevated in urine and serum"
+  },
+  "treatment": [
+    "Immediate cessation of triggering agents (volatile anesthetics/succinylcholine)",
+    "Rapid IV dantrolene sodium (2.5 mg/kg initially)",
+    "Active cooling measures (iced saline, cooling blankets)",
+    "Correction of metabolic acidosis (sodium bicarbonate)",
+    "Management of hyperkalemia (calcium, insulin/glucose)"
+  ],
+  "prognosis": "Mortality <5% with prompt treatment, but risk of renal failure, DIC, or neurological damage if delayed",
+  "description": "A life-threatening pharmacogenetic disorder of skeletal muscle calcium regulation triggered by volatile anesthetic gases or succinylcholine. Causes uncontrolled skeletal muscle hypermetabolism leading to severe hyperthermia, acidosis, and rhabdomyolysis.",
+  "risk_factors": [
+    "Family history of MH or unexplained anesthesia complications",
+    "Previous MH episode",
+    "Central core disease or other myopathies"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor (due to emergent situation)",
+    "pain_level": "8"
+  },
+  "case_id": "hard_anesthesiology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Neuroleptic Malignant Syndrome",
+    "Malignant Hyperthermia Crisis",
+    "Serotonin Syndrome",
+    "Sepsis"
+  ]
+}

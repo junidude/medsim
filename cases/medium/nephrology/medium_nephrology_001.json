@@ -1,0 +1,51 @@
+{
+  "name": "IgA Nephropathy (Berger's Disease)",
+  "specialty": "nephrology",
+  "chief_complaint": "I keep seeing blood in my urine, and my legs are swollen",
+  "symptoms": [
+    "hematuria (blood in urine)",
+    "foamy urine",
+    "leg swelling",
+    "fatigue",
+    "mild flank pain"
+  ],
+  "physical_findings": [
+    "pedal edema",
+    "elevated blood pressure",
+    "palpable kidney tenderness"
+  ],
+  "lab_results": {
+    "urinalysis": "RBCs and proteinuria",
+    "serum creatinine": "1.8 mg/dL",
+    "eGFR": "55 mL/min/1.73m²",
+    "IgA levels": "elevated"
+  },
+  "treatment": [
+    "ACE inhibitors",
+    "corticosteroids (in progressive cases)",
+    "blood pressure management",
+    "low-sodium diet",
+    "possible immunosuppressants"
+  ],
+  "prognosis": "Variable - can range from stable for decades to progressive kidney failure requiring dialysis",
+  "description": "An autoimmune kidney disorder where IgA antibodies deposit in glomeruli, causing inflammation and gradual kidney damage. Often presents after upper respiratory infections.",
+  "risk_factors": [
+    "family history of kidney disease",
+    "chronic infections",
+    "Asian or Caucasian ethnicity",
+    "male gender"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_nephrology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Post-streptococcal glomerulonephritis",
+    "IgA Nephropathy (Berger's Disease)",
+    "Lupus nephritis",
+    "Membranous nephropathy"
+  ]
+}

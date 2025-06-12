@@ -1,0 +1,44 @@
+{
+  "name": "Keloid Scar Formation",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "I have this thick, raised scar that keeps growing and itches sometimes",
+  "symptoms": [
+    "raised scar tissue",
+    "itchiness",
+    "tenderness"
+  ],
+  "physical_findings": [
+    "firm, rubbery scar extending beyond original wound",
+    "pink/purple discoloration"
+  ],
+  "lab_results": {
+    "none_required": "clinical diagnosis"
+  },
+  "treatment": [
+    "corticosteroid injections",
+    "silicone gel sheets",
+    "cryotherapy",
+    "surgical excision (with caution)"
+  ],
+  "prognosis": "Good with treatment but high recurrence rate; may require multiple therapies",
+  "description": "An overgrowth of scar tissue extending beyond original wound boundaries due to excessive collagen production during healing",
+  "risk_factors": [
+    "dark skin pigmentation",
+    "family history",
+    "ear piercing",
+    "acne scars"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_plastic_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Hypertrophic Scar",
+    "Keloid Scar Formation",
+    "Dermatofibroma",
+    "Squamous Cell Carcinoma"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Bilateral Acute Retinal Necrosis (BARN)",
+  "specialty": "ophthalmology",
+  "chief_complaint": "I've been seeing floaters and flashes of light in both eyes, and now my vision is getting blurry.",
+  "symptoms": [
+    "floaters",
+    "photopsia (light flashes)",
+    "blurred vision",
+    "eye pain",
+    "decreased visual acuity"
+  ],
+  "physical_findings": [
+    "vitreous inflammation",
+    "peripheral retinal necrosis with sharp borders",
+    "retinal arteritis",
+    "anterior chamber inflammation"
+  ],
+  "lab_results": {
+    "PCR for HSV/VZV": "positive",
+    "aqueous humor analysis": "viral DNA detected",
+    "ESR": "elevated"
+  },
+  "treatment": [
+    "intravenous acyclovir (10-15 mg/kg every 8 hours)",
+    "intravitreal antiviral injections",
+    "oral prednisone (after antiviral therapy established)",
+    "prophylactic laser retinopexy to prevent retinal detachment"
+  ],
+  "prognosis": "Guarded - high risk of retinal detachment and permanent vision loss despite treatment. Early intervention improves outcomes.",
+  "description": "Bilateral Acute Retinal Necrosis is a rapidly progressive viral retinitis caused by herpesviruses (HSV-1, HSV-2, or VZV). It features full-thickness retinal necrosis beginning in the periphery and spreading circumferentially and posteriorly. The condition is vision-threatening and requires emergent treatment.",
+  "risk_factors": [
+    "immunocompromised state",
+    "history of herpes zoster ophthalmicus",
+    "recent viral infection"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "hard_ophthalmology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Cytomegalovirus retinitis",
+    "Bilateral Acute Retinal Necrosis (BARN)",
+    "Posterior uveitis",
+    "Retinal detachment"
+  ]
+}

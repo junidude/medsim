@@ -1,0 +1,45 @@
+{
+  "name": "Late-Onset Parkinson's Disease with Mild Cognitive Impairment",
+  "specialty": "geriatric_medicine",
+  "chief_complaint": "I've been shaking a lot lately and keep forgetting things",
+  "symptoms": [
+    "resting tremor in hands",
+    "slow movement (bradykinesia)",
+    "memory lapses",
+    "reduced facial expression"
+  ],
+  "physical_findings": [
+    "cogwheel rigidity in upper extremities",
+    "stooped posture",
+    "shuffling gait"
+  ],
+  "lab_results": {
+    "MRI brain": "mild generalized atrophy",
+    "DaTscan": "reduced dopamine transporter uptake in basal ganglia"
+  },
+  "treatment": [
+    "levodopa/carbidopa therapy",
+    "cognitive rehabilitation exercises",
+    "physical therapy for gait training"
+  ],
+  "prognosis": "Progressive condition with variable cognitive decline; motor symptoms typically respond well to medication initially",
+  "description": "A neurodegenerative disorder characterized by both motor symptoms (tremor, rigidity, bradykinesia) and early cognitive changes in elderly patients, distinct from typical Parkinson's disease by later onset and more prominent cognitive involvement",
+  "risk_factors": [
+    "age over 75",
+    "family history of neurodegenerative disorders",
+    "history of pesticide exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_geriatric_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Essential Tremor",
+    "Late-Onset Parkinson's Disease with Mild Cognitive Impairment",
+    "Lewy Body Dementia",
+    "Normal Pressure Hydrocephalus"
+  ]
+}

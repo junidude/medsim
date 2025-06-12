@@ -1,0 +1,43 @@
+{
+  "name": "Mild Gastric Erosion Syndrome",
+  "specialty": "gastroenterology",
+  "chief_complaint": "I've been having a burning feeling in my stomach after eating spicy foods",
+  "symptoms": [
+    "epigastric burning",
+    "mild nausea",
+    "occasional bloating"
+  ],
+  "physical_findings": [
+    "mild epigastric tenderness",
+    "normal bowel sounds"
+  ],
+  "lab_results": {
+    "H. pylori test": "negative",
+    "CBC": "normal"
+  },
+  "treatment": [
+    "antacids as needed",
+    "diet modification (avoid spicy/acidic foods)",
+    "short-term H2 blocker if persistent"
+  ],
+  "prognosis": "Excellent with dietary changes and symptom management",
+  "description": "Superficial irritation of gastric mucosa without ulceration, often related to dietary triggers or mild stress",
+  "risk_factors": [
+    "spicy food consumption",
+    "frequent NSAID use",
+    "moderate alcohol intake"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_gastroenterology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Peptic Ulcer Disease",
+    "Mild Gastric Erosion Syndrome",
+    "Functional Dyspepsia",
+    "Gastritis"
+  ]
+}

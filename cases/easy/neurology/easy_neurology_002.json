@@ -1,0 +1,43 @@
+{
+  "name": "Benign Positional Vertigo",
+  "specialty": "neurology",
+  "chief_complaint": "I feel dizzy when I move my head, especially when lying down or turning over in bed.",
+  "symptoms": [
+    "brief episodes of dizziness",
+    "nausea",
+    "sense of spinning"
+  ],
+  "physical_findings": [
+    "nystagmus on positional testing",
+    "normal neurological exam otherwise"
+  ],
+  "lab_results": {
+    "MRI brain": "normal",
+    "blood tests": "unremarkable"
+  },
+  "treatment": [
+    "Epley maneuver",
+    "vestibular suppressants if severe",
+    "balance exercises"
+  ],
+  "prognosis": "Excellent with proper treatment; may recur but responds well to repeat maneuvers",
+  "description": "A common vestibular disorder caused by dislodged otoconia in the semicircular canals, causing brief episodes of vertigo triggered by head movements.",
+  "risk_factors": [
+    "aging",
+    "head trauma",
+    "previous vestibular disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_neurology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Meniere's Disease",
+    "Benign Positional Vertigo",
+    "Vestibular Neuritis",
+    "Labyrinthitis"
+  ]
+}

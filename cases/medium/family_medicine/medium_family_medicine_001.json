@@ -1,0 +1,47 @@
+{
+  "name": "Subacute Thyroiditis",
+  "specialty": "family_medicine",
+  "chief_complaint": "I've had a sore throat and neck pain for weeks, and I feel feverish and tired all the time",
+  "symptoms": [
+    "neck pain radiating to jaw/ears",
+    "fatigue",
+    "low-grade fever",
+    "palpitations",
+    "weight loss"
+  ],
+  "physical_findings": [
+    "tender, slightly enlarged thyroid",
+    "mild tachycardia",
+    "warm skin"
+  ],
+  "lab_results": {
+    "TSH": "low",
+    "free T4": "elevated",
+    "ESR": "markedly elevated"
+  },
+  "treatment": [
+    "NSAIDs for pain/inflammation",
+    "beta-blockers for tachycardia if needed",
+    "rarely corticosteroids for severe cases"
+  ],
+  "prognosis": "Self-limiting condition typically resolving within 3-6 months, though may progress through hyperthyroid, hypothyroid, then recovery phases",
+  "description": "Post-viral inflammatory thyroid condition causing thyroid hormone leakage, often following upper respiratory infection. Characterized by painful thyroid and transient thyrotoxicosis.",
+  "risk_factors": [
+    "recent viral illness",
+    "female gender",
+    "age 20-50"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "medium_family_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Graves Disease",
+    "Subacute Thyroiditis",
+    "Acute Pharyngitis",
+    "Lymphoma"
+  ]
+}

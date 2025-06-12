@@ -1,0 +1,44 @@
+{
+  "name": "Granulomatous Periorificial Dermatitis",
+  "specialty": "dermatology",
+  "chief_complaint": "Bumpy red rash around my mouth and nose that won't go away",
+  "symptoms": [
+    "Small red papules around mouth/nose",
+    "Mild itching or burning sensation",
+    "Occasional flaking skin"
+  ],
+  "physical_findings": [
+    "Erythematous papules in perioral and perinasal distribution",
+    "No comedones present",
+    "Mild scaling around lesions"
+  ],
+  "lab_results": {
+    "KOH prep": "negative for fungi",
+    "Bacterial culture": "normal skin flora"
+  },
+  "treatment": [
+    "Discontinuation of topical steroids if being used",
+    "Topical metronidazole 0.75% gel BID",
+    "Oral doxycycline 100mg daily for moderate cases"
+  ],
+  "prognosis": "Good with proper treatment, though may take 6-8 weeks for full resolution",
+  "description": "A chronic inflammatory dermatosis characterized by small, monomorphous, erythematous papules and pustules localized around the mouth, nose, and sometimes eyes. Often confused with acne or rosacea, but distinguished by its unique distribution and lack of comedones.",
+  "risk_factors": [
+    "Prolonged use of topical corticosteroids",
+    "Use of heavy facial creams/ointments",
+    "Female gender (more common in young women)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_dermatology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Perioral dermatitis",
+    "Rosacea",
+    "Contact dermatitis",
+    "Granulomatous periorificial dermatitis"
+  ]
+}

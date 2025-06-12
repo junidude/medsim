@@ -1,0 +1,42 @@
+{
+  "name": "Simple Pneumothorax",
+  "specialty": "thoracic_surgery",
+  "chief_complaint": "Sudden sharp chest pain and shortness of breath",
+  "symptoms": [
+    "chest pain",
+    "shortness of breath",
+    "dry cough"
+  ],
+  "physical_findings": [
+    "decreased breath sounds on affected side",
+    "hyperresonance to percussion"
+  ],
+  "lab_results": {
+    "ABG": "mild hypoxemia",
+    "CXR": "visible pleural line without lung markings"
+  },
+  "treatment": [
+    "observation for small pneumothorax",
+    "needle aspiration or chest tube insertion if larger"
+  ],
+  "prognosis": "Excellent with proper treatment, typically resolves within 2-4 weeks",
+  "description": "A small collapse of lung tissue caused by air entering the pleural space, often spontaneous in tall, thin young males",
+  "risk_factors": [
+    "tall, thin body habitus",
+    "smoking",
+    "previous pneumothorax"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "easy_thoracic_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Pulmonary Embolism",
+    "Simple Pneumothorax",
+    "Pneumonia",
+    "Acute Bronchitis"
+  ]
+}

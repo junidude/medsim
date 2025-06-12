@@ -1,0 +1,47 @@
+{
+  "name": "Mesenteric Panniculitis with Secondary Bowel Obstruction",
+  "specialty": "general_surgery",
+  "chief_complaint": "Severe abdominal pain and vomiting for 3 days",
+  "symptoms": [
+    "progressive abdominal distension",
+    "bilious vomiting",
+    "absolute constipation",
+    "unintentional weight loss (10kg over 2 months)"
+  ],
+  "physical_findings": [
+    "board-like abdominal rigidity",
+    "high-pitched tinkling bowel sounds",
+    "palpable abdominal mass in right lower quadrant"
+  ],
+  "lab_results": {
+    "WBC": "18.5 x10^9/L",
+    "CRP": "142 mg/L",
+    "Lactate": "3.8 mmol/L"
+  },
+  "treatment": [
+    "emergency exploratory laparotomy",
+    "resection of affected bowel segment",
+    "intravenous corticosteroids",
+    "total parenteral nutrition"
+  ],
+  "prognosis": "Guarded due to high recurrence rate (40%) and potential for chronic fibrotic complications",
+  "description": "A rare inflammatory condition of mesenteric fat causing encapsulation of bowel loops, leading to mechanical obstruction. Histopathology shows chronic inflammation with fat necrosis and fibrosis. Often misdiagnosed as malignancy preoperatively.",
+  "risk_factors": [
+    "history of abdominal trauma",
+    "autoimmune disorders",
+    "previous abdominal surgeries"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "hard_general_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Small Bowel Obstruction",
+    "Mesenteric Panniculitis with Secondary Bowel Obstruction",
+    "Colorectal Cancer",
+    "Acute Appendicitis"
+  ]
+}

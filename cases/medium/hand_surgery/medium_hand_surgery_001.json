@@ -1,0 +1,49 @@
+{
+  "name": "Flexor Tenosynovitis with Partial Tendon Rupture",
+  "specialty": "hand_surgery",
+  "chief_complaint": "I can't bend my ring finger properly, and it's swollen and painful",
+  "symptoms": [
+    "Pain along the flexor tendon sheath",
+    "Swelling in the palm and finger",
+    "Difficulty bending the affected finger",
+    "Tenderness to touch"
+  ],
+  "physical_findings": [
+    "Fusiform swelling along the tendon sheath",
+    "Pain with passive extension of the finger",
+    "Partial loss of active flexion",
+    "Mild erythema over the A2 pulley region"
+  ],
+  "lab_results": {
+    "WBC": "Normal",
+    "CRP": "Mildly elevated",
+    "ESR": "Slightly elevated"
+  },
+  "treatment": [
+    "Splinting in slight flexion",
+    "Oral NSAIDs for inflammation",
+    "Antibiotics if infectious component suspected",
+    "Possible surgical exploration if no improvement in 48 hours"
+  ],
+  "prognosis": "Good with early intervention, but may develop adhesions or require tenolysis if chronic",
+  "description": "Inflammation of the flexor tendon sheath with partial tearing of the flexor digitorum superficialis tendon, typically caused by repetitive strain or acute trauma. The condition presents with Kanavel's cardinal signs (tenderness, swelling, pain on extension, and flexion posture).",
+  "risk_factors": [
+    "Repetitive gripping activities",
+    "Recent hand trauma",
+    "Diabetes mellitus",
+    "Rheumatoid arthritis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_hand_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Trigger Finger",
+    "Flexor Tenosynovitis with Partial Tendon Rupture",
+    "Septic Tenosynovitis",
+    "Dupuytren's Contracture"
+  ]
+}

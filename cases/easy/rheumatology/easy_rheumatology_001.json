@@ -1,0 +1,43 @@
+{
+  "name": "Mild Osteoarthritis of the Knee",
+  "specialty": "rheumatology",
+  "chief_complaint": "My left knee hurts when I walk or climb stairs",
+  "symptoms": [
+    "Knee pain with movement",
+    "Stiffness after inactivity",
+    "Mild swelling"
+  ],
+  "physical_findings": [
+    "Tenderness on palpation of medial joint line",
+    "Mild crepitus with knee flexion"
+  ],
+  "lab_results": {
+    "ESR": "15 mm/hr",
+    "CRP": "0.8 mg/dL",
+    "X-ray": "Mild joint space narrowing"
+  },
+  "treatment": [
+    "Acetaminophen as needed",
+    "Low-impact exercise program",
+    "Weight management counseling"
+  ],
+  "prognosis": "Good with conservative management, unlikely to progress rapidly",
+  "description": "Early degenerative joint disease affecting the knee, characterized by cartilage breakdown without significant deformity",
+  "risk_factors": [
+    "Age over 50",
+    "Previous knee injury"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_rheumatology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Patellofemoral Pain Syndrome",
+    "Mild Osteoarthritis of the Knee",
+    "Meniscal Tear",
+    "Gout"
+  ]
+}

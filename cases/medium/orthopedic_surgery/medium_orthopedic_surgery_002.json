@@ -1,0 +1,43 @@
+{
+  "name": "Posterior Tibial Tendon Dysfunction (Stage II)",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "I have persistent pain on the inside of my ankle and my foot is starting to flatten out",
+  "symptoms": [
+    "Medial ankle pain worsening with activity",
+    "Progressive flattening of the arch",
+    "Fatigue along the inner foot during walking"
+  ],
+  "physical_findings": [
+    "Swelling along the posterior tibial tendon",
+    "Inability to perform a single-leg heel rise",
+    "Visible collapse of the medial longitudinal arch"
+  ],
+  "lab_results": {
+    "MRI": "Partial tearing and tenosynovitis of the posterior tibial tendon"
+  },
+  "treatment": [
+    "Custom orthotics with medial arch support",
+    "Immobilization in a walking boot for 6-8 weeks",
+    "Physical therapy focusing on tendon strengthening"
+  ],
+  "prognosis": "Good with early intervention, but may progress to rigid flatfoot deformity if untreated",
+  "description": "A progressive condition where the posterior tibial tendon fails to support the arch, leading to acquired adult flatfoot deformity. Stage II involves flexible deformity with tendon degeneration.",
+  "risk_factors": [
+    "Obesity",
+    "Hypertension",
+    "Previous ankle trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_orthopedic_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Tarsal Tunnel Syndrome",
+    "Posterior Tibial Tendon Dysfunction (Stage II)",
+    "Plantar Fasciitis",
+    "Medial Ankle Sprain"
+  ]
+}

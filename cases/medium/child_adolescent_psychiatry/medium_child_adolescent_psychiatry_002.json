@@ -1,0 +1,47 @@
+{
+  "name": "Selective Mutism with Social Anxiety",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "My child won't speak at school, but talks normally at home",
+  "symptoms": [
+    "Consistent failure to speak in specific social situations",
+    "Excessive shyness",
+    "Social withdrawal",
+    "Physical stiffness in social settings"
+  ],
+  "physical_findings": [
+    "Normal speech and language development when comfortable",
+    "Avoidance of eye contact in triggering situations",
+    "Possible trembling or freezing when expected to speak"
+  ],
+  "lab_results": {
+    "Developmental screening": "Normal",
+    "Hearing test": "Normal"
+  },
+  "treatment": [
+    "Cognitive behavioral therapy",
+    "Gradual exposure therapy",
+    "Family counseling",
+    "Possible SSRI medication in severe cases"
+  ],
+  "prognosis": "Good with early intervention, may persist into adolescence without treatment",
+  "description": "A complex childhood anxiety disorder characterized by a child's inability to speak in select social settings despite having normal language skills. The mutism is not due to lack of knowledge or comfort with the spoken language, but rather extreme anxiety in specific situations.",
+  "risk_factors": [
+    "Family history of anxiety disorders",
+    "Temperamental inhibition",
+    "Bilingual environment",
+    "Recent trauma or major life changes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "medium_child_adolescent_psychiatry_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Autism Spectrum Disorder",
+    "Selective Mutism with Social Anxiety",
+    "Generalized Anxiety Disorder",
+    "Social Communication Disorder"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Retroperitoneal Fibrosis with Ureteral Obstruction",
+  "specialty": "urology",
+  "chief_complaint": "I have severe back pain and it hurts when I urinate. I also feel very tired all the time.",
+  "symptoms": [
+    "flank pain",
+    "dysuria",
+    "fatigue",
+    "unintentional weight loss",
+    "oliguria"
+  ],
+  "physical_findings": [
+    "palpable abdominal mass",
+    "costovertebral angle tenderness",
+    "hypertension"
+  ],
+  "lab_results": {
+    "ESR": "elevated",
+    "CRP": "elevated",
+    "Creatinine": "2.4 mg/dL",
+    "Urinalysis": "microscopic hematuria"
+  },
+  "treatment": [
+    "corticosteroid therapy",
+    "immunosuppressive agents",
+    "ureteral stenting",
+    "surgical ureterolysis if refractory"
+  ],
+  "prognosis": "Variable; depends on early intervention. May progress to chronic kidney disease if untreated.",
+  "description": "A rare condition characterized by progressive fibrosis of retroperitoneal tissue that often encases and compresses the ureters, leading to obstructive uropathy. Etiology is unknown in idiopathic cases, though some may be associated with IgG4-related disease.",
+  "risk_factors": [
+    "history of autoimmune disorders",
+    "middle-aged males (40-60 years)",
+    "smoking"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_urology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Chronic Pyelonephritis",
+    "Idiopathic Retroperitoneal Fibrosis with Ureteral Obstruction",
+    "Nephrolithiasis",
+    "Idiopathic Retroperitoneal Fibrosis"
+  ]
+}

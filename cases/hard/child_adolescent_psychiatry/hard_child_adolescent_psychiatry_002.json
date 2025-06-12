@@ -1,0 +1,47 @@
+{
+  "name": "Disruptive Mood Dysregulation Disorder with Atypical Features",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "My child has extreme temper outbursts and is always irritable, but sometimes acts overly silly or giddy for no reason",
+  "symptoms": [
+    "Severe recurrent temper outbursts",
+    "Chronic irritability between outbursts",
+    "Episodes of inappropriate elation or silliness",
+    "Sleep disturbances",
+    "Hyperreactivity to sensory stimuli"
+  ],
+  "physical_findings": [
+    "Elevated heart rate during outbursts",
+    "Mild psychomotor agitation"
+  ],
+  "lab_results": {
+    "Thyroid panel": "normal",
+    "CBC": "normal",
+    "Urine toxicology": "negative"
+  },
+  "treatment": [
+    "Cognitive behavioral therapy adapted for emotional dysregulation",
+    "Family-focused therapy",
+    "Low-dose atypical antipsychotic (if severe)",
+    "Sensory integration therapy"
+  ],
+  "prognosis": "Variable; symptoms may persist into adulthood but can be managed with appropriate interventions. Early treatment improves long-term outcomes.",
+  "description": "A complex pediatric mood disorder characterized by severe temper dysregulation with intermittent periods of atypical mood elevation that don't meet criteria for bipolar disorder. The condition involves dysregulation in emotional, cognitive, and sensory processing systems.",
+  "risk_factors": [
+    "Family history of mood disorders",
+    "Early childhood trauma",
+    "Sensory processing abnormalities"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "3"
+  },
+  "case_id": "hard_child_adolescent_psychiatry_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Bipolar Disorder",
+    "Oppositional Defiant Disorder",
+    "Disruptive Mood Dysregulation Disorder with Atypical Features",
+    "Autism Spectrum Disorder"
+  ]
+}

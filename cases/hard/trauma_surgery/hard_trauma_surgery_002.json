@@ -1,0 +1,49 @@
+{
+  "name": "Traumatic Aortic Dissection with Hemothorax",
+  "specialty": "trauma_surgery",
+  "chief_complaint": "Sudden, tearing chest pain and difficulty breathing after a high-speed car crash",
+  "symptoms": [
+    "Severe chest pain radiating to back",
+    "Dyspnea",
+    "Syncope",
+    "Diaphoresis"
+  ],
+  "physical_findings": [
+    "Asymmetric blood pressure between arms",
+    "Diminished femoral pulses",
+    "Decreased breath sounds on left",
+    "Pale, clammy skin"
+  ],
+  "lab_results": {
+    "Hemoglobin": "8.2 g/dL",
+    "Lactate": "5.8 mmol/L",
+    "Troponin": "Elevated"
+  },
+  "treatment": [
+    "Immediate blood pressure control with IV beta-blockers",
+    "Emergency thoracotomy for aortic repair",
+    "Chest tube placement for hemothorax",
+    "Massive transfusion protocol"
+  ],
+  "prognosis": "Guarded - mortality >80% without immediate surgical intervention",
+  "description": "A life-threatening condition where the inner layer of the aorta tears due to blunt trauma, causing blood to flow between the layers of the aortic wall (dissection) and into the pleural space (hemothorax). Often caused by rapid deceleration injuries.",
+  "risk_factors": [
+    "High-speed motor vehicle collisions",
+    "Elderly patients with atherosclerosis",
+    "Unrestrained occupants in crashes",
+    "History of connective tissue disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "10"
+  },
+  "case_id": "hard_trauma_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Pneumothorax",
+    "Myocardial Infarction",
+    "Traumatic Aortic Dissection with Hemothorax",
+    "Pulmonary Embolism"
+  ]
+}

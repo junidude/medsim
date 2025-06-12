@@ -1,0 +1,45 @@
+{
+  "name": "Congenital Pyloric Stenosis with Atypical Presentation",
+  "specialty": "pediatric_surgery",
+  "chief_complaint": "My baby keeps vomiting after feeding and seems hungry all the time",
+  "symptoms": [
+    "Projectile vomiting",
+    "Persistent hunger",
+    "Dehydration",
+    "Failure to gain weight"
+  ],
+  "physical_findings": [
+    "Palpable olive-shaped mass in epigastrium",
+    "Visible peristaltic waves",
+    "Sunken fontanelle"
+  ],
+  "lab_results": {
+    "Electrolyte panel": "Hypochloremic metabolic alkalosis",
+    "Ultrasound": "Pyloric muscle thickness >4mm"
+  },
+  "treatment": [
+    "Pyloromyotomy (Ramstedt procedure)",
+    "IV fluid resuscitation",
+    "Electrolyte correction"
+  ],
+  "prognosis": "Excellent with timely surgical intervention, full recovery expected",
+  "description": "A congenital condition where the pyloric muscle hypertrophies, causing gastric outlet obstruction. This case presents atypically with less pronounced weight loss but marked electrolyte imbalance.",
+  "risk_factors": [
+    "First-born male",
+    "Family history of pyloric stenosis",
+    "Macrosomia at birth"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "medium_pediatric_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gastroesophageal Reflux Disease",
+    "Congenital Pyloric Stenosis with Atypical Presentation",
+    "Malrotation with Volvulus",
+    "Cow's Milk Protein Allergy"
+  ]
+}

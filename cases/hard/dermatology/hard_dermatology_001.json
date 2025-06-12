@@ -1,0 +1,52 @@
+{
+  "name": "Necrobiotic Xanthogranuloma with Paraproteinemia",
+  "specialty": "dermatology",
+  "chief_complaint": "Painful yellow-orange patches on my face and legs that won't heal",
+  "symptoms": [
+    "Progressive skin lesions",
+    "Mild pruritus",
+    "Occasional bleeding from lesions",
+    "Fatigue",
+    "Weight loss"
+  ],
+  "physical_findings": [
+    "Indurated xanthomatous plaques with central atrophy",
+    "Telangiectasia within lesions",
+    "Periorbital involvement (eyelid lesions)",
+    "Ulceration in advanced cases"
+  ],
+  "lab_results": {
+    "Serum protein electrophoresis": "Monoclonal gammopathy (IgG kappa)",
+    "Lipid panel": "Normal",
+    "CBC": "Mild anemia",
+    "ESR": "Elevated"
+  },
+  "treatment": [
+    "Systemic corticosteroids",
+    "Plasmapheresis for severe paraproteinemia",
+    "Low-dose chlorambucil",
+    "Surgical excision of ulcerated lesions",
+    "Ophthalmologic evaluation for ocular involvement"
+  ],
+  "prognosis": "Chronic progressive course with potential for systemic involvement; 5-year mortality rate of 15-20% due to hematologic complications",
+  "description": "A rare non-Langerhans cell histiocytosis characterized by cutaneous xanthomatous lesions associated with paraproteinemia. Pathogenesis involves abnormal macrophage activation and granuloma formation with necrobiotic changes. Typically affects middle-aged adults with systemic manifestations including hematologic abnormalities and ocular involvement.",
+  "risk_factors": [
+    "Monoclonal gammopathy of undetermined significance (MGUS)",
+    "Dyslipidemia (controversial)",
+    "Autoimmune predisposition",
+    "History of hematologic malignancies"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_dermatology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Xanthoma Disseminatum",
+    "Necrobiotic Xanthogranuloma with Paraproteinemia",
+    "Generalized Granuloma Annulare",
+    "Eruptive Xanthomas"
+  ]
+}

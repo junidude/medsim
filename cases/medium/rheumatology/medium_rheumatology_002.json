@@ -1,0 +1,47 @@
+{
+  "name": "Palindromic Rheumatism",
+  "specialty": "rheumatology",
+  "chief_complaint": "I keep getting sudden joint pain and swelling that comes and goes",
+  "symptoms": [
+    "Episodic joint pain",
+    "Swelling in multiple joints",
+    "Redness around affected joints",
+    "Stiffness lasting 1-3 days"
+  ],
+  "physical_findings": [
+    "Warm, swollen joints during flare",
+    "No residual joint damage between attacks",
+    "Normal range of motion between episodes"
+  ],
+  "lab_results": {
+    "Rheumatoid factor": "Negative",
+    "Anti-CCP": "Negative",
+    "CRP": "Elevated during flare",
+    "ESR": "Elevated during flare"
+  },
+  "treatment": [
+    "NSAIDs for symptom relief",
+    "Hydroxychloroquine for prevention",
+    "Low-dose corticosteroids during severe flares"
+  ],
+  "prognosis": "Variable - may progress to rheumatoid arthritis in 30-50% of cases, or remain episodic",
+  "description": "A rare inflammatory arthritis characterized by sudden, recurrent attacks of joint pain and swelling that resolve completely between episodes. Attacks typically last hours to days without causing permanent joint damage. Often a precursor to rheumatoid arthritis.",
+  "risk_factors": [
+    "Family history of autoimmune disease",
+    "Smoking",
+    "Female gender"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7 during flares"
+  },
+  "case_id": "medium_rheumatology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gout",
+    "Palindromic Rheumatism",
+    "Rheumatoid Arthritis",
+    "Lupus Arthritis"
+  ]
+}

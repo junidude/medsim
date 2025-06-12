@@ -1,0 +1,49 @@
+{
+  "name": "Bilateral Trigeminal Cavernous Hemangiomas",
+  "specialty": "neuroradiology",
+  "chief_complaint": "I have severe facial pain that feels like electric shocks, and sometimes my vision gets blurry",
+  "symptoms": [
+    "unilateral facial pain (electric shock-like)",
+    "episodic blurred vision",
+    "ipsilateral conjunctival injection",
+    "photophobia",
+    "autonomic symptoms (lacrimation, nasal congestion)"
+  ],
+  "physical_findings": [
+    "allodynia in V1-V2 trigeminal distribution",
+    "mild ptosis on affected side",
+    "abnormal corneal reflex",
+    "restricted extraocular movements"
+  ],
+  "lab_results": {
+    "MRI with contrast": "bilateral enhancing lesions in cavernous sinus with trigeminal nerve involvement",
+    "MRA": "compression of intracavernous ICA without flow limitation",
+    "CSF analysis": "mildly elevated protein (65 mg/dL)"
+  },
+  "treatment": [
+    "stereotactic radiosurgery for lesion control",
+    "carbamazepine for neuropathic pain",
+    "cavernous sinus decompression if progressive",
+    "corticosteroids during acute exacerbations"
+  ],
+  "prognosis": "Guarded - lesions tend to progress slowly but can cause permanent cranial nerve deficits. Pain control is challenging.",
+  "description": "Rare vascular malformations involving both cavernous sinuses with direct trigeminal nerve compression. The bilateral presentation suggests a possible underlying vascular developmental anomaly. Lesions demonstrate characteristic 'berry-like' enhancement pattern on MRI with flow voids indicating high vascularity.",
+  "risk_factors": [
+    "history of cranial radiation",
+    "familial vascular malformation syndromes",
+    "previous head trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "hard_neuroradiology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Trigeminal Neuralgia",
+    "Cluster Headache",
+    "Bilateral Trigeminal Cavernous Hemangiomas",
+    "Cavernous Sinus Thrombosis"
+  ]
+}

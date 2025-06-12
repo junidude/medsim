@@ -1,0 +1,43 @@
+{
+  "name": "Superficial Femoral Artery Stenosis",
+  "specialty": "interventional_radiology",
+  "chief_complaint": "My left leg gets tired and painful when I walk, but it goes away when I rest",
+  "symptoms": [
+    "intermittent claudication",
+    "leg fatigue",
+    "coolness in affected limb"
+  ],
+  "physical_findings": [
+    "decreased pedal pulses",
+    "bruit over femoral artery"
+  ],
+  "lab_results": {
+    "ankle-brachial index": "0.6 (moderate reduction)"
+  },
+  "treatment": [
+    "lifestyle modifications",
+    "antiplatelet therapy",
+    "possible angioplasty"
+  ],
+  "prognosis": "Good with early intervention, may progress to critical limb ischemia if untreated",
+  "description": "Narrowing of the superficial femoral artery causing reduced blood flow to the lower extremity, typically due to atherosclerosis",
+  "risk_factors": [
+    "smoking",
+    "diabetes",
+    "hypertension",
+    "hyperlipidemia"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_interventional_radiology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Peripheral Artery Disease",
+    "Deep Vein Thrombosis",
+    "Superficial Femoral Artery Stenosis",
+    "Lumbar Spinal Stenosis"
+  ]
+}

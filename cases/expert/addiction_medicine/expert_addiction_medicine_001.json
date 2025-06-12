@@ -1,0 +1,56 @@
+{
+  "name": "Kratom-Induced Cholestatic Hepatitis with Opioid Withdrawal Syndrome",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I can't stop taking kratom, but now my skin is yellow and I feel terrible when I try to quit",
+  "symptoms": [
+    "jaundice",
+    "pruritus",
+    "abdominal pain",
+    "nausea",
+    "insomnia",
+    "muscle aches",
+    "anxiety"
+  ],
+  "physical_findings": [
+    "scleral icterus",
+    "hepatomegaly",
+    "tremors",
+    "diaphoresis"
+  ],
+  "lab_results": {
+    "ALT": "285 U/L",
+    "AST": "320 U/L",
+    "ALP": "420 U/L",
+    "total bilirubin": "5.8 mg/dL",
+    "direct bilirubin": "4.2 mg/dL",
+    "INR": "1.4"
+  },
+  "treatment": [
+    "medical detoxification with buprenorphine",
+    "ursodeoxycholic acid",
+    "naltrexone after liver function normalization",
+    "behavioral therapy",
+    "nutritional support"
+  ],
+  "prognosis": "Guarded; liver function typically recovers within 3-6 months with abstinence, but risk of relapse is high without comprehensive addiction treatment",
+  "description": "A complex dual presentation of cholestatic liver injury from chronic kratom use combined with opioid withdrawal symptoms upon cessation. The condition involves both hepatotoxicity from mitragynine alkaloids and opioid receptor modulation effects.",
+  "risk_factors": [
+    "prior opioid use disorder",
+    "concurrent alcohol use",
+    "genetic polymorphisms in hepatic enzymes",
+    "high-dose kratom consumption (>30g/day)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_addiction_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Acute Viral Hepatitis",
+    "Opioid Withdrawal Syndrome",
+    "Kratom-Induced Cholestatic Hepatitis with Opioid Withdrawal Syndrome",
+    "Primary Biliary Cholangitis"
+  ]
+}

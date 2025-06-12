@@ -1,0 +1,48 @@
+{
+  "name": "Metabolic Fatigue Syndrome",
+  "specialty": "preventive_medicine",
+  "chief_complaint": "I feel exhausted all the time, no matter how much I sleep",
+  "symptoms": [
+    "persistent fatigue",
+    "brain fog",
+    "post-exertional malaise",
+    "unrefreshing sleep"
+  ],
+  "physical_findings": [
+    "mild tachycardia at rest",
+    "slightly elevated blood pressure"
+  ],
+  "lab_results": {
+    "fasting glucose": "98 mg/dL",
+    "vitamin D": "22 ng/mL (low)",
+    "thyroid panel": "normal",
+    "ferritin": "45 ng/mL (borderline low)"
+  },
+  "treatment": [
+    "lifestyle modification program",
+    "vitamin D supplementation",
+    "graded exercise therapy",
+    "sleep hygiene education"
+  ],
+  "prognosis": "Good with early intervention and lifestyle changes, though recovery may take 3-6 months",
+  "description": "A subclinical metabolic disorder characterized by chronic fatigue without clear organic cause, often related to modern lifestyle factors including poor sleep patterns, nutritional deficiencies, and chronic low-grade stress. Distinct from chronic fatigue syndrome by its reversible nature with preventive interventions.",
+  "risk_factors": [
+    "sedentary lifestyle",
+    "irregular sleep patterns",
+    "processed food diet",
+    "prolonged screen time"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_preventive_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Chronic Fatigue Syndrome",
+    "Metabolic Fatigue Syndrome",
+    "Hypothyroidism",
+    "Sleep Apnea"
+  ]
+}

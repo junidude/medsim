@@ -1,0 +1,52 @@
+{
+  "name": "Paroxysmal Nocturnal Hemoglobinuria (PNH) with Thrombotic Microangiopathy",
+  "specialty": "hematology",
+  "chief_complaint": "I've been feeling extremely tired, and my urine is dark in the morning",
+  "symptoms": [
+    "severe fatigue",
+    "dark-colored urine (hemoglobinuria)",
+    "shortness of breath",
+    "abdominal pain",
+    "difficulty swallowing"
+  ],
+  "physical_findings": [
+    "pallor",
+    "jaundice",
+    "abdominal tenderness"
+  ],
+  "lab_results": {
+    "CBC": "pancytopenia",
+    "LDH": "markedly elevated",
+    "haptoglobin": "undetectable",
+    "flow cytometry": "CD55/CD59 deficiency on RBCs",
+    "D-dimer": "elevated",
+    "creatinine": "mildly elevated"
+  },
+  "treatment": [
+    "eculizumab (anti-C5 monoclonal antibody)",
+    "blood transfusions as needed",
+    "anticoagulation therapy",
+    "folic acid supplementation",
+    "bone marrow transplant in refractory cases"
+  ],
+  "prognosis": "Variable; improved with eculizumab but risk of thrombosis remains. 10-year survival ~65% with treatment",
+  "description": "A rare, acquired hematopoietic stem cell disorder causing complement-mediated hemolysis, thrombosis, and bone marrow failure. The thrombotic microangiopathy variant presents with additional renal complications due to small vessel thrombosis.",
+  "risk_factors": [
+    "prior aplastic anemia",
+    "certain infections",
+    "autoimmune disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "hard_hematology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Autoimmune Hemolytic Anemia",
+    "Paroxysmal Nocturnal Hemoglobinuria (PNH) with Thrombotic Microangiopathy",
+    "Hereditary Spherocytosis",
+    "Thrombotic Thrombocytopenic Purpura (TTP)"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Idiopathic Tracheobronchial Amyloidosis",
+  "specialty": "thoracic_surgery",
+  "chief_complaint": "I can't breathe properly and I keep wheezing, especially at night",
+  "symptoms": [
+    "progressive dyspnea",
+    "stridor",
+    "recurrent hemoptysis",
+    "hoarseness"
+  ],
+  "physical_findings": [
+    "biphasic stridor on auscultation",
+    "diffuse tracheal tenderness",
+    "reduced air entry bilaterally"
+  ],
+  "lab_results": {
+    "serum amyloid P component scan": "positive",
+    "bronchoscopy biopsy": "apple-green birefringence under polarized light",
+    "pulmonary function tests": "severe flow-volume loop obstruction"
+  },
+  "treatment": [
+    "rigid bronchoscopy with laser debulking",
+    "localized radiation therapy",
+    "systemic chemotherapy for diffuse cases",
+    "tracheal stenting in severe stenosis"
+  ],
+  "prognosis": "Guarded with tendency for recurrence; 5-year survival ~60% with treatment",
+  "description": "A rare form of localized amyloid deposition in tracheobronchial tree causing progressive airway obstruction. Characterized by extracellular deposition of misfolded amyloid proteins that form insoluble fibrils in submucosal tissues. Often misdiagnosed as asthma or COPD initially.",
+  "risk_factors": [
+    "chronic inflammatory conditions",
+    "multiple myeloma (in some cases)",
+    "family history of amyloidosis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_thoracic_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Tracheal stenosis",
+    "Idiopathic Tracheobronchial Amyloidosis",
+    "Relapsing polychondritis",
+    "Tracheal tumor"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Essential Hypertension (Stage 1)",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I've been having headaches and my blood pressure was high when I checked it at the pharmacy",
+  "symptoms": [
+    "mild headaches",
+    "occasional dizziness",
+    "fatigue",
+    "anxiety about blood pressure"
+  ],
+  "physical_findings": [
+    "BP 145/90 mmHg",
+    "regular heart rate 76 bpm",
+    "normal heart sounds",
+    "no peripheral edema"
+  ],
+  "lab_results": {
+    "basic metabolic panel": "normal",
+    "lipid panel": "slightly elevated cholesterol (210 mg/dL)",
+    "urinalysis": "normal"
+  },
+  "treatment": [
+    "lifestyle modifications (reduced salt intake, regular exercise)",
+    "weight loss if applicable",
+    "lisinopril 10mg daily",
+    "monthly blood pressure monitoring"
+  ],
+  "prognosis": "excellent with proper medication adherence and lifestyle changes",
+  "description": "Early-stage high blood pressure condition where systolic pressure is between 130-139 or diastolic pressure is between 80-89 mmHg",
+  "risk_factors": [
+    "family history",
+    "sedentary lifestyle",
+    "high sodium diet",
+    "stress",
+    "overweight"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "generated_20250612001900_8892",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Essential Hypertension (Stage 1)",
+    "Anxiety Disorder",
+    "Chronic Fatigue Syndrome",
+    "Hyperthyroidism"
+  ]
+}

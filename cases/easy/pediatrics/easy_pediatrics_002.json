@@ -1,0 +1,44 @@
+{
+  "name": "Acute Otitis Media",
+  "specialty": "pediatrics",
+  "chief_complaint": "My ear hurts and I feel hot",
+  "symptoms": [
+    "ear pain",
+    "fever",
+    "irritability",
+    "decreased appetite"
+  ],
+  "physical_findings": [
+    "red, bulging tympanic membrane",
+    "decreased tympanic membrane mobility"
+  ],
+  "lab_results": {
+    "tympanometry": "Type B curve",
+    "WBC count": "mildly elevated"
+  },
+  "treatment": [
+    "analgesics (acetaminophen/ibuprofen)",
+    "observation for 48-72 hours",
+    "antibiotics if no improvement"
+  ],
+  "prognosis": "Excellent with resolution in 7-10 days",
+  "description": "Acute infection of the middle ear space, commonly caused by bacterial or viral pathogens. Most frequent in children due to shorter, more horizontal Eustachian tubes.",
+  "risk_factors": [
+    "daycare attendance",
+    "secondhand smoke exposure",
+    "recent upper respiratory infection"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "easy_pediatrics_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Otitis Externa",
+    "Acute Otitis Media",
+    "Pharyngitis",
+    "Mastoiditis"
+  ]
+}

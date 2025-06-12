@@ -1,0 +1,51 @@
+{
+  "name": "Acute Hemorrhagic Leukoencephalitis (AHLE)",
+  "specialty": "emergency_medicine",
+  "chief_complaint": "I have the worst headache of my life and I can't think straight",
+  "symptoms": [
+    "Thunderclap headache",
+    "Rapidly progressive confusion",
+    "Fever",
+    "Nausea and vomiting",
+    "Seizures"
+  ],
+  "physical_findings": [
+    "Meningismus",
+    "Focal neurological deficits",
+    "Altered mental status",
+    "Decerebrate posturing in severe cases"
+  ],
+  "lab_results": {
+    "CSF analysis": "Markedly elevated protein, lymphocytic pleocytosis, RBCs present",
+    "MRI brain": "Multifocal white matter lesions with hemorrhage",
+    "PCR panel": "Negative for common viral pathogens"
+  },
+  "treatment": [
+    "High-dose IV methylprednisolone",
+    "Plasmapheresis",
+    "IVIG therapy",
+    "Aggressive ICP management",
+    "Empiric acyclovir until HSV ruled out"
+  ],
+  "prognosis": "Guarded - mortality rate ~70%, survivors often have significant neurological deficits",
+  "description": "A hyperacute form of ADEM characterized by fulminant demyelination with hemorrhage and necrosis of white matter. Typically follows a viral illness or vaccination. Requires immediate neurocritical care intervention.",
+  "risk_factors": [
+    "Recent viral infection (especially upper respiratory)",
+    "Recent vaccination",
+    "Young adult age group",
+    "Autoimmune predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "10"
+  },
+  "case_id": "expert_emergency_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Subarachnoid hemorrhage",
+    "Acute Hemorrhagic Leukoencephalitis (AHLE)",
+    "Bacterial meningitis",
+    "Herpes simplex encephalitis"
+  ]
+}

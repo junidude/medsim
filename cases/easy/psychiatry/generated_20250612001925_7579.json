@@ -1,0 +1,48 @@
+{
+  "name": "Adjustment Disorder with Anxiety",
+  "specialty": "psychiatry",
+  "chief_complaint": "I've been really anxious and can't sleep since losing my job last month",
+  "symptoms": [
+    "difficulty sleeping",
+    "restlessness",
+    "excessive worry",
+    "reduced appetite",
+    "difficulty concentrating"
+  ],
+  "physical_findings": [
+    "mildly elevated heart rate",
+    "normal mental status exam",
+    "slight psychomotor agitation"
+  ],
+  "lab_results": {
+    "thyroid function test": "normal",
+    "complete blood count": "normal"
+  },
+  "treatment": [
+    "cognitive behavioral therapy",
+    "supportive counseling",
+    "sleep hygiene education",
+    "possible short-term anxiolytic medication"
+  ],
+  "prognosis": "Good prognosis with appropriate intervention; symptoms typically resolve within 6 months after stressor removal",
+  "description": "A stress-related, short-term condition where a person has difficulty coping with a life event. Symptoms develop within 3 months of the stressor and cause significant distress",
+  "risk_factors": [
+    "recent life changes",
+    "lack of social support",
+    "previous mental health issues",
+    "financial stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "1"
+  },
+  "case_id": "generated_20250612001925_7579",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Generalized Anxiety Disorder",
+    "Adjustment Disorder with Anxiety",
+    "Major Depressive Disorder",
+    "Acute Stress Disorder"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Kratom-Induced Cholestatic Hepatitis with Opioid Withdrawal Syndrome",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I can't stop using kratom for my back pain, but now my skin is yellow and I feel terrible when I try to quit",
+  "symptoms": [
+    "Jaundice",
+    "Severe abdominal pain (RUQ)",
+    "Pruritus",
+    "Insomnia",
+    "Muscle aches",
+    "Anxiety",
+    "Diaphoresis"
+  ],
+  "physical_findings": [
+    "Scleral icterus",
+    "Hepatomegaly",
+    "Tremors",
+    "Tachycardia (HR 112)",
+    "Mild opioid withdrawal signs"
+  ],
+  "lab_results": {
+    "ALT": "485 U/L",
+    "AST": "320 U/L",
+    "ALP": "290 U/L",
+    "Total Bilirubin": "8.2 mg/dL",
+    "Direct Bilirubin": "6.8 mg/dL",
+    "INR": "1.4",
+    "CBC": "Normal",
+    "Urine Drug Screen": "Positive for mitragynine"
+  },
+  "treatment": [
+    "Medical detoxification protocol",
+    "Ursodeoxycholic acid",
+    "Naltrexone initiation after clearance",
+    "Symptomatic management of pruritus",
+    "Nutritional support",
+    "Addiction counseling referral",
+    "Hepatology consultation"
+  ],
+  "prognosis": "Guarded - depends on cessation of kratom use and degree of liver damage. Full recovery possible with abstinence but risk of chronic liver disease if continued use.",
+  "description": "A complex presentation of hepatotoxicity from chronic high-dose kratom use (20-30g/day for 18 months) compounded by opioid-like withdrawal symptoms upon cessation. The condition represents both the toxic effects of mitragynine alkaloids on hepatocytes and the neuroadaptation to its opioid receptor activity.",
+  "risk_factors": [
+    "Prior opioid use disorder",
+    "Chronic pain condition",
+    "Self-medication with herbal supplements",
+    "Lack of medical supervision during tapering",
+    "Concurrent use of other hepatotoxic substances"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_addiction_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Acute Viral Hepatitis",
+    "Kratom-Induced Cholestatic Hepatitis with Opioid Withdrawal Syndrome",
+    "Biliary Obstruction",
+    "Alcoholic Hepatitis"
+  ]
+}

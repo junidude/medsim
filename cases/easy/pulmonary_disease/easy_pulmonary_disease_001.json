@@ -1,0 +1,45 @@
+{
+  "name": "Acute Viral Bronchitis",
+  "specialty": "pulmonary_disease",
+  "chief_complaint": "I've had a nagging cough for a week, and it's getting worse.",
+  "symptoms": [
+    "persistent cough",
+    "mild chest discomfort",
+    "slight wheezing",
+    "low-grade fever"
+  ],
+  "physical_findings": [
+    "diffuse rhonchi on auscultation",
+    "no signs of respiratory distress"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "chest X-ray": "no infiltrates"
+  },
+  "treatment": [
+    "rest",
+    "hydration",
+    "OTC cough suppressants",
+    "inhaled bronchodilators if wheezing persists"
+  ],
+  "prognosis": "Excellent; typically resolves within 2-3 weeks without complications",
+  "description": "Inflammation of the bronchial tubes caused by a viral infection, resulting in cough and mild airway obstruction. Differentiated from pneumonia by absence of focal lung findings.",
+  "risk_factors": [
+    "recent upper respiratory infection",
+    "smoke exposure",
+    "cold weather"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_pulmonary_disease_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Pneumonia",
+    "Acute Viral Bronchitis",
+    "Asthma exacerbation",
+    "Postnasal drip syndrome"
+  ]
+}

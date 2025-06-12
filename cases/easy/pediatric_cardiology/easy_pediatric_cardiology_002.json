@@ -1,0 +1,42 @@
+{
+  "name": "Innocent Heart Murmur",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child's doctor heard a funny sound in their heart during a check-up.",
+  "symptoms": [
+    "No symptoms",
+    "Normal activity level",
+    "No shortness of breath"
+  ],
+  "physical_findings": [
+    "Soft systolic murmur (grade 1-2/6)",
+    "Murmur changes with position",
+    "Normal heart sounds"
+  ],
+  "lab_results": {
+    "Echocardiogram": "Normal cardiac structure and function"
+  },
+  "treatment": [
+    "Reassurance",
+    "Regular pediatric follow-ups",
+    "No medication needed"
+  ],
+  "prognosis": "Excellent - typically resolves by adolescence",
+  "description": "A benign heart murmur caused by normal blood flow patterns in a child's heart, with no structural abnormalities. Common in 50% of children at some point.",
+  "risk_factors": [
+    "Age (most common 3-7 years)",
+    "Fever or anemia (can make murmur more audible)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "1"
+  },
+  "case_id": "easy_pediatric_cardiology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Ventricular Septal Defect",
+    "Innocent Heart Murmur",
+    "Atrial Septal Defect",
+    "Pulmonary Stenosis"
+  ]
+}

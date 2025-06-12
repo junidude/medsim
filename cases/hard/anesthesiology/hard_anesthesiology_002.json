@@ -1,0 +1,51 @@
+{
+  "name": "Malignant Hyperthermia Crisis",
+  "specialty": "anesthesiology",
+  "chief_complaint": "Muscle stiffness and high fever after surgery",
+  "symptoms": [
+    "Severe muscle rigidity",
+    "Tachycardia",
+    "Hyperthermia (up to 107°F)",
+    "Dark colored urine",
+    "Profuse sweating"
+  ],
+  "physical_findings": [
+    "Generalized muscle spasms",
+    "Metabolic acidosis on ABG",
+    "Elevated end-tidal CO2"
+  ],
+  "lab_results": {
+    "CK": ">20,000 IU/L",
+    "Potassium": "6.8 mEq/L",
+    "Myoglobin": "Positive in urine",
+    "ABG": "pH 7.18, pCO2 55, HCO3 12"
+  },
+  "treatment": [
+    "Immediate cessation of triggering agents",
+    "IV dantrolene sodium 2.5 mg/kg",
+    "Active cooling measures",
+    "Correct metabolic acidosis with sodium bicarbonate",
+    "Maintain urine output >2 mL/kg/hr"
+  ],
+  "prognosis": "Mortality up to 80% if untreated, <5% with prompt dantrolene administration",
+  "description": "A rare, life-threatening pharmacogenetic disorder of skeletal muscle calcium regulation triggered by volatile anesthetics and succinylcholine. Causes uncontrolled skeletal muscle hypermetabolism leading to severe hyperthermia, rhabdomyolysis, and multi-organ failure.",
+  "risk_factors": [
+    "Family history of MH",
+    "Previous adverse anesthetic reaction",
+    "Central core disease",
+    "Exertional heat illness history"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "9"
+  },
+  "case_id": "hard_anesthesiology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Neuroleptic Malignant Syndrome",
+    "Malignant Hyperthermia Crisis",
+    "Serotonin Syndrome",
+    "Sepsis"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Acute Mesenteric Ischemia",
+  "specialty": "surgical_critical_care",
+  "chief_complaint": "Severe abdominal pain that came on suddenly and won't go away",
+  "symptoms": [
+    "sudden severe abdominal pain",
+    "nausea and vomiting",
+    "diarrhea (possibly bloody)"
+  ],
+  "physical_findings": [
+    "abdominal tenderness with guarding",
+    "hypotension",
+    "tachycardia"
+  ],
+  "lab_results": {
+    "lactate": "elevated",
+    "WBC": "leukocytosis",
+    "metabolic panel": "metabolic acidosis"
+  },
+  "treatment": [
+    "immediate fluid resuscitation",
+    "broad-spectrum antibiotics",
+    "surgical intervention (embolectomy or bowel resection)"
+  ],
+  "prognosis": "Guarded - high mortality if not treated promptly, better outcomes with early intervention",
+  "description": "A life-threatening vascular emergency where blood supply to the intestines is compromised, often due to embolism, thrombosis, or low-flow states. Requires urgent diagnosis and treatment to prevent bowel necrosis.",
+  "risk_factors": [
+    "atrial fibrillation",
+    "advanced atherosclerosis",
+    "recent myocardial infarction"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "medium_surgical_critical_care_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Pancreatitis",
+    "Acute Mesenteric Ischemia",
+    "Perforated Peptic Ulcer",
+    "Diverticulitis"
+  ]
+}

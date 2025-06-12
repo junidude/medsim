@@ -1,0 +1,46 @@
+{
+  "name": "Mild Iron Deficiency Anemia",
+  "specialty": "hematology",
+  "chief_complaint": "I've been feeling tired and weak lately, and I look pale.",
+  "symptoms": [
+    "fatigue",
+    "pale skin",
+    "shortness of breath",
+    "dizziness"
+  ],
+  "physical_findings": [
+    "pallor",
+    "tachycardia"
+  ],
+  "lab_results": {
+    "hemoglobin": "10.2 g/dL",
+    "hematocrit": "30%",
+    "serum ferritin": "12 ng/mL",
+    "MCV": "78 fL"
+  },
+  "treatment": [
+    "oral iron supplementation",
+    "dietary iron increase",
+    "vitamin C to enhance absorption"
+  ],
+  "prognosis": "Excellent with proper treatment; symptoms typically improve within weeks.",
+  "description": "Mild iron deficiency anemia occurs when the body lacks sufficient iron to produce hemoglobin, leading to reduced oxygen transport. Common in menstruating individuals or those with poor dietary iron intake.",
+  "risk_factors": [
+    "heavy menstrual bleeding",
+    "poor iron diet",
+    "frequent blood donation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_hematology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Vitamin B12 Deficiency",
+    "Mild Iron Deficiency Anemia",
+    "Chronic Kidney Disease",
+    "Hemolytic Anemia"
+  ]
+}

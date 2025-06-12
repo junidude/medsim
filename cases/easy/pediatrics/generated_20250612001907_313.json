@@ -1,0 +1,49 @@
+{
+  "name": "Acute Otitis Media",
+  "specialty": "pediatrics",
+  "chief_complaint": "My 3-year-old keeps pulling at their right ear and is very fussy",
+  "symptoms": [
+    "ear pain/tugging",
+    "irritability",
+    "fever (101.2°F)",
+    "difficulty sleeping",
+    "reduced appetite"
+  ],
+  "physical_findings": [
+    "red, bulging tympanic membrane",
+    "decreased mobility of tympanic membrane",
+    "fluid level visible behind eardrum",
+    "mild cervical lymphadenopathy"
+  ],
+  "lab_results": {
+    "otoscopy": "positive for middle ear effusion",
+    "tympanometry": "type B (flat) curve"
+  },
+  "treatment": [
+    "amoxicillin 80-90 mg/kg/day divided BID for 10 days",
+    "acetaminophen or ibuprofen for pain/fever",
+    "follow-up in 2-3 weeks"
+  ],
+  "prognosis": "Excellent with appropriate antibiotic therapy; symptoms typically improve within 48-72 hours",
+  "description": "Common bacterial infection of the middle ear space, typically following upper respiratory infection. Most common in children aged 6-24 months.",
+  "risk_factors": [
+    "young age (6-24 months)",
+    "daycare attendance",
+    "bottle feeding while lying down",
+    "recent upper respiratory infection",
+    "family history of ear infections"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "generated_20250612001907_313",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Otitis Externa",
+    "Acute Otitis Media",
+    "Teething",
+    "Pharyngitis"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Radiation-Induced Esophagitis",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "Painful swallowing and chest discomfort after radiation therapy",
+  "symptoms": [
+    "Painful swallowing (odynophagia)",
+    "Retrosternal chest pain",
+    "Heartburn",
+    "Difficulty swallowing solids (dysphagia)"
+  ],
+  "physical_findings": [
+    "Mild tenderness on chest palpation",
+    "No visible oral or pharyngeal lesions"
+  ],
+  "lab_results": {
+    "CBC": "Normal",
+    "CRP": "Mildly elevated"
+  },
+  "treatment": [
+    "Topical anesthetic mouthwash (viscous lidocaine)",
+    "Proton pump inhibitors",
+    "Dietary modification (soft foods, avoid acidic/spicy foods)",
+    "Temporary radiation treatment adjustment if severe"
+  ],
+  "prognosis": "Generally resolves within 2-4 weeks after completing radiation therapy with proper management",
+  "description": "Inflammation of the esophageal mucosa caused by radiation therapy, typically occurring 2-3 weeks into treatment for thoracic malignancies. The severity often correlates with radiation dose and volume of esophagus irradiated.",
+  "risk_factors": [
+    "Concurrent chemotherapy",
+    "Higher radiation doses (>45 Gy)",
+    "Large volume of esophagus in treatment field",
+    "Pre-existing GERD"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_radiation_oncology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gastroesophageal reflux disease",
+    "Radiation-Induced Esophagitis",
+    "Esophageal candidiasis",
+    "Peptic ulcer disease"
+  ]
+}

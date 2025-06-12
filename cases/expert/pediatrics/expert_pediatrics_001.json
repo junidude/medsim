@@ -1,0 +1,51 @@
+{
+  "name": "Congenital Chylomicron Retention Disease (CCRD)",
+  "specialty": "pediatrics",
+  "chief_complaint": "My baby has had severe diarrhea since birth and isn't gaining weight.",
+  "symptoms": [
+    "Failure to thrive",
+    "Chronic diarrhea (steatorrhea)",
+    "Abdominal distension",
+    "Developmental delay",
+    "Fat-soluble vitamin deficiencies"
+  ],
+  "physical_findings": [
+    "Severe malnutrition",
+    "Hepatomegaly",
+    "Hypotonia",
+    "Pale, foul-smelling stools"
+  ],
+  "lab_results": {
+    "Serum triglycerides": "Markedly elevated (>1000 mg/dL)",
+    "Chylomicrons": "Absent postprandially",
+    "Lipoprotein lipase activity": "Normal",
+    "ApoB-48": "Undetectable",
+    "Fat-soluble vitamins (A,D,E,K)": "Deficient"
+  },
+  "treatment": [
+    "Extremely low-fat diet (<5% of calories from fat)",
+    "Medium-chain triglyceride (MCT) supplementation",
+    "Fat-soluble vitamin replacement",
+    "Pancreatic enzyme supplementation",
+    "Nutritional monitoring and support"
+  ],
+  "prognosis": "With strict dietary management, growth and development can normalize, but lifelong dietary restrictions are required. Untreated cases lead to severe malnutrition and developmental disabilities.",
+  "description": "CCRD is an ultra-rare autosomal recessive disorder of intestinal fat absorption caused by mutations in the SAR1B gene. It results in the inability to secrete chylomicrons from intestinal enterocytes, leading to fat malabsorption and failure to thrive. The condition presents in infancy and requires expert nutritional management.",
+  "risk_factors": [
+    "Consanguinity",
+    "Family history of similar symptoms"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_pediatrics_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Cystic fibrosis",
+    "Congenital Chylomicron Retention Disease (CCRD)",
+    "Abetalipoproteinemia",
+    "Microvillus inclusion disease"
+  ]
+}

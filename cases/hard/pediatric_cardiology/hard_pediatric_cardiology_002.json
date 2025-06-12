@@ -1,0 +1,47 @@
+{
+  "name": "Congenital Ventricular Septal Aneurysm with Eisenmenger Syndrome",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child gets tired very quickly and turns blue when playing",
+  "symptoms": [
+    "cyanosis",
+    "fatigue",
+    "shortness of breath",
+    "poor growth"
+  ],
+  "physical_findings": [
+    "loud P2 heart sound",
+    "clubbing of fingers",
+    "right ventricular heave"
+  ],
+  "lab_results": {
+    "ABG": "hypoxemia",
+    "Hematocrit": "elevated",
+    "BNP": "elevated"
+  },
+  "treatment": [
+    "oxygen therapy",
+    "pulmonary vasodilators",
+    "anticoagulation",
+    "heart-lung transplant evaluation"
+  ],
+  "prognosis": "Poor without intervention; progressive pulmonary hypertension leads to right heart failure",
+  "description": "A rare congenital cardiac anomaly where a ventricular septal aneurysm develops in utero, later causing right-to-left shunting and Eisenmenger physiology due to irreversible pulmonary vascular disease. The aneurysm tissue is thin and may contain perforations.",
+  "risk_factors": [
+    "maternal diabetes",
+    "prenatal teratogen exposure",
+    "family history of CHD"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "hard_pediatric_cardiology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Tetralogy of Fallot",
+    "Congenital Ventricular Septal Aneurysm with Eisenmenger Syndrome",
+    "Primary Pulmonary Hypertension",
+    "Atrial Septal Defect with Pulmonary Hypertension"
+  ]
+}

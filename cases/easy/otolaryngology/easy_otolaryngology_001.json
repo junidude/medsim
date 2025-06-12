@@ -1,0 +1,46 @@
+{
+  "name": "Acute Otitis Externa (Swimmer's Ear)",
+  "specialty": "otolaryngology",
+  "chief_complaint": "My ear hurts and feels blocked, especially when I touch it.",
+  "symptoms": [
+    "ear pain",
+    "itching in ear canal",
+    "mild hearing loss",
+    "ear fullness"
+  ],
+  "physical_findings": [
+    "erythema of ear canal",
+    "tragus tenderness",
+    "clear or purulent discharge"
+  ],
+  "lab_results": {
+    "ear swab culture": "normal skin flora (if uncomplicated)"
+  },
+  "treatment": [
+    "acetic acid ear drops",
+    "topical antibiotics (ciprofloxacin/hydrocortisone)",
+    "avoid water exposure",
+    "analgesics (ibuprofen)"
+  ],
+  "prognosis": "Excellent with treatment, resolves within 7-10 days",
+  "description": "Inflammation of the external ear canal, often caused by bacterial infection following water exposure or minor trauma to the ear canal. Common in swimmers and humid climates.",
+  "risk_factors": [
+    "frequent swimming",
+    "use of cotton swabs",
+    "humid environment",
+    "narrow ear canals"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "easy_otolaryngology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Acute Otitis Media",
+    "Acute Otitis Externa (Swimmer's Ear)",
+    "Cerumen Impaction",
+    "Foreign Body in Ear"
+  ]
+}

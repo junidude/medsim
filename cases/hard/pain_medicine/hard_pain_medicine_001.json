@@ -1,0 +1,46 @@
+{
+  "name": "Central Neuropathic Post-Thoracotomy Syndrome",
+  "specialty": "pain_medicine",
+  "chief_complaint": "I have this burning, electric shock-like pain in my chest and back that won't go away since my lung surgery.",
+  "symptoms": [
+    "Chronic burning pain along thoracotomy scar",
+    "Intermittent electric shock-like sensations",
+    "Allodynia (pain from light touch)",
+    "Hyperalgesia (exaggerated pain response)"
+  ],
+  "physical_findings": [
+    "Hypersensitivity in dermatomal distribution",
+    "Visible thoracotomy scar with surrounding dysesthesia",
+    "Guarding of affected hemithorax"
+  ],
+  "lab_results": {
+    "MRI": "No compressive lesions",
+    "EMG/NCS": "Possible dorsal root ganglion irritation"
+  },
+  "treatment": [
+    "Multimodal analgesia (gabapentinoids + SNRIs)",
+    "Intercostal nerve blocks with steroid",
+    "Dorsal root ganglion stimulation trial",
+    "Cognitive behavioral therapy for pain coping"
+  ],
+  "prognosis": "Guarded - 40-60% achieve meaningful pain reduction with multimodal approach",
+  "description": "A complex regional pain syndrome variant affecting 5-10% of post-thoracotomy patients, involving central sensitization and peripheral nerve injury. Characterized by disproportionate neuropathic pain beyond expected healing time.",
+  "risk_factors": [
+    "Extended thoracotomy duration (>3 hours)",
+    "Preoperative opioid use",
+    "Genetic predisposition to neuropathic pain"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_pain_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Postherpetic neuralgia",
+    "Central Neuropathic Post-Thoracotomy Syndrome",
+    "Intercostal neuralgia",
+    "Chronic regional pain syndrome"
+  ]
+}

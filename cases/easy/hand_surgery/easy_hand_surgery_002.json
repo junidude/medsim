@@ -1,0 +1,42 @@
+{
+  "name": "Trigger Finger (Stenosing Tenosynovitis)",
+  "specialty": "hand_surgery",
+  "chief_complaint": "My finger keeps getting stuck when I try to straighten it, and it hurts when it pops free",
+  "symptoms": [
+    "Finger catching or locking when bent",
+    "Pain at the base of the affected finger",
+    "Tenderness or a small lump in the palm"
+  ],
+  "physical_findings": [
+    "Palpable nodule at A1 pulley",
+    "Snapping or popping sensation with finger motion",
+    "Limited range of motion in affected digit"
+  ],
+  "lab_results": {},
+  "treatment": [
+    "Rest and activity modification",
+    "NSAIDs for pain/inflammation",
+    "Steroid injection into tendon sheath",
+    "Percutaneous or open surgical release for refractory cases"
+  ],
+  "prognosis": "Excellent with treatment; most patients achieve full resolution of symptoms",
+  "description": "A condition where one of the fingers gets stuck in a bent position and then straightens with a snap (like a trigger being pulled and released). Caused by inflammation narrowing the space within the sheath that surrounds the tendon in the affected finger.",
+  "risk_factors": [
+    "Repetitive hand use (especially gripping motions)",
+    "Diabetes",
+    "Rheumatoid arthritis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_hand_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Dupuytren's Contracture",
+    "Trigger Finger (Stenosing Tenosynovitis)",
+    "Flexor Tendon Laceration",
+    "Rheumatoid Arthritis"
+  ]
+}

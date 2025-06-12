@@ -1,0 +1,48 @@
+{
+  "name": "Rotator Cuff Tendinitis",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "My shoulder hurts when I raise my arm, especially at night",
+  "symptoms": [
+    "Pain with overhead movement",
+    "Shoulder weakness",
+    "Night pain",
+    "Difficulty reaching behind back"
+  ],
+  "physical_findings": [
+    "Painful arc between 60-120 degrees abduction",
+    "Positive empty can test",
+    "Tenderness over greater tuberosity"
+  ],
+  "lab_results": {
+    "X-ray": "normal bone structure, no calcification"
+  },
+  "treatment": [
+    "NSAIDs",
+    "Physical therapy",
+    "Activity modification",
+    "Ice therapy",
+    "Strengthening exercises"
+  ],
+  "prognosis": "Good with conservative treatment; most patients recover within 3-6 months with proper therapy",
+  "description": "Inflammation of the rotator cuff tendons, typically caused by repetitive overhead activities or age-related degeneration",
+  "risk_factors": [
+    "Age over 40",
+    "Overhead activities",
+    "Swimming",
+    "Tennis",
+    "Manual labor"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "generated_20250612001917_4315",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Adhesive Capsulitis",
+    "Rotator Cuff Tendinitis",
+    "Glenohumeral Osteoarthritis",
+    "Subacromial Bursitis"
+  ]
+}

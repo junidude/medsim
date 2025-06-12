@@ -1,0 +1,45 @@
+{
+  "name": "Acute Viral Bronchitis",
+  "specialty": "critical_care_medicine",
+  "chief_complaint": "I've had this terrible cough for days and can't catch my breath",
+  "symptoms": [
+    "persistent cough",
+    "wheezing",
+    "low-grade fever",
+    "chest discomfort"
+  ],
+  "physical_findings": [
+    "rhonchi on auscultation",
+    "mild tachypnea"
+  ],
+  "lab_results": {
+    "CBC": "mild leukocytosis",
+    "Chest X-ray": "no infiltrates"
+  },
+  "treatment": [
+    "bronchodilators",
+    "hydration",
+    "antipyretics as needed",
+    "cough suppressants"
+  ],
+  "prognosis": "Excellent with symptomatic treatment, typically resolves within 2-3 weeks",
+  "description": "Inflammation of the bronchial tubes caused by viral infection, leading to airway irritation and mucus production",
+  "risk_factors": [
+    "recent URI",
+    "smoke exposure",
+    "asthma history"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_critical_care_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Community Acquired Pneumonia",
+    "Acute Viral Bronchitis",
+    "Acute Asthma Exacerbation",
+    "Acute Bronchiolitis"
+  ]
+}

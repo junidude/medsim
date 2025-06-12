@@ -1,0 +1,50 @@
+{
+  "name": "Trigeminovascular Dysautonomia",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "I have excruciating facial pain that comes in waves, like electric shocks, and my left eye keeps tearing up uncontrollably",
+  "symptoms": [
+    "paroxysmal unilateral facial pain",
+    "autonomic symptoms (lacrimation, nasal congestion)",
+    "photophobia",
+    "allodynia in trigeminal distribution",
+    "tinnitus"
+  ],
+  "physical_findings": [
+    "trigger zones in V2/V3 distribution",
+    "Horner's syndrome on affected side",
+    "abnormal corneal reflex",
+    "autonomic instability during attacks"
+  ],
+  "lab_results": {
+    "Trigeminal Reflex Testing": "abnormal R1/R2 latencies",
+    "Quantitative Sensory Testing": "thermal hypoesthesia",
+    "3T MRI": "neurovascular conflict at root entry zone"
+  },
+  "treatment": [
+    "microvascular decompression surgery",
+    "stereotactic radiosurgery (Gamma Knife)",
+    "carbamazepine + onabotulinumtoxinA protocol",
+    "sphenopalatine ganglion block"
+  ],
+  "prognosis": "Guarded - 60% achieve significant pain reduction with combined surgical/medical approach, but may require multiple interventions",
+  "description": "A rare neurovascular disorder involving pathological interactions between trigeminal nerve fibers and cerebral vasculature, causing severe paroxysmal pain with prominent autonomic features. Distinct from classical trigeminal neuralgia by its autonomic component and more diffuse pain pattern.",
+  "risk_factors": [
+    "female gender",
+    "hypertension",
+    "connective tissue disorders",
+    "prior dental trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "hard_neurological_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Trigeminal neuralgia",
+    "Trigeminovascular Dysautonomia",
+    "Cluster headache",
+    "Paroxysmal hemicrania"
+  ]
+}

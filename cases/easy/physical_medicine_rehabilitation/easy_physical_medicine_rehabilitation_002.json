@@ -1,0 +1,43 @@
+{
+  "name": "Acute Lower Back Strain",
+  "specialty": "physical_medicine_rehabilitation",
+  "chief_complaint": "I can't bend over without sharp pain in my lower back",
+  "symptoms": [
+    "localized lower back pain",
+    "muscle stiffness",
+    "pain worsens with movement"
+  ],
+  "physical_findings": [
+    "tenderness on palpation of lumbar paraspinal muscles",
+    "limited range of motion in lumbar flexion"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "CRP": "normal"
+  },
+  "treatment": [
+    "rest for 1-2 days",
+    "NSAIDs for pain relief",
+    "gradual return to activity with physical therapy exercises"
+  ],
+  "prognosis": "Excellent with proper management, typically resolves within 2-4 weeks",
+  "description": "A common musculoskeletal injury resulting from overuse, poor lifting technique, or sudden awkward movement causing microtears in lumbar muscles or ligaments",
+  "risk_factors": [
+    "heavy lifting",
+    "poor posture",
+    "sedentary lifestyle"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "easy_physical_medicine_rehabilitation_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Lumbar Herniated Disc",
+    "Acute Lower Back Strain",
+    "Lumbar Spinal Stenosis",
+    "Sacroiliac Joint Dysfunction"
+  ]
+}

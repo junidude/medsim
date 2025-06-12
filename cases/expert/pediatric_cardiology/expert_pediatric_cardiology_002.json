@@ -1,0 +1,47 @@
+{
+  "name": "Congenital Left Ventricular Diverticulum with Arrhythmogenic Substrate",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child keeps fainting during play and complains of chest pain",
+  "symptoms": [
+    "syncope with exertion",
+    "chest pain",
+    "palpitations",
+    "exercise intolerance"
+  ],
+  "physical_findings": [
+    "precordial bulge on palpation",
+    "irregular heart rhythm",
+    "systolic murmur (grade II/VI) at left lower sternal border"
+  ],
+  "lab_results": {
+    "troponin": "normal",
+    "BNP": "mildly elevated (150 pg/mL)",
+    "genetic_testing": "PKP2 variant of uncertain significance"
+  },
+  "treatment": [
+    "implantable cardioverter-defibrillator placement",
+    "beta-blocker therapy",
+    "restriction from competitive sports",
+    "family screening for arrhythmogenic conditions"
+  ],
+  "prognosis": "Guarded - high risk for sudden cardiac death without intervention, but good quality of life possible with proper management",
+  "description": "A rare congenital cardiac anomaly where a finger-like protrusion of the left ventricular myocardium creates an arrhythmogenic focus. The diverticulum acts as an anatomical substrate for re-entrant ventricular arrhythmias, particularly during periods of increased sympathetic tone. Often misdiagnosed as benign PVCs until syncopal events occur.",
+  "risk_factors": [
+    "family history of sudden cardiac death",
+    "connective tissue disorders",
+    "in utero teratogen exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "expert_pediatric_cardiology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Hypertrophic Cardiomyopathy",
+    "Congenital Left Ventricular Diverticulum with Arrhythmogenic Substrate",
+    "Arrhythmogenic Right Ventricular Dysplasia",
+    "Long QT Syndrome"
+  ]
+}

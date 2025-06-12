@@ -1,0 +1,49 @@
+{
+  "name": "Adrenal Cortisol Hypersecretion Syndrome (ACHS)",
+  "specialty": "endocrinology",
+  "chief_complaint": "I've been gaining weight uncontrollably and feel weak all the time",
+  "symptoms": [
+    "Progressive weight gain (central obesity)",
+    "Muscle weakness",
+    "Easy bruising",
+    "Mood swings",
+    "Excessive thirst"
+  ],
+  "physical_findings": [
+    "Moon facies",
+    "Buffalo hump",
+    "Thin skin with striae",
+    "Hypertension (150/95 mmHg)"
+  ],
+  "lab_results": {
+    "24-hour urinary free cortisol": "220 mcg/24h (normal: 4-50)",
+    "Late-night salivary cortisol": "0.25 μg/dL (normal: <0.09)",
+    "Dexamethasone suppression test": "No suppression"
+  },
+  "treatment": [
+    "Adrenal enzyme inhibitors (metyrapone)",
+    "Gradual dose reduction if steroid-induced",
+    "Surgical adrenalectomy for refractory cases",
+    "Lifestyle modification for metabolic symptoms"
+  ],
+  "prognosis": "Good with early intervention, but chronic cases may develop permanent metabolic complications",
+  "description": "ACHS is a moderate cortisol excess state where the adrenal glands produce excessive cortisol without meeting full Cushing's syndrome criteria. It often presents with subtler symptoms than classic Cushing's and may be caused by adrenal nodules or prolonged steroid use.",
+  "risk_factors": [
+    "Prolonged corticosteroid use",
+    "Adrenal adenomas <1cm",
+    "Chronic stress exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_endocrinology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Hypothyroidism",
+    "Adrenal Cortisol Hypersecretion Syndrome (ACHS)",
+    "Polycystic Ovary Syndrome",
+    "Type 2 Diabetes Mellitus"
+  ]
+}

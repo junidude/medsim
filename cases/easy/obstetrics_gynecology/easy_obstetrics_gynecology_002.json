@@ -1,0 +1,41 @@
+{
+  "name": "Bacterial Vaginosis",
+  "specialty": "obstetrics_gynecology",
+  "chief_complaint": "I have a fishy-smelling discharge and some itching down there.",
+  "symptoms": [
+    "vaginal discharge",
+    "itching",
+    "fishy odor"
+  ],
+  "physical_findings": [
+    "thin white-gray discharge",
+    "vaginal pH >4.5"
+  ],
+  "lab_results": {
+    "whiff test": "positive",
+    "clue cells": "present"
+  },
+  "treatment": [
+    "metronidazole (oral or vaginal gel)",
+    "clindamycin cream"
+  ],
+  "prognosis": "Excellent with proper treatment; may recur in some patients",
+  "description": "Bacterial vaginosis is a common vaginal infection caused by an imbalance of naturally occurring bacterial flora, with overgrowth of anaerobic bacteria. It is not considered an STD but can increase susceptibility to other infections.",
+  "risk_factors": [
+    "multiple sexual partners",
+    "douching"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_obstetrics_gynecology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Trichomoniasis",
+    "Bacterial Vaginosis",
+    "Yeast Infection",
+    "Chlamydia"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Idiopathic Left Ventricular Apical Aneurysm with Ventricular Tachycardia",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I keep getting these sudden racing heart episodes and sometimes feel like passing out",
+  "symptoms": [
+    "palpitations",
+    "presyncope",
+    "exercise intolerance",
+    "occasional chest discomfort"
+  ],
+  "physical_findings": [
+    "irregular pulse during episodes",
+    "soft systolic murmur at apex",
+    "mild pedal edema"
+  ],
+  "lab_results": {
+    "troponin": "normal",
+    "BNP": "mildly elevated",
+    "ECG": "sinus rhythm with frequent nonsustained VT",
+    "echo": "apical aneurysm with preserved EF"
+  },
+  "treatment": [
+    "beta-blocker therapy",
+    "amiodarone for arrhythmia control",
+    "consider ICD implantation",
+    "anticoagulation if thrombus present"
+  ],
+  "prognosis": "Guarded due to risk of sudden cardiac death; requires close monitoring and possible device therapy",
+  "description": "A rare form of localized ventricular dysfunction characterized by an isolated apical aneurysm without coronary artery disease. The condition predisposes to ventricular arrhythmias due to abnormal electrical pathways around the aneurysmal tissue.",
+  "risk_factors": [
+    "male gender",
+    "history of myocarditis",
+    "genetic predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "expert_cardiovascular_disease_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Hypertrophic Cardiomyopathy",
+    "Idiopathic Left Ventricular Apical Aneurysm with Ventricular Tachycardia",
+    "Arrhythmogenic Right Ventricular Dysplasia",
+    "Long QT Syndrome"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Congenital Chylothorax with Refractory Hydrops",
+  "specialty": "neonatal_perinatal_medicine",
+  "chief_complaint": "Baby has difficulty breathing and swollen body",
+  "symptoms": [
+    "respiratory distress",
+    "generalized edema",
+    "poor feeding",
+    "lethargy"
+  ],
+  "physical_findings": [
+    "decreased breath sounds on auscultation",
+    "pallor",
+    "abdominal distension"
+  ],
+  "lab_results": {
+    "pleural fluid analysis": "chylous (triglycerides >110 mg/dL)",
+    "CBC": "lymphopenia",
+    "albumin": "hypoalbuminemia (<2.5 g/dL)"
+  },
+  "treatment": [
+    "thoracentesis with chest tube placement",
+    "medium-chain triglyceride (MCT) formula",
+    "octreotide infusion",
+    "pleurodesis if refractory"
+  ],
+  "prognosis": "Guarded - depends on response to treatment and underlying etiology. Mortality up to 30% in severe cases with hydrops.",
+  "description": "Rare condition where lymphatic fluid accumulates in pleural space due to maldevelopment or trauma to thoracic duct. In this severe presentation, it leads to hydrops fetalis from lymphatic fluid loss causing hypoalbuminemia and intravascular volume depletion.",
+  "risk_factors": [
+    "Down syndrome",
+    "Noonan syndrome",
+    "traumatic delivery"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "6"
+  },
+  "case_id": "hard_neonatal_perinatal_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Congenital Chylothorax with Refractory Hydrops",
+    "Congenital Heart Failure",
+    "Neonatal Sepsis",
+    "Congenital Nephrotic Syndrome"
+  ]
+}

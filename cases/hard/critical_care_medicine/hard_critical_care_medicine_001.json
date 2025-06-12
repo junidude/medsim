@@ -1,0 +1,53 @@
+{
+  "name": "Acute Necrotizing Autoimmune Myocarditis",
+  "specialty": "critical_care_medicine",
+  "chief_complaint": "I can't breathe and my chest feels like it's being crushed",
+  "symptoms": [
+    "Severe chest pain",
+    "Profound dyspnea",
+    "Palpitations",
+    "Pre-syncope",
+    "Profuse diaphoresis"
+  ],
+  "physical_findings": [
+    "Pulsus paradoxus >15 mmHg",
+    "Kussmaul's sign present",
+    "New S3 gallop",
+    "Bibasilar crackles"
+  ],
+  "lab_results": {
+    "Troponin I": "28.6 ng/mL",
+    "BNP": "1,842 pg/mL",
+    "CRP": "48 mg/L",
+    "ESR": "78 mm/hr",
+    "Anti-cardiac myosin antibodies": "Positive"
+  },
+  "treatment": [
+    "Mechanical circulatory support (VA-ECMO)",
+    "High-dose IV corticosteroids",
+    "Plasmapheresis",
+    "Immunosuppressive therapy",
+    "Diuretics and inotropes"
+  ],
+  "prognosis": "Guarded - 60% mortality without ECMO, high risk of chronic cardiomyopathy in survivors",
+  "description": "A fulminant form of autoimmune-mediated myocardial inflammation causing rapid-onset cardiogenic shock. Characterized by extensive myocyte necrosis with eosinophilic infiltrates on histopathology. Often misdiagnosed as acute coronary syndrome initially.",
+  "risk_factors": [
+    "Recent viral illness (especially parvovirus B19)",
+    "History of autoimmune disorders",
+    "Checkpoint inhibitor therapy",
+    "Genetic predisposition (HLA-DR4)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "hard_critical_care_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Acute Myocardial Infarction",
+    "Acute Necrotizing Autoimmune Myocarditis",
+    "Cardiac Tamponade",
+    "Pulmonary Embolism"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Traumatic Aortoenteric Fistula",
+  "specialty": "trauma_surgery",
+  "chief_complaint": "Severe abdominal pain with episodes of vomiting blood",
+  "symptoms": [
+    "Hematemesis",
+    "Melena",
+    "Severe epigastric pain",
+    "Hypotension",
+    "Syncope"
+  ],
+  "physical_findings": [
+    "Pulsatile abdominal mass",
+    "Signs of hypovolemic shock",
+    "Peritoneal signs"
+  ],
+  "lab_results": {
+    "Hemoglobin": "6.2 g/dL",
+    "Hematocrit": "18%",
+    "Lactate": "5.8 mmol/L"
+  },
+  "treatment": [
+    "Emergency laparotomy",
+    "Aortic repair with graft",
+    "Bowel resection",
+    "Massive transfusion protocol",
+    "Broad-spectrum antibiotics"
+  ],
+  "prognosis": "Guarded (50-70% mortality even with prompt intervention)",
+  "description": "A rare life-threatening condition where a communication forms between the aorta and gastrointestinal tract, most commonly between an aortic aneurysm and the duodenum. Typically occurs in patients with prior aortic graft placement. Presents with herald bleeding followed by catastrophic hemorrhage.",
+  "risk_factors": [
+    "Prior aortic surgery",
+    "Abdominal aortic aneurysm",
+    "Infected vascular grafts",
+    "Radiation therapy to abdomen"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "9"
+  },
+  "case_id": "expert_trauma_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Peptic ulcer perforation",
+    "Traumatic Aortoenteric Fistula",
+    "Ruptured abdominal aortic aneurysm",
+    "Mallory-Weiss tear"
+  ]
+}

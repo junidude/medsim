@@ -1,0 +1,44 @@
+{
+  "name": "Allergic Conjunctivitis",
+  "specialty": "ophthalmology",
+  "chief_complaint": "My eyes are red, itchy, and watery.",
+  "symptoms": [
+    "itchy eyes",
+    "redness",
+    "watery discharge",
+    "burning sensation"
+  ],
+  "physical_findings": [
+    "conjunctival redness",
+    "mild eyelid swelling",
+    "clear discharge"
+  ],
+  "lab_results": {
+    "allergen test": "positive for pollen/dust"
+  },
+  "treatment": [
+    "antihistamine eye drops",
+    "cold compresses",
+    "avoidance of allergens"
+  ],
+  "prognosis": "Excellent with treatment and allergen avoidance; symptoms typically resolve within days.",
+  "description": "Allergic conjunctivitis is an inflammation of the conjunctiva caused by an allergic reaction to substances like pollen, dust, or pet dander. It is not contagious and is commonly seasonal.",
+  "risk_factors": [
+    "history of allergies",
+    "exposure to allergens",
+    "family history of atopy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_ophthalmology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Viral Conjunctivitis",
+    "Allergic Conjunctivitis",
+    "Bacterial Conjunctivitis",
+    "Dry Eye Syndrome"
+  ]
+}

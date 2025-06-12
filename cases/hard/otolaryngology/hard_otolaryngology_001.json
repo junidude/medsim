@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+  "specialty": "otolaryngology",
+  "chief_complaint": "I feel like there's something stuck in my throat all the time, and it burns when I talk.",
+  "symptoms": [
+    "Chronic throat irritation",
+    "Intermittent vocal cord spasms",
+    "Globus sensation (lump in throat)",
+    "Voice fatigue",
+    "Painful swallowing (odynophagia)"
+  ],
+  "physical_findings": [
+    "Hyperemic laryngeal mucosa",
+    "Intermittent adductor laryngeal dystonia observed on laryngoscopy",
+    "No visible structural abnormalities"
+  ],
+  "lab_results": {
+    "Laryngeal EMG": "Increased spontaneous activity in thyroarytenoid muscles",
+    "Inflammatory markers": "Normal",
+    "Allergy panel": "Negative"
+  },
+  "treatment": [
+    "Neuromodulators (gabapentin or pregabalin)",
+    "Laryngeal botulinum toxin injections for refractory cases",
+    "Voice therapy with specialized SLP",
+    "Cognitive behavioral therapy for sensory hypersensitivity component"
+  ],
+  "prognosis": "Variable; 60% achieve significant symptom control with multimodal therapy, but condition may wax and wane. Complete remission is rare.",
+  "description": "A recently characterized neuropathic disorder of the laryngeal sensory nerves causing chronic dysesthesia and motor dysfunction. Thought to involve small fiber neuropathy of the superior laryngeal nerve branches with central sensitization. Distinct from typical laryngopharyngeal reflux or muscle tension dysphonia.",
+  "risk_factors": [
+    "History of viral laryngitis",
+    "Autoimmune predisposition",
+    "Chronic stress/anxiety disorders",
+    "Previous neck trauma or intubation injury"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_otolaryngology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Laryngopharyngeal reflux",
+    "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+    "Muscle tension dysphonia",
+    "Vocal cord dysfunction"
+  ]
+}

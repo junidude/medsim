@@ -1,0 +1,49 @@
+{
+  "name": "Granulomatous Lymphadenitis",
+  "specialty": "pathology",
+  "chief_complaint": "I have swollen lumps in my neck that won't go away and I feel tired all the time.",
+  "symptoms": [
+    "persistent swollen lymph nodes",
+    "fatigue",
+    "low-grade fever",
+    "night sweats",
+    "unintentional weight loss"
+  ],
+  "physical_findings": [
+    "firm, non-tender lymphadenopathy (cervical and axillary)",
+    "mild hepatomegaly",
+    "pallor"
+  ],
+  "lab_results": {
+    "CBC": "mild anemia",
+    "ESR": "elevated",
+    "Tuberculin skin test": "positive",
+    "Lymph node biopsy": "caseating granulomas with Langhans giant cells"
+  },
+  "treatment": [
+    "multi-drug anti-tubercular therapy (isoniazid, rifampin, pyrazinamide, ethambutol)",
+    "nutritional support",
+    "follow-up imaging"
+  ],
+  "prognosis": "Good with proper treatment, though therapy may last 6-9 months. Risk of recurrence if treatment incomplete.",
+  "description": "A chronic inflammatory condition of lymph nodes characterized by formation of granulomas, most commonly caused by mycobacterial infection (tuberculosis). The granulomatous reaction represents a cell-mediated immune response to persistent antigens.",
+  "risk_factors": [
+    "history of tuberculosis exposure",
+    "immunocompromised status",
+    "living in endemic areas",
+    "poor nutrition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_pathology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Hodgkin's Lymphoma",
+    "Granulomatous Lymphadenitis",
+    "Tuberculous Lymphadenitis",
+    "Non-Hodgkin Lymphoma"
+  ]
+}

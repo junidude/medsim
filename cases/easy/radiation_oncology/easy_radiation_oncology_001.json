@@ -1,0 +1,40 @@
+{
+  "name": "Early Stage Laryngeal Carcinoma",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "Persistent hoarseness and throat discomfort for 3 months",
+  "symptoms": [
+    "hoarseness",
+    "throat pain",
+    "mild difficulty swallowing"
+  ],
+  "physical_findings": [
+    "vocal cord asymmetry on laryngoscopy",
+    "slight neck lymphadenopathy"
+  ],
+  "lab_results": {
+    "biopsy": "squamous cell carcinoma"
+  },
+  "treatment": [
+    "radiation therapy",
+    "voice rest"
+  ],
+  "prognosis": "Excellent with early intervention, >90% 5-year survival",
+  "description": "Localized squamous cell carcinoma of the larynx confined to the vocal cords without nodal involvement. Typically presents with persistent voice changes.",
+  "risk_factors": [
+    "tobacco use",
+    "alcohol consumption"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_radiation_oncology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Vocal Cord Nodules",
+    "Early Stage Laryngeal Carcinoma",
+    "Chronic Laryngitis",
+    "Gastroesophageal Reflux Disease"
+  ]
+}

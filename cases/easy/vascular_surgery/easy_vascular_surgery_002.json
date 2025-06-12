@@ -1,0 +1,47 @@
+{
+  "name": "Superficial Thrombophlebitis",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "I have a painful red streak on my leg that feels warm to touch",
+  "symptoms": [
+    "localized pain",
+    "redness along vein",
+    "mild swelling",
+    "warmth to touch"
+  ],
+  "physical_findings": [
+    "palpable cord-like vein",
+    "erythema along superficial vein",
+    "no significant edema"
+  ],
+  "lab_results": {
+    "D-dimer": "normal",
+    "CBC": "normal"
+  },
+  "treatment": [
+    "warm compresses",
+    "NSAIDs for pain/inflammation",
+    "elevation of affected limb",
+    "ambulation encouragement"
+  ],
+  "prognosis": "Excellent with resolution typically within 1-2 weeks",
+  "description": "Inflammation and clot formation in a superficial vein, most commonly in lower extremities. Different from DVT as it doesn't carry significant risk of pulmonary embolism.",
+  "risk_factors": [
+    "varicose veins",
+    "recent IV catheter use",
+    "prolonged sitting/standing",
+    "oral contraceptive use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_vascular_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Lymphangitis",
+    "Superficial Thrombophlebitis",
+    "Cellulitis",
+    "Saphenous Varicosity"
+  ]
+}

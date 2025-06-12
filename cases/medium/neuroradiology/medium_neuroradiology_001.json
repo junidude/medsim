@@ -1,0 +1,43 @@
+{
+  "name": "Transient Global Amnesia",
+  "specialty": "neuroradiology",
+  "chief_complaint": "I can't remember what happened this morning, and I keep asking the same questions over and over.",
+  "symptoms": [
+    "Sudden memory loss",
+    "Repetitive questioning",
+    "Confusion about recent events",
+    "No loss of personal identity"
+  ],
+  "physical_findings": [
+    "Normal neurological exam except for memory deficits",
+    "No focal motor or sensory deficits"
+  ],
+  "lab_results": {
+    "MRI brain": "No acute abnormalities",
+    "EEG": "Normal"
+  },
+  "treatment": [
+    "Reassurance and observation",
+    "Symptomatic management if needed"
+  ],
+  "prognosis": "Excellent, typically resolves within 24 hours with no lasting effects",
+  "description": "A temporary, sudden-onset episode of memory loss that can't be attributed to a more common neurological condition. Patients remain alert and retain personal identity but cannot form new memories during the episode.",
+  "risk_factors": [
+    "Middle age (50-70 years)",
+    "History of migraines",
+    "Recent physical exertion or emotional stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "1"
+  },
+  "case_id": "medium_neuroradiology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Complex partial seizure",
+    "Transient Global Amnesia",
+    "Psychogenic amnesia",
+    "Postictal state"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Radioiodine-Induced Thyroiditis",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "My neck feels tender and swollen after my thyroid treatment",
+  "symptoms": [
+    "neck tenderness",
+    "mild fever",
+    "fatigue",
+    "palpitations"
+  ],
+  "physical_findings": [
+    "thyroid tenderness on palpation",
+    "slight thyroid enlargement"
+  ],
+  "lab_results": {
+    "TSH": "suppressed",
+    "Free T4": "elevated",
+    "WBC": "normal"
+  },
+  "treatment": [
+    "symptomatic management (NSAIDs)",
+    "beta-blockers if tachycardic",
+    "hydration"
+  ],
+  "prognosis": "Self-limiting condition resolving within 2-8 weeks",
+  "description": "Inflammatory response of thyroid tissue following radioiodine therapy, causing temporary release of thyroid hormones into circulation",
+  "risk_factors": [
+    "recent radioiodine therapy",
+    "large thyroid volume",
+    "high dose treatment"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_nuclear_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Subacute Thyroiditis",
+    "Radioiodine-Induced Thyroiditis",
+    "Acute Suppurative Thyroiditis",
+    "Graves' Disease"
+  ]
+}

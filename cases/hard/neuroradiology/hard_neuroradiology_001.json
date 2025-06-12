@@ -1,0 +1,44 @@
+{
+  "name": "Bilateral Trigeminal Cavernous Hemangiomas",
+  "specialty": "neuroradiology",
+  "chief_complaint": "Episodes of severe facial pain and sudden vision blurring",
+  "symptoms": [
+    "Electric shock-like facial pain",
+    "Transient monocular vision loss",
+    "Facial numbness episodes",
+    "Tinnitus in left ear",
+    "Difficulty chewing"
+  ],
+  "physical_findings": [
+    "Decreased corneal reflex on right",
+    "Mild proptosis bilaterally"
+  ],
+  "lab_results": {
+    "D-dimer": "Elevated (1200 ng/mL)",
+    "ESR": "45 mm/hr"
+  },
+  "treatment": [
+    "Stereotactic radiosurgery",
+    "Anticonvulsant therapy (carbamazepine)",
+    "Corticosteroid pulse therapy"
+  ],
+  "prognosis": "Guarded due to bilateral involvement; high recurrence risk after treatment",
+  "description": "Rare vascular malformations involving both trigeminal nerves within the cavernous sinus, causing compression and episodic neuralgic symptoms. Lesions demonstrate characteristic 'sunburst' pattern on contrast-enhanced MRI with intralesional flow voids.",
+  "risk_factors": [
+    "History of cranial radiation therapy",
+    "Familial vascular malformation syndrome"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "hard_neuroradiology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Trigeminal Neuralgia",
+    "Cavernous Sinus Meningioma",
+    "Bilateral Trigeminal Cavernous Hemangiomas",
+    "Tolosa-Hunt Syndrome"
+  ]
+}

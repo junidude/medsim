@@ -1,0 +1,49 @@
+{
+  "name": "Eosinophilic Granulomatosis with Polyangiitis (EGPA) - Allergic Variant",
+  "specialty": "allergy_immunology",
+  "chief_complaint": "I keep getting asthma attacks, rashes, and my hands and feet feel numb sometimes",
+  "symptoms": [
+    "Severe allergic rhinitis",
+    "Recurrent sinusitis",
+    "Late-onset asthma",
+    "Peripheral neuropathy",
+    "Skin nodules or purpura"
+  ],
+  "physical_findings": [
+    "Nasal polyps on examination",
+    "Mononeuritis multiplex on neurological exam",
+    "Palpable purpura on lower extremities"
+  ],
+  "lab_results": {
+    "Peripheral eosinophilia": ">10%",
+    "ANCA": "Positive (p-ANCA pattern)",
+    "IgE": "Markedly elevated",
+    "Biopsy": "Eosinophilic vasculitis with granulomas"
+  },
+  "treatment": [
+    "High-dose corticosteroids",
+    "Immunosuppressants (azathioprine or mycophenolate)",
+    "Biologics (mepolizumab for eosinophil suppression)",
+    "Allergen avoidance and asthma control"
+  ],
+  "prognosis": "Variable; depends on organ involvement. With treatment, 5-year survival >80%, but relapses common",
+  "description": "A rare systemic vasculitis characterized by asthma, eosinophilia, and necrotizing vasculitis affecting small-to-medium vessels. The allergic variant presents with prominent atopic features and higher IgE levels compared to classic EGPA.",
+  "risk_factors": [
+    "History of atopy or allergic diseases",
+    "Chronic sinusitis",
+    "Adult-onset asthma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_allergy_immunology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Granulomatosis with Polyangiitis",
+    "Chronic Eosinophilic Pneumonia",
+    "Eosinophilic Granulomatosis with Polyangiitis (EGPA) - Allergic Variant",
+    "HyperIgE Syndrome"
+  ]
+}

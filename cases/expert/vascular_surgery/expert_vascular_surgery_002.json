@@ -1,0 +1,45 @@
+{
+  "name": "Idiopathic Segmental Arterial Mediolysis",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "Severe, intermittent abdominal pain with episodes of dizziness",
+  "symptoms": [
+    "acute abdominal pain",
+    "postprandial dizziness",
+    "unexplained weight loss",
+    "episodic hypertension"
+  ],
+  "physical_findings": [
+    "abdominal bruit",
+    "pallor during pain episodes"
+  ],
+  "lab_results": {
+    "CRP": "elevated",
+    "ESR": "elevated",
+    "D-dimer": "normal"
+  },
+  "treatment": [
+    "angiographic embolization of affected vessels",
+    "corticosteroid therapy",
+    "surgical resection of necrotic segments"
+  ],
+  "prognosis": "Guarded due to risk of arterial rupture; 60% 5-year survival with aggressive treatment",
+  "description": "A rare non-inflammatory arteriopathy characterized by vacuolization and lysis of vascular smooth muscle in medium-sized arteries, leading to dissection, aneurysm formation, or occlusion. Most commonly affects abdominal arteries but can occur in any vascular bed.",
+  "risk_factors": [
+    "middle-aged males",
+    "history of vasospastic disorders",
+    "recurrent vascular insults"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_vascular_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Fibromuscular dysplasia",
+    "Idiopathic Segmental Arterial Mediolysis",
+    "Vasculitis",
+    "Superior mesenteric artery syndrome"
+  ]
+}

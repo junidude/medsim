@@ -1,0 +1,47 @@
+{
+  "name": "Congenital Intestinal Malrotation with Volvulus",
+  "specialty": "pediatric_surgery",
+  "chief_complaint": "My baby is vomiting green fluid and has a swollen belly",
+  "symptoms": [
+    "bilious vomiting",
+    "abdominal distension",
+    "failure to thrive",
+    "bloody stools"
+  ],
+  "physical_findings": [
+    "tender, distended abdomen",
+    "decreased bowel sounds",
+    "signs of dehydration"
+  ],
+  "lab_results": {
+    "CBC": "leukocytosis",
+    "electrolytes": "metabolic acidosis",
+    "lactate": "elevated"
+  },
+  "treatment": [
+    "emergency surgical correction (Ladd's procedure)",
+    "nasogastric decompression",
+    "IV fluids and electrolyte correction",
+    "broad-spectrum antibiotics"
+  ],
+  "prognosis": "Good with prompt surgical intervention, but risk of short bowel syndrome if significant intestinal necrosis occurs",
+  "description": "A life-threatening congenital anomaly where the intestines fail to rotate properly during fetal development, leading to twisting (volvulus) that can compromise blood supply. Most commonly presents in neonates but can occur in older children. Requires immediate surgical intervention to prevent bowel necrosis.",
+  "risk_factors": [
+    "prematurity",
+    "other congenital anomalies",
+    "family history of intestinal malrotation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "8"
+  },
+  "case_id": "hard_pediatric_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Necrotizing Enterocolitis",
+    "Congenital Intestinal Malrotation with Volvulus",
+    "Hirschsprung Disease",
+    "Intussusception"
+  ]
+}

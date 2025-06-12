@@ -1,0 +1,42 @@
+{
+  "name": "Familial Hypercholesterolemia",
+  "specialty": "medical_genetics",
+  "chief_complaint": "I have yellowish bumps on my skin and my doctor said my cholesterol is very high",
+  "symptoms": [
+    "xanthomas (yellowish skin nodules)",
+    "chest pain",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "tendon xanthomas",
+    "corneal arcus (white ring around iris)"
+  ],
+  "lab_results": {
+    "LDL cholesterol": ">190 mg/dL",
+    "genetic_testing": "LDLR gene mutation positive"
+  },
+  "treatment": [
+    "high-intensity statins",
+    "PCSK9 inhibitors",
+    "dietary modifications"
+  ],
+  "prognosis": "Good with early treatment, but increased risk of cardiovascular disease if untreated",
+  "description": "An autosomal dominant genetic disorder characterized by extremely high LDL cholesterol levels from birth, leading to premature cardiovascular disease if untreated. Caused by mutations in LDLR, APOB, or PCSK9 genes.",
+  "risk_factors": [
+    "family history of high cholesterol",
+    "family history of early heart disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_medical_genetics_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Hyperlipidemia",
+    "Familial Hypercholesterolemia",
+    "Hypothyroidism",
+    "Diabetes Mellitus"
+  ]
+}

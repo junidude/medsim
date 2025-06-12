@@ -1,0 +1,51 @@
+{
+  "name": "Hyperaldosteronism with Paradoxical Hypokalemia",
+  "specialty": "endocrinology",
+  "chief_complaint": "I feel so weak and thirsty all the time, and my muscles keep cramping",
+  "symptoms": [
+    "Severe muscle weakness",
+    "Excessive thirst (polydipsia)",
+    "Muscle cramps",
+    "Headaches",
+    "Heart palpitations"
+  ],
+  "physical_findings": [
+    "Hypertension (180/110 mmHg)",
+    "Positive Chvostek's sign",
+    "Delayed deep tendon reflexes"
+  ],
+  "lab_results": {
+    "Serum potassium": "2.8 mEq/L (low)",
+    "Serum aldosterone": "42 ng/dL (high)",
+    "Plasma renin activity": "0.2 ng/mL/hr (low)",
+    "Urinary potassium": "80 mEq/24h (high)",
+    "Arterial blood gas": "Metabolic alkalosis (pH 7.48)"
+  },
+  "treatment": [
+    "Potassium-sparing diuretics (e.g., spironolactone)",
+    "Potassium supplementation",
+    "Low-sodium diet",
+    "Adrenal vein sampling for lateralization",
+    "Possible adrenalectomy if unilateral disease"
+  ],
+  "prognosis": "Good with proper treatment, but requires lifelong monitoring for recurrence or complications of chronic hypertension",
+  "description": "A rare variant of primary hyperaldosteronism where excessive aldosterone secretion leads to paradoxical hypokalemia despite the hormone's typical potassium-sparing effects. The condition involves a complex dysregulation of renal sodium-potassium exchange channels and is often caused by bilateral adrenal hyperplasia or aldosterone-producing adenomas.",
+  "risk_factors": [
+    "Family history of endocrine disorders",
+    "Chronic kidney disease",
+    "Long-term diuretic use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "hard_endocrinology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Hyperaldosteronism with Paradoxical Hypokalemia",
+    "Primary hyperparathyroidism",
+    "Bartter syndrome",
+    "Liddle syndrome"
+  ]
+}

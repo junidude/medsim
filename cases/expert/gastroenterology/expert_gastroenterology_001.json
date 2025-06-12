@@ -1,0 +1,51 @@
+{
+  "name": "Idiopathic Chronic Intestinal Pseudo-Obstruction with Secondary Sclerosing Cholangitis",
+  "specialty": "gastroenterology",
+  "chief_complaint": "Severe abdominal bloating and pain, yellow eyes, and inability to pass stool for 5 days",
+  "symptoms": [
+    "episodic abdominal distension",
+    "postprandial vomiting",
+    "jaundice",
+    "weight loss",
+    "intermittent diarrhea alternating with constipation"
+  ],
+  "physical_findings": [
+    "tympanic abdominal percussion",
+    "hepatomegaly with right upper quadrant tenderness",
+    "scleral icterus"
+  ],
+  "lab_results": {
+    "ALP": "850 U/L",
+    "GGT": "620 U/L",
+    "total bilirubin": "4.2 mg/dL",
+    "CRP": "32 mg/L",
+    "anti-smooth muscle antibody": "positive (1:160)"
+  },
+  "treatment": [
+    "prokinetic agents (neostigmine trial)",
+    "endoscopic biliary stenting",
+    "parenteral nutrition during crises",
+    "immunomodulators for cholangitis component",
+    "surgical consultation for possible subtotal colectomy"
+  ],
+  "prognosis": "Guarded. Progressive disease with 5-year survival ~60% due to nutritional complications and liver failure",
+  "description": "A rare motility disorder characterized by recurrent obstruction symptoms without mechanical blockage, complicated by secondary autoimmune-mediated bile duct injury. Pathogenesis involves both enteric nervous system dysfunction and immune-mediated biliary strictures. Diagnostic hallmarks include manometric evidence of dysmotility plus cholangiographic 'beading' pattern.",
+  "risk_factors": [
+    "prior abdominal radiation",
+    "Ehlers-Danlos syndrome",
+    "paraneoplastic syndromes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_gastroenterology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Primary Sclerosing Cholangitis",
+    "Idiopathic Chronic Intestinal Pseudo-Obstruction with Secondary Sclerosing Cholangitis",
+    "Bowel Obstruction",
+    "Cholangiocarcinoma"
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Erythrokeratodermia Variabilis et Progressiva",
+  "specialty": "dermatology",
+  "chief_complaint": "My skin keeps changing colors and getting thick, scaly patches that come and go",
+  "symptoms": [
+    "Migratory erythematous patches",
+    "Progressive hyperkeratotic plaques",
+    "Episodic burning sensation",
+    "Worsening with temperature changes"
+  ],
+  "physical_findings": [
+    "Geographic-shaped erythema with sharp borders",
+    "Fixed hyperkeratotic plaques on extremities",
+    "Palmoplantar keratoderma",
+    "Lesions change shape within hours"
+  ],
+  "lab_results": {
+    "Genetic testing": "GJB3 or GJB4 mutation positive",
+    "Skin biopsy": "Hyperkeratosis with parakeratosis and acanthosis",
+    "Inflammatory markers": "Normal"
+  },
+  "treatment": [
+    "Topical keratolytics (urea, salicylic acid)",
+    "Systemic retinoids (acitretin)",
+    "Emollients with ceramides",
+    "Avoidance of triggers (temperature extremes)"
+  ],
+  "prognosis": "Chronic condition with variable progression; lesions may stabilize in adulthood but rarely resolve completely",
+  "description": "A rare genodermatosis characterized by two distinct features: (1) transient, migratory erythematous patches (variabilis) and (2) fixed hyperkeratotic plaques (progressiva). Caused by connexin gene mutations leading to abnormal keratinocyte differentiation.",
+  "risk_factors": [
+    "Family history of similar skin conditions",
+    "Cold or hot environmental exposures",
+    "Physical stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_dermatology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Psoriasis",
+    "Erythrokeratodermia Variabilis et Progressiva",
+    "Pityriasis Rubra Pilaris",
+    "Ichthyosis Vulgaris"
+  ]
+}

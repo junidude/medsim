@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Mesenteric Panniculitis",
+  "specialty": "general_surgery",
+  "chief_complaint": "Severe abdominal pain that comes and goes, with nausea and weight loss",
+  "symptoms": [
+    "intermittent severe abdominal pain",
+    "unintentional weight loss (15 lbs in 2 months)",
+    "nausea without vomiting",
+    "early satiety",
+    "low-grade fever"
+  ],
+  "physical_findings": [
+    "diffuse abdominal tenderness without rebound",
+    "palpable mesenteric mass in right lower quadrant",
+    "mild abdominal distension"
+  ],
+  "lab_results": {
+    "CBC": "mild leukocytosis (WBC 12.3)",
+    "CRP": "elevated at 4.8 mg/dL",
+    "ESR": "68 mm/hr",
+    "CT abdomen": "fat stranding and soft tissue density in mesentery with 'misty mesentery' appearance"
+  },
+  "treatment": [
+    "high-dose corticosteroids (prednisone taper)",
+    "immunomodulators if refractory (azathioprine)",
+    "surgical biopsy for definitive diagnosis",
+    "total parenteral nutrition during acute flares"
+  ],
+  "prognosis": "Chronic relapsing-remitting course with 30% requiring long-term immunosuppression. Rare progression to mesenteric fibrosis.",
+  "description": "A rare inflammatory condition affecting the mesenteric fat tissue of unknown etiology. Characterized by chronic inflammation, fat necrosis, and fibrosis that may mimic malignancy. Often requires surgical biopsy for definitive diagnosis.",
+  "risk_factors": [
+    "history of abdominal surgery",
+    "autoimmune disorders",
+    "male gender (3:1 male predominance)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_general_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Crohn's disease",
+    "Idiopathic Mesenteric Panniculitis",
+    "Lymphoma",
+    "Tuberculous peritonitis"
+  ]
+}

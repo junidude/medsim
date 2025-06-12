@@ -1,0 +1,50 @@
+{
+  "name": "Idiopathic Mast Cell Activation Syndrome (iMCAS)",
+  "specialty": "allergy_immunology",
+  "chief_complaint": "I keep getting random episodes of flushing, dizziness, and throat tightness - like an allergic reaction but without any trigger I can identify",
+  "symptoms": [
+    "Recurrent anaphylaxis-like episodes",
+    "Generalized flushing",
+    "Gastrointestinal cramping",
+    "Presyncope",
+    "Pruritus without rash"
+  ],
+  "physical_findings": [
+    "Episodic hypotension during flares",
+    "Dermatographism",
+    "Tachycardia during episodes"
+  ],
+  "lab_results": {
+    "Serum tryptase": "Normal baseline, <11.4 ng/mL",
+    "24-hour urine N-methylhistamine": "Elevated during episodes",
+    "Plasma prostaglandin D2": "Markedly elevated during flares",
+    "Bone marrow biopsy": "Normal mast cell morphology"
+  },
+  "treatment": [
+    "High-dose H1/H2 antihistamines",
+    "Mast cell stabilizers (cromolyn sodium)",
+    "Leukotriene inhibitors",
+    "Epinephrine auto-injector for emergencies",
+    "Low-histamine diet trial"
+  ],
+  "prognosis": "Chronic condition requiring long-term management. Approximately 30% of patients achieve good symptom control with combination therapy, while others experience progressive symptoms.",
+  "description": "A rare variant of mast cell activation disorder where patients experience recurrent, severe mast cell mediator release symptoms without meeting criteria for systemic mastocytosis or having identifiable triggers. Pathophysiology involves abnormal mast cell reactivity to endogenous stimuli rather than IgE-mediated mechanisms.",
+  "risk_factors": [
+    "Female sex",
+    "History of other dysautonomia conditions",
+    "Prior viral illness triggering onset"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "expert_allergy_immunology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Systemic mastocytosis",
+    "Carcinoid syndrome",
+    "Idiopathic Mast Cell Activation Syndrome (iMCAS)",
+    "Hereditary angioedema"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Thyroid Hormone Resistance Syndrome",
+  "specialty": "endocrinology",
+  "chief_complaint": "I feel tired all the time, but my doctor says my thyroid tests are normal",
+  "symptoms": [
+    "fatigue",
+    "weight gain",
+    "cold intolerance",
+    "irregular heartbeat"
+  ],
+  "physical_findings": [
+    "goiter",
+    "delayed deep tendon reflexes"
+  ],
+  "lab_results": {
+    "TSH": "normal to mildly elevated",
+    "Free T4": "elevated",
+    "Free T3": "elevated"
+  },
+  "treatment": [
+    "beta-blockers for tachycardia",
+    "levothyroxine (in select cases)",
+    "regular monitoring"
+  ],
+  "prognosis": "Generally good with proper management, though symptoms may persist",
+  "description": "A rare condition where body tissues are partially resistant to thyroid hormones, leading to elevated thyroid hormone levels with persistent hypothyroid symptoms. Caused by mutations in thyroid hormone receptor genes.",
+  "risk_factors": [
+    "family history of thyroid disorders",
+    "genetic predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_endocrinology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Hypothyroidism",
+    "Thyroid Hormone Resistance Syndrome",
+    "Anemia",
+    "Adrenal Insufficiency"
+  ]
+}

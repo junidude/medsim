@@ -1,0 +1,51 @@
+{
+  "name": "Bilateral Renal Medullary Carcinoma with Paraneoplastic Syndrome",
+  "specialty": "nephrology",
+  "chief_complaint": "Severe flank pain and blood in my urine for the past two weeks",
+  "symptoms": [
+    "gross hematuria",
+    "unilateral flank pain (progressing to bilateral)",
+    "unintentional weight loss (15 lbs in 3 months)",
+    "fatigue",
+    "intermittent fever"
+  ],
+  "physical_findings": [
+    "costovertebral angle tenderness bilaterally",
+    "palpable abdominal mass in both flanks",
+    "pallor"
+  ],
+  "lab_results": {
+    "CBC": "Hb 8.2 g/dL (microcytic anemia)",
+    "urinalysis": "gross blood, +protein, +RBC casts",
+    "LDH": "1,200 U/L",
+    "CT urogram": "bilateral infiltrative renal masses with retroperitoneal lymphadenopathy"
+  },
+  "treatment": [
+    "aggressive IV hydration",
+    "multimodal pain management",
+    "emergency nephrology consultation",
+    "consideration for experimental immunotherapy given poor response to traditional chemotherapy",
+    "palliative care involvement"
+  ],
+  "prognosis": "extremely poor (median survival <12 months even with treatment)",
+  "description": "A rare, highly aggressive malignancy arising from the renal medulla, almost exclusively seen in young patients with sickle cell trait or disease. Characterized by rapid bilateral involvement, early metastasis, and frequent paraneoplastic phenomena. Often misdiagnosed initially as pyelonephritis or renal infarction.",
+  "risk_factors": [
+    "sickle cell trait/disease",
+    "African descent",
+    "male gender",
+    "age 20-40 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_nephrology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Renal Cell Carcinoma",
+    "Bilateral Renal Medullary Carcinoma with Paraneoplastic Syndrome",
+    "Polycystic Kidney Disease",
+    "Bilateral Nephrolithiasis"
+  ]
+}

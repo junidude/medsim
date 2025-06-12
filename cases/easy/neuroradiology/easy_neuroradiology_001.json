@@ -1,0 +1,43 @@
+{
+  "name": "Occipital Neuralgia",
+  "specialty": "neuroradiology",
+  "chief_complaint": "Sharp, shooting pain in the back of my head",
+  "symptoms": [
+    "intermittent sharp pain in occipital region",
+    "tenderness at base of skull",
+    "pain behind the eyes"
+  ],
+  "physical_findings": [
+    "tenderness over greater occipital nerve",
+    "reduced range of neck motion",
+    "normal neurological exam"
+  ],
+  "lab_results": {
+    "MRI cervical spine": "No structural abnormalities"
+  },
+  "treatment": [
+    "nerve blocks",
+    "physical therapy",
+    "anti-inflammatory medications"
+  ],
+  "prognosis": "Good with proper management, though may have recurrent episodes",
+  "description": "Irritation or inflammation of the occipital nerves causing episodic sharp pain in the distribution of these nerves",
+  "risk_factors": [
+    "poor posture",
+    "neck trauma",
+    "prolonged computer use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "easy_neuroradiology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Cervical radiculopathy",
+    "Occipital Neuralgia",
+    "Tension headache",
+    "Migraine"
+  ]
+}

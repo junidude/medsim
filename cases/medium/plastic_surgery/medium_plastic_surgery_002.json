@@ -1,0 +1,42 @@
+{
+  "name": "Subdermal Silicone Granulomatosis",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "Lumpy, painful areas where I got cosmetic fillers years ago",
+  "symptoms": [
+    "tender nodules under skin",
+    "intermittent swelling",
+    "skin discoloration"
+  ],
+  "physical_findings": [
+    "palpable 5-15mm firm nodules along nasolabial folds",
+    "mild erythema over affected areas"
+  ],
+  "lab_results": {
+    "biopsy": "foreign body giant cell reaction with silicone droplets"
+  },
+  "treatment": [
+    "intralesional corticosteroids",
+    "surgical excision of symptomatic nodules",
+    "cessation of all silicone-based products"
+  ],
+  "prognosis": "Good with treatment but may require multiple interventions",
+  "description": "Delayed inflammatory reaction to migrated or degraded silicone fillers, causing granuloma formation years after initial injection. Often presents with multiple firm subcutaneous nodules in facial areas where fillers were previously placed.",
+  "risk_factors": [
+    "history of illicit silicone injections",
+    "multiple cosmetic filler procedures",
+    "autoimmune predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_plastic_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Sarcoidosis",
+    "Subdermal Silicone Granulomatosis",
+    "Foreign Body Reaction",
+    "Infectious Abscess"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Paroxysmal Nocturnal Hemoglobinuria (PNH) with Thrombotic Microangiopathy",
+  "specialty": "hematology",
+  "chief_complaint": "I feel extremely tired, my urine is dark in the morning, and I sometimes get sharp abdominal pain",
+  "symptoms": [
+    "severe fatigue",
+    "dark-colored urine (hemoglobinuria)",
+    "abdominal pain",
+    "shortness of breath",
+    "difficulty swallowing"
+  ],
+  "physical_findings": [
+    "pallor",
+    "jaundice",
+    "abdominal tenderness"
+  ],
+  "lab_results": {
+    "LDH": "markedly elevated",
+    "haptoglobin": "undetectable",
+    "reticulocyte count": "elevated",
+    "direct antiglobulin test (DAT)": "negative",
+    "flow cytometry": "CD55/CD59 deficiency on RBCs and WBCs",
+    "platelet count": "decreased",
+    "schistocytes on peripheral smear": "present"
+  },
+  "treatment": [
+    "eculizumab (anti-C5 monoclonal antibody)",
+    "ravulizumab (long-acting C5 inhibitor)",
+    "blood transfusions as needed",
+    "anticoagulation therapy",
+    "bone marrow transplant in refractory cases"
+  ],
+  "prognosis": "Variable; improved with complement inhibition therapy but risk of life-threatening thrombosis remains. 5-year survival ~65% without treatment, ~85% with eculizumab.",
+  "description": "A rare, acquired hematopoietic stem cell disorder causing complement-mediated hemolysis, thrombosis, and bone marrow failure. The thrombotic microangiopathy variant presents with additional features of microvascular thrombosis leading to organ damage.",
+  "risk_factors": [
+    "prior aplastic anemia",
+    "certain viral infections",
+    "autoimmune disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "hard_hematology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Autoimmune Hemolytic Anemia",
+    "Paroxysmal Nocturnal Hemoglobinuria (PNH) with Thrombotic Microangiopathy",
+    "Hereditary Spherocytosis",
+    "Thrombotic Thrombocytopenic Purpura"
+  ]
+}

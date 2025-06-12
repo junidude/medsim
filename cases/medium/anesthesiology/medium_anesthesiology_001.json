@@ -1,0 +1,46 @@
+{
+  "name": "Postoperative Malignant Hyperthermia",
+  "specialty": "anesthesiology",
+  "chief_complaint": "I feel extremely hot and my muscles are cramping after surgery",
+  "symptoms": [
+    "Severe muscle rigidity",
+    "Tachycardia",
+    "Hyperthermia",
+    "Dark-colored urine"
+  ],
+  "physical_findings": [
+    "Body temperature > 40°C (104°F)",
+    "Generalized muscle spasms"
+  ],
+  "lab_results": {
+    "Arterial blood gas": "Metabolic acidosis",
+    "Serum CK": "Markedly elevated",
+    "Serum potassium": "Elevated"
+  },
+  "treatment": [
+    "Immediate cessation of triggering agents",
+    "Intravenous dantrolene",
+    "Active cooling measures",
+    "Supportive ICU care"
+  ],
+  "prognosis": "Good with prompt recognition and treatment, but potentially fatal if untreated",
+  "description": "A rare but life-threatening pharmacogenetic disorder triggered by certain anesthetic agents in susceptible individuals, causing uncontrolled skeletal muscle metabolism and severe hyperthermia. Typically manifests during or shortly after general anesthesia.",
+  "risk_factors": [
+    "Family history of MH",
+    "Previous adverse reaction to anesthesia",
+    "Certain musculoskeletal disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "8"
+  },
+  "case_id": "medium_anesthesiology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Neuroleptic Malignant Syndrome",
+    "Postoperative Malignant Hyperthermia",
+    "Serotonin Syndrome",
+    "Heat Stroke"
+  ]
+}

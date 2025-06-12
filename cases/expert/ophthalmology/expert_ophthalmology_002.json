@@ -1,0 +1,48 @@
+{
+  "name": "Bilateral Acute Idiopathic Maculopathy (BAIM)",
+  "specialty": "ophthalmology",
+  "chief_complaint": "Sudden blurry vision and central dark spots in both eyes",
+  "symptoms": [
+    "Rapid-onset central scotoma",
+    "Metamorphopsia",
+    "Photophobia",
+    "Reduced color perception"
+  ],
+  "physical_findings": [
+    "Bilateral macular edema with yellow-white lesions",
+    "Subretinal fluid accumulation",
+    "Absence of vitreous cells"
+  ],
+  "lab_results": {
+    "OCT": "Subretinal hyperreflective material with neurosensory detachment",
+    "FA": "Early hypofluorescence with late staining",
+    "ICG": "Hypofluorescent spots throughout mid-late phases"
+  },
+  "treatment": [
+    "High-dose oral corticosteroids (1mg/kg prednisone)",
+    "Intravitreal anti-VEGF therapy",
+    "Immunosuppressive agents in refractory cases",
+    "Close monitoring for choroidal neovascularization"
+  ],
+  "prognosis": "Variable; 60% achieve 20/40 vision or better within 6 months, but may recur or develop CNV",
+  "description": "A rare inflammatory disorder affecting the RPE and outer retina, typically affecting healthy young adults. Characterized by acute bilateral central vision loss with distinctive multimodal imaging findings. Etiology remains unknown but may represent a post-viral autoimmune response.",
+  "risk_factors": [
+    "Recent viral illness (particularly coxsackievirus)",
+    "HLA-B51 haplotype",
+    "Young age (20-40 years)",
+    "Asian ethnicity"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "expert_ophthalmology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Acute posterior multifocal placoid pigment epitheliopathy",
+    "Bilateral Acute Idiopathic Maculopathy (BAIM)",
+    "Central serous chorioretinopathy",
+    "Macular telangiectasia type 2"
+  ]
+}

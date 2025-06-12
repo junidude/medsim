@@ -1,0 +1,48 @@
+{
+  "name": "Subacute Thyroiditis",
+  "specialty": "radiology",
+  "chief_complaint": "Painful neck swelling and fever for the past 2 weeks",
+  "symptoms": [
+    "Neck pain radiating to jaw/ears",
+    "Low-grade fever",
+    "Fatigue",
+    "Palpitations",
+    "Weight loss"
+  ],
+  "physical_findings": [
+    "Tender, firm thyroid enlargement",
+    "Mild tachycardia",
+    "Warm skin"
+  ],
+  "lab_results": {
+    "ESR": "Elevated",
+    "TSH": "Suppressed",
+    "Free T4": "Elevated",
+    "Thyroid ultrasound": "Heterogeneous thyroid with hypoechoic areas"
+  },
+  "treatment": [
+    "NSAIDs for pain/inflammation",
+    "Beta-blockers for symptomatic tachycardia",
+    "Corticosteroids in severe cases"
+  ],
+  "prognosis": "Self-limiting condition typically resolving within 3-6 months, though may progress through hyperthyroid, hypothyroid, and recovery phases",
+  "description": "Subacute granulomatous thyroiditis (De Quervain's) is an inflammatory thyroid condition likely post-viral, characterized by painful thyroid enlargement and transient thyrotoxicosis followed by hypothyroidism before eventual recovery. Imaging shows patchy thyroid involvement.",
+  "risk_factors": [
+    "Recent viral upper respiratory infection",
+    "Female gender (3:1 ratio)",
+    "Age 30-50 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_radiology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Suppurative Thyroiditis",
+    "Graves' Disease",
+    "Subacute Thyroiditis",
+    "Thyroid Lymphoma"
+  ]
+}

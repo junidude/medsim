@@ -1,0 +1,49 @@
+{
+  "name": "Post-Traumatic Myofascial Pain Syndrome",
+  "specialty": "physical_medicine_rehabilitation",
+  "chief_complaint": "I have constant pain in my shoulder and neck that won't go away after my car accident",
+  "symptoms": [
+    "chronic localized muscle pain",
+    "trigger point tenderness",
+    "referred pain patterns",
+    "muscle stiffness"
+  ],
+  "physical_findings": [
+    "palpable taut bands in trapezius muscle",
+    "reproduction of pain with trigger point pressure",
+    "limited cervical range of motion"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "CRP": "normal",
+    "ESR": "slightly elevated"
+  },
+  "treatment": [
+    "trigger point injections",
+    "physical therapy with myofascial release techniques",
+    "therapeutic ultrasound",
+    "postural re-education",
+    "pain management medications"
+  ],
+  "prognosis": "Good with comprehensive treatment, though may require ongoing management for chronic cases",
+  "description": "A chronic pain disorder where pressure on sensitive points in muscles (trigger points) causes pain in seemingly unrelated parts of the body. Often develops after trauma or repetitive strain injuries.",
+  "risk_factors": [
+    "previous trauma or injury",
+    "poor posture",
+    "repetitive strain activities",
+    "stress and anxiety"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_physical_medicine_rehabilitation_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Cervical Radiculopathy",
+    "Post-Traumatic Myofascial Pain Syndrome",
+    "Rotator Cuff Tear",
+    "Fibromyalgia"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Metabolic Fatigue Syndrome",
+  "specialty": "preventive_medicine",
+  "chief_complaint": "I feel exhausted all the time, even after a full night's sleep",
+  "symptoms": [
+    "persistent fatigue",
+    "brain fog",
+    "unexplained weight gain",
+    "mild headaches"
+  ],
+  "physical_findings": [
+    "slightly elevated BMI (28.3)",
+    "mild peripheral edema"
+  ],
+  "lab_results": {
+    "fasting glucose": "102 mg/dL",
+    "TSH": "4.8 mIU/L",
+    "vitamin D": "18 ng/mL"
+  },
+  "treatment": [
+    "lifestyle modification program",
+    "vitamin D supplementation",
+    "dietary counseling",
+    "gradual exercise program"
+  ],
+  "prognosis": "Good with early intervention, may progress to prediabetes/metabolic syndrome if untreated",
+  "description": "A subclinical metabolic disorder characterized by fatigue, mild glucose dysregulation, and borderline thyroid function, often preceding full metabolic syndrome",
+  "risk_factors": [
+    "sedentary lifestyle",
+    "processed food diet",
+    "family history of diabetes",
+    "office work environment"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_preventive_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Hypothyroidism",
+    "Chronic Fatigue Syndrome",
+    "Metabolic Fatigue Syndrome",
+    "Depression"
+  ]
+}

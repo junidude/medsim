@@ -1,0 +1,47 @@
+{
+  "name": "Acute Viral Conjunctivitis",
+  "specialty": "emergency_medicine",
+  "chief_complaint": "My eyes are red, itchy, and have discharge",
+  "symptoms": [
+    "eye redness",
+    "itching",
+    "watery discharge",
+    "gritty sensation",
+    "mild light sensitivity"
+  ],
+  "physical_findings": [
+    "conjunctival injection",
+    "clear or white discharge",
+    "mild eyelid swelling"
+  ],
+  "lab_results": {
+    "rapid adenovirus test": "positive"
+  },
+  "treatment": [
+    "cool compresses",
+    "artificial tears",
+    "strict hand hygiene",
+    "avoid contact lenses"
+  ],
+  "prognosis": "Self-limiting, resolves within 1-2 weeks",
+  "description": "Highly contagious viral infection of the conjunctiva, typically caused by adenovirus. Spreads easily through direct contact or contaminated surfaces.",
+  "risk_factors": [
+    "recent sick contacts",
+    "poor hand hygiene",
+    "contact lens use",
+    "crowded environments"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_emergency_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Allergic Conjunctivitis",
+    "Acute Viral Conjunctivitis",
+    "Bacterial Conjunctivitis",
+    "Dry Eye Syndrome"
+  ]
+}

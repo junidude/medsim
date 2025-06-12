@@ -1,0 +1,52 @@
+{
+  "name": "Congenital Jejunal Atresia with Volvulus",
+  "specialty": "pediatric_surgery",
+  "chief_complaint": "My baby hasn't passed stool in 2 days and keeps vomiting green fluid",
+  "symptoms": [
+    "bilious vomiting",
+    "abdominal distension",
+    "failure to pass meconium",
+    "feeding intolerance",
+    "lethargy"
+  ],
+  "physical_findings": [
+    "scaphoid abdomen with visible peristalsis",
+    "palpable abdominal mass in right upper quadrant",
+    "decreased bowel sounds",
+    "signs of dehydration"
+  ],
+  "lab_results": {
+    "CBC": "leukocytosis with left shift",
+    "electrolytes": "hypokalemic metabolic alkalosis",
+    "ABG": "respiratory acidosis",
+    "bilirubin": "elevated direct bilirubin"
+  },
+  "treatment": [
+    "emergency laparotomy",
+    "resection of atretic segment",
+    "primary anastomosis",
+    "postoperative TPN",
+    "nasogastric decompression"
+  ],
+  "prognosis": "Guarded - depends on timing of intervention and presence of complications like necrotizing enterocolitis or short bowel syndrome",
+  "description": "A rare congenital intestinal obstruction caused by complete discontinuity of the jejunum, often associated with malrotation and volvulus. The condition results from in-utero vascular accidents leading to ischemic necrosis of a segment of bowel. Requires urgent surgical intervention to prevent life-threatening complications.",
+  "risk_factors": [
+    "prematurity",
+    "low birth weight",
+    "maternal diabetes",
+    "history of intestinal atresia in siblings"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "8"
+  },
+  "case_id": "hard_pediatric_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Hirschsprung Disease",
+    "Congenital Jejunal Atresia with Volvulus",
+    "Malrotation with Volvulus",
+    "Meconium Ileus"
+  ]
+}

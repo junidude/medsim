@@ -1,0 +1,42 @@
+{
+  "name": "Idiopathic Trigeminal Neuralgia with Vascular Compression",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "Sudden, severe electric shock-like pain on the right side of my face",
+  "symptoms": [
+    "Episodic facial pain triggered by chewing or brushing teeth",
+    "Pain-free intervals between attacks",
+    "Mild facial numbness after severe episodes"
+  ],
+  "physical_findings": [
+    "Trigger zones around nasolabial fold",
+    "Normal cranial nerve exam between episodes"
+  ],
+  "lab_results": {
+    "MRI Brain with FIESTA sequence": "Neurovascular conflict at trigeminal nerve root entry zone"
+  },
+  "treatment": [
+    "Carbamazepine trial",
+    "Microvascular decompression surgery if medication fails",
+    "Gamma knife radiosurgery for non-surgical candidates"
+  ],
+  "prognosis": "Good with proper treatment, though may require long-term medication management or surgical intervention",
+  "description": "A neuropathic pain disorder of the trigeminal nerve characterized by sudden, severe, brief stabbing recurrent episodes of pain in areas of the face supplied by one or more branches of the nerve. Often caused by vascular compression at the nerve root entry zone.",
+  "risk_factors": [
+    "Female gender",
+    "Age over 50",
+    "Multiple sclerosis (in younger patients)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9 during attacks, 3 between episodes"
+  },
+  "case_id": "medium_neurological_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Postherpetic Neuralgia",
+    "Idiopathic Trigeminal Neuralgia with Vascular Compression",
+    "Temporomandibular Joint Disorder",
+    "Multiple Sclerosis"
+  ]
+}

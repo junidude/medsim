@@ -1,0 +1,46 @@
+{
+  "name": "Trigeminocerebellar Compression Syndrome",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "Severe facial pain with episodes of vertigo and difficulty walking",
+  "symptoms": [
+    "Unilateral facial pain (trigeminal distribution)",
+    "Episodic vertigo",
+    "Ataxia",
+    "Tinnitus",
+    "Dysarthria"
+  ],
+  "physical_findings": [
+    "Nystagmus on lateral gaze",
+    "Ipsilateral facial hypoesthesia",
+    "Dysmetria on finger-to-nose testing"
+  ],
+  "lab_results": {
+    "MRI with contrast": "Vascular loop compressing trigeminal nerve root entry zone and adjacent cerebellum",
+    "BAER": "Prolonged wave III-V interpeak latency"
+  },
+  "treatment": [
+    "Microvascular decompression surgery",
+    "Gabapentin for neuropathic pain",
+    "Vestibular rehabilitation therapy"
+  ],
+  "prognosis": "Good with surgical intervention, though some residual ataxia may persist in chronic cases",
+  "description": "A rare neurovascular compression syndrome where an aberrant arterial loop compresses both the trigeminal nerve root entry zone and adjacent cerebellar flocculus, causing combined trigeminal neuralgia and cerebellar dysfunction symptoms. The condition typically presents with characteristic episodic facial pain accompanied by vertigo and ataxia.",
+  "risk_factors": [
+    "Advanced age",
+    "Hypertension",
+    "Vascular tortuosity"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_neurological_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Trigeminal Neuralgia",
+    "Trigeminocerebellar Compression Syndrome",
+    "Acoustic Neuroma",
+    "Multiple Sclerosis"
+  ]
+}

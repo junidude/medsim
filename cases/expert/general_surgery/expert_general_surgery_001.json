@@ -1,0 +1,48 @@
+{
+  "name": "Idiopathic Mesenteric Panniculitis",
+  "specialty": "general_surgery",
+  "chief_complaint": "Severe abdominal pain and unexplained weight loss",
+  "symptoms": [
+    "progressive abdominal pain",
+    "unintentional weight loss (15 lbs in 2 months)",
+    "early satiety",
+    "intermittent nausea"
+  ],
+  "physical_findings": [
+    "palpable abdominal mass in right lower quadrant",
+    "guarding without rebound tenderness",
+    "low-grade fever (37.8°C)"
+  ],
+  "lab_results": {
+    "CRP": "48 mg/L (high)",
+    "ESR": "62 mm/hr",
+    "WBC": "14.2 x10^9/L",
+    "CT abdomen": "fat stranding and soft tissue density in mesentery"
+  },
+  "treatment": [
+    "high-dose corticosteroids",
+    "immunosuppressive therapy (azathioprine)",
+    "surgical biopsy for definitive diagnosis",
+    "nutritional support"
+  ],
+  "prognosis": "Variable - may progress to retractile mesenteritis in 20% of cases",
+  "description": "A rare inflammatory condition affecting the mesenteric fat tissue of unknown etiology, characterized by chronic inflammation, fat necrosis, and fibrosis. Often misdiagnosed as malignancy due to mass-like appearance.",
+  "risk_factors": [
+    "history of abdominal trauma or surgery",
+    "autoimmune predisposition",
+    "male gender (3:1 male:female ratio)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_general_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Crohn's disease",
+    "Idiopathic Mesenteric Panniculitis",
+    "Lymphoma",
+    "Tuberculous peritonitis"
+  ]
+}

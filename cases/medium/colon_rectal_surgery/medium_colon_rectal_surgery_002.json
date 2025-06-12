@@ -1,0 +1,49 @@
+{
+  "name": "Diverticular Abscess with Fistula Formation",
+  "specialty": "colon_rectal_surgery",
+  "chief_complaint": "I've had worsening left-sided belly pain and fever for the past week, and now I notice pus in my stool.",
+  "symptoms": [
+    "left lower quadrant abdominal pain",
+    "fever",
+    "rectal discharge of pus",
+    "bloating",
+    "altered bowel habits"
+  ],
+  "physical_findings": [
+    "tenderness in left lower quadrant",
+    "palpable mass in left lower quadrant",
+    "low-grade fever (38.1°C)"
+  ],
+  "lab_results": {
+    "WBC": "14,500/mm³",
+    "CRP": "32 mg/L",
+    "ESR": "45 mm/hr"
+  },
+  "treatment": [
+    "IV antibiotics (piperacillin-tazobactam)",
+    "CT-guided drainage of abscess",
+    "elective sigmoid colectomy after inflammation resolves",
+    "temporary diverting colostomy if severe"
+  ],
+  "prognosis": "Good with proper treatment, but high recurrence risk without definitive surgery",
+  "description": "A complication of diverticulitis where a localized abscess forms and erodes into adjacent structures, creating an abnormal connection (fistula) between the colon and another organ (commonly bladder or vagina). Requires both infection control and surgical management.",
+  "risk_factors": [
+    "chronic diverticulosis",
+    "low-fiber diet",
+    "age >50 years",
+    "previous diverticulitis episodes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_colon_rectal_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Colorectal Cancer",
+    "Diverticular Abscess with Fistula Formation",
+    "Inflammatory Bowel Disease",
+    "Pelvic Abscess"
+  ]
+}

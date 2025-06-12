@@ -1,0 +1,48 @@
+{
+  "name": "Bilateral Acute Retinal Necrosis (BARN)",
+  "specialty": "ophthalmology",
+  "chief_complaint": "Sudden vision loss in both eyes with severe eye pain",
+  "symptoms": [
+    "Rapidly progressive vision loss",
+    "Severe ocular pain",
+    "Photophobia",
+    "Floaters",
+    "Red eyes"
+  ],
+  "physical_findings": [
+    "Vitreous inflammation",
+    "Retinal necrosis with discrete borders",
+    "Retinal arteritis",
+    "Optic disc edema"
+  ],
+  "lab_results": {
+    "PCR of aqueous humor": "Positive for Varicella-Zoster Virus",
+    "Serology": "Elevated HSV-1/HSV-2 IgG"
+  },
+  "treatment": [
+    "Intravenous acyclovir",
+    "Intravitreal antiviral injections",
+    "Oral corticosteroids (after antiviral coverage)",
+    "Prophylactic laser retinopexy"
+  ],
+  "prognosis": "Guarded - high risk of retinal detachment and permanent vision loss despite treatment",
+  "description": "A rare but devastating viral retinitis characterized by rapid progression of retinal necrosis in both eyes, most commonly caused by herpesviruses (VZV, HSV). Requires emergent treatment to prevent complete vision loss.",
+  "risk_factors": [
+    "Immunocompromised state",
+    "Recent herpes zoster ophthalmicus",
+    "History of HSV encephalitis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_ophthalmology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Endophthalmitis",
+    "Bilateral Acute Retinal Necrosis (BARN)",
+    "Behçet's disease",
+    "Syphilitic retinitis"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Congenital Diaphragmatic Hernia with Pulmonary Hypertension",
+  "specialty": "pediatric_critical_care",
+  "chief_complaint": "My baby is breathing very fast and looks blue",
+  "symptoms": [
+    "severe respiratory distress",
+    "cyanosis",
+    "poor feeding",
+    "tachycardia"
+  ],
+  "physical_findings": [
+    "scaphoid abdomen",
+    "diminished breath sounds on affected side",
+    "loud systolic murmur"
+  ],
+  "lab_results": {
+    "ABG": "pH 7.25, pCO2 60, pO2 45",
+    "BNP": "850 pg/mL",
+    "Echocardiogram": "RV hypertrophy, tricuspid regurgitation"
+  },
+  "treatment": [
+    "high-frequency oscillatory ventilation",
+    "inhaled nitric oxide",
+    "ECMO consideration",
+    "surgical repair when stabilized"
+  ],
+  "prognosis": "Guarded, depends on degree of pulmonary hypoplasia and response to therapy",
+  "description": "A life-threatening congenital anomaly where abdominal organs herniate into the chest cavity through a diaphragmatic defect, causing pulmonary hypoplasia and severe pulmonary hypertension. Typically presents in neonates with respiratory failure.",
+  "risk_factors": [
+    "maternal diabetes",
+    "prenatal vitamin A deficiency",
+    "genetic syndromes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "8"
+  },
+  "case_id": "hard_pediatric_critical_care_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Transposition of Great Arteries",
+    "Congenital Diaphragmatic Hernia with Pulmonary Hypertension",
+    "Severe Pneumonia",
+    "Total Anomalous Pulmonary Venous Return"
+  ]
+}

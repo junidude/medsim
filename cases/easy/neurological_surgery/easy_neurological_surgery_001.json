@@ -1,0 +1,43 @@
+{
+  "name": "Benign Positional Vertigo",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "I feel dizzy when I move my head in certain positions",
+  "symptoms": [
+    "brief episodes of vertigo",
+    "nausea",
+    "loss of balance"
+  ],
+  "physical_findings": [
+    "nystagmus on positional testing",
+    "normal neurological exam"
+  ],
+  "lab_results": {
+    "MRI": "normal",
+    "blood_work": "unremarkable"
+  },
+  "treatment": [
+    "Epley maneuver",
+    "vestibular suppressants",
+    "balance exercises"
+  ],
+  "prognosis": "excellent with proper treatment, may recur",
+  "description": "A common vestibular disorder caused by dislodged otoconia in the semicircular canals, resulting in brief episodes of vertigo triggered by head movements",
+  "risk_factors": [
+    "head trauma",
+    "aging",
+    "prolonged bed rest"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_neurological_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Vestibular Neuritis",
+    "Benign Positional Vertigo",
+    "Meniere's Disease",
+    "Acoustic Neuroma"
+  ]
+}

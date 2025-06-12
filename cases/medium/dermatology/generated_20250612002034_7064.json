@@ -1,0 +1,49 @@
+{
+  "name": "Pityriasis Rosea",
+  "specialty": "dermatology",
+  "chief_complaint": "I developed a large pink patch on my chest last week, and now I'm getting smaller spots all over my trunk",
+  "symptoms": [
+    "Herald patch appearing 1-2 weeks before other lesions",
+    "Multiple oval pink-red scaly patches",
+    "Mild itching",
+    "Occasional fatigue",
+    "Patches following skin lines in 'christmas tree' pattern"
+  ],
+  "physical_findings": [
+    "Single 2-4cm herald patch with fine scale",
+    "Multiple smaller oval lesions with collarette scaling",
+    "Bilateral symmetric distribution on trunk",
+    "Lesions aligned along skin tension lines"
+  ],
+  "lab_results": {
+    "Skin biopsy": "Usually not required",
+    "KOH preparation": "Negative"
+  },
+  "treatment": [
+    "Reassurance about self-limiting nature",
+    "Topical antipruritic lotions",
+    "UV-B phototherapy for severe cases",
+    "Oral antihistamines for itching"
+  ],
+  "prognosis": "Self-limiting condition that typically resolves within 6-8 weeks without scarring",
+  "description": "A common acute exanthem characterized by a distinctive pattern of salmon-colored, scaly patches that typically begin with a herald patch followed by a widespread secondary eruption",
+  "risk_factors": [
+    "Young adults (10-35 years)",
+    "Possible viral trigger (HHV-6/7)",
+    "Stress",
+    "Season changes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "generated_20250612002034_7064",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Tinea Corporis",
+    "Pityriasis Rosea",
+    "Nummular Eczema",
+    "Secondary Syphilis"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Glossopharyngeal Neuralgia with Concurrent Eagle Syndrome",
+  "specialty": "pain_medicine",
+  "chief_complaint": "Severe, stabbing pain in my throat and ear, especially when swallowing or turning my head.",
+  "symptoms": [
+    "Sharp, electric-shock-like pain in throat",
+    "Radiating pain to ear (otalgia)",
+    "Triggered by swallowing, coughing, or head movement",
+    "Occasional syncope during pain episodes",
+    "Metallic taste in mouth"
+  ],
+  "physical_findings": [
+    "Exquisitely tender styloid process on palpation",
+    "Trigger point at tonsillar fossa",
+    "Bradycardia during pain episodes (vagal response)",
+    "No cranial nerve deficits on exam"
+  ],
+  "lab_results": {
+    "CT scan": "Elongated styloid process (>3cm)",
+    "MRI brain": "No vascular compression of cranial nerves IX/X",
+    "ECG during episode": "Sinus bradycardia"
+  },
+  "treatment": [
+    "Carbamazepine or oxcarbazepine first-line",
+    "Gabapentinoids for adjunct therapy",
+    "Local nerve blocks (glossopharyngeal)",
+    "Surgical styloidectomy if refractory",
+    "Vagal pacemaker consideration for syncope"
+  ],
+  "prognosis": "Variable - medical management successful in ~60% cases, surgical intervention has high success rate but carries risks of cranial nerve injury",
+  "description": "A rare pain syndrome combining features of glossopharyngeal neuralgia (cranial nerve IX irritation) and Eagle syndrome (mechanical compression from elongated styloid process). The dual pathology creates severe neuropathic and mechanical pain with potential for dangerous vagal responses.",
+  "risk_factors": [
+    "Previous tonsillectomy",
+    "Trauma to head/neck region",
+    "Connective tissue disorders",
+    "Calcification of stylohyoid ligament"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_pain_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Trigeminal Neuralgia",
+    "Glossopharyngeal Neuralgia with Concurrent Eagle Syndrome",
+    "Carotidynia",
+    "Tonsillitis"
+  ]
+}

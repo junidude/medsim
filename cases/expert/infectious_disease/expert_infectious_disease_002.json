@@ -1,0 +1,51 @@
+{
+  "name": "Chromoblastomycosis",
+  "specialty": "infectious_disease",
+  "chief_complaint": "I have these slowly growing, crusty lesions on my foot that won't heal",
+  "symptoms": [
+    "progressive skin nodules",
+    "wart-like lesions",
+    "localized pain",
+    "occasional pruritus",
+    "secondary bacterial infection"
+  ],
+  "physical_findings": [
+    "verrucous plaques with black dots (sclerotic bodies)",
+    "lymphadenopathy in affected region",
+    "fibrotic scarring in chronic cases",
+    "no systemic fever"
+  ],
+  "lab_results": {
+    "KOH preparation": "brown sclerotic bodies visible",
+    "fungal culture": "Fonsecaea pedrosoi (slow-growing, 4-6 weeks)",
+    "histopathology": "pseudoepitheliomatous hyperplasia with muriform cells"
+  },
+  "treatment": [
+    "itraconazole 200-400mg daily for 6-12 months",
+    "terbinafine as alternative",
+    "cryotherapy for localized lesions",
+    "surgical excision for small areas",
+    "adjuvant photodynamic therapy"
+  ],
+  "prognosis": "chronic progression with high recurrence; early treatment improves outcomes but complete cure is difficult",
+  "description": "A chronic subcutaneous mycosis caused by traumatic implantation of dematiaceous fungi, characterized by slow-growing verrucous lesions that may evolve into cauliflower-like tumors. Endemic in tropical regions and associated with agricultural work.",
+  "risk_factors": [
+    "barefoot outdoor activities",
+    "occupational exposure to soil/vegetation",
+    "immunocompromised state",
+    "living in tropical climates"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "expert_infectious_disease_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Sporotrichosis",
+    "Chromoblastomycosis",
+    "Cutaneous leishmaniasis",
+    "Mycetoma"
+  ]
+}

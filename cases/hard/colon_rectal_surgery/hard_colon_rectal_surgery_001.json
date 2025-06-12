@@ -1,0 +1,46 @@
+{
+  "name": "Rectosigmoid Junction Ischemic Stricture",
+  "specialty": "colon_rectal_surgery",
+  "chief_complaint": "Severe abdominal pain and inability to pass stool for 4 days",
+  "symptoms": [
+    "Colicky abdominal pain",
+    "Constipation progressing to obstipation",
+    "Nausea without vomiting",
+    "Abdominal distension"
+  ],
+  "physical_findings": [
+    "Tenderness in left lower quadrant without rebound",
+    "Hyperactive bowel sounds early, progressing to hypoactive"
+  ],
+  "lab_results": {
+    "WBC": "14.2 K/uL (elevated)",
+    "Lactate": "3.8 mmol/L (elevated)",
+    "CRP": "28 mg/L (elevated)"
+  },
+  "treatment": [
+    "Emergency flexible sigmoidoscopy with possible stent placement",
+    "IV fluids and bowel rest",
+    "Broad-spectrum antibiotics",
+    "Possible segmental resection if necrosis present"
+  ],
+  "prognosis": "Guarded - depends on timing of intervention and extent of ischemia",
+  "description": "A rare complication of chronic mesenteric ischemia where focal scarring at the rectosigmoid junction causes complete luminal obstruction. Often preceded by episodes of transient ischemic colitis. The watershed area at this junction is particularly vulnerable to low-flow states.",
+  "risk_factors": [
+    "Chronic atrial fibrillation",
+    "Peripheral vascular disease",
+    "Prior abdominal radiation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_colon_rectal_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Sigmoid Volvulus",
+    "Rectosigmoid Junction Ischemic Stricture",
+    "Colonic Pseudo-obstruction",
+    "Diverticular Stricture"
+  ]
+}

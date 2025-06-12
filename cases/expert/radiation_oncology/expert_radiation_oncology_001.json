@@ -1,0 +1,51 @@
+{
+  "name": "Radiation-Induced Brachial Plexopathy with Paraneoplastic Features",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "Severe burning pain and weakness in my right arm, along with twitching muscles",
+  "symptoms": [
+    "Progressive arm weakness",
+    "Electric shock-like pain in C8-T1 distribution",
+    "Muscle fasciculations",
+    "Cold intolerance in affected limb",
+    "Numbness in 4th/5th fingers"
+  ],
+  "physical_findings": [
+    "Wasting of intrinsic hand muscles",
+    "Positive Tinel's sign at supraclavicular fossa",
+    "Horner's syndrome (mild ptosis/miosis)",
+    "Diminished triceps reflex"
+  ],
+  "lab_results": {
+    "Anti-Hu antibodies": "positive",
+    "CSF analysis": "mild lymphocytic pleocytosis",
+    "EMG": "active denervation in C8-T1 myotomes"
+  },
+  "treatment": [
+    "Pulsed high-dose corticosteroids",
+    "IV immunoglobulin therapy",
+    "Image-guided brachial plexus nerve blocks",
+    "Low-dose radiation to affected plexus (controversial)",
+    "Paraneoplastic syndrome workup"
+  ],
+  "prognosis": "Guarded - 60% progress to complete paralysis within 2 years despite treatment",
+  "description": "A rare delayed complication of mantle radiation for Hodgkin's lymphoma (typically 10-20 years post-treatment) with superimposed paraneoplastic neurological syndrome. Features both radiation fibrosis and immune-mediated neuronal damage, creating a dual pathology that's exceptionally challenging to treat.",
+  "risk_factors": [
+    "Prior mantle field radiation >40Gy",
+    "Underlying occult small cell lung cancer",
+    "Genetic predisposition to radiation sensitivity",
+    "Concurrent chemotherapy with neurotoxic agents"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_radiation_oncology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Thoracic Outlet Syndrome",
+    "Radiation-Induced Brachial Plexopathy with Paraneoplastic Features",
+    "Radiation-Induced Brachial Plexopathy",
+    "Pancoast Tumor"
+  ]
+}

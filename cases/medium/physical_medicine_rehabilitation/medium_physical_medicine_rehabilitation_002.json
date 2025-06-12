@@ -1,0 +1,52 @@
+{
+  "name": "Post-Traumatic Myofascial Pain Syndrome",
+  "specialty": "physical_medicine_rehabilitation",
+  "chief_complaint": "I have constant muscle pain and tightness in my shoulder that won't go away after my car accident",
+  "symptoms": [
+    "localized muscle pain",
+    "trigger point tenderness",
+    "referred pain patterns",
+    "muscle stiffness",
+    "reduced range of motion"
+  ],
+  "physical_findings": [
+    "palpable taut bands in affected muscles",
+    "local twitch response upon trigger point compression",
+    "muscle weakness without atrophy",
+    "painful arc during shoulder abduction"
+  ],
+  "lab_results": {
+    "CK levels": "normal",
+    "ESR": "8 mm/hr",
+    "CRP": "0.5 mg/L"
+  },
+  "treatment": [
+    "trigger point dry needling",
+    "therapeutic ultrasound",
+    "postural re-education",
+    "graded stretching program",
+    "cognitive behavioral therapy for pain management"
+  ],
+  "prognosis": "Good with comprehensive treatment, though may require 3-6 months of therapy for full resolution",
+  "description": "A chronic pain disorder where pressure on sensitive points in muscles (trigger points) causes pain in seemingly unrelated parts of the body. Often develops after trauma or repetitive strain injuries, characterized by the development of hypersensitive nodules in taut bands of skeletal muscle fibers.",
+  "risk_factors": [
+    "previous musculoskeletal trauma",
+    "poor posture",
+    "repetitive strain activities",
+    "emotional stress",
+    "sleep disturbances"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_physical_medicine_rehabilitation_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Rotator Cuff Tear",
+    "Post-Traumatic Myofascial Pain Syndrome",
+    "Cervical Radiculopathy",
+    "Adhesive Capsulitis"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Bilateral Trigeminal-Trochlear Synkinesis",
+  "specialty": "radiology",
+  "chief_complaint": "Involuntary eye movements and facial twitching when chewing",
+  "symptoms": [
+    "Synchronous jaw clenching with upward eye deviation",
+    "Episodic facial pain",
+    "Diplopia during mastication"
+  ],
+  "physical_findings": [
+    "Aberrant trigeminal nerve enhancement on MRI",
+    "Unilateral corneal hypoesthesia",
+    "Trochlear nerve hyperintensity on CISS sequences"
+  ],
+  "lab_results": {
+    "CSF analysis": "Elevated neurofilament light chains (28 pg/mL)",
+    "Trigeminal reflex testing": "Abnormal R1 latency (12.8 ms)"
+  },
+  "treatment": [
+    "Botulinum toxin injections to affected muscles",
+    "Microvascular decompression surgery",
+    "Gabapentin for neuropathic pain"
+  ],
+  "prognosis": "Guarded - 60% achieve partial symptom control with combination therapy",
+  "description": "A rare cranial nerve synkinesis where trigeminal nerve activation abnormally stimulates the trochlear nerve, causing simultaneous masticatory muscle contraction and superior oblique activation. Believed to result from aberrant axonal regeneration post-subclinical viral neuritis.",
+  "risk_factors": [
+    "History of herpes zoster ophthalmicus",
+    "Familial dysautonomia",
+    "Prior orbital trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_radiology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Trigeminal Neuralgia",
+    "Bilateral Trigeminal-Trochlear Synkinesis",
+    "Hemifacial Spasm",
+    "Oculomotor Nerve Palsy"
+  ]
+}

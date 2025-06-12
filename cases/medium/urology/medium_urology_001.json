@@ -1,0 +1,45 @@
+{
+  "name": "Prostatic Calculi with Chronic Prostatitis",
+  "specialty": "urology",
+  "chief_complaint": "I have persistent pain in my lower pelvis and trouble urinating.",
+  "symptoms": [
+    "pelvic pain",
+    "dysuria",
+    "frequency and urgency of urination",
+    "painful ejaculation"
+  ],
+  "physical_findings": [
+    "tender prostate on digital rectal exam",
+    "enlarged prostate"
+  ],
+  "lab_results": {
+    "urinalysis": "white blood cells present",
+    "PSA": "slightly elevated"
+  },
+  "treatment": [
+    "alpha-blockers",
+    "antibiotics (if infection present)",
+    "anti-inflammatory medications",
+    "prostatic massage (in some cases)"
+  ],
+  "prognosis": "Good with treatment, but may recur; chronic cases may require long-term management.",
+  "description": "Prostatic calculi are small stones that form in the prostate gland, often associated with chronic inflammation or infection (chronic prostatitis). They can cause obstruction and persistent symptoms similar to benign prostatic hyperplasia (BPH) or chronic pelvic pain syndrome.",
+  "risk_factors": [
+    "history of recurrent UTIs",
+    "chronic prostatitis",
+    "older age"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_urology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Benign Prostatic Hyperplasia",
+    "Prostatic Calculi with Chronic Prostatitis",
+    "Urinary Tract Infection",
+    "Prostate Cancer"
+  ]
+}

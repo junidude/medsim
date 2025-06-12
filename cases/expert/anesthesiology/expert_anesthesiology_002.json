@@ -1,0 +1,52 @@
+{
+  "name": "Idiopathic Systemic Capillary Leak Syndrome (ISCLS)",
+  "specialty": "anesthesiology",
+  "chief_complaint": "Severe swelling, weakness, and difficulty breathing",
+  "symptoms": [
+    "sudden onset of generalized edema",
+    "hypotension",
+    "fatigue",
+    "oliguria",
+    "abdominal pain"
+  ],
+  "physical_findings": [
+    "pitting edema in extremities",
+    "cold clammy skin",
+    "tachycardia",
+    "muffled heart sounds"
+  ],
+  "lab_results": {
+    "hemoglobin": "elevated (hemoconcentration)",
+    "albumin": "low",
+    "creatinine": "elevated",
+    "lactic acid": "elevated"
+  },
+  "treatment": [
+    "aggressive IV fluid resuscitation with colloids",
+    "vasopressor support",
+    "IV immunoglobulin (IVIG) for prophylaxis",
+    "corticosteroids during acute episodes",
+    "monitoring for compartment syndrome"
+  ],
+  "prognosis": "Guarded; recurrent episodes can lead to multi-organ failure and death",
+  "description": "A rare, life-threatening condition characterized by recurrent episodes of capillary hyperpermeability leading to severe hypovolemia, hemoconcentration, and hypoalbuminemia. Often misdiagnosed as septic shock. The pathophysiology involves endothelial dysfunction and cytokine storm.",
+  "risk_factors": [
+    "upper respiratory infections (common trigger)",
+    "recent vaccination",
+    "strenuous exercise",
+    "female gender (slight predominance)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_anesthesiology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Cardiogenic shock",
+    "Idiopathic Systemic Capillary Leak Syndrome (ISCLS)",
+    "Sepsis",
+    "Anaphylaxis"
+  ]
+}

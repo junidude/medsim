@@ -1,0 +1,44 @@
+{
+  "name": "Acute Viral Bronchiolitis",
+  "specialty": "pediatric_critical_care",
+  "chief_complaint": "My baby is breathing fast and has a bad cough",
+  "symptoms": [
+    "wheezing",
+    "rapid breathing",
+    "nasal flaring",
+    "poor feeding"
+  ],
+  "physical_findings": [
+    "tachypnea",
+    "subcostal retractions",
+    "diffuse wheezes"
+  ],
+  "lab_results": {
+    "nasopharyngeal swab": "RSV positive"
+  },
+  "treatment": [
+    "oxygen therapy",
+    "nasal suctioning",
+    "hydration support"
+  ],
+  "prognosis": "Good with supportive care; typically resolves in 1-2 weeks",
+  "description": "Lower respiratory tract infection causing inflammation of bronchioles, most commonly caused by RSV in infants",
+  "risk_factors": [
+    "prematurity",
+    "age <6 months",
+    "daycare attendance"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "easy_pediatric_critical_care_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Asthma",
+    "Acute Viral Bronchiolitis",
+    "Pneumonia",
+    "Foreign Body Aspiration"
+  ]
+}

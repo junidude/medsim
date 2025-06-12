@@ -1,0 +1,51 @@
+{
+  "name": "Malignant Hyperthermia Susceptibility with Atypical Presentation",
+  "specialty": "anesthesiology",
+  "chief_complaint": "Severe muscle rigidity and high fever after anesthesia induction",
+  "symptoms": [
+    "Tachycardia",
+    "Hypercapnia",
+    "Generalized muscle rigidity",
+    "Hyperthermia (rapid onset)",
+    "Dark-colored urine"
+  ],
+  "physical_findings": [
+    "Masseter muscle spasm",
+    "Skin mottling with cyanosis",
+    "Unstable blood pressure"
+  ],
+  "lab_results": {
+    "Arterial Blood Gas": "Metabolic acidosis (pH <7.2, elevated lactate)",
+    "Serum CK": ">20,000 IU/L",
+    "Potassium": ">5.5 mEq/L",
+    "Myoglobinuria": "Positive"
+  },
+  "treatment": [
+    "Immediate discontinuation of triggering agents (volatile anesthetics/succinylcholine)",
+    "IV dantrolene sodium (2.5 mg/kg bolus, repeat as needed)",
+    "Active cooling measures",
+    "Correct metabolic acidosis with sodium bicarbonate",
+    "Maintain urine output >2 mL/kg/hr with diuresis"
+  ],
+  "prognosis": "High mortality (15-20%) if not treated within 20 minutes; excellent recovery with prompt treatment",
+  "description": "Life-threatening pharmacogenetic disorder of skeletal muscle calcium regulation triggered by certain anesthetic agents. This atypical presentation includes delayed onset (45 minutes post-induction) and absence of classic masseter spasm. Caused by RYR1 or CACNA1S gene mutations.",
+  "risk_factors": [
+    "Family history of MH or anesthesia complications",
+    "Central core disease",
+    "Previous uneventful anesthetic exposure (false reassurance)",
+    "Male gender (2:1 predominance)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor (unconscious, requires emergency intervention)",
+    "pain_level": "10 (from muscle breakdown)"
+  },
+  "case_id": "expert_anesthesiology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Neuroleptic Malignant Syndrome",
+    "Malignant Hyperthermia Susceptibility with Atypical Presentation",
+    "Serotonin Syndrome",
+    "Sepsis"
+  ]
+}

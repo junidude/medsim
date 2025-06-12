@@ -1,0 +1,43 @@
+{
+  "name": "Triangular Fibrocartilage Complex (TFCC) Avulsion with Ulnar Impaction Syndrome",
+  "specialty": "hand_surgery",
+  "chief_complaint": "I have sharp pain on the pinky side of my wrist that gets worse when I twist or grip things",
+  "symptoms": [
+    "Ulnar-sided wrist pain",
+    "Clicking or popping sensation with rotation",
+    "Weakness in grip strength"
+  ],
+  "physical_findings": [
+    "Tenderness over the ulnar fovea",
+    "Positive ulnar grind test",
+    "Decreased supination/pronation range"
+  ],
+  "lab_results": {
+    "MRI_wrist": "TFCC peripheral tear with avulsion fragment, positive ulnar variance"
+  },
+  "treatment": [
+    "Wrist immobilization in neutral rotation",
+    "Arthroscopic TFCC repair with ulnar shortening osteotomy",
+    "Postoperative hand therapy"
+  ],
+  "prognosis": "Good with surgical intervention, though may have 10-15% permanent loss of rotational mobility",
+  "description": "A complex injury involving both traumatic avulsion of the TFCC from its ulnar attachment and chronic ulnar impaction due to positive ulnar variance, causing degenerative changes in the ulnocarpal joint",
+  "risk_factors": [
+    "Repetitive rotational movements (e.g., mechanics, tennis players)",
+    "Congenital positive ulnar variance",
+    "Previous wrist trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "hard_hand_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Ulnar styloid fracture",
+    "Triangular Fibrocartilage Complex (TFCC) Avulsion with Ulnar Impaction Syndrome",
+    "Extensor carpi ulnaris tendinitis",
+    "Lunotriquetral ligament tear"
+  ]
+}

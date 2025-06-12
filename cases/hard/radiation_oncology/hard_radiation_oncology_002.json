@@ -1,0 +1,47 @@
+{
+  "name": "Radiation-Induced Brachial Plexopathy",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "Numbness and weakness in my right arm, especially when lifting things",
+  "symptoms": [
+    "Progressive arm weakness",
+    "Tingling or numbness in fingers",
+    "Shooting pain in shoulder/arm",
+    "Loss of fine motor control"
+  ],
+  "physical_findings": [
+    "Atrophy of intrinsic hand muscles",
+    "Diminished grip strength (right > left)",
+    "Positive Tinel's sign at supraclavicular fossa"
+  ],
+  "lab_results": {
+    "EMG": "Delayed conduction velocities in brachial plexus",
+    "MRI": "Fibrotic changes in brachial plexus without tumor recurrence"
+  },
+  "treatment": [
+    "Physical therapy to maintain range of motion",
+    "Neuropathic pain medications (gabapentin/pregabalin)",
+    "Consideration of hyperbaric oxygen therapy",
+    "Occupational therapy adaptations"
+  ],
+  "prognosis": "Variable; some patients stabilize while others experience progressive deterioration. Complete recovery is uncommon due to neural fibrosis.",
+  "description": "Delayed radiation injury to the brachial plexus occurring 6 months to several years after radiation therapy (typically for breast cancer or lymphoma). Characterized by progressive fibrosis of neural tissues leading to sensorimotor deficits. Differential includes tumor recurrence or metastatic compression.",
+  "risk_factors": [
+    "Previous high-dose radiation to supraclavicular region (>60Gy)",
+    "Concurrent chemotherapy (especially platinum-based)",
+    "Underlying vascular disease",
+    "Genetic predisposition to radiation sensitivity"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "hard_radiation_oncology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Cervical Radiculopathy",
+    "Thoracic Outlet Syndrome",
+    "Radiation-Induced Brachial Plexopathy",
+    "Pancoast Tumor"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Postdural Puncture Headache",
+  "specialty": "anesthesiology",
+  "chief_complaint": "Severe headache that worsens when sitting or standing",
+  "symptoms": [
+    "Throbbing headache",
+    "Neck stiffness",
+    "Nausea",
+    "Photophobia"
+  ],
+  "physical_findings": [
+    "Orthostatic hypotension",
+    "Meningismus (neck stiffness)"
+  ],
+  "lab_results": {
+    "CSF analysis": "Normal protein and glucose, possible low opening pressure"
+  },
+  "treatment": [
+    "Bed rest",
+    "Hydration",
+    "Caffeine infusion",
+    "Epidural blood patch if severe"
+  ],
+  "prognosis": "Generally good with treatment; symptoms usually resolve within days to weeks",
+  "description": "A postdural puncture headache occurs due to cerebrospinal fluid leakage after accidental dural puncture during procedures like epidural anesthesia or lumbar puncture. The reduced CSF volume leads to traction on pain-sensitive structures.",
+  "risk_factors": [
+    "Young age",
+    "Female gender",
+    "Low BMI",
+    "History of previous PDPH"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_anesthesiology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Subarachnoid Hemorrhage",
+    "Postdural Puncture Headache",
+    "Migraine with Aura",
+    "Bacterial Meningitis"
+  ]
+}

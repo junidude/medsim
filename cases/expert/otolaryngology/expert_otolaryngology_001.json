@@ -1,0 +1,50 @@
+{
+  "name": "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+  "specialty": "otolaryngology",
+  "chief_complaint": "I feel like there's a constant lump in my throat, and it burns when I talk.",
+  "symptoms": [
+    "Chronic throat pain",
+    "Globus sensation (feeling of lump in throat)",
+    "Voice fatigue",
+    "Intermittent vocal cord spasms",
+    "Worsening symptoms with voice use"
+  ],
+  "physical_findings": [
+    "Normal laryngeal appearance on endoscopy",
+    "Hyperactive laryngeal reflex",
+    "Mild erythema of posterior larynx",
+    "No visible lesions or masses"
+  ],
+  "lab_results": {
+    "Laryngeal EMG": "Increased spontaneous activity in thyroarytenoid muscles",
+    "pH monitoring": "Normal esophageal pH",
+    "Allergy panel": "Negative for common allergens"
+  },
+  "treatment": [
+    "Low-dose tricyclic antidepressants (e.g., amitriptyline 10-25mg nightly)",
+    "Gabapentin for neuropathic pain management",
+    "Voice therapy with laryngeal relaxation techniques",
+    "Cognitive behavioral therapy for symptom coping"
+  ],
+  "prognosis": "Chronic condition requiring long-term management. 60% of patients achieve significant symptom reduction with multimodal therapy, but complete resolution is rare.",
+  "description": "ILNS is a recently characterized disorder involving hypersensitivity of the superior laryngeal nerve branches without identifiable structural pathology. Thought to represent a form of peripheral laryngeal neuropathy, it shares features with other functional neurologic disorders but with specific laryngeal localization. Diagnosis requires exclusion of other causes of chronic laryngeal symptoms.",
+  "risk_factors": [
+    "History of viral upper respiratory infections",
+    "Psychological stress",
+    "Female gender (3:1 female predominance)",
+    "History of acid reflux (though not causative)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_otolaryngology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Laryngopharyngeal reflux",
+    "Muscle tension dysphonia",
+    "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+    "Vocal cord dysfunction"
+  ]
+}

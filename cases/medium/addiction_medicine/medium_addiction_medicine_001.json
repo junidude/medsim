@@ -1,0 +1,45 @@
+{
+  "name": "Cannabis Hyperemesis Syndrome",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I've been vomiting non-stop for days, and hot showers are the only thing that helps.",
+  "symptoms": [
+    "cyclic vomiting",
+    "abdominal pain",
+    "nausea",
+    "dehydration"
+  ],
+  "physical_findings": [
+    "epigastric tenderness",
+    "dry mucous membranes"
+  ],
+  "lab_results": {
+    "electrolytes": "hypokalemia",
+    "urine toxicology": "positive for THC"
+  },
+  "treatment": [
+    "hydration with IV fluids",
+    "anti-emetics",
+    "cessation of cannabis use",
+    "symptomatic relief with capsaicin cream"
+  ],
+  "prognosis": "Good with cessation of cannabis use; symptoms typically resolve within days to weeks.",
+  "description": "A condition characterized by recurrent episodes of severe nausea, vomiting, and abdominal pain in chronic cannabis users. Paradoxically, patients often report temporary relief with hot showers or baths.",
+  "risk_factors": [
+    "chronic cannabis use",
+    "high-frequency use",
+    "history of anxiety disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "medium_addiction_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gastroparesis",
+    "Cannabis Hyperemesis Syndrome",
+    "Peptic Ulcer Disease",
+    "Acute Pancreatitis"
+  ]
+}

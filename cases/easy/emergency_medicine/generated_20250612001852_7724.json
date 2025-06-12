@@ -1,0 +1,49 @@
+{
+  "name": "Acute Gastroenteritis",
+  "specialty": "emergency_medicine",
+  "chief_complaint": "I've been having diarrhea and vomiting since yesterday",
+  "symptoms": [
+    "nausea",
+    "vomiting",
+    "watery diarrhea",
+    "abdominal cramping",
+    "mild fever"
+  ],
+  "physical_findings": [
+    "mild dehydration",
+    "normal vital signs except slight tachycardia",
+    "mild abdominal tenderness"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "Basic Metabolic Panel": "mild electrolyte imbalance",
+    "Stool Culture": "pending"
+  },
+  "treatment": [
+    "oral rehydration therapy",
+    "clear liquid diet",
+    "anti-emetic medication if needed",
+    "rest"
+  ],
+  "prognosis": "excellent with full recovery expected within 2-3 days with proper hydration",
+  "description": "A common inflammatory condition of the digestive system caused by viral infection, resulting in gastric and intestinal inflammation with associated dehydration risk",
+  "risk_factors": [
+    "recent consumption of contaminated food or water",
+    "contact with infected individuals",
+    "poor hand hygiene",
+    "compromised immune system"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "generated_20250612001852_7724",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Food poisoning",
+    "Acute Gastroenteritis",
+    "Appendicitis",
+    "Irritable Bowel Syndrome"
+  ]
+}

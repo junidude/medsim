@@ -1,0 +1,52 @@
+{
+  "name": "Radioiodine-Refractory Differentiated Thyroid Carcinoma with Paraneoplastic Neurological Syndrome",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "Persistent neck swelling with worsening tremors and difficulty speaking",
+  "symptoms": [
+    "Progressive hoarseness",
+    "Involuntary muscle twitching",
+    "Dysphagia",
+    "Cognitive fog",
+    "Heat intolerance"
+  ],
+  "physical_findings": [
+    "Firm, fixed thyroid nodule",
+    "Bilateral intention tremor",
+    "Dysarthria",
+    "Hyperreflexia in lower extremities"
+  ],
+  "lab_results": {
+    "Thyroglobulin": ">10,000 ng/mL",
+    "TSH": "<0.01 mIU/L",
+    "Anti-Yo antibodies": "Positive",
+    "FDG-PET/CT": "Diffuse skeletal and pulmonary metastases with intense cerebellar uptake"
+  },
+  "treatment": [
+    "Lenvatinib targeted therapy",
+    "Pembrolizumab immunotherapy",
+    "Stereotactic radiosurgery for dominant metastases",
+    "Intravenous immunoglobulin for paraneoplastic symptoms",
+    "Radioactive iodine-131 (despite refractoriness)"
+  ],
+  "prognosis": "Guarded (5-year survival <35%) with significant quality-of-life impairment from neurological symptoms",
+  "description": "Aggressive form of thyroid cancer resistant to radioactive iodine treatment, accompanied by autoimmune-mediated cerebellar degeneration due to cross-reactivity between tumor antigens and Purkinje cells. Presents with both oncological and neurological deterioration.",
+  "risk_factors": [
+    "Prior external beam radiation to neck",
+    "RET proto-oncogene mutation",
+    "Chronic lithium use",
+    "Female gender (3:1 ratio)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_nuclear_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Graves' disease with thyroid storm",
+    "Radioiodine-Refractory Differentiated Thyroid Carcinoma with Paraneoplastic Neurological Syndrome",
+    "Multiple system atrophy",
+    "Hashimoto's encephalopathy"
+  ]
+}

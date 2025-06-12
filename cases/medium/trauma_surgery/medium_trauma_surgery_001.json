@@ -1,0 +1,49 @@
+{
+  "name": "Traumatic Hemothorax with Rib Fractures",
+  "specialty": "trauma_surgery",
+  "chief_complaint": "I can't breathe properly after a car accident, and my chest hurts really bad.",
+  "symptoms": [
+    "sharp chest pain",
+    "shortness of breath",
+    "coughing up blood",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "decreased breath sounds on affected side",
+    "tachycardia",
+    "hypotension",
+    "bruising over chest wall"
+  ],
+  "lab_results": {
+    "hemoglobin": "9.2 g/dL",
+    "hematocrit": "28%",
+    "arterial blood gas": "respiratory acidosis"
+  },
+  "treatment": [
+    "chest tube insertion",
+    "analgesia for pain control",
+    "oxygen therapy",
+    "possible surgical intervention if bleeding persists"
+  ],
+  "prognosis": "Good with prompt treatment, but risk of complications like infection or respiratory failure if delayed",
+  "description": "A hemothorax is a collection of blood in the pleural cavity, often caused by blunt or penetrating trauma to the chest. This case involves multiple rib fractures leading to bleeding into the thoracic cavity, compromising lung function.",
+  "risk_factors": [
+    "high-impact trauma",
+    "osteoporosis",
+    "anticoagulant use",
+    "elderly age"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "medium_trauma_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Pulmonary Contusion",
+    "Traumatic Hemothorax with Rib Fractures",
+    "Tension Pneumothorax",
+    "Cardiac Tamponade"
+  ]
+}

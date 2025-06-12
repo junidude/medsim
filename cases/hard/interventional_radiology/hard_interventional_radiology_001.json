@@ -1,0 +1,49 @@
+{
+  "name": "Transjugular Intrahepatic Portosystemic Shunt (TIPS) Thrombosis",
+  "specialty": "interventional_radiology",
+  "chief_complaint": "Worsening abdominal swelling and confusion",
+  "symptoms": [
+    "Ascites",
+    "Hepatic encephalopathy",
+    "Jaundice",
+    "Fatigue"
+  ],
+  "physical_findings": [
+    "Distended abdomen with shifting dullness",
+    "Caput medusae",
+    "Asterixis"
+  ],
+  "lab_results": {
+    "INR": "1.8",
+    "Bilirubin": "4.2 mg/dL",
+    "Albumin": "2.1 g/dL",
+    "Ammonia": "120 μmol/L"
+  },
+  "treatment": [
+    "Emergency TIPS revision",
+    "Thrombolytic therapy",
+    "Anticoagulation",
+    "Paracentesis for symptomatic relief"
+  ],
+  "prognosis": "Guarded - depends on early intervention and liver function reserve",
+  "description": "Acute thrombosis of a previously placed TIPS, causing rapid decompensation of portal hypertension with associated hepatic encephalopathy. Requires urgent interventional radiology management to restore shunt patency.",
+  "risk_factors": [
+    "Prior TIPS placement",
+    "Hypercoagulable state",
+    "Cirrhosis",
+    "Portal vein thrombosis history"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_interventional_radiology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "TIPS Thrombosis",
+    "Alcoholic hepatitis",
+    "Transjugular Intrahepatic Portosystemic Shunt (TIPS) Thrombosis",
+    "Budd-Chiari syndrome"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Radioiodine-Induced Thyroiditis",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "My neck feels tender and I've been feeling more tired than usual",
+  "symptoms": [
+    "neck tenderness",
+    "fatigue",
+    "mild fever"
+  ],
+  "physical_findings": [
+    "tender thyroid gland on palpation",
+    "slightly elevated heart rate"
+  ],
+  "lab_results": {
+    "TSH": "decreased",
+    "free T4": "elevated",
+    "CRP": "mildly elevated"
+  },
+  "treatment": [
+    "beta blockers for symptom control",
+    "NSAIDs for pain and inflammation",
+    "monitoring thyroid function"
+  ],
+  "prognosis": "Excellent with complete resolution expected within 2-8 weeks",
+  "description": "Inflammation of the thyroid gland occurring as a side effect of radioiodine therapy for hyperthyroidism or thyroid cancer, caused by radiation-induced damage to thyroid follicles",
+  "risk_factors": [
+    "recent radioiodine therapy",
+    "large thyroid volume",
+    "high dose of radioiodine"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_nuclear_medicine_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Subacute thyroiditis",
+    "Radioiodine-Induced Thyroiditis",
+    "Graves' disease",
+    "Hashimoto's thyroiditis"
+  ]
+}

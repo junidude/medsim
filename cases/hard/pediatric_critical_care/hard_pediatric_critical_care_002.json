@@ -1,0 +1,52 @@
+{
+  "name": "Acute Fulminant Myocarditis with Cardiogenic Shock",
+  "specialty": "pediatric_critical_care",
+  "chief_complaint": "I can't breathe and my chest hurts really bad",
+  "symptoms": [
+    "severe dyspnea",
+    "precordial chest pain",
+    "fatigue",
+    "pale/cold extremities",
+    "syncope"
+  ],
+  "physical_findings": [
+    "tachycardia with gallop rhythm",
+    "hypotension (narrow pulse pressure)",
+    "jugular venous distension",
+    "bilateral crackles on auscultation"
+  ],
+  "lab_results": {
+    "troponin-I": ">10 ng/mL",
+    "BNP": "1200 pg/mL",
+    "lactate": "5.8 mmol/L",
+    "CRP": "28 mg/dL"
+  },
+  "treatment": [
+    "mechanical circulatory support (ECMO)",
+    "inotropic support (milrinone + norepinephrine)",
+    "IV immunoglobulin therapy",
+    "pulse-dose corticosteroids",
+    "mechanical ventilation with lung-protective strategy"
+  ],
+  "prognosis": "Guarded (30-50% mortality even with ECMO; survivors often require long-term cardiac monitoring)",
+  "description": "Rapid-onset viral-mediated myocardial inflammation causing severe systolic dysfunction, typically following a recent viral illness. Characterized by profound cardiogenic shock with elevated cardiac enzymes and inflammatory markers. Requires emergent stabilization and often mechanical circulatory support.",
+  "risk_factors": [
+    "recent enteroviral infection (especially coxsackievirus B)",
+    "genetic predisposition (HLA-DR4 allele)",
+    "unvaccinated status (MMR, varicella)",
+    "autoimmune disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor (due to respiratory distress)",
+    "pain_level": "8"
+  },
+  "case_id": "hard_pediatric_critical_care_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Acute Fulminant Myocarditis with Cardiogenic Shock",
+    "Pericardial Tamponade",
+    "Pulmonary Embolism",
+    "Acute Decompensated Heart Failure"
+  ]
+}

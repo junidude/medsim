@@ -1,0 +1,51 @@
+{
+  "name": "Acute Anterior Uveitis",
+  "specialty": "ophthalmology",
+  "chief_complaint": "My eye is red, painful, and sensitive to light",
+  "symptoms": [
+    "eye redness",
+    "eye pain",
+    "photophobia",
+    "blurred vision",
+    "excessive tearing"
+  ],
+  "physical_findings": [
+    "circumlimbal injection",
+    "miosis",
+    "aqueous flare in anterior chamber",
+    "keratic precipitates"
+  ],
+  "lab_results": {
+    "HLA-B27": "positive",
+    "ESR": "elevated",
+    "CRP": "elevated"
+  },
+  "treatment": [
+    "topical corticosteroids",
+    "cycloplegic eye drops",
+    "oral NSAIDs",
+    "underlying condition management"
+  ],
+  "prognosis": "Good with prompt treatment, but recurrent episodes are common in HLA-B27 positive patients",
+  "description": "Acute anterior uveitis is an inflammation of the iris and ciliary body, often associated with HLA-B27 related systemic diseases. It presents with acute onset of eye pain, redness, and photophobia. The condition requires prompt treatment to prevent complications like synechiae formation or glaucoma.",
+  "risk_factors": [
+    "HLA-B27 positivity",
+    "ankylosing spondylitis",
+    "inflammatory bowel disease",
+    "psoriatic arthritis",
+    "reactive arthritis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_ophthalmology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Angle-Closure Glaucoma",
+    "Acute Anterior Uveitis",
+    "Corneal Abrasion",
+    "Conjunctivitis"
+  ]
+}

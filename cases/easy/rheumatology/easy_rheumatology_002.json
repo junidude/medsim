@@ -1,0 +1,42 @@
+{
+  "name": "Mild Reactive Arthritis",
+  "specialty": "rheumatology",
+  "chief_complaint": "My knees and ankles have been swollen and painful for the past week",
+  "symptoms": [
+    "joint pain",
+    "swelling in knees and ankles",
+    "morning stiffness"
+  ],
+  "physical_findings": [
+    "warmth in affected joints",
+    "limited range of motion"
+  ],
+  "lab_results": {
+    "CRP": "elevated",
+    "HLA-B27": "negative"
+  },
+  "treatment": [
+    "NSAIDs",
+    "rest",
+    "physical therapy"
+  ],
+  "prognosis": "Good with proper treatment, usually resolves within 3-6 months",
+  "description": "A temporary inflammatory joint condition often triggered by infection elsewhere in the body, typically affecting large joints asymmetrically",
+  "risk_factors": [
+    "recent gastrointestinal infection",
+    "recent urinary tract infection"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "easy_rheumatology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Gout",
+    "Mild Reactive Arthritis",
+    "Rheumatoid Arthritis",
+    "Osteoarthritis"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Keloid Formation Post-Ear Piercing",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "I have a large, itchy bump growing where I got my ear pierced 6 months ago",
+  "symptoms": [
+    "itchy raised scar",
+    "tenderness at site",
+    "cosmetic concern"
+  ],
+  "physical_findings": [
+    "firm, rubbery nodule extending beyond original wound",
+    "hyperpigmented lesion",
+    "mild erythema"
+  ],
+  "lab_results": {
+    "none_required": "clinical diagnosis"
+  },
+  "treatment": [
+    "intralesional corticosteroid injections",
+    "silicone gel sheeting",
+    "cryotherapy",
+    "surgical excision (with adjuvant therapy)"
+  ],
+  "prognosis": "Good with treatment but high recurrence risk (50-80%) without adjuvant therapy",
+  "description": "Benign fibrous growth extending beyond original wound boundaries due to abnormal collagen deposition during healing. Common after trauma in predisposed individuals.",
+  "risk_factors": [
+    "African/Caribbean/Asian descent",
+    "positive family history",
+    "piercing/trauma to high-tension areas (ears, chest)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_plastic_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Hypertrophic Scar",
+    "Keloid Formation Post-Ear Piercing",
+    "Contact Dermatitis",
+    "Epidermal Inclusion Cyst"
+  ]
+}

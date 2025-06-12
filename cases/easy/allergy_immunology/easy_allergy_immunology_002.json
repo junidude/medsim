@@ -1,0 +1,44 @@
+{
+  "name": "Seasonal Allergic Rhinitis",
+  "specialty": "allergy_immunology",
+  "chief_complaint": "My nose won't stop running and my eyes are so itchy!",
+  "symptoms": [
+    "sneezing",
+    "nasal congestion",
+    "itchy/watery eyes",
+    "postnasal drip"
+  ],
+  "physical_findings": [
+    "pale, boggy nasal mucosa",
+    "allergic shiners (dark circles under eyes)",
+    "clear rhinorrhea"
+  ],
+  "lab_results": {
+    "allergen-specific IgE": "elevated to tree/grass pollens"
+  },
+  "treatment": [
+    "oral antihistamines",
+    "intranasal corticosteroids",
+    "allergen avoidance strategies"
+  ],
+  "prognosis": "Excellent with proper management; symptoms typically resolve when allergen exposure ends",
+  "description": "An IgE-mediated hypersensitivity reaction to airborne allergens like pollen, causing inflammation of nasal passages and conjunctiva. Most common in spring/fall when pollen counts are high.",
+  "risk_factors": [
+    "family history of atopy",
+    "living in high-pollen areas",
+    "outdoor occupation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_allergy_immunology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Viral Rhinitis",
+    "Seasonal Allergic Rhinitis",
+    "Non-Allergic Rhinitis",
+    "Sinusitis"
+  ]
+}

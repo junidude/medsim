@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Mesenteric Venous Plexus Thrombosis",
+  "specialty": "interventional_radiology",
+  "chief_complaint": "Severe abdominal pain that worsens after eating, with nausea and bloating",
+  "symptoms": [
+    "progressive abdominal pain",
+    "postprandial exacerbation",
+    "nausea without vomiting",
+    "abdominal distension",
+    "unintentional weight loss"
+  ],
+  "physical_findings": [
+    "tenderness in mid-abdomen without guarding",
+    "diminished bowel sounds",
+    "mild splenomegaly"
+  ],
+  "lab_results": {
+    "D-dimer": "elevated",
+    "platelet_count": "normal",
+    "liver_function_tests": "mildly elevated ALP"
+  },
+  "treatment": [
+    "therapeutic anticoagulation",
+    "transjugular intrahepatic portosystemic shunt (TIPS) if portal hypertension develops",
+    "thrombolytic therapy for acute cases",
+    "surgical thrombectomy in refractory cases"
+  ],
+  "prognosis": "Variable; depends on extent of thrombosis and response to treatment. Chronic cases may lead to portal hypertension.",
+  "description": "A rare form of mesenteric venous thrombosis affecting the small venous plexuses within the mesentery without clear etiology. Presents with chronic postprandial pain due to venous congestion and ischemic bowel changes. Diagnosis requires contrast-enhanced CT or MR venography showing characteristic venous filling defects.",
+  "risk_factors": [
+    "thrombophilia disorders",
+    "previous abdominal surgery",
+    "inflammatory bowel disease",
+    "estrogen therapy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_interventional_radiology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Chronic Mesenteric Ischemia",
+    "Idiopathic Mesenteric Venous Plexus Thrombosis",
+    "Superior Mesenteric Artery Syndrome",
+    "Celiac Artery Compression Syndrome"
+  ]
+}

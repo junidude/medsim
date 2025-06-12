@@ -1,0 +1,52 @@
+{
+  "name": "Radioiodine-Refractory Differentiated Thyroid Carcinoma with Paraneoplastic Neurological Syndrome",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "Persistent neck swelling with recent onset of muscle weakness and memory problems",
+  "symptoms": [
+    "Progressive dysphagia",
+    "Asymmetric muscle weakness",
+    "Short-term memory deficits",
+    "Fatigue",
+    "Hoarseness"
+  ],
+  "physical_findings": [
+    "Firm, fixed thyroid nodule >4cm",
+    "Cranial nerve VII palsy",
+    "Proximal muscle weakness (4/5)",
+    "Positive Romberg sign"
+  ],
+  "lab_results": {
+    "Thyroglobulin": ">10,000 ng/mL",
+    "TSH": "0.01 mIU/L",
+    "Anti-Yo antibodies": "Positive",
+    "FDG-PET/CT": "Diffuse hypermetabolic lesions in thyroid bed, mediastinum, and cerebellum"
+  },
+  "treatment": [
+    "Lenvatinib targeted therapy",
+    "Pembrolizumab immunotherapy",
+    "Stereotactic radiosurgery for brain metastases",
+    "Plasmapheresis for paraneoplastic syndrome",
+    "Supportive neurological rehabilitation"
+  ],
+  "prognosis": "Guarded (median survival 12-18 months with treatment)",
+  "description": "An aggressive form of differentiated thyroid cancer that has lost iodine avidity while developing distant metastases and paraneoplastic neurological manifestations through cross-reacting anti-neuronal antibodies. The condition represents a therapeutic challenge requiring multidisciplinary management combining systemic therapies with neurological support.",
+  "risk_factors": [
+    "Previous radioactive iodine exposure >600 mCi",
+    "RET/PTC gene rearrangements",
+    "History of head/neck radiation",
+    "Advanced age at diagnosis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_nuclear_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Amyotrophic Lateral Sclerosis",
+    "Radioiodine-Refractory Differentiated Thyroid Carcinoma with Paraneoplastic Neurological Syndrome",
+    "Myasthenia Gravis",
+    "Hashimoto's Encephalopathy"
+  ]
+}

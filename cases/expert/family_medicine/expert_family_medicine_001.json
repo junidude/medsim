@@ -1,0 +1,49 @@
+{
+  "name": "Familial Hypophosphatemic Rickets with Hypercalciuria",
+  "specialty": "family_medicine",
+  "chief_complaint": "My child has been having bone pain and isn't growing like other kids their age",
+  "symptoms": [
+    "bone pain",
+    "short stature",
+    "dental abscesses",
+    "muscle weakness",
+    "bowing of legs"
+  ],
+  "physical_findings": [
+    "frontal bossing",
+    "rachitic rosary",
+    "genu varum deformity"
+  ],
+  "lab_results": {
+    "serum phosphate": "low",
+    "urinary calcium": "elevated",
+    "alkaline phosphatase": "elevated",
+    "1,25-dihydroxyvitamin D": "elevated"
+  },
+  "treatment": [
+    "oral phosphate supplements",
+    "active vitamin D analogs",
+    "orthopedic management for bone deformities",
+    "regular dental follow-up"
+  ],
+  "prognosis": "Good with early diagnosis and treatment, but requires lifelong management to prevent complications",
+  "description": "A rare X-linked dominant disorder of phosphate metabolism characterized by renal phosphate wasting, defective bone mineralization, and paradoxical elevation of 1,25-dihydroxyvitamin D. Caused by mutations in the PHEX gene leading to increased FGF23 activity.",
+  "risk_factors": [
+    "family history of rickets",
+    "X-linked inheritance pattern",
+    "premature birth"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "expert_family_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "X-linked Hypophosphatemia",
+    "Nutritional Rickets",
+    "Familial Hypophosphatemic Rickets with Hypercalciuria",
+    "Osteogenesis Imperfecta"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Adjustment Disorder with Anxiety",
+  "specialty": "psychiatry",
+  "chief_complaint": "I've been feeling really on edge and overwhelmed since I started my new job last month.",
+  "symptoms": [
+    "excessive worry",
+    "restlessness",
+    "difficulty concentrating",
+    "sleep disturbances"
+  ],
+  "physical_findings": [
+    "mild tachycardia",
+    "tremors"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "Thyroid Panel": "normal"
+  },
+  "treatment": [
+    "cognitive behavioral therapy",
+    "short-term anxiolytics if severe",
+    "stress management techniques"
+  ],
+  "prognosis": "Good with appropriate intervention, typically resolves within 6 months of stressor removal/adaptation",
+  "description": "A maladaptive reaction to identifiable psychosocial stressor occurring within 3 months of onset, characterized by disproportionate anxiety symptoms that impair functioning but don't meet criteria for other anxiety disorders.",
+  "risk_factors": [
+    "recent life changes",
+    "poor coping skills",
+    "lack of social support"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_psychiatry_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Generalized Anxiety Disorder",
+    "Adjustment Disorder with Anxiety",
+    "Panic Disorder",
+    "Major Depressive Disorder"
+  ]
+}

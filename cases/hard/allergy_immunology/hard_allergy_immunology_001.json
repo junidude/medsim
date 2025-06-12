@@ -1,0 +1,48 @@
+{
+  "name": "Eosinophilic Granulomatosis with Polyangiitis (EGPA)",
+  "specialty": "allergy_immunology",
+  "chief_complaint": "I've been having severe asthma attacks, rashes, and my hands and feet feel numb.",
+  "symptoms": [
+    "Severe asthma",
+    "Recurrent sinusitis",
+    "Peripheral neuropathy",
+    "Skin nodules or rashes",
+    "Fatigue"
+  ],
+  "physical_findings": [
+    "Wheezing on auscultation",
+    "Palpable purpura on lower extremities"
+  ],
+  "lab_results": {
+    "Eosinophil count": "Markedly elevated (>10%)",
+    "ANCA": "Positive (p-ANCA pattern)",
+    "CRP": "Elevated",
+    "ESR": "Elevated"
+  },
+  "treatment": [
+    "High-dose corticosteroids",
+    "Immunosuppressants (e.g., cyclophosphamide, rituximab)",
+    "Biologic therapy (e.g., mepolizumab)",
+    "Asthma controller medications"
+  ],
+  "prognosis": "Variable; can be life-threatening if untreated but often manageable with immunosuppressive therapy. Relapses may occur.",
+  "description": "EGPA (formerly Churg-Strauss syndrome) is a rare systemic vasculitis characterized by asthma, eosinophilia, and necrotizing vasculitis affecting small-to-medium vessels. It typically progresses through three phases: allergic (asthma, rhinitis), eosinophilic (organ infiltration), and vasculitic (vascular inflammation).",
+  "risk_factors": [
+    "History of asthma or atopy",
+    "Middle age (30-50 years)",
+    "Genetic predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_allergy_immunology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Granulomatosis with Polyangiitis",
+    "Eosinophilic Granulomatosis with Polyangiitis (EGPA)",
+    "Chronic Eosinophilic Pneumonia",
+    "Hypersensitivity Vasculitis"
+  ]
+}

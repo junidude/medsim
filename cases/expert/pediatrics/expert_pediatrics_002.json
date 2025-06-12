@@ -1,0 +1,46 @@
+{
+  "name": "Congenital Erythropoietic Porphyria (Günther Disease)",
+  "specialty": "pediatrics",
+  "chief_complaint": "My baby's skin blisters in sunlight, and their urine is reddish-brown.",
+  "symptoms": [
+    "Severe photosensitivity",
+    "Reddish-brown urine",
+    "Fragile blistering skin",
+    "Anemia",
+    "Splenomegaly"
+  ],
+  "physical_findings": [
+    "Hypertrichosis (excessive hair growth)",
+    "Hemolytic anemia (pale conjunctiva, fatigue)"
+  ],
+  "lab_results": {
+    "Urine porphyrins": "Elevated uroporphyrin I and coproporphyrin I",
+    "Complete Blood Count": "Hemolytic anemia (low Hb, high reticulocytes)",
+    "Fluorescence": "Pink-red urine under Wood's lamp"
+  },
+  "treatment": [
+    "Strict sunlight avoidance (protective clothing, window filters)",
+    "Blood transfusions for severe anemia",
+    "Splenectomy if hemolysis is severe",
+    "Bone marrow transplant (curative in select cases)"
+  ],
+  "prognosis": "Chronic condition with significant morbidity; early intervention improves quality of life but does not cure the underlying enzyme deficiency.",
+  "description": "An ultra-rare autosomal recessive disorder of heme biosynthesis (uroporphyrinogen III synthase deficiency) causing accumulation of non-functional porphyrins. Symptoms manifest in infancy with extreme photosensitivity leading to mutilating skin lesions, hemolysis, and potential developmental delays.",
+  "risk_factors": [
+    "Consanguineous parents",
+    "Northern European ancestry (higher carrier frequency)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_pediatrics_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Porphyria Cutanea Tarda",
+    "Congenital Erythropoietic Porphyria (Günther Disease)",
+    "Erythropoietic Protoporphyria",
+    "Hereditary Coproporphyria"
+  ]
+}

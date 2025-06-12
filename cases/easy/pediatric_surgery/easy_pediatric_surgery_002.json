@@ -1,0 +1,43 @@
+{
+  "name": "Umbilical Granuloma",
+  "specialty": "pediatric_surgery",
+  "chief_complaint": "My baby's belly button is red and has a small lump that won't go away",
+  "symptoms": [
+    "moist umbilical stump",
+    "small pink-red lump",
+    "mild discharge"
+  ],
+  "physical_findings": [
+    "1cm fleshy granuloma at umbilicus",
+    "no surrounding erythema",
+    "minimal serous drainage"
+  ],
+  "lab_results": {
+    "wound culture": "no growth"
+  },
+  "treatment": [
+    "silver nitrate cauterization",
+    "salt treatment (home remedy)",
+    "keep area clean and dry"
+  ],
+  "prognosis": "Excellent with treatment, typically resolves completely",
+  "description": "A common benign condition in newborns where excess granulation tissue persists at the umbilical stump site after cord separation, appearing as a small moist lump",
+  "risk_factors": [
+    "delayed cord separation",
+    "infection history",
+    "excessive moisture"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "2"
+  },
+  "case_id": "easy_pediatric_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Umbilical Hernia",
+    "Umbilical Granuloma",
+    "Omphalitis",
+    "Umbilical Polyp"
+  ]
+}

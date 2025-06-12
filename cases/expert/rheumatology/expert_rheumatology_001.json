@@ -1,0 +1,50 @@
+{
+  "name": "Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)",
+  "specialty": "rheumatology",
+  "chief_complaint": "Painful, hard lumps near my joints that keep growing",
+  "symptoms": [
+    "Progressive calcified subcutaneous masses",
+    "Joint stiffness",
+    "Limited range of motion",
+    "Recurrent skin ulcers over calcified deposits"
+  ],
+  "physical_findings": [
+    "Firm, irregular calcified masses (typically periarticular)",
+    "Erythema and warmth over affected areas",
+    "Restricted joint mobility"
+  ],
+  "lab_results": {
+    "Serum phosphate": "Elevated (often >5.5 mg/dL)",
+    "Calcium": "Normal",
+    "FGF23": "Low or inappropriately normal",
+    "1,25(OH)2D": "Elevated",
+    "Renal function": "Normal"
+  },
+  "treatment": [
+    "Phosphate-lowering diet",
+    "Phosphate binders (sevelamer, aluminum hydroxide)",
+    "Topical sodium thiosulfate for ulcerations",
+    "Surgical debridement of symptomatic lesions",
+    "Trial of bisphosphonates"
+  ],
+  "prognosis": "Chronic progressive course with significant morbidity from recurrent calcifications and joint destruction. Early intervention may slow progression but complete remission is rare.",
+  "description": "HFTC is an extremely rare autosomal recessive disorder of phosphate metabolism caused by mutations in FGF23, GALNT3, or KLOTHO genes. It leads to ectopic calcification in soft tissues, particularly periarticular regions, due to impaired phosphate excretion and abnormal FGF23 signaling. Lesions often begin in childhood and progressively worsen, causing severe functional impairment.",
+  "risk_factors": [
+    "Family history of similar lesions",
+    "Consanguinity",
+    "Certain ethnic backgrounds (reported higher in Middle Eastern populations)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_rheumatology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Dermatomyositis",
+    "Hyperphosphatemic Familial Tumoral Calcinosis (HFTC)",
+    "Scleroderma",
+    "Calcinosis universalis"
+  ]
+}

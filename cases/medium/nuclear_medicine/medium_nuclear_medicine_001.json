@@ -1,0 +1,45 @@
+{
+  "name": "Radioiodine-Refractory Differentiated Thyroid Cancer",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "I still feel a lump in my neck after thyroid surgery and radioactive iodine treatment",
+  "symptoms": [
+    "neck swelling",
+    "hoarseness",
+    "fatigue",
+    "difficulty swallowing"
+  ],
+  "physical_findings": [
+    "palpable thyroid bed nodule",
+    "vocal cord paralysis"
+  ],
+  "lab_results": {
+    "thyroglobulin": "elevated",
+    "TSH": "suppressed",
+    "FT4": "normal"
+  },
+  "treatment": [
+    "tyrosine kinase inhibitors",
+    "external beam radiation",
+    "clinical trial enrollment"
+  ],
+  "prognosis": "Variable depending on disease burden; 5-year survival ~65% with systemic therapy",
+  "description": "A subset of differentiated thyroid cancers that lose iodine avidity and become resistant to radioactive iodine therapy, often requiring alternative systemic treatments. Typically presents with persistent/recurrent disease despite prior RAI treatment.",
+  "risk_factors": [
+    "aggressive histology (e.g., tall cell variant)",
+    "older age at diagnosis",
+    "extrathyroidal extension"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_nuclear_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Thyroid lymphoma",
+    "Radioiodine-Refractory Differentiated Thyroid Cancer",
+    "Recurrent goiter",
+    "Metastatic lymphadenopathy"
+  ]
+}

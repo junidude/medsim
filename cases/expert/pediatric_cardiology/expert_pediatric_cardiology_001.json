@@ -1,0 +1,46 @@
+{
+  "name": "Congenital Ventricular Diverticulum with Arrhythmia",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child keeps fainting and says their heart feels funny",
+  "symptoms": [
+    "syncope",
+    "palpitations",
+    "exercise intolerance",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "irregular heartbeat",
+    "systolic murmur (grade 2/6)"
+  ],
+  "lab_results": {
+    "ECG": "ventricular ectopy with intermittent bigeminy",
+    "Echocardiogram": "thin-walled outpouching from left ventricular apex",
+    "Cardiac MRI": "diverticulum measuring 1.8cm with preserved contractility"
+  },
+  "treatment": [
+    "beta-blocker therapy",
+    "electrophysiology study",
+    "surgical resection if refractory arrhythmias",
+    "activity restriction"
+  ],
+  "prognosis": "Guarded; depends on arrhythmia control and diverticulum stability. Risk of sudden cardiac death if untreated.",
+  "description": "A rare congenital cardiac anomaly where a thin-walled diverticulum protrudes from the ventricular wall, often associated with ventricular arrhythmias due to abnormal electrical pathways. The diverticulum may contain all three myocardial layers but is functionally impaired.",
+  "risk_factors": [
+    "maternal diabetes",
+    "prenatal toxin exposure",
+    "connective tissue disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_pediatric_cardiology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Hypertrophic Cardiomyopathy",
+    "Congenital Ventricular Diverticulum with Arrhythmia",
+    "Long QT Syndrome",
+    "Atrial Septal Defect"
+  ]
+}

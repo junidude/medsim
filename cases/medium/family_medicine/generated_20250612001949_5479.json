@@ -1,0 +1,51 @@
+{
+  "name": "Acute Sinusitis with Secondary Infection",
+  "specialty": "family_medicine",
+  "chief_complaint": "Severe facial pressure and thick yellow nasal discharge for 2 weeks, not improving with over-the-counter medications",
+  "symptoms": [
+    "facial pain and pressure",
+    "thick yellow-green nasal discharge",
+    "nasal congestion",
+    "reduced sense of smell",
+    "post-nasal drip",
+    "low-grade fever"
+  ],
+  "physical_findings": [
+    "tenderness over maxillary and frontal sinuses",
+    "purulent nasal discharge",
+    "inflamed nasal mucosa",
+    "post-nasal drip visible on throat examination"
+  ],
+  "lab_results": {
+    "nasal culture": "Streptococcus pneumoniae",
+    "CBC": "elevated WBC count 11,500/µL"
+  },
+  "treatment": [
+    "amoxicillin-clavulanate 875-125mg BID for 10 days",
+    "nasal saline irrigation",
+    "intranasal corticosteroids",
+    "decongestants for symptom relief"
+  ],
+  "prognosis": "Good recovery expected within 14 days with appropriate antibiotic therapy and supportive care",
+  "description": "Bacterial sinusitis developing after initial viral upper respiratory infection, characterized by persistent symptoms beyond 10 days and worsening after initial improvement",
+  "risk_factors": [
+    "recent upper respiratory infection",
+    "allergic rhinitis",
+    "anatomical nasal abnormalities",
+    "smoking",
+    "immune system compromise"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "generated_20250612001949_5479",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Allergic Rhinitis",
+    "Acute Sinusitis with Secondary Infection",
+    "Viral Upper Respiratory Infection",
+    "Chronic Sinusitis"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Polysubstance-Induced Serotonin Syndrome with Concurrent Opioid Withdrawal",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I feel like my body is on fire, I can't stop shaking, and I'm seeing things that aren't there - but I haven't used in 36 hours",
+  "symptoms": [
+    "hyperthermia (39.2°C)",
+    "generalized myoclonus",
+    "agitation",
+    "visual hallucinations",
+    "diaphoresis",
+    "diarrhea"
+  ],
+  "physical_findings": [
+    "clonus (inducible and spontaneous)",
+    "hyperreflexia (4+ throughout)",
+    "ocular clonus",
+    "tachycardia (HR 128)",
+    "hypertension (168/102 mmHg)"
+  ],
+  "lab_results": {
+    "urine_toxicology": "positive for MDMA, fentanyl, and sertraline",
+    "CK": "1,842 U/L",
+    "ABG": "respiratory alkalosis (pH 7.52, pCO2 28)"
+  },
+  "treatment": [
+    "immediate IV cyproheptadine loading",
+    "aggressive cooling measures",
+    "benzodiazepine titration for agitation",
+    "IV fluids with electrolyte repletion",
+    "buprenorphine initiation for opioid withdrawal",
+    "continuous cardiac monitoring"
+  ],
+  "prognosis": "Guarded - mortality risk 5-12% in severe cases; neurological sequelae possible if hyperthermia persists >2 hours",
+  "description": "Life-threatening condition caused by excessive serotonergic activity in CNS and peripheral serotonin receptors, exacerbated by recent discontinuation of chronic opioid use. Results from pharmacodynamic interaction between MDMA (serotonin releaser), fentanyl (weak SRI), and sertraline (SSRI) with abrupt opioid cessation removing inhibitory modulation of serotonin pathways.",
+  "risk_factors": [
+    "polysubstance use disorder",
+    "concurrent SSRI prescription",
+    "recent dose escalation",
+    "poor medication adherence",
+    "history of previous serotonin syndrome episodes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "8"
+  },
+  "case_id": "hard_addiction_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Neuroleptic Malignant Syndrome",
+    "Polysubstance-Induced Serotonin Syndrome with Concurrent Opioid Withdrawal",
+    "Anticholinergic Toxicity",
+    "Malignant Hyperthermia"
+  ]
+}

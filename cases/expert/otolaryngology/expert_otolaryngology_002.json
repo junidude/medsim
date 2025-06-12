@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+  "specialty": "otolaryngology",
+  "chief_complaint": "Persistent throat pain and voice changes with no obvious cause",
+  "symptoms": [
+    "Chronic unilateral throat pain",
+    "Voice fatigue",
+    "Intermittent vocal cord spasms",
+    "Globus sensation",
+    "Odynophagia without dysphagia"
+  ],
+  "physical_findings": [
+    "Normal laryngeal mucosa on endoscopy",
+    "Hyperactive laryngeal reflex",
+    "Intermittent vocal cord adduction during phonation"
+  ],
+  "lab_results": {
+    "Laryngeal EMG": "Increased spontaneous activity in thyroarytenoid muscle",
+    "Autoimmune panel": "Negative",
+    "CRP": "Normal"
+  },
+  "treatment": [
+    "Low-dose tricyclic antidepressants (e.g., amitriptyline 10-25mg nightly)",
+    "Gabapentinoid therapy",
+    "Superior laryngeal nerve block",
+    "Voice therapy with laryngeal relaxation techniques"
+  ],
+  "prognosis": "Variable; 60% achieve significant symptom reduction with multimodal therapy, but may require long-term management",
+  "description": "A rare neuropathic disorder affecting the superior laryngeal nerve branches, characterized by chronic neuropathic throat pain without structural abnormalities. Thought to involve peripheral and central sensitization of laryngeal nerves. Often misdiagnosed as GERD or functional voice disorders.",
+  "risk_factors": [
+    "History of viral upper respiratory infection (preceding onset)",
+    "Autoimmune predisposition without overt disease",
+    "Vocal overuse prior to symptom onset",
+    "Anxiety spectrum disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_otolaryngology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Laryngeal Dystonia",
+    "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+    "GERD-related Laryngitis",
+    "Vocal Cord Dysfunction"
+  ]
+}

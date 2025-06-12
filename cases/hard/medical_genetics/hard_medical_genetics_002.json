@@ -1,0 +1,46 @@
+{
+  "name": "Mitochondrial Neurogastrointestinal Encephalopathy (MNGIE)",
+  "specialty": "medical_genetics",
+  "chief_complaint": "I've been having severe stomach pain, vomiting, and I can't seem to gain weight no matter how much I eat.",
+  "symptoms": [
+    "chronic diarrhea",
+    "recurrent vomiting",
+    "severe weight loss",
+    "peripheral neuropathy",
+    "ptosis (drooping eyelids)"
+  ],
+  "physical_findings": [
+    "cachexia (severe muscle wasting)",
+    "reduced deep tendon reflexes",
+    "ophthalmoparesis (weak eye movements)"
+  ],
+  "lab_results": {
+    "thymidine phosphorylase activity": "markedly reduced",
+    "plasma thymidine": "elevated",
+    "plasma deoxyuridine": "elevated"
+  },
+  "treatment": [
+    "allogeneic hematopoietic stem cell transplantation",
+    "enzyme replacement therapy (investigational)",
+    "symptomatic management of GI complications"
+  ],
+  "prognosis": "Poor without treatment; progressive neurological and gastrointestinal deterioration leading to death typically in early adulthood. Stem cell transplantation may halt progression.",
+  "description": "MNGIE is an ultra-rare autosomal recessive disorder caused by mutations in the TYMP gene leading to thymidine phosphorylase deficiency. This results in toxic accumulation of thymidine and deoxyuridine, causing mitochondrial DNA instability. The condition affects multiple systems with prominent gastrointestinal and neurological involvement.",
+  "risk_factors": [
+    "consanguineous parentage",
+    "family history of similar symptoms"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_medical_genetics_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Chronic Intestinal Pseudo-obstruction",
+    "Mitochondrial Neurogastrointestinal Encephalopathy (MNGIE)",
+    "Whipple's Disease",
+    "Abetalipoproteinemia"
+  ]
+}

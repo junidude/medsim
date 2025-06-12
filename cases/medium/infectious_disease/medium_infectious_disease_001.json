@@ -1,0 +1,48 @@
+{
+  "name": "Tropical Spotted Fever",
+  "specialty": "infectious_disease",
+  "chief_complaint": "I've had a high fever and these weird red spots all over my body for the past 5 days",
+  "symptoms": [
+    "high fever (39-40°C)",
+    "generalized maculopapular rash",
+    "severe headache",
+    "myalgia",
+    "photophobia"
+  ],
+  "physical_findings": [
+    "diffuse erythematous maculopapular rash (palms/soles involved)",
+    "conjunctival injection",
+    "mild hepatosplenomegaly"
+  ],
+  "lab_results": {
+    "CBC": "thrombocytopenia",
+    "Liver enzymes": "elevated AST/ALT",
+    "PCR": "positive for Rickettsia africae",
+    "ESR": "elevated"
+  },
+  "treatment": [
+    "doxycycline 100mg BID for 7-10 days",
+    "symptomatic management (fever/pain control)",
+    "IV fluids if dehydrated"
+  ],
+  "prognosis": "Excellent with timely treatment, though convalescence may take 2-3 weeks. Untreated cases risk severe complications.",
+  "description": "An acute febrile illness caused by Rickettsia africae transmitted through tick bites in tropical regions. Characterized by eschar at bite site (when present), fever, and distinctive rash. Incubation period 5-7 days.",
+  "risk_factors": [
+    "recent travel to sub-Saharan Africa",
+    "outdoor activities in grassy/brush areas",
+    "exposure to cattle or game animals"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_infectious_disease_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Dengue Fever",
+    "Tropical Spotted Fever",
+    "Measles",
+    "Rocky Mountain Spotted Fever"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Rectosigmoid Junction Intussusception with Ischemic Necrosis",
+  "specialty": "colon_rectal_surgery",
+  "chief_complaint": "Severe abdominal pain and bloody stools for the past 12 hours",
+  "symptoms": [
+    "intermittent cramping abdominal pain",
+    "bright red rectal bleeding",
+    "nausea without vomiting",
+    "inability to pass gas or stool"
+  ],
+  "physical_findings": [
+    "palpable sausage-shaped mass in left lower quadrant",
+    "abdominal distension with guarding",
+    "tachycardia (HR 112) with normal blood pressure"
+  ],
+  "lab_results": {
+    "WBC": "14.2 K/uL (elevated)",
+    "Lactate": "3.8 mmol/L (elevated)",
+    "Hemoglobin": "10.1 g/dL (low)"
+  },
+  "treatment": [
+    "emergency surgical reduction with possible resection",
+    "bowel decompression via nasogastric tube",
+    "intravenous fluids and broad-spectrum antibiotics",
+    "post-operative monitoring for anastomotic leak"
+  ],
+  "prognosis": "Guarded - dependent on timing of intervention and extent of necrosis",
+  "description": "A rare form of adult intussusception where the sigmoid colon telescopes into the rectum, causing vascular compromise and early ischemic changes. Unlike pediatric cases, adult intussusception typically has a lead point (often neoplastic in origin). This variant involves the rectosigmoid junction specifically, creating diagnostic challenges as it may mimic diverticulitis or obstructing malignancy.",
+  "risk_factors": [
+    "history of colonic polyps",
+    "prior abdominal surgeries causing adhesions",
+    "connective tissue disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_colon_rectal_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Diverticulitis with perforation",
+    "Rectosigmoid Junction Intussusception with Ischemic Necrosis",
+    "Colonic volvulus",
+    "Ischemic colitis"
+  ]
+}

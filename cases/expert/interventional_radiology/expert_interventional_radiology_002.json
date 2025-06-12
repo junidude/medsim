@@ -1,0 +1,51 @@
+{
+  "name": "Transjugular Intrahepatic Portosystemic Shunt (TIPS) Thrombosis with Hepatic Encephalopathy",
+  "specialty": "interventional_radiology",
+  "chief_complaint": "I feel confused and my stomach is swollen and painful",
+  "symptoms": [
+    "confusion",
+    "abdominal distension",
+    "jaundice",
+    "fatigue",
+    "disorientation"
+  ],
+  "physical_findings": [
+    "ascites",
+    "asterixis (flapping tremor)",
+    "hepatomegaly",
+    "caput medusae"
+  ],
+  "lab_results": {
+    "ammonia": "elevated",
+    "bilirubin": "elevated",
+    "INR": "prolonged",
+    "platelets": "low"
+  },
+  "treatment": [
+    "emergency TIPS revision with thrombectomy",
+    "hepatic encephalopathy management (lactulose, rifaximin)",
+    "paracentesis for symptomatic ascites relief",
+    "anticoagulation therapy post-procedure"
+  ],
+  "prognosis": "Guarded. Requires lifelong monitoring for shunt patency and recurrent encephalopathy. 30% 1-year mortality if untreated.",
+  "description": "Acute thrombosis of a previously placed TIPS shunt leading to portal hypertension recurrence, hepatic encephalopathy from shunted toxins, and rapid ascites formation. Requires urgent interventional radiology management to restore shunt patency.",
+  "risk_factors": [
+    "cirrhosis",
+    "prior TIPS placement",
+    "hypercoagulable disorders",
+    "non-compliance with anticoagulation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_interventional_radiology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Transjugular Intrahepatic Portosystemic Shunt (TIPS) Thrombosis with Hepatic Encephalopathy",
+    "Acute liver failure",
+    "Budd-Chiari syndrome",
+    "TIPS Thrombosis with Hepatic Encephalopathy"
+  ]
+}

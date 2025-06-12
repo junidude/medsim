@@ -1,0 +1,52 @@
+{
+  "name": "Progressive Necrotizing Fasciitis with Cutaneous Gangrene",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "Severe pain and blackening skin on my left forearm that's spreading rapidly",
+  "symptoms": [
+    "excruciating localized pain disproportionate to visible injury",
+    "rapidly expanding erythema",
+    "systemic fever (39.2°C)",
+    "nausea",
+    "mental confusion"
+  ],
+  "physical_findings": [
+    "crepitus on palpation of affected area",
+    "hemorrhagic bullae formation",
+    "demarcated necrotic tissue with violaceous margins",
+    "positive 'finger test' (easy separation of fascial planes)"
+  ],
+  "lab_results": {
+    "WBC": "28,000/μL",
+    "CRP": "320 mg/L",
+    "Lactate": "5.8 mmol/L",
+    "Blood Culture": "Gram-positive cocci in chains (presumptive Streptococcus pyogenes)"
+  },
+  "treatment": [
+    "emergent radical surgical debridement with 2cm margins",
+    "quadruple IV antibiotics (vancomycin, clindamycin, piperacillin-tazobactam, gentamicin)",
+    "hyperbaric oxygen therapy if available",
+    "vacuum-assisted closure after infection control",
+    "future reconstructive surgery with free flap transfer"
+  ],
+  "prognosis": "Guarded - mortality rate 25-35% even with treatment; significant functional impairment likely",
+  "description": "Life-threatening polymicrobial necrotizing soft tissue infection involving superficial fascia, deep fascia, and surrounding tissues. Characterized by rapid tissue destruction (2-3cm/hour progression) due to bacterial exotoxins and impaired microcirculation. Requires immediate surgical intervention to prevent septic shock.",
+  "risk_factors": [
+    "recent puncture wound (patient is a fisherman)",
+    "uncontrolled type 2 diabetes (HbA1c 9.4%)",
+    "chronic alcohol use",
+    "peripheral vascular disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair (limited by delirium)",
+    "pain_level": "10"
+  },
+  "case_id": "hard_plastic_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Gas Gangrene",
+    "Progressive Necrotizing Fasciitis with Cutaneous Gangrene",
+    "Septic Arthritis",
+    "Fournier's Gangrene"
+  ]
+}

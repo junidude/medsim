@@ -1,0 +1,49 @@
+{
+  "name": "Idiopathic Mesenteric Panniculitis",
+  "specialty": "gastroenterology",
+  "chief_complaint": "I've had severe abdominal pain and bloating for weeks, and I'm losing weight without trying",
+  "symptoms": [
+    "chronic abdominal pain",
+    "unintentional weight loss",
+    "nausea",
+    "early satiety",
+    "low-grade fever"
+  ],
+  "physical_findings": [
+    "palpable abdominal mass",
+    "abdominal tenderness without rebound",
+    "mild hepatomegaly"
+  ],
+  "lab_results": {
+    "CRP": "elevated",
+    "ESR": "elevated",
+    "CBC": "mild leukocytosis",
+    "CT abdomen": "fat stranding and mesenteric thickening"
+  },
+  "treatment": [
+    "corticosteroids (prednisone taper)",
+    "immunomodulators (azathioprine if refractory)",
+    "symptomatic pain management",
+    "nutritional support"
+  ],
+  "prognosis": "Variable; may have recurrent flares but generally non-life threatening with treatment",
+  "description": "A rare inflammatory condition affecting the mesenteric fat tissue, characterized by chronic inflammation, fibrosis, and fat necrosis. Often idiopathic but may be associated with autoimmune disorders or malignancy. Diagnosis requires exclusion of other causes of mesenteric abnormalities.",
+  "risk_factors": [
+    "autoimmune disorders",
+    "prior abdominal surgery",
+    "history of malignancy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "hard_gastroenterology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Lymphoma",
+    "Idiopathic Mesenteric Panniculitis",
+    "Pancreatic Cancer",
+    "Crohn's Disease"
+  ]
+}

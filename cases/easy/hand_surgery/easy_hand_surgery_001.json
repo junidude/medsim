@@ -1,0 +1,41 @@
+{
+  "name": "Trigger Finger (Stenosing Tenosynovitis)",
+  "specialty": "hand_surgery",
+  "chief_complaint": "My finger gets stuck when I try to straighten it, and it hurts when I move it.",
+  "symptoms": [
+    "Finger catching or locking when bent",
+    "Pain at the base of the affected finger",
+    "Tenderness or a nodule in the palm"
+  ],
+  "physical_findings": [
+    "Palpable nodule at the A1 pulley",
+    "Snapping or popping sensation with finger movement"
+  ],
+  "lab_results": {},
+  "treatment": [
+    "Rest and activity modification",
+    "NSAIDs for pain relief",
+    "Corticosteroid injection",
+    "Surgical release (if conservative measures fail)"
+  ],
+  "prognosis": "Excellent with treatment; most patients recover full function",
+  "description": "Trigger finger is a condition where one of the fingers gets stuck in a bent position and then straightens with a snap. It occurs due to inflammation of the tendon sheath, causing the tendon to catch or lock as it moves.",
+  "risk_factors": [
+    "Repetitive hand use",
+    "Diabetes",
+    "Rheumatoid arthritis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_hand_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Dupuytren's Contracture",
+    "Trigger Finger (Stenosing Tenosynovitis)",
+    "Carpal Tunnel Syndrome",
+    "De Quervain's Tenosynovitis"
+  ]
+}

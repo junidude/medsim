@@ -1,0 +1,43 @@
+{
+  "name": "Caffeine Withdrawal Syndrome",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I stopped drinking coffee three days ago and now I feel terrible",
+  "symptoms": [
+    "headache",
+    "fatigue",
+    "irritability",
+    "difficulty concentrating"
+  ],
+  "physical_findings": [
+    "mild tachycardia",
+    "slightly elevated blood pressure"
+  ],
+  "lab_results": {
+    "blood_caffeine_level": "undetectable"
+  },
+  "treatment": [
+    "gradual caffeine reduction",
+    "hydration",
+    "OTC pain relievers for headache"
+  ],
+  "prognosis": "Excellent with proper management, symptoms typically resolve within 2-9 days",
+  "description": "A condition resulting from abrupt cessation or significant reduction in caffeine intake in habitual users, characterized by a constellation of symptoms including headache, fatigue, and mood disturbances.",
+  "risk_factors": [
+    "high daily caffeine intake",
+    "sudden cessation",
+    "history of withdrawal symptoms"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "easy_addiction_medicine_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Migraine",
+    "Caffeine Withdrawal Syndrome",
+    "Viral Illness",
+    "Hypertension"
+  ]
+}

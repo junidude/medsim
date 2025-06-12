@@ -1,0 +1,42 @@
+{
+  "name": "Transient Global Amnesia",
+  "specialty": "neuroradiology",
+  "chief_complaint": "I can't remember anything that happened today, and I keep asking the same questions over and over.",
+  "symptoms": [
+    "sudden memory loss",
+    "repetitive questioning",
+    "confusion about recent events",
+    "no loss of personal identity"
+  ],
+  "physical_findings": [
+    "normal neurological exam",
+    "no focal deficits"
+  ],
+  "lab_results": {
+    "MRI": "no acute abnormalities",
+    "EEG": "normal"
+  },
+  "treatment": [
+    "reassurance and observation",
+    "symptomatic management if needed"
+  ],
+  "prognosis": "excellent, typically resolves within 24 hours without sequelae",
+  "description": "Transient Global Amnesia (TGA) is a sudden, temporary episode of memory loss that can't be attributed to a more common neurological condition, such as epilepsy or stroke. During an episode of TGA, a person's recall of recent events simply vanishes, so they can't remember where they are or how they got there. In addition, the person may not remember anything about what's happening in the here and now. Consequently, they may repeat the same questions because they don't remember the answers they've just been given. The condition most often affects people in middle age and older.",
+  "risk_factors": [
+    "history of migraines",
+    "recent physical exertion or emotional stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "1"
+  },
+  "case_id": "medium_neuroradiology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Complex partial seizure",
+    "Transient Global Amnesia",
+    "Psychogenic amnesia",
+    "Postictal state"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Rectosigmoid Junction Adenomyomatosis",
+  "specialty": "colon_rectal_surgery",
+  "chief_complaint": "I have severe lower abdominal pain and bloody stools for the past two weeks",
+  "symptoms": [
+    "left lower quadrant abdominal pain",
+    "hematochezia",
+    "tenesmus",
+    "intermittent constipation and diarrhea"
+  ],
+  "physical_findings": [
+    "tenderness on deep palpation of left lower quadrant",
+    "palpable mass in rectosigmoid region on digital rectal exam"
+  ],
+  "lab_results": {
+    "CBC": "mild anemia (Hb 10.2 g/dL)",
+    "CRP": "elevated at 32 mg/L",
+    "CEA": "normal (2.1 ng/mL)"
+  },
+  "treatment": [
+    "surgical resection of affected segment (sigmoidectomy with primary anastomosis)",
+    "temporary diverting ileostomy in select cases",
+    "pain management with non-opioid analgesics",
+    "iron supplementation for anemia"
+  ],
+  "prognosis": "Good with complete surgical resection, but requires long-term surveillance due to rare malignant transformation potential",
+  "description": "A rare benign condition characterized by heterotopic proliferation of glandular epithelium and smooth muscle in the rectosigmoid junction wall, causing stricture-like symptoms. Often misdiagnosed as malignancy or inflammatory bowel disease due to similar presentation.",
+  "risk_factors": [
+    "chronic colonic inflammation",
+    "prior pelvic radiation",
+    "rare genetic predisposition (unclear inheritance pattern)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_colon_rectal_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Diverticulitis",
+    "Rectosigmoid Junction Adenomyomatosis",
+    "Colorectal Cancer",
+    "Ulcerative Colitis"
+  ]
+}

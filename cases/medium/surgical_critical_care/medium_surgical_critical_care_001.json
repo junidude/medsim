@@ -1,0 +1,50 @@
+{
+  "name": "Acute Mesenteric Ischemia",
+  "specialty": "surgical_critical_care",
+  "chief_complaint": "Severe abdominal pain that came on suddenly",
+  "symptoms": [
+    "sudden severe abdominal pain",
+    "nausea",
+    "vomiting",
+    "diarrhea (possibly bloody)"
+  ],
+  "physical_findings": [
+    "abdominal tenderness with guarding",
+    "absent bowel sounds",
+    "tachycardia",
+    "hypotension"
+  ],
+  "lab_results": {
+    "lactate": "elevated (>4 mmol/L)",
+    "WBC": "leukocytosis",
+    "ABG": "metabolic acidosis"
+  },
+  "treatment": [
+    "immediate fluid resuscitation",
+    "broad-spectrum antibiotics",
+    "emergent surgical exploration",
+    "possible bowel resection",
+    "anticoagulation if arterial thrombosis"
+  ],
+  "prognosis": "Poor if not treated within first few hours; mortality remains high (60-80%) even with treatment due to bowel necrosis",
+  "description": "Sudden loss of blood flow to the small intestine, typically due to arterial embolism, thrombosis, or venous occlusion. Leads to bowel ischemia and potential necrosis if not treated emergently. Often presents with pain out of proportion to exam findings.",
+  "risk_factors": [
+    "atrial fibrillation",
+    "recent myocardial infarction",
+    "hypercoagulable states",
+    "advanced atherosclerosis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "medium_surgical_critical_care_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Pancreatitis",
+    "Acute Mesenteric Ischemia",
+    "Perforated Peptic Ulcer",
+    "Diverticulitis"
+  ]
+}

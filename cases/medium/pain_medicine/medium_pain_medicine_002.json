@@ -1,0 +1,50 @@
+{
+  "name": "Chronic Regional Pain Syndrome Type I",
+  "specialty": "pain_medicine",
+  "chief_complaint": "I have constant burning pain in my right hand that won't go away, and it's swollen and sensitive to touch.",
+  "symptoms": [
+    "persistent burning pain",
+    "swelling in affected limb",
+    "skin temperature changes",
+    "increased sensitivity to touch",
+    "decreased range of motion"
+  ],
+  "physical_findings": [
+    "allodynia in right hand",
+    "edema in right hand",
+    "skin color changes (reddish or purplish)",
+    "decreased grip strength"
+  ],
+  "lab_results": {
+    "bone scan": "increased uptake in affected area",
+    "blood tests": "normal inflammatory markers"
+  },
+  "treatment": [
+    "physical therapy",
+    "nerve blocks",
+    "NSAIDs for pain management",
+    "gabapentin or pregabalin",
+    "cognitive behavioral therapy"
+  ],
+  "prognosis": "Variable; early treatment improves outcomes but condition may become chronic in some cases",
+  "description": "A chronic pain condition typically affecting one limb, often developing after an injury, surgery, stroke or heart attack. Characterized by prolonged or excessive pain and changes in skin color, temperature, and/or swelling in the affected area.",
+  "risk_factors": [
+    "previous trauma or injury",
+    "immobilization after injury",
+    "history of anxiety or depression",
+    "female gender"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "medium_pain_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Peripheral neuropathy",
+    "Chronic Regional Pain Syndrome Type I",
+    "Rheumatoid arthritis",
+    "Complex regional pain syndrome type II"
+  ]
+}

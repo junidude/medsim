@@ -1,0 +1,41 @@
+{
+  "name": "Patellar Tendonitis",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "Pain below my kneecap that gets worse when I jump or run",
+  "symptoms": [
+    "Localized pain below the kneecap",
+    "Pain worsens with activity",
+    "Mild swelling around the tendon"
+  ],
+  "physical_findings": [
+    "Tenderness on palpation of patellar tendon",
+    "Pain with resisted knee extension",
+    "Possible mild effusion"
+  ],
+  "lab_results": {},
+  "treatment": [
+    "RICE protocol (Rest, Ice, Compression, Elevation)",
+    "Physical therapy focusing on eccentric strengthening",
+    "NSAIDs for pain management"
+  ],
+  "prognosis": "Excellent with proper rest and rehabilitation; typically resolves within 4-6 weeks",
+  "description": "Inflammation of the patellar tendon, commonly seen in athletes who perform frequent jumping activities (jumper's knee). Caused by repetitive stress on the tendon connecting the kneecap to the shinbone.",
+  "risk_factors": [
+    "Sports involving jumping (basketball, volleyball)",
+    "Sudden increase in activity level",
+    "Poor lower extremity flexibility"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_orthopedic_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Patellar Tendonitis",
+    "Osgood-Schlatter Disease",
+    "Patellofemoral Pain Syndrome",
+    "Prepatellar Bursitis"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Multifactorial Geriatric Cachexia Syndrome",
+  "specialty": "geriatric_medicine",
+  "chief_complaint": "I've lost so much weight without trying and I feel weaker every day",
+  "symptoms": [
+    "Unintentional weight loss (>10% in 6 months)",
+    "Severe fatigue",
+    "Loss of appetite",
+    "Muscle wasting",
+    "Cognitive fluctuations"
+  ],
+  "physical_findings": [
+    "BMI <18 with loose skin folds",
+    "Temporal muscle wasting",
+    "Decreased grip strength (<16kg male/<10kg female)",
+    "Sarcopenic posture"
+  ],
+  "lab_results": {
+    "CRP": "12.8 mg/L (elevated)",
+    "Albumin": "2.8 g/dL (low)",
+    "IL-6": "15 pg/mL (high)",
+    "Prealbumin": "10 mg/dL (low)"
+  },
+  "treatment": [
+    "Comprehensive geriatric assessment",
+    "Multimodal nutrition intervention (oral+enteral)",
+    "Resistance exercise program",
+    "Anti-inflammatory trial (low-dose prednisone)",
+    "Ghrelin receptor agonist therapy"
+  ],
+  "prognosis": "Guarded - 50% 1-year mortality without aggressive intervention. Potential for partial functional recovery with 6-12 month multidisciplinary approach.",
+  "description": "A complex wasting disorder in elderly patients involving chronic inflammatory state, anabolic resistance, and neuroendocrine dysregulation distinct from simple malnutrition or cancer cachexia. Characterized by disproportionate muscle loss relative to fat loss and resistance to conventional nutritional support.",
+  "risk_factors": [
+    "Chronic low-grade inflammation (elevated IL-6)",
+    "Polypharmacy (>9 medications)",
+    "Subclinical hyperthyroidism",
+    "Late-stage periodontal disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "hard_geriatric_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Hyperthyroidism",
+    "Multifactorial Geriatric Cachexia Syndrome",
+    "Advanced Malignancy",
+    "Chronic Heart Failure"
+  ]
+}

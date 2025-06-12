@@ -1,0 +1,49 @@
+{
+  "name": "Chronic Idiopathic Urticaria with Angioedema",
+  "specialty": "allergy_immunology",
+  "chief_complaint": "I keep getting itchy hives and my lips swell up randomly",
+  "symptoms": [
+    "Recurrent hives",
+    "Swelling of lips/face",
+    "Pruritus",
+    "Occasional throat tightness"
+  ],
+  "physical_findings": [
+    "Wheals on trunk and extremities",
+    "Non-pitting edema of lips",
+    "Dermatographism"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "C-reactive protein": "slightly elevated",
+    "Thyroid antibodies": "negative",
+    "Total IgE": "mildly elevated"
+  },
+  "treatment": [
+    "High-dose second-generation antihistamines",
+    "H2 blockers",
+    "Leukotriene receptor antagonists",
+    "Consideration of omalizumab for refractory cases"
+  ],
+  "prognosis": "Variable - may persist for years but often resolves spontaneously; quality of life can be significantly impacted during active disease",
+  "description": "A chronic form of urticaria lasting >6 weeks with associated angioedema, without identifiable external trigger. Believed to involve autoimmune mechanisms with mast cell activation. Diagnosis requires exclusion of other causes of chronic urticaria.",
+  "risk_factors": [
+    "Female gender",
+    "Autoimmune thyroid disease",
+    "Stress",
+    "History of atopy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_allergy_immunology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Allergic Contact Dermatitis",
+    "Chronic Idiopathic Urticaria with Angioedema",
+    "Hereditary Angioedema",
+    "Mastocytosis"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Bacterial Vaginosis",
+  "specialty": "obstetrics_gynecology",
+  "chief_complaint": "I have an unusual vaginal discharge with a fishy odor",
+  "symptoms": [
+    "thin grayish-white discharge",
+    "fishy odor",
+    "vaginal itching"
+  ],
+  "physical_findings": [
+    "homogenous vaginal discharge",
+    "no vulvar inflammation"
+  ],
+  "lab_results": {
+    "vaginal pH": ">4.5",
+    "whiff test": "positive"
+  },
+  "treatment": [
+    "oral metronidazole",
+    "clindamycin cream"
+  ],
+  "prognosis": "Excellent with proper treatment, though recurrence is common",
+  "description": "An overgrowth of anaerobic bacteria in the vagina causing disruption of normal flora. Not sexually transmitted but associated with sexual activity.",
+  "risk_factors": [
+    "multiple sexual partners",
+    "douching"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_obstetrics_gynecology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Trichomoniasis",
+    "Bacterial Vaginosis",
+    "Yeast Infection",
+    "Chlamydia"
+  ]
+}

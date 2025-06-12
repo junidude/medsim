@@ -1,0 +1,48 @@
+{
+  "name": "Mitochondrial Neurogastrointestinal Encephalomyopathy (MNGIE)",
+  "specialty": "medical_genetics",
+  "chief_complaint": "I've been having severe stomach pain, muscle weakness, and I can't seem to gain weight no matter how much I eat.",
+  "symptoms": [
+    "chronic diarrhea",
+    "progressive muscle weakness",
+    "peripheral neuropathy",
+    "ptosis (drooping eyelids)",
+    "weight loss"
+  ],
+  "physical_findings": [
+    "cachexia (severe weight loss and muscle wasting)",
+    "bilateral ptosis",
+    "reduced deep tendon reflexes"
+  ],
+  "lab_results": {
+    "thymidine phosphorylase activity": "markedly reduced",
+    "plasma thymidine": "elevated",
+    "plasma deoxyuridine": "elevated",
+    "lactic acid": "elevated"
+  },
+  "treatment": [
+    "allogeneic hematopoietic stem cell transplantation",
+    "enzyme replacement therapy (investigational)",
+    "symptomatic management of gastrointestinal symptoms",
+    "nutritional support with parenteral nutrition if needed"
+  ],
+  "prognosis": "Poor without treatment, with progressive deterioration leading to death typically in early adulthood. Early diagnosis and stem cell transplantation may improve outcomes.",
+  "description": "MNGIE is an ultra-rare autosomal recessive disorder caused by mutations in the TYMP gene, leading to thymidine phosphorylase deficiency. This results in accumulation of thymidine and deoxyuridine, causing mitochondrial DNA instability and dysfunction. The condition affects multiple systems, particularly the gastrointestinal tract and nervous system.",
+  "risk_factors": [
+    "consanguineous parentage",
+    "family history of similar symptoms"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "hard_medical_genetics_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Myasthenia Gravis",
+    "Mitochondrial Neurogastrointestinal Encephalomyopathy (MNGIE)",
+    "Chronic Inflammatory Demyelinating Polyneuropathy (CIDP)",
+    "Celiac Disease"
+  ]
+}

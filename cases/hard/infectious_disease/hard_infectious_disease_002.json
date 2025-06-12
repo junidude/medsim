@@ -1,0 +1,55 @@
+{
+  "name": "Tropical Hemorrhagic Leptospirosis",
+  "specialty": "infectious_disease",
+  "chief_complaint": "I have high fever, muscle pain, and my eyes are yellow",
+  "symptoms": [
+    "high fever (39-40°C)",
+    "severe myalgia (calf muscles)",
+    "jaundice",
+    "headache",
+    "nausea and vomiting"
+  ],
+  "physical_findings": [
+    "conjunctival suffusion (red eyes without discharge)",
+    "hepatomegaly",
+    "petechial rash on trunk",
+    "tachycardia"
+  ],
+  "lab_results": {
+    "ELISA for Leptospira IgM": "positive",
+    "PCR for Leptospira DNA": "detected",
+    "liver enzymes": "AST 280 U/L, ALT 320 U/L",
+    "bilirubin": "total 8.5 mg/dL",
+    "creatinine": "2.4 mg/dL",
+    "platelets": "85,000/μL",
+    "urinalysis": "proteinuria +2, microscopic hematuria"
+  },
+  "treatment": [
+    "intravenous penicillin G (1.5 million units every 6 hours)",
+    "supportive care with IV fluids",
+    "dialysis if renal failure develops",
+    "platelet transfusion if severe thrombocytopenia",
+    "monitoring for pulmonary hemorrhage"
+  ],
+  "prognosis": "Mortality rate 5-15% in severe cases. Early treatment improves outcomes but may require prolonged recovery of liver/kidney function.",
+  "description": "Severe form of leptospirosis (Weil's disease) caused by Leptospira interrogans, characterized by hepatic dysfunction, renal failure, and hemorrhagic manifestations. Transmission occurs through contact with contaminated water or soil containing urine from infected animals (often rodents). Incubation period 2-30 days (typically 5-14 days).",
+  "risk_factors": [
+    "occupational exposure (farmers, sewer workers)",
+    "recreational water activities in endemic areas",
+    "walking barefoot in contaminated environments",
+    "residence in tropical regions with poor sanitation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_infectious_disease_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Dengue Hemorrhagic Fever",
+    "Tropical Hemorrhagic Leptospirosis",
+    "Yellow Fever",
+    "Viral Hepatitis"
+  ]
+}

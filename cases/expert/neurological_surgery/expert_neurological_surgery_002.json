@@ -1,0 +1,50 @@
+{
+  "name": "Trigeminovascular Dysautonomia",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "I have excruciating facial pain that comes in waves, like electric shocks, and sometimes my eye turns red and tears uncontrollably",
+  "symptoms": [
+    "paroxysmal unilateral facial pain",
+    "autonomic symptoms (lacrimation, conjunctival injection)",
+    "photophobia",
+    "allodynia in trigeminal distribution",
+    "tinnitus ipsilateral to pain"
+  ],
+  "physical_findings": [
+    "Horner's syndrome during attacks",
+    "trigger zones in V1/V2 distribution",
+    "corneal reflex asymmetry",
+    "mild ptosis ipsilateral to pain"
+  ],
+  "lab_results": {
+    "Trigeminal Reflex Testing": "abnormal R1 latency",
+    "Quantitative Sensory Testing": "thermal hypoesthesia in V1",
+    "3T MRI Brain": "neurovascular conflict at root entry zone"
+  },
+  "treatment": [
+    "microvascular decompression surgery",
+    "stereotactic radiosurgery to trigeminal root",
+    "intranasal sphenopalatine ganglion blocks",
+    "calcitonin gene-related peptide monoclonal antibodies"
+  ],
+  "prognosis": "Guarded - 60% achieve significant pain reduction with combined surgical and medical therapy, but recurrence rates approach 30% at 5 years",
+  "description": "A rare neurovascular disorder characterized by paroxysmal facial pain with prominent autonomic features, resulting from pathological interactions between trigeminal afferents and cranial parasympathetic outflow. Distinct from classical trigeminal neuralgia by its autonomic component and from cluster headache by its shorter attack duration and triggerability.",
+  "risk_factors": [
+    "female gender",
+    "hypertension",
+    "neurovascular variants (persistent trigeminal artery)",
+    "connective tissue disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_neurological_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Cluster Headache",
+    "Trigeminal Neuralgia",
+    "Trigeminovascular Dysautonomia",
+    "Paroxysmal Hemicrania"
+  ]
+}

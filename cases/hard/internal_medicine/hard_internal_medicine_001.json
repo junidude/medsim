@@ -1,0 +1,51 @@
+{
+  "name": "Granulomatosis with Polyangiitis (GPA)",
+  "specialty": "internal_medicine",
+  "chief_complaint": "I've been having nosebleeds, joint pain, and I feel short of breath all the time.",
+  "symptoms": [
+    "recurrent epistaxis",
+    "arthralgia",
+    "dyspnea",
+    "fatigue",
+    "hemoptysis"
+  ],
+  "physical_findings": [
+    "nasal crusting",
+    "lung crackles",
+    "purpura",
+    "sinus tenderness"
+  ],
+  "lab_results": {
+    "c-ANCA": "positive",
+    "PR3-ANCA": "elevated",
+    "ESR": "markedly increased",
+    "Creatinine": "1.8 mg/dL",
+    "Urinalysis": "RBC casts"
+  },
+  "treatment": [
+    "high-dose corticosteroids",
+    "cyclophosphamide or rituximab",
+    "plasma exchange in severe cases",
+    "long-term immunosuppression"
+  ],
+  "prognosis": "Variable; can achieve remission with treatment but requires long-term monitoring for relapses and medication side effects",
+  "description": "A rare systemic vasculitis affecting small- to medium-sized vessels, characterized by necrotizing granulomatous inflammation typically involving the upper and lower respiratory tracts and kidneys. Part of the ANCA-associated vasculitides.",
+  "risk_factors": [
+    "genetic predisposition",
+    "environmental triggers (silica exposure)",
+    "middle-aged adults"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_internal_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Eosinophilic Granulomatosis with Polyangiitis",
+    "Granulomatosis with Polyangiitis (GPA)",
+    "Microscopic Polyangiitis",
+    "Goodpasture Syndrome"
+  ]
+}

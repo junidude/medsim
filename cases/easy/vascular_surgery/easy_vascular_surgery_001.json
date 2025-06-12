@@ -1,0 +1,47 @@
+{
+  "name": "Superficial Thrombophlebitis",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "I have a painful red streak on my leg",
+  "symptoms": [
+    "localized pain",
+    "redness along vein",
+    "mild swelling",
+    "warmth to touch"
+  ],
+  "physical_findings": [
+    "palpable cord-like vein",
+    "erythema tracking vein path",
+    "no significant edema"
+  ],
+  "lab_results": {
+    "D-dimer": "negative",
+    "CBC": "normal"
+  },
+  "treatment": [
+    "warm compresses",
+    "NSAIDs for pain",
+    "compression stockings",
+    "ambulation encouragement"
+  ],
+  "prognosis": "Excellent with resolution in 1-2 weeks; low risk of complications",
+  "description": "Inflammation and clot formation in superficial vein, typically great saphenous system. Distinct from DVT with no deep system involvement.",
+  "risk_factors": [
+    "varicose veins",
+    "recent IV catheter",
+    "sedentary behavior",
+    "oral contraceptive use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_vascular_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Cellulitis",
+    "Superficial Thrombophlebitis",
+    "Lymphangitis",
+    "Venous Stasis Dermatitis"
+  ]
+}

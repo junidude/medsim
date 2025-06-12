@@ -1,0 +1,52 @@
+{
+  "name": "Panic Disorder with Agoraphobia",
+  "specialty": "psychiatry",
+  "chief_complaint": "I'm terrified of leaving my house and having another panic attack in public",
+  "symptoms": [
+    "recurrent unexpected panic attacks",
+    "persistent fear of public spaces",
+    "avoidance of leaving home",
+    "heart palpitations during attacks",
+    "trembling and sweating",
+    "fear of losing control"
+  ],
+  "physical_findings": [
+    "elevated heart rate during examination",
+    "increased blood pressure during stress",
+    "visible tremors when discussing triggers"
+  ],
+  "lab_results": {
+    "thyroid function test": "normal",
+    "complete blood count": "within normal limits",
+    "drug screening": "negative"
+  },
+  "treatment": [
+    "cognitive behavioral therapy",
+    "exposure therapy",
+    "SSRI medication (sertraline)",
+    "breathing exercises",
+    "panic management techniques"
+  ],
+  "prognosis": "Good with consistent treatment adherence; 60-70% show significant improvement within 6 months",
+  "description": "A chronic anxiety disorder characterized by recurring panic attacks and fear of situations where escape might be difficult or help unavailable. Patients develop avoidance behaviors that significantly impact daily functioning.",
+  "risk_factors": [
+    "family history of anxiety disorders",
+    "previous traumatic experiences",
+    "childhood trauma",
+    "genetic predisposition",
+    "major life stressors"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "generated_20250612002026_397",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Generalized Anxiety Disorder",
+    "Panic Disorder with Agoraphobia",
+    "Social Anxiety Disorder",
+    "Post-Traumatic Stress Disorder"
+  ]
+}

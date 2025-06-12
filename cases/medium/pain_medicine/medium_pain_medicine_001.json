@@ -1,0 +1,52 @@
+{
+  "name": "Chronic Myofascial Pain Syndrome",
+  "specialty": "pain_medicine",
+  "chief_complaint": "I've had this constant deep muscle pain in my shoulders and neck for months, and it's not getting better.",
+  "symptoms": [
+    "persistent muscle pain",
+    "tenderness in specific trigger points",
+    "stiffness",
+    "referred pain patterns",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "palpable taut bands in affected muscles",
+    "local twitch response upon trigger point palpation",
+    "reduced range of motion in neck and shoulders"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "CRP": "normal",
+    "ESR": "slightly elevated"
+  },
+  "treatment": [
+    "trigger point injections",
+    "physical therapy",
+    "myofascial release techniques",
+    "analgesics (NSAIDs)",
+    "muscle relaxants",
+    "stress management techniques"
+  ],
+  "prognosis": "Variable; often chronic but manageable with proper treatment and lifestyle modifications. Some patients achieve significant improvement with multimodal therapy.",
+  "description": "A chronic pain disorder characterized by the presence of hypersensitive trigger points in skeletal muscles that cause localized and referred pain. These trigger points are palpable as taut bands within the muscle and can produce characteristic patterns of referred pain when compressed. The condition often develops after muscle overuse, trauma, or prolonged poor posture.",
+  "risk_factors": [
+    "repetitive strain injuries",
+    "poor posture",
+    "stress and anxiety",
+    "lack of exercise",
+    "previous muscle trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_pain_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Fibromyalgia",
+    "Chronic Myofascial Pain Syndrome",
+    "Cervical Spondylosis",
+    "Polymyalgia Rheumatica"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Chronic Idiopathic Urticaria with Angioedema",
+  "specialty": "allergy_immunology",
+  "chief_complaint": "I keep getting these itchy hives that won't go away, and sometimes my lips swell up",
+  "symptoms": [
+    "Recurrent hives lasting >6 weeks",
+    "Intermittent lip swelling",
+    "Pruritus (itching)",
+    "Burning sensation in swollen areas"
+  ],
+  "physical_findings": [
+    "Erythematous wheals on trunk and extremities",
+    "Non-pitting edema of lips",
+    "Dermatographism (skin writing)"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "ESR": "slightly elevated",
+    "Thyroid antibodies": "negative",
+    "Total IgE": "mildly elevated"
+  },
+  "treatment": [
+    "Second-generation antihistamines (e.g., cetirizine)",
+    "H2 blockers (e.g., famotidine)",
+    "Omalizumab (for refractory cases)",
+    "Short course oral corticosteroids for flares"
+  ],
+  "prognosis": "Variable - 50% resolve within 1 year, but may persist for years. Generally not life-threatening but significantly impacts quality of life.",
+  "description": "A chronic form of hives (urticaria) with accompanying angioedema lasting >6 weeks without identifiable trigger. Believed to involve autoimmune mechanisms with mast cell activation. Distinct from acute allergic reactions as it's not IgE-mediated.",
+  "risk_factors": [
+    "Female gender",
+    "Autoimmune thyroid disease",
+    "Stress",
+    "Recent infection"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_allergy_immunology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Allergic Contact Dermatitis",
+    "Chronic Idiopathic Urticaria with Angioedema",
+    "Mastocytosis",
+    "Hereditary Angioedema"
+  ]
+}

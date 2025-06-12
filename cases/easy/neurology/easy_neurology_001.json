@@ -1,0 +1,43 @@
+{
+  "name": "Benign Positional Vertigo",
+  "specialty": "neurology",
+  "chief_complaint": "I feel dizzy when I move my head, especially when lying down or turning over in bed.",
+  "symptoms": [
+    "brief episodes of dizziness",
+    "nausea",
+    "unsteadiness"
+  ],
+  "physical_findings": [
+    "nystagmus on positional testing",
+    "normal neurological exam"
+  ],
+  "lab_results": {
+    "MRI brain": "normal",
+    "blood tests": "unremarkable"
+  },
+  "treatment": [
+    "Epley maneuver",
+    "vestibular rehabilitation exercises",
+    "meclizine for symptom relief"
+  ],
+  "prognosis": "Excellent with proper treatment; symptoms often resolve within weeks but may recur.",
+  "description": "Benign paroxysmal positional vertigo (BPPV) is caused by dislodged otoconia in the semicircular canals of the inner ear, leading to brief episodes of vertigo triggered by head movements.",
+  "risk_factors": [
+    "head trauma",
+    "aging",
+    "prolonged bed rest"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_neurology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Vestibular neuritis",
+    "Benign Positional Vertigo",
+    "Meniere's disease",
+    "Labyrinthitis"
+  ]
+}

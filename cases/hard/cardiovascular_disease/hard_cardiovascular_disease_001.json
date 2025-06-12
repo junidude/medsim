@@ -1,0 +1,51 @@
+{
+  "name": "Biventricular Non-Compaction Cardiomyopathy with Concomitant Ventricular Arrhythmias",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I keep having these episodes where my heart races and I feel like I'm going to pass out. I also get really short of breath even when I'm just sitting down.",
+  "symptoms": [
+    "palpitations",
+    "syncopal episodes",
+    "progressive dyspnea",
+    "fatigue",
+    "chest discomfort"
+  ],
+  "physical_findings": [
+    "irregular heart rhythm",
+    "bilateral lower extremity edema",
+    "elevated jugular venous pressure"
+  ],
+  "lab_results": {
+    "BNP": "850 pg/mL",
+    "Troponin": "0.15 ng/mL",
+    "Electrolytes": "normal",
+    "CRP": "elevated"
+  },
+  "treatment": [
+    "antiarrhythmic therapy (amiodarone)",
+    "oral anticoagulation",
+    "heart failure management (diuretics, beta-blockers, ACE inhibitors)",
+    "consideration for ICD implantation",
+    "genetic counseling"
+  ],
+  "prognosis": "Guarded prognosis due to high risk of sudden cardiac death and progressive heart failure. Early intervention may improve outcomes.",
+  "description": "A rare form of cardiomyopathy characterized by prominent ventricular trabeculations and deep intertrabecular recesses. The non-compacted myocardium predisposes to arrhythmias, thromboembolism, and progressive systolic dysfunction. Often presents with heart failure symptoms and ventricular arrhythmias.",
+  "risk_factors": [
+    "family history of cardiomyopathy",
+    "genetic mutations (MYH7, TAZ genes)",
+    "male gender",
+    "hypertension"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "hard_cardiovascular_disease_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Arrhythmogenic Right Ventricular Cardiomyopathy",
+    "Biventricular Non-Compaction Cardiomyopathy with Concomitant Ventricular Arrhythmias",
+    "Dilated Cardiomyopathy",
+    "Hypertrophic Cardiomyopathy"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Acute Diverticulitis",
+  "specialty": "emergency_medicine",
+  "chief_complaint": "Severe left lower abdominal pain for 2 days with fever",
+  "symptoms": [
+    "Left lower quadrant abdominal pain",
+    "Fever (38.5°C/101.3°F)",
+    "Nausea",
+    "Change in bowel habits",
+    "Loss of appetite"
+  ],
+  "physical_findings": [
+    "Tenderness in left lower quadrant",
+    "Rebound tenderness",
+    "Guarding",
+    "Decreased bowel sounds"
+  ],
+  "lab_results": {
+    "WBC": "14,500/µL",
+    "CRP": "85 mg/L",
+    "Hemoglobin": "13.5 g/dL",
+    "CT scan": "Inflamed diverticula with surrounding fat stranding"
+  },
+  "treatment": [
+    "IV antibiotics (ciprofloxacin and metronidazole)",
+    "NPO status initially",
+    "IV fluids",
+    "Pain management",
+    "Gradual advancement to clear liquid diet"
+  ],
+  "prognosis": "Good recovery expected with appropriate antibiotic treatment; 70-80% respond to conservative management",
+  "description": "Acute inflammation of diverticula in the colon, typically occurring in the sigmoid colon. Condition results from micro-perforation of diverticular outpouchings leading to localized infection.",
+  "risk_factors": [
+    "Age over 50",
+    "Low-fiber diet",
+    "Obesity",
+    "Physical inactivity",
+    "Smoking"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "generated_20250612001959_2846",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Diverticulitis",
+    "Acute Appendicitis",
+    "Colon Cancer",
+    "Ovarian Torsion"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "Acute Necrotizing Autoimmune Pancreatitis with Systemic Inflammatory Response",
+  "specialty": "critical_care_medicine",
+  "chief_complaint": "I have unbearable abdominal pain and I can't stop vomiting",
+  "symptoms": [
+    "severe epigastric pain radiating to back",
+    "projectile vomiting",
+    "high fever",
+    "confusion",
+    "oliguria"
+  ],
+  "physical_findings": [
+    "guarding and rebound tenderness",
+    "grey-turner's sign",
+    "tachycardia (HR 140)",
+    "hypotension (80/50 mmHg)",
+    "tachypnea (RR 32)"
+  ],
+  "lab_results": {
+    "lipase": ">3,000 U/L",
+    "CRP": "320 mg/L",
+    "procalcitonin": "28 ng/mL",
+    "lactate": "5.8 mmol/L",
+    "WBC": "28,000/μL",
+    "creatinine": "3.2 mg/dL"
+  },
+  "treatment": [
+    "aggressive IV fluid resuscitation",
+    "vasopressor support",
+    "broad-spectrum antibiotics",
+    "CT-guided drainage if abscess present",
+    "immunosuppressants if autoimmune confirmed",
+    "continuous renal replacement therapy"
+  ],
+  "prognosis": "Guarded - 40-60% mortality without prompt intervention. High risk of multi-organ failure.",
+  "description": "A rapidly progressive form of pancreatitis with autoimmune and necrotic components, triggering a cytokine storm and systemic inflammatory response. Characterized by pancreatic parenchymal destruction, vascular compromise, and high risk of infected necrosis.",
+  "risk_factors": [
+    "history of autoimmune disorders",
+    "recent viral illness",
+    "alcohol abuse",
+    "hypertriglyceridemia",
+    "genetic predisposition"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "10"
+  },
+  "case_id": "hard_critical_care_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Perforated Peptic Ulcer",
+    "Acute Necrotizing Autoimmune Pancreatitis with Systemic Inflammatory Response",
+    "Ruptured Abdominal Aortic Aneurysm",
+    "Severe Acute Cholecystitis"
+  ]
+}

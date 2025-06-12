@@ -1,0 +1,47 @@
+{
+  "name": "Biventricular Noncompaction Cardiomyopathy with Concomitant Ventricular Tachycardia",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I feel like my heart is racing and I can't catch my breath, especially when lying down.",
+  "symptoms": [
+    "palpitations",
+    "exertional dyspnea",
+    "presyncope",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "irregularly irregular pulse",
+    "bilateral pedal edema",
+    "S3 gallop on auscultation"
+  ],
+  "lab_results": {
+    "BNP": "850 pg/mL",
+    "troponin": "0.15 ng/mL",
+    "electrolytes": "normal"
+  },
+  "treatment": [
+    "implantable cardioverter-defibrillator (ICD) placement",
+    "beta-blockers",
+    "antiarrhythmic therapy",
+    "diuretics for volume management"
+  ],
+  "prognosis": "Guarded due to risk of sudden cardiac death; long-term survival depends on adherence to therapy and monitoring.",
+  "description": "A rare form of cardiomyopathy characterized by excessive trabeculation of both ventricles, leading to impaired systolic function and arrhythmogenic substrate. The ventricular tachycardia originates from the noncompacted myocardium, creating re-entrant circuits.",
+  "risk_factors": [
+    "genetic predisposition (MYH7, TAZ gene mutations)",
+    "male gender",
+    "hypertension"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "hard_cardiovascular_disease_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Atrial Fibrillation with CHF",
+    "Dilated Cardiomyopathy",
+    "Biventricular Noncompaction Cardiomyopathy with Concomitant Ventricular Tachycardia",
+    "Hypertrophic Cardiomyopathy"
+  ]
+}

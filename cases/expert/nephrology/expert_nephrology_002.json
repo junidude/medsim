@@ -1,0 +1,53 @@
+{
+  "name": "Idiopathic Hypocomplementemic Tubulointerstitial Nephritis",
+  "specialty": "nephrology",
+  "chief_complaint": "I've been feeling extremely tired, my legs are swollen, and my urine looks foamy",
+  "symptoms": [
+    "fatigue",
+    "peripheral edema",
+    "foamy urine",
+    "decreased urine output",
+    "nausea"
+  ],
+  "physical_findings": [
+    "bilateral pitting edema",
+    "hypertension (160/95 mmHg)",
+    "costovertebral angle tenderness"
+  ],
+  "lab_results": {
+    "serum creatinine": "3.8 mg/dL",
+    "BUN": "52 mg/dL",
+    "urinalysis": "proteinuria (3+), microscopic hematuria",
+    "C3 complement": "low",
+    "C4 complement": "normal",
+    "ANA": "negative",
+    "ANCA": "negative"
+  },
+  "treatment": [
+    "high-dose corticosteroids",
+    "angiotensin-converting enzyme inhibitors",
+    "diuretics for edema management",
+    "dietary protein restriction",
+    "possible renal biopsy for definitive diagnosis"
+  ],
+  "prognosis": "Guarded; depends on early intervention and response to immunosuppression. May progress to end-stage renal disease in refractory cases.",
+  "description": "A rare form of tubulointerstitial nephritis characterized by complement activation (primarily alternative pathway) without identifiable autoimmune or infectious etiology. Presents with acute or subacute renal failure, proteinuria, and hypocomplementemia. Distinct from lupus nephritis or post-infectious glomerulonephritis by serological markers.",
+  "risk_factors": [
+    "history of recurrent UTIs",
+    "exposure to certain environmental toxins",
+    "genetic predisposition (HLA-DRB1*03 allele)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "expert_nephrology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Membranous Nephropathy",
+    "Idiopathic Hypocomplementemic Tubulointerstitial Nephritis",
+    "Lupus Nephritis",
+    "Minimal Change Disease"
+  ]
+}

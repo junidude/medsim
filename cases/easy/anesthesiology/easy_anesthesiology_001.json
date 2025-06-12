@@ -1,0 +1,47 @@
+{
+  "name": "Postoperative Nausea and Vomiting (PONV)",
+  "specialty": "anesthesiology",
+  "chief_complaint": "I feel really nauseous and might throw up after surgery",
+  "symptoms": [
+    "nausea",
+    "vomiting",
+    "dizziness",
+    "cold sweats"
+  ],
+  "physical_findings": [
+    "pale skin",
+    "tachycardia",
+    "dehydration signs"
+  ],
+  "lab_results": {
+    "electrolytes": "mild imbalance",
+    "hematocrit": "normal"
+  },
+  "treatment": [
+    "IV fluids",
+    "ondansetron (Zofran)",
+    "metoclopramide",
+    "hydration"
+  ],
+  "prognosis": "Excellent with prompt treatment, typically resolves within 24 hours",
+  "description": "Common complication after anesthesia characterized by nausea and vomiting in the postoperative period, often related to anesthetic agents or opioid use",
+  "risk_factors": [
+    "female gender",
+    "history of motion sickness",
+    "nonsmoker",
+    "opioid use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_anesthesiology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Hypoglycemia",
+    "Postoperative Nausea and Vomiting (PONV)",
+    "Acute Gastritis",
+    "Opioid Side Effects"
+  ]
+}

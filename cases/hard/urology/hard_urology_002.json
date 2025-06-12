@@ -1,0 +1,47 @@
+{
+  "name": "Idiopathic Retroperitoneal Fibrosis with Ureteral Obstruction",
+  "specialty": "urology",
+  "chief_complaint": "Severe flank pain and difficulty urinating",
+  "symptoms": [
+    "progressive flank pain",
+    "oliguria",
+    "unintentional weight loss",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "palpable abdominal mass",
+    "costovertebral angle tenderness"
+  ],
+  "lab_results": {
+    "ESR": "elevated",
+    "CRP": "elevated",
+    "Creatinine": "2.8 mg/dL",
+    "WBC": "mild leukocytosis"
+  },
+  "treatment": [
+    "high-dose corticosteroids",
+    "ureteral stenting",
+    "immunosuppressive therapy",
+    "surgical ureterolysis if refractory"
+  ],
+  "prognosis": "Variable - depends on early intervention and response to immunosuppression. May progress to renal failure if untreated.",
+  "description": "A rare inflammatory condition causing fibrotic tissue deposition in the retroperitoneum, often encasing and compressing the ureters. Etiology is unknown in idiopathic cases, though may be associated with IgG4-related disease. Leads to progressive hydronephrosis and renal impairment.",
+  "risk_factors": [
+    "middle-aged males",
+    "history of autoimmune disorders",
+    "exposure to certain medications (ergot derivatives, beta-blockers)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_urology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Renal Cell Carcinoma",
+    "Idiopathic Retroperitoneal Fibrosis with Ureteral Obstruction",
+    "Nephrolithiasis with Obstruction",
+    "Urothelial Carcinoma"
+  ]
+}

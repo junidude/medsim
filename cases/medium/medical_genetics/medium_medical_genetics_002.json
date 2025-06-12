@@ -1,0 +1,47 @@
+{
+  "name": "Hereditary Spherocytosis Type 2",
+  "specialty": "medical_genetics",
+  "chief_complaint": "My child is always tired and looks pale, and sometimes their eyes look yellow.",
+  "symptoms": [
+    "fatigue",
+    "pallor",
+    "jaundice",
+    "abdominal pain",
+    "dark urine"
+  ],
+  "physical_findings": [
+    "splenomegaly",
+    "scleral icterus",
+    "mild hepatomegaly"
+  ],
+  "lab_results": {
+    "CBC": "anemia (low hemoglobin, high reticulocyte count)",
+    "peripheral smear": "spherocytes present",
+    "bilirubin": "elevated unconjugated bilirubin",
+    "osmotic fragility test": "positive"
+  },
+  "treatment": [
+    "folic acid supplementation",
+    "splenectomy in severe cases",
+    "blood transfusions as needed"
+  ],
+  "prognosis": "Good with proper management, though chronic hemolysis may persist. Splenectomy reduces but doesn't eliminate anemia.",
+  "description": "An inherited hemolytic anemia caused by defects in red blood cell membrane proteins (typically ankyrin or band 3 mutations), leading to spherical, fragile RBCs that are prematurely destroyed in the spleen. Autosomal dominant inheritance pattern with variable expressivity.",
+  "risk_factors": [
+    "family history of hemolytic anemia",
+    "Northern European ancestry"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_medical_genetics_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Autoimmune Hemolytic Anemia",
+    "Hereditary Spherocytosis Type 2",
+    "Gilbert Syndrome",
+    "Sickle Cell Disease"
+  ]
+}

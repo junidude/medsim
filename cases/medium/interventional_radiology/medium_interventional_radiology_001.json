@@ -1,0 +1,47 @@
+{
+  "name": "Symptomatic Hepatic Cyst with Hemorrhage",
+  "specialty": "interventional_radiology",
+  "chief_complaint": "Sudden severe right upper quadrant pain and nausea",
+  "symptoms": [
+    "acute abdominal pain",
+    "nausea",
+    "early satiety",
+    "right shoulder discomfort"
+  ],
+  "physical_findings": [
+    "right upper quadrant tenderness",
+    "palpable abdominal mass",
+    "mild fever"
+  ],
+  "lab_results": {
+    "CBC": "mild leukocytosis",
+    "Liver enzymes": "slightly elevated AST/ALT",
+    "CRP": "elevated"
+  },
+  "treatment": [
+    "CT-guided cyst aspiration",
+    "percutaneous sclerotherapy (alcohol ablation)",
+    "analgesics",
+    "antibiotics if infected"
+  ],
+  "prognosis": "Good with treatment; 85% success rate with sclerotherapy. Recurrence possible in 10-15% of cases.",
+  "description": "A complicated hepatic cyst with intracystic hemorrhage causing acute symptoms. The cyst measures approximately 8cm with heterogeneous density on imaging suggesting recent bleeding. Common in middle-aged women but can occur in any demographic.",
+  "risk_factors": [
+    "polycystic liver disease",
+    "previous abdominal trauma",
+    "anticoagulant use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_interventional_radiology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Cholecystitis",
+    "Symptomatic Hepatic Cyst with Hemorrhage",
+    "Hepatitis",
+    "Liver Abscess"
+  ]
+}

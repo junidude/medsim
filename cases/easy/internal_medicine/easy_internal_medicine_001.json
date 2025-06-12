@@ -1,0 +1,47 @@
+{
+  "name": "Acute Viral Pharyngitis",
+  "specialty": "internal_medicine",
+  "chief_complaint": "My throat hurts so much, and it's hard to swallow.",
+  "symptoms": [
+    "sore throat",
+    "painful swallowing",
+    "mild fever",
+    "fatigue",
+    "hoarseness"
+  ],
+  "physical_findings": [
+    "erythematous pharynx",
+    "tonsillar enlargement without exudate",
+    "cervical lymphadenopathy"
+  ],
+  "lab_results": {
+    "rapid strep test": "negative",
+    "CBC": "normal WBC count"
+  },
+  "treatment": [
+    "symptomatic relief (acetaminophen/NSAIDs)",
+    "warm salt water gargles",
+    "hydration",
+    "throat lozenges"
+  ],
+  "prognosis": "Self-limiting; resolves within 7-10 days with supportive care",
+  "description": "Inflammation of the pharynx caused by common respiratory viruses (adenovirus, rhinovirus, etc.). Differentiated from bacterial pharyngitis by absence of exudate and negative strep test.",
+  "risk_factors": [
+    "recent URI exposure",
+    "smoking/secondhand smoke",
+    "allergies/postnasal drip"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "easy_internal_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Strep Pharyngitis",
+    "Acute Viral Pharyngitis",
+    "Tonsillitis",
+    "Epiglottitis"
+  ]
+}

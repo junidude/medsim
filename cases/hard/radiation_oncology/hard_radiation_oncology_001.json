@@ -1,0 +1,51 @@
+{
+  "name": "Radiation-Induced Brachial Plexopathy",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "I have weakness and numbness in my arm that's getting worse, and it started after my radiation treatments.",
+  "symptoms": [
+    "progressive arm weakness",
+    "numbness/tingling in hand/arm",
+    "loss of fine motor control",
+    "pain in shoulder/arm (burning or shooting)",
+    "muscle wasting in affected arm"
+  ],
+  "physical_findings": [
+    "diminished grip strength",
+    "sensory deficit in C5-T1 dermatomes",
+    "fasciculations in affected muscles",
+    "absent deep tendon reflexes in affected arm"
+  ],
+  "lab_results": {
+    "EMG": "evidence of denervation in brachial plexus distribution",
+    "MRI": "fibrosis and atrophy of brachial plexus without tumor recurrence"
+  },
+  "treatment": [
+    "physical therapy to maintain range of motion",
+    "neuropathic pain medications (gabapentin, pregabalin)",
+    "corticosteroids for acute inflammation",
+    "surgical decompression in select cases",
+    "transcutaneous electrical nerve stimulation (TENS)"
+  ],
+  "prognosis": "Variable; typically progressive with incomplete recovery. Early intervention may slow progression but complete reversal is uncommon. Quality of life can be maintained with proper symptom management.",
+  "description": "A delayed complication of radiation therapy (typically appearing 6 months to several years post-treatment) characterized by progressive fibrosis and damage to the brachial plexus nerves. Most commonly occurs after radiation for breast cancer, lung cancer, or lymphoma. Pathophysiology involves a combination of direct nerve damage, vascular insufficiency, and fibrotic entrapment.",
+  "risk_factors": [
+    "radiation dose >60 Gy to plexus",
+    "concurrent chemotherapy",
+    "prior surgery in radiation field",
+    "younger age at treatment",
+    "presence of diabetes or vascular disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "hard_radiation_oncology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Cervical Radiculopathy",
+    "Radiation-Induced Brachial Plexopathy",
+    "Pancoast Tumor",
+    "Thoracic Outlet Syndrome"
+  ]
+}

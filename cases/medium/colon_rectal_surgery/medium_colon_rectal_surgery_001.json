@@ -1,0 +1,49 @@
+{
+  "name": "Diverticular Abscess with Fistula Formation",
+  "specialty": "colon_rectal_surgery",
+  "chief_complaint": "I've had persistent left lower abdominal pain and fever for the past week, and now I notice pus in my stool.",
+  "symptoms": [
+    "left lower abdominal pain",
+    "fever",
+    "pus in stool",
+    "bloating",
+    "altered bowel habits"
+  ],
+  "physical_findings": [
+    "tenderness in left lower quadrant",
+    "palpable mass in left lower quadrant",
+    "low-grade fever"
+  ],
+  "lab_results": {
+    "WBC": "elevated",
+    "CRP": "high",
+    "ESR": "elevated"
+  },
+  "treatment": [
+    "IV antibiotics",
+    "CT-guided drainage if abscess >3cm",
+    "surgical resection if recurrent or complicated",
+    "fistula repair"
+  ],
+  "prognosis": "Good with proper treatment, but risk of recurrence if underlying diverticular disease isn't managed",
+  "description": "A complication of diverticulitis where a localized abscess forms and erodes into adjacent structures, creating an abnormal connection (fistula). Most commonly forms colovesical or colovaginal fistulas.",
+  "risk_factors": [
+    "chronic diverticulitis",
+    "older age",
+    "low-fiber diet",
+    "obesity"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_colon_rectal_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Colorectal Cancer",
+    "Diverticular Abscess with Fistula Formation",
+    "Inflammatory Bowel Disease",
+    "Infectious Colitis"
+  ]
+}

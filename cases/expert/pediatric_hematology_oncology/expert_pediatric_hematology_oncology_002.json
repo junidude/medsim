@@ -1,0 +1,49 @@
+{
+  "name": "Congenital Erythropoietic Porphyria (Günther Disease)",
+  "specialty": "pediatric_hematology_oncology",
+  "chief_complaint": "My baby's skin blisters easily in sunlight, and their urine is dark red.",
+  "symptoms": [
+    "Severe photosensitivity",
+    "Hemolytic anemia",
+    "Splenomegaly",
+    "Reddish-brown urine",
+    "Fragile skin with blistering"
+  ],
+  "physical_findings": [
+    "Hypertrichosis (excessive hair growth)",
+    "Erythrodontia (reddish-brown teeth under UV light)",
+    "Scleral icterus"
+  ],
+  "lab_results": {
+    "Urine porphyrins": "Markedly elevated uroporphyrin I",
+    "CBC": "Hemoglobin 6.8 g/dL, reticulocytes 12%",
+    "Peripheral smear": "Schistocytes, nucleated RBCs",
+    "Fluorescence microscopy": "Red blood cell fluorescence"
+  },
+  "treatment": [
+    "Strict sunlight avoidance",
+    "High-level UV protective clothing",
+    "Chronic red blood cell transfusions",
+    "Hematopoietic stem cell transplantation (definitive treatment)",
+    "Splenectomy for severe hemolysis"
+  ],
+  "prognosis": "Chronic debilitating disease with reduced life expectancy without transplant; HSCT can be curative but carries significant risks",
+  "description": "An extremely rare autosomal recessive disorder of heme biosynthesis causing accumulation of uroporphyrin I in bones, teeth, and tissues. The condition presents in infancy with severe cutaneous photosensitivity and hemolytic anemia. The enzyme defect is in uroporphyrinogen III synthase (UROS gene).",
+  "risk_factors": [
+    "Consanguinity",
+    "Northern European ancestry"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_pediatric_hematology_oncology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Erythropoietic Protoporphyria",
+    "Congenital Erythropoietic Porphyria (Günther Disease)",
+    "Porphyria Cutanea Tarda",
+    "Hereditary Coproporphyria"
+  ]
+}

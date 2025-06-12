@@ -1,0 +1,46 @@
+{
+  "name": "Juvenile Recurrent Parotitis",
+  "specialty": "pediatrics",
+  "chief_complaint": "My child's cheek keeps swelling up and it hurts",
+  "symptoms": [
+    "Recurrent unilateral or bilateral parotid gland swelling",
+    "Pain in the cheek area",
+    "Low-grade fever",
+    "Dry mouth"
+  ],
+  "physical_findings": [
+    "Tender, swollen parotid gland",
+    "Mild erythema over the affected area"
+  ],
+  "lab_results": {
+    "CBC": "Mild leukocytosis",
+    "Amylase": "Elevated",
+    "Ultrasound": "Hypoechoic areas with ductal dilation"
+  },
+  "treatment": [
+    "Warm compresses",
+    "Analgesics (acetaminophen/ibuprofen)",
+    "Sialogogues (sugar-free lemon drops)",
+    "Antibiotics if secondary infection suspected"
+  ],
+  "prognosis": "Generally good; most cases resolve spontaneously by puberty, though some may persist into adulthood",
+  "description": "Juvenile Recurrent Parotitis is an inflammatory condition of the parotid gland characterized by recurrent episodes of swelling and pain. It is the second most common cause of parotid swelling in children after mumps. The exact etiology is unknown but may involve ductal abnormalities, genetic factors, or autoimmune components.",
+  "risk_factors": [
+    "Family history of parotitis",
+    "Dehydration",
+    "Poor oral hygiene"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "5"
+  },
+  "case_id": "medium_pediatrics_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Mumps",
+    "Juvenile Recurrent Parotitis",
+    "Parotid duct stone",
+    "Sjogren's syndrome"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Idiopathic Pulmonary Hemosiderosis",
+  "specialty": "pulmonary_disease",
+  "chief_complaint": "I keep coughing up blood and feel short of breath all the time",
+  "symptoms": [
+    "hemoptysis",
+    "progressive dyspnea",
+    "fatigue",
+    "pallor",
+    "weight loss"
+  ],
+  "physical_findings": [
+    "bilateral crackles on auscultation",
+    "clubbing of fingers",
+    "pale conjunctiva"
+  ],
+  "lab_results": {
+    "CBC": "microcytic anemia",
+    "iron studies": "low serum iron, high TIBC",
+    "bronchoalveolar lavage": "hemosiderin-laden macrophages",
+    "chest X-ray": "diffuse bilateral infiltrates"
+  },
+  "treatment": [
+    "systemic corticosteroids",
+    "immunosuppressants",
+    "iron supplementation",
+    "oxygen therapy",
+    "possible lung transplant in advanced cases"
+  ],
+  "prognosis": "Variable; may progress to respiratory failure without treatment, but some patients respond well to immunosuppressive therapy",
+  "description": "A rare condition characterized by recurrent diffuse alveolar hemorrhage leading to pulmonary hemosiderin deposition, iron deficiency anemia, and progressive lung damage. Etiology remains unknown, though autoimmune mechanisms are suspected. Most common in children but can occur in adults.",
+  "risk_factors": [
+    "young age (childhood onset)",
+    "possible genetic predisposition",
+    "coexisting autoimmune conditions"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "expert_pulmonary_disease_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Tuberculosis",
+    "Idiopathic Pulmonary Hemosiderosis",
+    "Goodpasture Syndrome",
+    "Bronchogenic Carcinoma"
+  ]
+}

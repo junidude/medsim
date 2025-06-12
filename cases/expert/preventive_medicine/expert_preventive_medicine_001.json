@@ -1,0 +1,51 @@
+{
+  "name": "Hyperphosphatemic Familial Tumoral Calcinosis",
+  "specialty": "preventive_medicine",
+  "chief_complaint": "Painful, hard lumps under my skin and in my joints",
+  "symptoms": [
+    "Progressive subcutaneous calcified masses",
+    "Joint stiffness and limited mobility",
+    "Chronic pain at calcification sites",
+    "Occasional skin ulceration over nodules"
+  ],
+  "physical_findings": [
+    "Firm, irregular subcutaneous masses (typically periarticular)",
+    "Restricted range of motion in affected joints",
+    "Possible erythema or ulceration over larger deposits"
+  ],
+  "lab_results": {
+    "Serum phosphate": "Elevated (6.5 mg/dL)",
+    "Calcium": "Normal (9.2 mg/dL)",
+    "Creatinine": "Normal (0.9 mg/dL)",
+    "FGF23": "Low or inappropriately normal",
+    "1,25(OH)2D": "Normal or elevated"
+  },
+  "treatment": [
+    "Phosphate-lowering diet",
+    "Phosphate binders (calcium acetate, sevelamer)",
+    "Topical sodium thiosulfate for ulcerated lesions",
+    "Surgical excision of severely symptomatic deposits",
+    "Trial of acetazolamide for select patients"
+  ],
+  "prognosis": "Chronic progressive course with significant morbidity but normal lifespan. Early intervention may slow progression of calcifications.",
+  "description": "A rare autosomal recessive disorder of phosphate metabolism caused by mutations in FGF23, GALNT3, or KLOTHO genes. Characterized by ectopic calcifications in soft tissues and hyperphosphatemia due to renal phosphate wasting. Calcifications typically develop in periarticular regions and may cause severe functional impairment.",
+  "risk_factors": [
+    "Family history of similar condition",
+    "Consanguinity",
+    "High phosphate diet",
+    "Chronic kidney disease (may exacerbate condition)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "expert_preventive_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Dermatomyositis",
+    "Hyperphosphatemic Familial Tumoral Calcinosis",
+    "Scleroderma",
+    "Calcinosis Universalis"
+  ]
+}

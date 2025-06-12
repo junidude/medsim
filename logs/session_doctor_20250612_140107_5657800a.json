@@ -1,0 +1,97 @@
+{
+  "session_id": "5657800a-c861-4a40-bd31-7405bf8adb54",
+  "start_time": "2025-06-12T13:23:58.399903",
+  "role": "doctor",
+  "end_time": "2025-06-12T14:01:07.756164",
+  "user_data": {
+    "role": "doctor",
+    "difficulty": "medium",
+    "specialty": null
+  },
+  "difficulty": "medium",
+  "specialty": null,
+  "patient_name": "Eric Thompson",
+  "patient_age": 21,
+  "patient_gender": "male",
+  "chief_complaint": "I feel exhausted all the time, no matter how much I sleep",
+  "hidden_condition": "Metabolic Fatigue Syndrome",
+  "case_data": {
+    "name": "Metabolic Fatigue Syndrome",
+    "specialty": "preventive_medicine",
+    "chief_complaint": "I feel exhausted all the time, no matter how much I sleep",
+    "symptoms": [
+      "persistent fatigue",
+      "brain fog",
+      "post-exertional malaise",
+      "unrefreshing sleep"
+    ],
+    "physical_findings": [
+      "mild tachycardia at rest",
+      "slightly elevated blood pressure"
+    ],
+    "lab_results": {
+      "fasting glucose": "98 mg/dL",
+      "vitamin D": "22 ng/mL (low)",
+      "thyroid panel": "normal",
+      "ferritin": "45 ng/mL (borderline low)"
+    },
+    "treatment": [
+      "lifestyle modification program",
+      "vitamin D supplementation",
+      "graded exercise therapy",
+      "sleep hygiene education"
+    ],
+    "prognosis": "Good with early intervention and lifestyle changes, though recovery may take 3-6 months",
+    "description": "A subclinical metabolic disorder characterized by chronic fatigue without clear organic cause, often related to modern lifestyle factors including poor sleep patterns, nutritional deficiencies, and chronic low-grade stress. Distinct from chronic fatigue syndrome by its reversible nature with preventive interventions.",
+    "risk_factors": [
+      "sedentary lifestyle",
+      "irregular sleep patterns",
+      "processed food diet",
+      "prolonged screen time"
+    ],
+    "patient_behavior": {
+      "anxiety_level": "medium",
+      "cooperation": "good",
+      "pain_level": "3"
+    },
+    "case_id": "medium_preventive_medicine_002",
+    "difficulty": "medium",
+    "multiple_choice": [
+      "Chronic Fatigue Syndrome",
+      "Metabolic Fatigue Syndrome",
+      "Hypothyroidism",
+      "Sleep Apnea"
+    ]
+  },
+  "chat_history": [
+    {
+      "role": "user",
+      "content": "Hi",
+      "timestamp": "2025-06-12T13:24:02.115263"
+    },
+    {
+      "role": "ai",
+      "content": "Hey there. *shifts uncomfortably in chair* I'm Eric... I've been feeling completely drained for months now, no matter how much rest I get. I finally decided I needed to come in and figure out what's going on.",
+      "timestamp": "2025-06-12T13:24:05.038316"
+    },
+    {
+      "role": "user",
+      "content": "Let me do some physical exam",
+      "timestamp": "2025-06-12T13:24:14.674855"
+    },
+    {
+      "role": "ai",
+      "content": "Okay, go ahead. *sits up straight but appears tired* I'm just hoping you can figure out why I feel like this all the time.",
+      "timestamp": "2025-06-12T13:24:17.279383"
+    }
+  ],
+  "diagnostic_attempts": [
+    "Chronic Fatigue Syndrome"
+  ],
+  "correct_diagnosis": true,
+  "physical_exam_performed": true,
+  "lab_tests_performed": false,
+  "answer_shown": false,
+  "total_messages": 4,
+  "session_duration_minutes": 37.16
+}

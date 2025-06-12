@@ -1,0 +1,44 @@
+{
+  "name": "Acute Viral Rhinosinusitis",
+  "specialty": "critical_care_medicine",
+  "chief_complaint": "My nose is completely blocked and my face hurts when I bend forward",
+  "symptoms": [
+    "Nasal congestion",
+    "Facial pain/pressure",
+    "Postnasal drip",
+    "Reduced sense of smell"
+  ],
+  "physical_findings": [
+    "Tenderness over sinuses",
+    "Erythematous nasal mucosa",
+    "Purulent nasal discharge"
+  ],
+  "lab_results": {
+    "Nasal swab": "Positive for rhinovirus"
+  },
+  "treatment": [
+    "Nasal saline irrigation",
+    "Intranasal corticosteroids",
+    "Analgesics for pain relief"
+  ],
+  "prognosis": "Excellent with complete resolution typically within 7-10 days",
+  "description": "Viral inflammation of the nasal cavity and paranasal sinuses causing characteristic symptoms of congestion, facial pressure, and nasal discharge. Most cases are self-limited.",
+  "risk_factors": [
+    "Recent upper respiratory infection",
+    "Allergic rhinitis",
+    "Smoke exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_critical_care_medicine_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Acute Bacterial Sinusitis",
+    "Allergic Rhinitis",
+    "Acute Viral Rhinosinusitis",
+    "Nasal Polyps"
+  ]
+}

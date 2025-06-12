@@ -1,0 +1,49 @@
+{
+  "name": "Posterior Tibial Tendon Dysplasia with Subtalar Coalition",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "My ankle keeps giving way and I have sharp pain on the inside of my foot when walking",
+  "symptoms": [
+    "Chronic medial ankle pain",
+    "Progressive flatfoot deformity",
+    "Episodes of ankle instability",
+    "Pain worsens with activity"
+  ],
+  "physical_findings": [
+    "Tenderness along posterior tibial tendon course",
+    "Single-leg heel rise test positive",
+    "Rigid hindfoot valgus",
+    "Limited subtalar joint motion"
+  ],
+  "lab_results": {
+    "CRP": "Normal",
+    "ESR": "Slightly elevated",
+    "Rheumatoid factor": "Negative"
+  },
+  "treatment": [
+    "Custom orthotics with medial arch support",
+    "Stage-specific bracing (Arizona brace for flexible deformity)",
+    "Tendon reconstruction with calcaneal osteotomy",
+    "Arthroereisis for subtalar coalition"
+  ],
+  "prognosis": "Guarded - depends on stage at diagnosis. Early intervention may prevent progression to rigid deformity but recurrence is common without strict adherence to postoperative protocols",
+  "description": "A rare congenital variant combining dysplastic posterior tibial tendon fibers with fibrous subtalar coalition, leading to progressive adult-acquired flatfoot deformity. The dysplastic tendon fails to provide dynamic arch support while the coalition creates abnormal biomechanics, accelerating degenerative changes.",
+  "risk_factors": [
+    "Family history of connective tissue disorders",
+    "Childhood tarsal coalition",
+    "Obesity",
+    "Repetitive impact activities"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_orthopedic_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Tarsal Tunnel Syndrome",
+    "Posterior Tibial Tendon Dysplasia with Subtalar Coalition",
+    "Peroneal Tendonitis",
+    "Deltoid Ligament Sprain"
+  ]
+}

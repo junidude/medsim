@@ -1,0 +1,47 @@
+{
+  "name": "Acute Aortic Dissection with Malperfusion Syndrome",
+  "specialty": "emergency_medicine",
+  "chief_complaint": "Tearing chest pain radiating to the back",
+  "symptoms": [
+    "Sudden onset severe chest pain",
+    "Syncope",
+    "Unequal blood pressure between arms",
+    "Neurological deficits"
+  ],
+  "physical_findings": [
+    "Pulse deficit in left radial artery",
+    "New diastolic murmur",
+    "Altered mental status"
+  ],
+  "lab_results": {
+    "D-dimer": ">5000 ng/mL",
+    "Troponin": "Mildly elevated",
+    "Lactate": "4.2 mmol/L"
+  },
+  "treatment": [
+    "Immediate blood pressure control with IV beta-blockers",
+    "Emergent surgical consultation",
+    "CT angiography for definitive diagnosis",
+    "Pain management with IV opioids"
+  ],
+  "prognosis": "Guarded - mortality rate >50% without prompt surgical intervention",
+  "description": "A life-threatening condition where a tear forms in the aortic intima, allowing blood to flow between the layers of the aortic wall. This case is complicated by malperfusion of vital organs due to compromised blood flow through branching arteries.",
+  "risk_factors": [
+    "Uncontrolled hypertension",
+    "Marfan syndrome",
+    "Bicuspid aortic valve"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "10"
+  },
+  "case_id": "expert_emergency_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Acute Myocardial Infarction",
+    "Acute Aortic Dissection with Malperfusion Syndrome",
+    "Pulmonary Embolism",
+    "Pericarditis with Tamponade"
+  ]
+}

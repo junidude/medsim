@@ -1,0 +1,53 @@
+{
+  "name": "Uterine Arteriovenous Malformation (AVM) with Secondary Hemorrhagic Shock",
+  "specialty": "obstetrics_gynecology",
+  "chief_complaint": "Severe pelvic pain and heavy vaginal bleeding for 12 hours",
+  "symptoms": [
+    "Profuse vaginal bleeding",
+    "Lightheadedness",
+    "Syncopal episodes",
+    "Tachycardia",
+    "Hypotension"
+  ],
+  "physical_findings": [
+    "Pale conjunctiva",
+    "Uterine bruit on auscultation",
+    "Boggy, enlarged uterus",
+    "Cold extremities"
+  ],
+  "lab_results": {
+    "Hemoglobin": "6.2 g/dL",
+    "Hematocrit": "18%",
+    "Platelets": "85,000/uL",
+    "PT/INR": "1.8",
+    "Fibrinogen": "120 mg/dL"
+  },
+  "treatment": [
+    "Immediate fluid resuscitation",
+    "Blood transfusion protocol",
+    "Uterine artery embolization",
+    "High-dose IV tranexamic acid",
+    "Potential hysterectomy if unstable"
+  ],
+  "prognosis": "Guarded - depends on rapid intervention. 30% mortality if hemorrhagic shock progresses to DIC",
+  "description": "A rare vascular anomaly where abnormal connections form between uterine arteries and veins, causing high-flow shunting. Most cases occur after uterine trauma (D&C, C-section, or miscarriage). Can lead to life-threatening hemorrhage due to the high-pressure arterial flow into low-resistance venous system.",
+  "risk_factors": [
+    "Previous uterine surgery",
+    "Multiple curettage procedures",
+    "Retained products of conception",
+    "History of gestational trophoblastic disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "hard_obstetrics_gynecology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Placenta accreta",
+    "Uterine Arteriovenous Malformation (AVM) with Secondary Hemorrhagic Shock",
+    "Uterine rupture",
+    "Retained products of conception"
+  ]
+}

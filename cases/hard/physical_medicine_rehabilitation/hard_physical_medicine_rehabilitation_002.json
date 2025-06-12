@@ -1,0 +1,52 @@
+{
+  "name": "Post-Traumatic Heterotopic Ossification",
+  "specialty": "physical_medicine_rehabilitation",
+  "chief_complaint": "I can't move my elbow anymore, and it's getting harder every day. There's a hard lump that wasn't there before my accident.",
+  "symptoms": [
+    "Progressive joint stiffness",
+    "Localized swelling and warmth",
+    "Pain with movement",
+    "Decreased range of motion",
+    "Palpable bony mass near joint"
+  ],
+  "physical_findings": [
+    "Restricted passive and active ROM in affected joint",
+    "Firm, immobile mass on palpation",
+    "Local erythema in early stages",
+    "Muscle atrophy from disuse"
+  ],
+  "lab_results": {
+    "Alkaline phosphatase": "Elevated",
+    "CRP": "Mildly elevated",
+    "ESR": "Moderately elevated"
+  },
+  "treatment": [
+    "Indomethacin prophylaxis in high-risk cases",
+    "Focused physical therapy to maintain ROM",
+    "Radiation therapy for severe cases",
+    "Surgical excision if causing significant impairment",
+    "Bisphosphonates to inhibit bone formation"
+  ],
+  "prognosis": "Variable - early intervention can prevent progression but established HO often requires surgical management with risk of recurrence. Most cases stabilize within 6-12 months post-trauma.",
+  "description": "Pathological bone formation in soft tissues following trauma, burns, or neurological injury. Typically develops 1-4 months post-injury, with ectopic bone forming in muscles and connective tissue around joints. Most common in elbows, hips, and shoulders following severe trauma or immobilization.",
+  "risk_factors": [
+    "Severe musculoskeletal trauma",
+    "Prolonged immobilization",
+    "Spinal cord injury",
+    "Traumatic brain injury",
+    "History of HO formation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_physical_medicine_rehabilitation_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Septic arthritis",
+    "Post-Traumatic Heterotopic Ossification",
+    "Osteosarcoma",
+    "Gouty arthritis"
+  ]
+}

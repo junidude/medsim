@@ -1,0 +1,47 @@
+{
+  "name": "Subacute Thyroiditis with Transient Hyperthyroidism",
+  "specialty": "radiology",
+  "chief_complaint": "Neck pain and fatigue for the past 2 weeks, with occasional palpitations",
+  "symptoms": [
+    "neck pain",
+    "fatigue",
+    "palpitations",
+    "mild fever",
+    "weight loss"
+  ],
+  "physical_findings": [
+    "tender thyroid enlargement",
+    "mild tachycardia",
+    "warm skin"
+  ],
+  "lab_results": {
+    "TSH": "suppressed",
+    "Free T4": "elevated",
+    "ESR": "elevated"
+  },
+  "treatment": [
+    "NSAIDs for pain/inflammation",
+    "beta-blockers for symptomatic relief",
+    "monitoring for hypothyroid phase"
+  ],
+  "prognosis": "Generally excellent; most patients recover normal thyroid function within 12 months",
+  "description": "A self-limiting inflammatory thyroid disorder characterized by thyroid pain, transient hyperthyroidism, and subsequent recovery or sometimes temporary hypothyroidism. Often follows a viral upper respiratory infection.",
+  "risk_factors": [
+    "recent viral illness",
+    "female gender",
+    "age 30-50"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "medium_radiology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Graves' Disease",
+    "Subacute Thyroiditis with Transient Hyperthyroidism",
+    "Hashimoto's Thyroiditis",
+    "Thyroid Lymphoma"
+  ]
+}

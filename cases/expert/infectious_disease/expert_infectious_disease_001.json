@@ -1,0 +1,49 @@
+{
+  "name": "Burkholderia pseudomallei Encephalomyelitis",
+  "specialty": "infectious_disease",
+  "chief_complaint": "I've had fever, confusion, and weakness in my legs for the past 10 days",
+  "symptoms": [
+    "persistent high fever",
+    "progressive lower limb weakness",
+    "confusion",
+    "headache",
+    "urinary retention"
+  ],
+  "physical_findings": [
+    "bilateral lower extremity paralysis",
+    "nuchal rigidity",
+    "hyperreflexia in upper extremities"
+  ],
+  "lab_results": {
+    "CSF analysis": "lymphocytic pleocytosis (120 cells/mm3), elevated protein (80 mg/dL), normal glucose",
+    "blood culture": "Burkholderia pseudomallei isolated after 72 hours",
+    "MRI spine": "longitudinal T2 hyperintensity from T4 to conus medullaris"
+  },
+  "treatment": [
+    "intravenous ceftazidime (or meropenem) for minimum 4 weeks",
+    "oral trimethoprim-sulfamethoxazole for 3-6 months",
+    "neurological rehabilitation",
+    "supportive ICU care"
+  ],
+  "prognosis": "Guarded - 30-40% mortality even with treatment, survivors often have residual neurological deficits",
+  "description": "A rare neurological manifestation of melioidosis where Burkholderia pseudomallei invades the central nervous system, causing both encephalitis and myelitis. Typically seen in endemic regions (Southeast Asia, Northern Australia) but may present in travelers. The spinal cord involvement often mimics transverse myelitis or Guillain-Barré syndrome initially.",
+  "risk_factors": [
+    "residence or travel to endemic areas",
+    "diabetes mellitus",
+    "chronic kidney disease",
+    "exposure to contaminated soil/water"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_infectious_disease_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "West Nile encephalitis",
+    "Burkholderia pseudomallei Encephalomyelitis",
+    "Spinal epidural abscess",
+    "Acute disseminated encephalomyelitis"
+  ]
+}

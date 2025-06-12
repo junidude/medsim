@@ -1,0 +1,51 @@
+{
+  "name": "Hypophosphatemic Osteomalacia with Parathyroid Hormone Resistance",
+  "specialty": "endocrinology",
+  "chief_complaint": "I've been having severe bone pain and muscle weakness for months, and no matter how much milk I drink, it doesn't help.",
+  "symptoms": [
+    "progressive bone pain",
+    "muscle weakness",
+    "difficulty walking",
+    "fatigue",
+    "pathologic fractures"
+  ],
+  "physical_findings": [
+    "tenderness on bone palpation",
+    "proximal muscle weakness",
+    "waddling gait"
+  ],
+  "lab_results": {
+    "serum phosphate": "1.2 mg/dL (low)",
+    "urinary phosphate": "elevated",
+    "PTH": "300 pg/mL (high)",
+    "calcium": "normal",
+    "25(OH) vitamin D": "normal",
+    "1,25(OH)2 vitamin D": "low"
+  },
+  "treatment": [
+    "high-dose phosphate supplements",
+    "calcitriol therapy",
+    "monitoring for nephrocalcinosis",
+    "pain management"
+  ],
+  "prognosis": "Chronic condition requiring lifelong management. With proper treatment, bone pain and fractures can be reduced, but complete resolution is uncommon.",
+  "description": "A rare disorder of phosphate metabolism characterized by renal phosphate wasting, osteomalacia, and resistance to parathyroid hormone. Caused by mutations in the PTH1R gene leading to impaired PTH signaling in the kidneys. Results in defective bone mineralization despite normal calcium and vitamin D levels.",
+  "risk_factors": [
+    "family history of bone disorders",
+    "genetic predisposition",
+    "chronic kidney disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "expert_endocrinology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Multiple Myeloma",
+    "Hypophosphatemic Osteomalacia with Parathyroid Hormone Resistance",
+    "Osteogenesis Imperfecta",
+    "Primary Hyperparathyroidism"
+  ]
+}

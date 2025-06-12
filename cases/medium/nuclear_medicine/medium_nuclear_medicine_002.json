@@ -1,0 +1,47 @@
+{
+  "name": "Radioiodine-Induced Thyroiditis",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "I've had a sore throat and neck pain for a week after my radioactive iodine treatment",
+  "symptoms": [
+    "neck pain",
+    "fatigue",
+    "low-grade fever",
+    "palpitations"
+  ],
+  "physical_findings": [
+    "thyroid tenderness",
+    "mild neck swelling",
+    "tachycardia"
+  ],
+  "lab_results": {
+    "TSH": "suppressed",
+    "free T4": "elevated",
+    "CRP": "mildly elevated"
+  },
+  "treatment": [
+    "beta blockers for symptom control",
+    "NSAIDs for pain/inflammation",
+    "hydration",
+    "monitoring thyroid function"
+  ],
+  "prognosis": "Generally self-limiting within 2-8 weeks with proper management",
+  "description": "Inflammatory thyroid condition occurring 1-3 weeks after radioactive iodine therapy for hyperthyroidism, caused by radiation-induced follicular damage and hormone release",
+  "risk_factors": [
+    "high dose radioiodine therapy",
+    "pre-existing large goiter",
+    "Graves' disease"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "medium_nuclear_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Subacute thyroiditis",
+    "Radioiodine-Induced Thyroiditis",
+    "Bacterial thyroiditis",
+    "Graves' disease"
+  ]
+}

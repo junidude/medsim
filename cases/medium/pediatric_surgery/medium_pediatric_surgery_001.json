@@ -1,0 +1,48 @@
+{
+  "name": "Congenital Pyloric Stenosis with Secondary Dehydration",
+  "specialty": "pediatric_surgery",
+  "chief_complaint": "My baby keeps vomiting after every feed and seems very tired",
+  "symptoms": [
+    "Projectile vomiting",
+    "Poor weight gain",
+    "Irritability",
+    "Decreased urine output"
+  ],
+  "physical_findings": [
+    "Palpable olive-shaped mass in epigastrium",
+    "Visible peristaltic waves",
+    "Sunken fontanelle",
+    "Dry mucous membranes"
+  ],
+  "lab_results": {
+    "Electrolyte panel": "Hypochloremic metabolic alkalosis",
+    "Blood gas": "pH 7.48",
+    "BUN/Creatinine": "Elevated ratio"
+  },
+  "treatment": [
+    "IV fluid resuscitation",
+    "Electrolyte correction",
+    "Pyloromyotomy (Ramstedt procedure)",
+    "Postoperative gradual feeding advancement"
+  ],
+  "prognosis": "Excellent with timely surgical intervention, full recovery expected",
+  "description": "A condition where the pyloric muscle thickens, causing gastric outlet obstruction in infants. Typically presents at 3-6 weeks of age with progressive non-bilious vomiting leading to dehydration and electrolyte imbalances.",
+  "risk_factors": [
+    "First-born male",
+    "Family history of pyloric stenosis",
+    "Maternal smoking during pregnancy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "medium_pediatric_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gastroesophageal Reflux Disease",
+    "Congenital Pyloric Stenosis with Secondary Dehydration",
+    "Intestinal Malrotation",
+    "Cow's Milk Protein Allergy"
+  ]
+}

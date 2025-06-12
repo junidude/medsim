@@ -1,0 +1,46 @@
+{
+  "name": "Transient Global Amnesia",
+  "specialty": "neurology",
+  "chief_complaint": "I suddenly couldn't remember anything for a few hours, and now I'm confused about what happened",
+  "symptoms": [
+    "Sudden memory loss",
+    "Disorientation",
+    "Repeated questioning",
+    "No loss of personal identity"
+  ],
+  "physical_findings": [
+    "Normal neurological exam",
+    "No focal deficits",
+    "Normal vital signs"
+  ],
+  "lab_results": {
+    "MRI": "No acute abnormalities",
+    "EEG": "Normal",
+    "Blood tests": "Within normal limits"
+  },
+  "treatment": [
+    "Observation (condition typically resolves spontaneously)",
+    "Reassurance and education",
+    "Follow-up to monitor for recurrence"
+  ],
+  "prognosis": "Excellent, typically no recurrence and no long-term effects",
+  "description": "A temporary, sudden-onset episode of memory loss that can't be attributed to a more common neurological condition, typically lasting 4-6 hours. Patients remain alert and maintain personal identity but cannot form new memories or recall recent events during the episode.",
+  "risk_factors": [
+    "Middle age (50-70 years)",
+    "History of migraine",
+    "Recent physical exertion or emotional stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "1"
+  },
+  "case_id": "medium_neurology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Complex partial seizure",
+    "Transient Global Amnesia",
+    "Psychogenic amnesia",
+    "TIA (Transient Ischemic Attack)"
+  ]
+}

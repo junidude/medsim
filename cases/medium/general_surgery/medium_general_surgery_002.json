@@ -1,0 +1,50 @@
+{
+  "name": "Acute Diverticulitis with Localized Peritonitis",
+  "specialty": "general_surgery",
+  "chief_complaint": "Severe left lower abdominal pain that started yesterday and is getting worse",
+  "symptoms": [
+    "left lower quadrant abdominal pain",
+    "fever (38.2°C)",
+    "nausea",
+    "constipation for 3 days",
+    "loss of appetite"
+  ],
+  "physical_findings": [
+    "guarding and rebound tenderness in left lower quadrant",
+    "abdominal distension",
+    "tachycardia (HR 110)",
+    "localized peritoneal signs"
+  ],
+  "lab_results": {
+    "WBC": "14,500/mm³ with left shift",
+    "CRP": "45 mg/L",
+    "CT scan": "diverticular inflammation with localized abscess (2cm)"
+  },
+  "treatment": [
+    "NPO and IV fluids",
+    "IV antibiotics (piperacillin-tazobactam)",
+    "analgesia (avoid NSAIDs)",
+    "possible CT-guided drainage if abscess enlarges"
+  ],
+  "prognosis": "Good with prompt treatment, though 20-30% recurrence risk",
+  "description": "Inflammation of colonic diverticula with microperforation causing localized peritoneal irritation. Common in patients with chronic diverticulosis. This case shows early abscess formation requiring close monitoring.",
+  "risk_factors": [
+    "age > 50",
+    "low-fiber diet",
+    "chronic constipation",
+    "obesity"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_general_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Diverticulitis with Localized Peritonitis",
+    "Acute Appendicitis",
+    "Colonic Obstruction",
+    "Ectopic Pregnancy"
+  ]
+}

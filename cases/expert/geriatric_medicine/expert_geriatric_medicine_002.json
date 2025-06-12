@@ -1,0 +1,48 @@
+{
+  "name": "Multisystem Senile Degeneration with Paradoxical Hyperkinesia",
+  "specialty": "geriatric_medicine",
+  "chief_complaint": "I can't stop moving but I feel like my body is falling apart",
+  "symptoms": [
+    "Involuntary choreiform movements",
+    "Progressive muscle wasting",
+    "Episodic syncope",
+    "Dysphagia",
+    "Visual hallucinations"
+  ],
+  "physical_findings": [
+    "Asymmetric deep tendon reflexes",
+    "Palilalia (pathological repetition of words)",
+    "Dermatomal sensory loss in T4-T6 distribution"
+  ],
+  "lab_results": {
+    "CSF analysis": "Elevated tau protein (1200 pg/mL)",
+    "Serum ceruloplasmin": "Markedly decreased (3 mg/dL)",
+    "24-hour urinary copper": "450 mcg/24h (elevated)"
+  },
+  "treatment": [
+    "Chelation therapy with trientine hydrochloride",
+    "Low-dose quetiapine for hallucinations",
+    "Physical therapy with weighted garments for movement control",
+    "PEG tube placement for nutritional support"
+  ],
+  "prognosis": "Progressive deterioration expected over 3-5 years with eventual complete loss of motor control",
+  "description": "A rare neurodegenerative condition combining features of Wilson's disease, Huntington's chorea, and frontotemporal dementia. Characterized by copper metabolism dysfunction causing basal ganglia degeneration while paradoxically inducing hyperkinetic movements. Typically presents in patients >75 with previously undiagnosed heterozygous ATP7B mutations.",
+  "risk_factors": [
+    "Late-onset heterozygous ATP7B carriers",
+    "Long-term proton pump inhibitor use",
+    "History of occupational heavy metal exposure"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_geriatric_medicine_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Huntington's Disease",
+    "Multisystem Senile Degeneration with Paradoxical Hyperkinesia",
+    "Creutzfeldt-Jakob Disease",
+    "Lewy Body Dementia"
+  ]
+}

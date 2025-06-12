@@ -1,0 +1,48 @@
+{
+  "name": "Paroxysmal Sympathetic Hyperactivity Syndrome (PSH)",
+  "specialty": "neurology",
+  "chief_complaint": "Episodes of sudden sweating, high blood pressure, and muscle spasms after my brain injury",
+  "symptoms": [
+    "Episodic diaphoresis (excessive sweating)",
+    "Tachycardia (rapid heart rate)",
+    "Hypertension (elevated blood pressure)",
+    "Dystonic posturing (abnormal muscle contractions)",
+    "Hyperthermia (elevated body temperature)"
+  ],
+  "physical_findings": [
+    "Autonomic instability during episodes",
+    "Hyperreflexia (overactive reflexes)",
+    "Clonus (rhythmic muscle contractions)"
+  ],
+  "lab_results": {
+    "Serum catecholamines": "Elevated during episodes",
+    "EEG": "No epileptiform activity",
+    "MRI brain": "Evidence of prior traumatic brain injury"
+  },
+  "treatment": [
+    "Gabapentin or pregabalin for neuropathic component",
+    "Beta-blockers (e.g., propranolol) for autonomic symptoms",
+    "Benzodiazepines for acute episodes",
+    "Multimodal rehabilitation therapy"
+  ],
+  "prognosis": "Variable; may improve over months to years but often leaves residual symptoms. Early intervention improves outcomes.",
+  "description": "A dysautonomic syndrome occurring after severe brain injury, characterized by periodic episodes of exaggerated sympathetic nervous system activity. Thought to result from disrupted connectivity between cortical inhibitory centers and subcortical autonomic nuclei. Often misdiagnosed as seizures or infection initially.",
+  "risk_factors": [
+    "Severe traumatic brain injury (especially diffuse axonal injury)",
+    "Hypoxic-ischemic brain injury",
+    "Younger age at time of injury"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_neurology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Malignant Hyperthermia",
+    "Neuroleptic Malignant Syndrome",
+    "Paroxysmal Sympathetic Hyperactivity Syndrome (PSH)",
+    "Serotonin Syndrome"
+  ]
+}

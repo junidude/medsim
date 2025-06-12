@@ -1,0 +1,48 @@
+{
+  "name": "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+  "specialty": "oncology",
+  "chief_complaint": "I've been having blurry vision, weakness in my legs, and episodes of nausea for weeks.",
+  "symptoms": [
+    "bilateral vision loss",
+    "progressive limb weakness",
+    "nausea and vomiting",
+    "intermittent neuropathic pain",
+    "bladder dysfunction"
+  ],
+  "physical_findings": [
+    "optic disc edema on fundoscopy",
+    "decreased muscle strength (3/5) in lower extremities",
+    "hyperreflexia in upper limbs"
+  ],
+  "lab_results": {
+    "serum AQP4-IgG": "positive",
+    "CSF oligoclonal bands": "present",
+    "CT chest/abdomen/pelvis": "occult small-cell lung carcinoma"
+  },
+  "treatment": [
+    "high-dose IV methylprednisolone",
+    "plasma exchange therapy",
+    "tumor-directed therapy (chemotherapy/immunotherapy)",
+    "long-term immunosuppression with rituximab"
+  ],
+  "prognosis": "Guarded; dependent on tumor control and neurological damage. Early intervention improves outcomes but relapses are common.",
+  "description": "A rare paraneoplastic syndrome where autoantibodies against aquaporin-4 (AQP4-IgG) cross-react with both neural tissue and occult malignancy, causing simultaneous demyelination of optic nerves and spinal cord. Distinguished from classic NMO by its neoplastic association.",
+  "risk_factors": [
+    "undiagnosed small-cell lung cancer",
+    "female sex (3:1 ratio)",
+    "history of other autoimmune conditions"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "expert_oncology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Multiple Sclerosis",
+    "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+    "Chronic Inflammatory Demyelinating Polyneuropathy",
+    "Spinal Cord Tumor"
+  ]
+}

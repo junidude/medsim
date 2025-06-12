@@ -1,0 +1,42 @@
+{
+  "name": "Benign Skin Lipoma",
+  "specialty": "oncology",
+  "chief_complaint": "I have a soft lump under my skin that's been there for months and doesn't hurt.",
+  "symptoms": [
+    "soft movable lump under skin",
+    "no pain",
+    "slow growth over time"
+  ],
+  "physical_findings": [
+    "subcutaneous rubbery mass",
+    "normal overlying skin",
+    "non-tender to palpation"
+  ],
+  "lab_results": {
+    "none required": "N/A"
+  },
+  "treatment": [
+    "observation if asymptomatic",
+    "surgical excision if symptomatic or for cosmetic reasons"
+  ],
+  "prognosis": "excellent; benign condition with no malignant potential",
+  "description": "A benign fatty tumor composed of mature fat cells that grows slowly in the subcutaneous tissue. Most common soft tissue tumor in adults.",
+  "risk_factors": [
+    "family history of lipomas",
+    "obesity",
+    "age 40-60"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "1"
+  },
+  "case_id": "easy_oncology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Epidermal Inclusion Cyst",
+    "Benign Skin Lipoma",
+    "Neurofibroma",
+    "Sebaceous Cyst"
+  ]
+}

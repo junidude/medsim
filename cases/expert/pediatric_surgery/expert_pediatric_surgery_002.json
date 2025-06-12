@@ -1,0 +1,49 @@
+{
+  "name": "Congenital Jejunal Atresia with Apple-Peel Configuration",
+  "specialty": "pediatric_surgery",
+  "chief_complaint": "My newborn hasn't passed stool and is vomiting green fluid",
+  "symptoms": [
+    "bilious vomiting",
+    "abdominal distension",
+    "failure to pass meconium",
+    "feeding intolerance",
+    "dehydration"
+  ],
+  "physical_findings": [
+    "scaphoid abdomen (proximal atresia)",
+    "visible peristalsis",
+    "absent bowel sounds in lower quadrants",
+    "sunken fontanelle (dehydration)"
+  ],
+  "lab_results": {
+    "electrolytes": "hypokalemic metabolic alkalosis",
+    "CBC": "hemoconcentration",
+    "abdominal X-ray": "double bubble sign with distal air absence"
+  },
+  "treatment": [
+    "nasogastric decompression",
+    "fluid resuscitation",
+    "surgical jejunojejunostomy with Ladd's procedure",
+    "TPN until full enteral feeding established"
+  ],
+  "prognosis": "Good with prompt surgical intervention, but risk of short bowel syndrome if extensive resection required",
+  "description": "A rare form of intestinal atresia where the jejunum ends in a blind pouch with the distal small bowel coiled around a single feeding artery (resembling an apple peel). Caused by intrauterine vascular accident of the superior mesenteric artery. Requires emergent surgical correction in neonates.",
+  "risk_factors": [
+    "maternal smoking during pregnancy",
+    "intrauterine vascular accidents",
+    "associated malrotation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "8"
+  },
+  "case_id": "expert_pediatric_surgery_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Hirschsprung Disease",
+    "Congenital Jejunal Atresia with Apple-Peel Configuration",
+    "Malrotation with Volvulus",
+    "Meconium Ileus"
+  ]
+}

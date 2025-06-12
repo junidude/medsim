@@ -1,0 +1,50 @@
+{
+  "name": "Trigeminovascular Dysautonomia",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "I have excruciating facial pain that comes in waves, like electric shocks, and my right eye keeps tearing up uncontrollably",
+  "symptoms": [
+    "paroxysmal unilateral facial pain",
+    "autonomic symptoms (lacrimation, nasal congestion)",
+    "photophobia during attacks",
+    "tactile allodynia in V1 distribution",
+    "brief loss of consciousness post-attack"
+  ],
+  "physical_findings": [
+    "hyperesthesia in ophthalmic nerve distribution",
+    "ipsilateral conjunctival injection",
+    "transient Horner's syndrome during episodes",
+    "abnormal corneal reflex"
+  ],
+  "lab_results": {
+    "CGRP levels (ictal)": "elevated >120 pg/mL",
+    "Trigeminal nerve MRI": "neurovascular conflict at root entry zone",
+    "Quantitative sensory testing": "abnormal thermal thresholds"
+  },
+  "treatment": [
+    "microvascular decompression surgery",
+    "galcanezumab injections",
+    "sphenopalatine ganglion radiofrequency ablation",
+    "refractory cases: motor cortex stimulation"
+  ],
+  "prognosis": "Guarded - 60% achieve significant pain reduction with combined surgical and biological therapy, but may require multiple interventions",
+  "description": "A rare neurovascular disorder characterized by paroxysmal trigeminal pain with prominent autonomic features, caused by dysregulated trigeminovascular reflexes and central sensitization. Distinct from classical trigeminal neuralgia by its autonomic component and from cluster headache by its neuropathic quality.",
+  "risk_factors": [
+    "female gender",
+    "history of migraine with aura",
+    "connective tissue disorders",
+    "prior facial trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_neurological_surgery_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Trigeminal Neuralgia",
+    "Trigeminovascular Dysautonomia",
+    "Cluster Headache",
+    "Paroxysmal Hemicrania"
+  ]
+}

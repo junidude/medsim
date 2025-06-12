@@ -1,0 +1,46 @@
+{
+  "name": "Post-Traumatic Nasal Septal Perforation",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "My nose keeps whistling when I breathe and it's crusty inside",
+  "symptoms": [
+    "nasal whistling sound",
+    "chronic nasal crusting",
+    "occasional nosebleeds",
+    "nasal obstruction"
+  ],
+  "physical_findings": [
+    "visible 8mm perforation in anterior septum",
+    "mucosal inflammation around perforation edges",
+    "palpable septal cartilage defect"
+  ],
+  "lab_results": {
+    "nasal culture": "normal flora",
+    "CBC": "within normal limits"
+  },
+  "treatment": [
+    "saline nasal irrigation",
+    "antibiotic ointment application",
+    "silicone septal button placement",
+    "possible surgical repair with mucosal flap"
+  ],
+  "prognosis": "Good with proper management, though complete closure may require surgical intervention",
+  "description": "A full-thickness defect in the nasal septum resulting from previous nasal trauma (6 months prior), causing disruption of normal nasal airflow and mucosal function. The perforation leads to turbulent airflow, crust formation, and potential epistaxis.",
+  "risk_factors": [
+    "previous nasal trauma",
+    "nasal picking behavior",
+    "history of nasal surgery"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_plastic_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Wegener's Granulomatosis",
+    "Post-Traumatic Nasal Septal Perforation",
+    "Chronic Rhinosinusitis",
+    "Nasal Cocaine Abuse"
+  ]
+}

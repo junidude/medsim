@@ -1,0 +1,49 @@
+{
+  "name": "Acute Diverticulitis with Peridiverticular Abscess",
+  "specialty": "general_surgery",
+  "chief_complaint": "Severe left lower abdominal pain and fever for 2 days",
+  "symptoms": [
+    "left lower quadrant abdominal pain",
+    "fever",
+    "nausea",
+    "constipation",
+    "abdominal tenderness"
+  ],
+  "physical_findings": [
+    "guarding in left lower quadrant",
+    "rebound tenderness",
+    "low-grade fever (38.1°C)"
+  ],
+  "lab_results": {
+    "WBC": "14,500/μL",
+    "CRP": "45 mg/L",
+    "CT scan": "diverticular inflammation with 2cm peridiverticular abscess"
+  },
+  "treatment": [
+    "IV antibiotics (e.g., piperacillin-tazobactam)",
+    "NPO with IV fluids",
+    "Percutaneous drainage if abscess >3cm",
+    "Elective colectomy after resolution for recurrent cases"
+  ],
+  "prognosis": "Good with prompt treatment, but 30% recurrence rate within 5 years",
+  "description": "Inflammation of diverticula in the sigmoid colon with localized abscess formation, typically occurring in patients with pre-existing diverticulosis. The condition represents a complication of diverticular disease requiring prompt medical or surgical intervention.",
+  "risk_factors": [
+    "age >50 years",
+    "low-fiber diet",
+    "obesity",
+    "sedentary lifestyle"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "medium_general_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Diverticulitis with Peridiverticular Abscess",
+    "Acute Appendicitis",
+    "Colon Cancer",
+    "Pelvic Inflammatory Disease"
+  ]
+}

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSim - Medical Education Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div id="nav-brand" class="nav-brand">
+                <i class="fas fa-stethoscope brand-icon"></i>
+                <span class="brand-text">MedSim</span>
+            </div>
+            <div class="nav-links">
+                <button id="language-btn" class="nav-button" title="Change Language">
+                    <i class="fas fa-globe"></i>
+                    <span id="current-language">EN</span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Welcome Screen -->
+        <div id="welcome-screen" class="screen active">
+            <div class="hero-section">
+                <div class="hero-content">
+                    <h1 id="hero-title" class="hero-title">Medical Simulation Training</h1>
+                    <p id="hero-subtitle" class="hero-subtitle">Practice medical diagnosis and patient care with AI-powered simulations</p>
+                    
+                    <div class="role-selection">
+                        <h2 id="role-selection-title" class="section-title">Choose Your Role</h2>
+                        <div class="role-cards">
+                            <div class="role-card" data-role="doctor">
+                                <div class="role-icon">
+                                    <i class="fas fa-user-md"></i>
+                                </div>
+                                <h3 class="role-title">Doctor</h3>
+                                <p class="role-description">Diagnose patients, order tests, and provide treatment plans</p>
+                                <ul class="role-features">
+                                    <li><i class="fas fa-check"></i> Diagnostic challenges</li>
+                                    <li><i class="fas fa-check"></i> AI patients with hidden conditions</li>
+                                    <li><i class="fas fa-check"></i> Clinical reasoning practice</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="role-card" data-role="patient">
+                                <div class="role-icon">
+                                    <i class="fas fa-user-injured"></i>
+                                </div>
+                                <h3 class="role-title">Patient</h3>
+                                <p class="role-description">Experience healthcare from the patient perspective</p>
+                                <ul class="role-features">
+                                    <li><i class="fas fa-check"></i> Interact with AI doctors</li>
+                                    <li><i class="fas fa-check"></i> Learn communication skills</li>
+                                    <li><i class="fas fa-check"></i> Understand patient experience</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Setup Screen -->
+        <div id="setup-screen" class="screen">
+            <div class="setup-container">
+                <div class="setup-header">
+                    <button id="back-to-welcome" class="back-button">
+                        <i class="fas fa-arrow-left"></i>
+                        <span id="back-text">Back</span>
+                    </button>
+                    <h2 id="setup-title" class="setup-title">Setup Game</h2>
+                </div>
+
+                <!-- Doctor Setup -->
+                <div id="doctor-setup" class="setup-form">
+                    <div class="form-section">
+                        <label id="difficulty-label" class="form-label">Difficulty Level</label>
+                        <select id="difficulty-select" class="form-select">
+                            <option value="easy">Easy - Common conditions</option>
+                            <option value="medium" selected>Medium - Moderate complexity</option>
+                            <option value="hard">Hard - Complex cases</option>
+                            <option value="expert">Expert - Rare diseases</option>
+                        </select>
+                    </div>
+
+                    <div class="form-section">
+                        <label id="specialty-label" class="form-label">Medical Specialty (Optional)</label>
+                        <select id="specialty-select" class="form-select">
+                            <option value="">Any Specialty</option>
+                            <option value="cardiology">Cardiology</option>
+                            <option value="neurology">Neurology</option>
+                            <option value="pulmonology">Pulmonology</option>
+                            <option value="gastroenterology">Gastroenterology</option>
+                            <option value="emergency_medicine">Emergency Medicine</option>
+                            <option value="internal_medicine">Internal Medicine</option>
+                        </select>
+                    </div>
+
+                    <button id="start-doctor-game" class="start-button">
+                        <i class="fas fa-play"></i>
+                        Start Doctor Session
+                    </button>
+                </div>
+
+                <!-- Patient Setup -->
+                <div id="patient-setup" class="setup-form">
+                    <div class="form-row">
+                        <div class="form-section">
+                            <label id="patient-name-label" class="form-label">Your Name</label>
+                            <input type="text" id="patient-name" class="form-input" placeholder="Enter your name">
+                        </div>
+                        <div class="form-section">
+                            <label id="patient-age-label" class="form-label">Age</label>
+                            <input type="number" id="patient-age" class="form-input" placeholder="Age" min="1" max="120">
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <label id="patient-gender-label" class="form-label">Gender</label>
+                        <select id="patient-gender" class="form-select">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-section">
+                        <label id="chief-complaint-label" class="form-label">Chief Complaint</label>
+                        <input type="text" id="chief-complaint" class="form-input" placeholder="Describe your main symptoms">
+                    </div>
+
+                    <div class="form-section">
+                        <label id="doctor-specialty-label" class="form-label">Doctor Specialty</label>
+                        <select id="doctor-specialty" class="form-select">
+                            <option value="">Any Specialty</option>
+                            <!-- Specialties will be loaded dynamically from API -->
+                        </select>
+                    </div>
+
+                    <button id="start-patient-game" class="start-button">
+                        <i class="fas fa-play"></i>
+                        Start Patient Session
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Game Screen -->
+        <div id="game-screen" class="screen">
+            <div class="game-container">
+                <!-- Game Header -->
+                <div class="game-header">
+                    <div class="game-info">
+                        <h2 id="game-title" class="game-title">Medical Simulation</h2>
+                        <div class="game-meta">
+                            <span id="role-indicator" class="meta-item"></span>
+                            <span id="difficulty-indicator" class="meta-item"></span>
+                            <span id="specialty-indicator" class="meta-item"></span>
+                        </div>
+                    </div>
+                    <div class="game-actions">
+                        <button id="end-game-btn" class="action-button secondary">
+                            <i class="fas fa-stop"></i>
+                            End Session
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Patient Info Panel (Doctor Mode) -->
+                <div id="patient-info-panel" class="info-panel">
+                    <div class="panel-header">
+                        <h3 class="panel-title">
+                            <i class="fas fa-user"></i>
+                            Patient Information
+                        </h3>
+                    </div>
+                    <div class="panel-content">
+                        <div class="patient-details">
+                            <div class="detail-item">
+                                <label>Name:</label>
+                                <span id="patient-name-display"></span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Age:</label>
+                                <span id="patient-age-display"></span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Gender:</label>
+                                <span id="patient-gender-display"></span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Chief Complaint:</label>
+                                <span id="chief-complaint-display"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat Interface -->
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h3 class="chat-title">
+                            <i class="fas fa-comments"></i>
+                            Conversation
+                        </h3>
+                    </div>
+                    
+                    <div id="chat-messages" class="chat-messages">
+                        <!-- Messages will be added here dynamically -->
+                    </div>
+                    
+                    <div class="chat-input-section">
+                        <!-- Quick Action Buttons (Doctor Mode) -->
+                        <div id="quick-actions" class="quick-actions" style="display: none;">
+                            <button id="pex-btn" class="quick-action-btn" title="Physical Examination">
+                                <i class="fas fa-stethoscope"></i>
+                                <span>Physical Exam</span>
+                            </button>
+                            <button id="lab-test-btn" class="quick-action-btn" title="Laboratory Tests">
+                                <i class="fas fa-flask"></i>
+                                <span>Lab Tests</span>
+                            </button>
+                        </div>
+                        
+                        <div class="input-container">
+                            <input type="text" id="message-input" class="message-input" placeholder="Type your message...">
+                            <button id="send-message-btn" class="send-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Diagnosis Panel (Doctor Mode) -->
+                <div id="diagnosis-panel" class="action-panel">
+                    <div class="panel-header">
+                        <h3 class="panel-title">
+                            <i class="fas fa-clipboard-check"></i>
+                            Submit Diagnosis
+                        </h3>
+                    </div>
+                    <div class="panel-content">
+                        <div class="diagnosis-form">
+                            <div class="input-group">
+                                <label for="diagnosis-input" class="input-label">Your Diagnosis</label>
+                                <div class="input-with-button">
+                                    <input type="text" id="diagnosis-input" class="form-input diagnosis-input modern-input" placeholder="Enter your diagnosis...">
+                                    <button id="submit-diagnosis-btn" class="custom-submit-button">
+                                        ✓
+                                    </button>
+                                </div>
+                                <button id="show-multiple-choice-btn" class="btn btn-secondary show-multiple-choice-btn modern-btn" style="width: 100%; margin-top: 10px;">
+                                    <i class="fas fa-list-check"></i>
+                                    <span>Show Multiple Choice</span>
+                                </button>
+                            </div>
+                            
+                            <div class="action-row">
+                                <button id="show-answer-btn" class="btn btn-secondary show-answer-btn modern-btn">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>Show Answer</span>
+                                </button>
+                                <div class="attempts-display modern-badge">
+                                    <span class="attempts-label">Try: </span>
+                                    <span id="attempts-count" class="attempts-number">0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Patient Mode - Same as Doctor Mode Layout -->
+        <div id="patient-messenger-screen" class="screen">
+            <div class="game-container">
+                <!-- Game Header -->
+                <div class="game-header">
+                    <div class="game-info">
+                        <h2 id="patient-game-title" class="game-title">Medical Consultation</h2>
+                        <div class="game-meta">
+                            <span id="patient-role-indicator" class="meta-item">Patient Mode</span>
+                            <span id="patient-specialty-indicator" class="meta-item">General Medicine</span>
+                        </div>
+                    </div>
+                    <div class="game-actions">
+                        <button id="patient-end-game-btn" class="action-button secondary">
+                            <i class="fas fa-stop"></i>
+                            End Consultation
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Patient Info Panel (Left) -->
+                <div id="patient-info-panel" class="info-panel">
+                    <div class="panel-header">
+                        <h3 class="panel-title">
+                            <i class="fas fa-user"></i>
+                            Patient Information
+                        </h3>
+                    </div>
+                    <div class="panel-content">
+                        <div class="patient-details">
+                            <div class="detail-item">
+                                <label>Name:</label>
+                                <span id="user-name-display"></span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Age:</label>
+                                <span id="user-age-display"></span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Gender:</label>
+                                <span id="user-gender-display"></span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Chief Complaint:</label>
+                                <span id="user-complaint-display"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chat Interface (Center) -->
+                <div class="chat-container">
+                    <div class="chat-header">
+                        <h3 class="chat-title">
+                            <i class="fas fa-comments"></i>
+                            Conversation
+                        </h3>
+                    </div>
+                    
+                    <div id="patient-chat-messages" class="chat-messages">
+                        <!-- Messages will be added here dynamically -->
+                    </div>
+                    
+                    <div class="chat-input-section">
+                        <div class="input-container">
+                            <input type="text" id="patient-message-input" class="message-input" placeholder="Type your message...">
+                            <button id="patient-send-btn" class="send-button">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor Info Panel (Right) -->
+                <div id="doctor-info-panel" class="action-panel">
+                    <div class="panel-header">
+                        <h3 class="panel-title">
+                            <i class="fas fa-user-md"></i>
+                            Your Doctor
+                        </h3>
+                    </div>
+                    <div class="panel-content">
+                        <div class="patient-details">
+                            <div class="detail-item">
+                                <label>Name:</label>
+                                <span id="doctor-name-display">Dr. Smith</span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Specialty:</label>
+                                <span id="doctor-specialty-display"></span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Status:</label>
+                                <span class="doctor-status-online">
+                                    <i class="fas fa-circle" style="color: var(--success-color); font-size: 8px;"></i>
+                                    Online
+                                </span>
+                            </div>
+                            <div class="detail-item">
+                                <label>Experience:</label>
+                                <span>15+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Physical Examination Modal -->
+        <div id="pex-modal" class="modal examination-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">
+                        <i class="fas fa-stethoscope"></i>
+                        Physical Examination Results
+                    </h3>
+                    <button id="close-pex-modal" class="close-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="pex-content" class="examination-content">
+                        <!-- PEx results will be populated here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="close-pex-btn" class="btn btn-secondary modern-btn">
+                        <i class="fas fa-times"></i>
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Laboratory Test Modal -->
+        <div id="lab-modal" class="modal examination-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title">
+                        <i class="fas fa-flask"></i>
+                        Laboratory Test Results
+                    </h3>
+                    <button id="close-lab-modal" class="close-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="lab-content" class="examination-content">
+                        <!-- Lab results will be populated here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="close-lab-btn" class="btn btn-secondary modern-btn">
+                        <i class="fas fa-times"></i>
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Modal -->
+        <div id="results-modal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="results-title" class="modal-title">Diagnosis Results</h3>
+                    <button id="close-modal" class="close-button">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="results-content" class="results-content">
+                        <!-- Results will be populated here -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button id="new-case-btn" class="action-button primary">
+                        <i class="fas fa-plus"></i>
+                        New Case
+                    </button>
+                    <button id="back-to-menu-btn" class="action-button secondary">
+                        <i class="fas fa-home"></i>
+                        Main Menu
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Loading Overlay -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p class="loading-text">Setting up your medical simulation...</p>
+        </div>
+    </div>
+
+    <!-- Additional CSS for diagnosis results modal -->
+    <style>
+        .results-success {
+            text-align: center;
+            margin-bottom: var(--spacing-xl);
+        }
+        
+        .success-icon i {
+            font-size: 3rem;
+            margin-bottom: var(--spacing-md);
+            color: #10b981;
+        }
+        
+        .success-title {
+            font-size: var(--font-size-lg);
+            font-weight: 600;
+            color: #10b981;
+            margin-bottom: var(--spacing-sm);
+        }
+        
+        .success-message {
+            color: var(--text-secondary);
+        }
+        
+        .condition-details h5 {
+            font-size: var(--font-size-base);
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+            color: var(--text-primary);
+        }
+        
+        .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: var(--spacing-md);
+            margin-bottom: var(--spacing-lg);
+        }
+        
+        .detail-grid .detail-item {
+            background: var(--background-secondary);
+            padding: var(--spacing-md);
+            border-radius: var(--radius-md);
+        }
+        
+        .treatment-info,
+        .prognosis-info {
+            margin-top: var(--spacing-lg);
+        }
+        
+        .treatment-info h6,
+        .prognosis-info h6 {
+            font-size: var(--font-size-sm);
+            font-weight: 600;
+            margin-bottom: var(--spacing-sm);
+            color: var(--text-primary);
+        }
+        
+        .treatment-info ul {
+            margin: 0;
+            padding-left: var(--spacing-lg);
+        }
+        
+        .treatment-info li {
+            margin-bottom: var(--spacing-xs);
+            color: var(--text-secondary);
+        }
+        
+        .prognosis-info p {
+            color: var(--text-secondary);
+            margin: 0;
+        }
+    </style>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "name": "Posterior Tibial Tendon Dysfunction (Stage II)",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "My inner ankle hurts and my foot is flattening out when I walk.",
+  "symptoms": [
+    "Pain along the inside of the ankle and foot",
+    "Swelling along the tendon",
+    "Difficulty standing on tiptoes",
+    "Progressive flattening of the arch"
+  ],
+  "physical_findings": [
+    "Tenderness to palpation posterior to medial malleolus",
+    "Visible collapse of medial longitudinal arch with single-leg heel rise",
+    "Mild-to-moderate hindfoot valgus deformity"
+  ],
+  "lab_results": {
+    "MRI": "Partial tearing and degeneration of posterior tibial tendon",
+    "X-ray": "Measures show >30% uncovering of talar head"
+  },
+  "treatment": [
+    "Custom orthotics with medial arch support",
+    "UCBL brace or Arizona brace",
+    "Physical therapy for tendon strengthening",
+    "Consider surgical reconstruction if conservative measures fail"
+  ],
+  "prognosis": "Good with early intervention; may progress to rigid flatfoot deformity if untreated",
+  "description": "Progressive condition where the posterior tibial tendon fails to support the arch, leading to acquired adult flatfoot deformity. Stage II involves flexible deformity with tendon degeneration but no fixed contractures.",
+  "risk_factors": [
+    "Female sex (40-60 years)",
+    "Obesity",
+    "Hypertension",
+    "Diabetes mellitus",
+    "Previous ankle trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_orthopedic_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Tarsal Tunnel Syndrome",
+    "Posterior Tibial Tendon Dysfunction (Stage II)",
+    "Plantar Fasciitis",
+    "Flexor Hallucis Longus Tendinopathy"
+  ]
+}

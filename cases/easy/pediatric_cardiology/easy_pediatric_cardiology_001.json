@@ -1,0 +1,41 @@
+{
+  "name": "Innocent Heart Murmur",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child's doctor heard a whooshing sound during a check-up",
+  "symptoms": [
+    "no symptoms",
+    "normal activity level",
+    "no feeding difficulties"
+  ],
+  "physical_findings": [
+    "soft systolic murmur (grade I-II)",
+    "normal heart sounds",
+    "no thrills or heaves"
+  ],
+  "lab_results": {
+    "echocardiogram": "normal cardiac structure and function"
+  },
+  "treatment": [
+    "reassurance",
+    "routine follow-up"
+  ],
+  "prognosis": "excellent - typically resolves by adolescence",
+  "description": "A benign heart murmur caused by normal blood flow turbulence in a growing child's heart, with no structural abnormalities",
+  "risk_factors": [
+    "age 3-7 years",
+    "fever or anemia (can make murmur more audible)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "0"
+  },
+  "case_id": "easy_pediatric_cardiology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Ventricular Septal Defect",
+    "Innocent Heart Murmur",
+    "Atrial Septal Defect",
+    "Pulmonary Stenosis"
+  ]
+}

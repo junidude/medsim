@@ -1,0 +1,48 @@
+{
+  "name": "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+  "specialty": "oncology",
+  "chief_complaint": "I've been having blurry vision, weakness in my legs, and frequent nausea for weeks.",
+  "symptoms": [
+    "bilateral vision loss",
+    "progressive limb weakness",
+    "intractable nausea/vomiting",
+    "neuropathic pain",
+    "bladder dysfunction"
+  ],
+  "physical_findings": [
+    "optic disc edema on fundoscopy",
+    "decreased muscle strength (3/5) in lower extremities",
+    "positive Lhermitte's sign"
+  ],
+  "lab_results": {
+    "AQP4-IgG": "positive",
+    "CSF analysis": "pleocytosis (>50 WBCs/mm3)",
+    "CT chest/abdomen": "occult thymoma (2.4cm)"
+  },
+  "treatment": [
+    "high-dose IV methylprednisolone",
+    "therapeutic plasma exchange",
+    "rituximab immunotherapy",
+    "thymectomy for underlying neoplasm"
+  ],
+  "prognosis": "Guarded - 60% achieve partial remission with treatment, but relapses are common without continuous immunosuppression",
+  "description": "A rare paraneoplastic variant of NMOSD associated with occult malignancies (often thymoma or lung cancer) where autoantibodies against aquaporin-4 channels cause simultaneous inflammatory demyelination of optic nerves and spinal cord. Distinguished from classic NMOSD by its rapid progression and poorer response to first-line therapies.",
+  "risk_factors": [
+    "undiagnosed thymic neoplasms",
+    "female sex (9:1 ratio)",
+    "prior autoimmune conditions"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_oncology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Multiple Sclerosis",
+    "Paraneoplastic Neuromyelitis Optica Spectrum Disorder (PNMOSD)",
+    "Spinal Cord Compression",
+    "Guillain-Barré Syndrome"
+  ]
+}

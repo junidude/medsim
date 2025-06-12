@@ -1,0 +1,47 @@
+{
+  "name": "Congenital Ventricular Septal Defect with Eisenmenger Syndrome",
+  "specialty": "pediatric_cardiology",
+  "chief_complaint": "My child gets tired easily and turns blue when playing",
+  "symptoms": [
+    "fatigue",
+    "cyanosis (bluish skin)",
+    "shortness of breath",
+    "poor weight gain"
+  ],
+  "physical_findings": [
+    "loud holosystolic murmur at lower left sternal border",
+    "clubbing of fingers",
+    "right ventricular heave"
+  ],
+  "lab_results": {
+    "arterial blood gas": "low oxygen saturation",
+    "hematocrit": "elevated",
+    "BNP": "elevated"
+  },
+  "treatment": [
+    "oxygen therapy",
+    "pulmonary vasodilators",
+    "anticoagulation therapy",
+    "eventual heart-lung transplant evaluation"
+  ],
+  "prognosis": "Guarded; depends on response to medical management and timing of potential transplant",
+  "description": "A congenital heart defect where there's a hole in the ventricular septum, leading to left-to-right shunting that eventually causes pulmonary hypertension and reversal of shunt direction (Eisenmenger physiology). This represents an advanced, irreversible stage of the condition.",
+  "risk_factors": [
+    "family history of congenital heart disease",
+    "maternal diabetes during pregnancy",
+    "premature birth"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "medium_pediatric_cardiology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Tetralogy of Fallot",
+    "Congenital Ventricular Septal Defect with Eisenmenger Syndrome",
+    "Atrial Septal Defect",
+    "Pulmonary Hypertension"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Occipital Neuralgia",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "Sharp, shooting pain in the back of my head that comes and goes",
+  "symptoms": [
+    "intermittent sharp pain in occipital region",
+    "tenderness at base of skull",
+    "pain triggered by neck movement"
+  ],
+  "physical_findings": [
+    "tenderness over greater occipital nerve",
+    "reduced range of neck motion"
+  ],
+  "lab_results": {
+    "MRI cervical spine": "no structural abnormalities"
+  },
+  "treatment": [
+    "nerve block injections",
+    "physical therapy",
+    "anti-inflammatory medications"
+  ],
+  "prognosis": "Good with proper treatment, though may recur",
+  "description": "Irritation or inflammation of the occipital nerves causing episodic sharp pain in the distribution of these nerves at the back of the head",
+  "risk_factors": [
+    "poor posture",
+    "previous neck trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "7"
+  },
+  "case_id": "easy_neurological_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Cervical Radiculopathy",
+    "Occipital Neuralgia",
+    "Tension Headache",
+    "Migraine"
+  ]
+}

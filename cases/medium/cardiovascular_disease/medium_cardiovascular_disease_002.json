@@ -1,0 +1,50 @@
+{
+  "name": "Subacute Bacterial Endocarditis",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I've had fever and fatigue for weeks, and now my joints ache",
+  "symptoms": [
+    "persistent low-grade fever",
+    "fatigue",
+    "joint pain",
+    "night sweats",
+    "weight loss"
+  ],
+  "physical_findings": [
+    "new heart murmur",
+    "splinter hemorrhages in nail beds",
+    "mild splenomegaly"
+  ],
+  "lab_results": {
+    "blood_cultures": "positive for Streptococcus viridans",
+    "CRP": "elevated",
+    "ESR": "elevated",
+    "echocardiogram": "vegetations on mitral valve"
+  },
+  "treatment": [
+    "intravenous antibiotics (penicillin + gentamicin)",
+    "symptomatic management",
+    "cardiology consultation",
+    "dental evaluation for source of bacteremia"
+  ],
+  "prognosis": "Good with early treatment, but risk of valve damage or systemic embolism if untreated",
+  "description": "A subacute infection of the endocardium, typically affecting previously damaged heart valves. Develops over weeks to months with nonspecific symptoms before diagnosis.",
+  "risk_factors": [
+    "previous rheumatic fever",
+    "congenital heart disease",
+    "poor dental hygiene",
+    "intravenous drug use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_cardiovascular_disease_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Rheumatoid Arthritis",
+    "Subacute Bacterial Endocarditis",
+    "Lymphoma",
+    "Systemic Lupus Erythematosus"
+  ]
+}

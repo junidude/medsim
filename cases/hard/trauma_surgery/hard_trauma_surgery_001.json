@@ -1,0 +1,52 @@
+{
+  "name": "Traumatic Aortic Dissection with Hemothorax",
+  "specialty": "trauma_surgery",
+  "chief_complaint": "Tearing chest pain and difficulty breathing after a high-speed car crash",
+  "symptoms": [
+    "Sudden severe chest pain radiating to the back",
+    "Dyspnea",
+    "Syncope",
+    "Diaphoresis",
+    "Paresthesia in lower extremities"
+  ],
+  "physical_findings": [
+    "Asymmetric blood pressure between arms (>20 mmHg difference)",
+    "Diminished femoral pulses",
+    "Decreased breath sounds on left hemithorax",
+    "Cyanosis of lower extremities"
+  ],
+  "lab_results": {
+    "Hemoglobin": "9.2 g/dL (acute drop from baseline)",
+    "Lactate": "4.8 mmol/L",
+    "Troponin": "Elevated",
+    "D-dimer": ">5000 ng/mL"
+  },
+  "treatment": [
+    "Immediate blood pressure control with IV beta-blockers",
+    "Emergent thoracotomy for aortic repair",
+    "Chest tube placement for hemothorax",
+    "Massive transfusion protocol activation",
+    "Definitive surgical repair with TEVAR (if stable)"
+  ],
+  "prognosis": "Guarded - 40-60% mortality even with prompt treatment. Risk of paraplegia, renal failure, or stroke in survivors.",
+  "description": "A life-threatening condition where blunt trauma causes separation of aortic wall layers, often at the ligamentum arteriosum, with concurrent pleural space bleeding. Requires immediate differentiation from myocardial infarction and rapid surgical intervention.",
+  "risk_factors": [
+    "High-impact deceleration trauma",
+    "Ehlers-Danlos syndrome",
+    "Chronic hypertension",
+    "Aortic coarctation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor (due to pain and hypoxia)",
+    "pain_level": "10"
+  },
+  "case_id": "hard_trauma_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Pulmonary Embolism",
+    "Traumatic Aortic Dissection with Hemothorax",
+    "Tension Pneumothorax",
+    "Myocardial Infarction"
+  ]
+}

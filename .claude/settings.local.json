@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(grep:*)",
+      "Bash(chmod:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(find:*)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "Bash(mkdir:*)",
+      "WebFetch(domain:openevidence.com)",
+      "Bash(node:*)",
+      "Bash(touch:*)",
+      "Bash(open:*)",
+      "Bash(diff:*)",
+      "Bash(rg:*)",
+      "Bash(true)"
+    ],
+    "deny": []
+  }
+}

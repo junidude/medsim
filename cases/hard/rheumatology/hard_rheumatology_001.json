@@ -1,0 +1,51 @@
+{
+  "name": "Granulomatous Polyangiitis with Eosinophilic Predominance (GPE)",
+  "specialty": "rheumatology",
+  "chief_complaint": "I've had persistent joint pain, fatigue, and these weird rashes that won't go away.",
+  "symptoms": [
+    "migratory polyarthralgia",
+    "unexplained fever",
+    "nodular skin lesions",
+    "peripheral neuropathy",
+    "chronic sinus congestion"
+  ],
+  "physical_findings": [
+    "palpable purpura on lower extremities",
+    "asymmetric synovitis in small joints",
+    "nasal septum perforation",
+    "mononeuritis multiplex"
+  ],
+  "lab_results": {
+    "ANCA": "positive (p-ANCA pattern)",
+    "ESR": ">80 mm/hr",
+    "Eosinophils": "18% of WBC",
+    "CRP": "22 mg/L",
+    "Biopsy": "necrotizing granulomas with eosinophil infiltration"
+  },
+  "treatment": [
+    "high-dose glucocorticoids",
+    "rituximab (anti-CD20 therapy)",
+    "mepolizumab (anti-IL5 for eosinophilic component)",
+    "plasmapheresis in severe cases"
+  ],
+  "prognosis": "Guarded; requires aggressive immunosuppression with high relapse risk (40% at 5 years), but newer biologics show promise for eosinophil-targeted control",
+  "description": "A rare ANCA-associated vasculitis variant characterized by necrotizing granulomatous inflammation with disproportionate eosinophilic infiltration affecting small-to-medium vessels. Distinct from classic GPA by its Th2-mediated pathology and IL-5 driven eosinophilia. Often presents with overlapping features of eosinophilic granulomatosis with polyangiitis (EGPA) and granulomatosis with polyangiitis (GPA).",
+  "risk_factors": [
+    "history of atopic diseases",
+    "DRB1*15 haplotype",
+    "chronic nasal methicillin-resistant Staphylococcus aureus colonization"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_rheumatology_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Eosinophilic Granulomatosis with Polyangiitis",
+    "Granulomatous Polyangiitis with Eosinophilic Predominance (GPE)",
+    "Rheumatoid Arthritis",
+    "Microscopic Polyangiitis"
+  ]
+}

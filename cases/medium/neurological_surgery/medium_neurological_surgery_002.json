@@ -1,0 +1,41 @@
+{
+  "name": "Idiopathic Trigeminal Neuralgia with Vascular Compression",
+  "specialty": "neurological_surgery",
+  "chief_complaint": "I get sudden, sharp, electric shock-like pain on one side of my face",
+  "symptoms": [
+    "episodic severe facial pain",
+    "pain triggered by light touch or chewing",
+    "pain-free intervals between attacks"
+  ],
+  "physical_findings": [
+    "trigger zones on face",
+    "normal neurological exam between episodes"
+  ],
+  "lab_results": {
+    "MRI": "neurovascular compression of trigeminal nerve root"
+  },
+  "treatment": [
+    "carbamazepine trial",
+    "microvascular decompression surgery if medication fails"
+  ],
+  "prognosis": "good with treatment, though may require long-term management",
+  "description": "A neuropathic pain disorder affecting the trigeminal nerve, characterized by sudden, severe, brief, stabbing recurrent pains in one or more branches of the nerve. Often caused by vascular compression at the nerve root entry zone.",
+  "risk_factors": [
+    "female gender",
+    "age over 50",
+    "multiple sclerosis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "9 during attacks"
+  },
+  "case_id": "medium_neurological_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Postherpetic Neuralgia",
+    "Idiopathic Trigeminal Neuralgia with Vascular Compression",
+    "Temporomandibular Joint Disorder",
+    "Multiple Sclerosis"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Allergic Contact Dermatitis",
+  "specialty": "dermatology",
+  "chief_complaint": "I have a red, itchy rash on my arm that won't go away.",
+  "symptoms": [
+    "itchy skin",
+    "redness",
+    "skin swelling"
+  ],
+  "physical_findings": [
+    "erythematous plaques",
+    "vesicles in affected area"
+  ],
+  "lab_results": {
+    "patch test": "positive for nickel allergy"
+  },
+  "treatment": [
+    "topical corticosteroids",
+    "oral antihistamines",
+    "avoidance of allergen"
+  ],
+  "prognosis": "excellent with allergen avoidance, symptoms resolve within 2-4 weeks",
+  "description": "A delayed hypersensitivity reaction occurring when skin comes into contact with an allergen, causing an inflammatory response. Common allergens include nickel, fragrances, and certain plants like poison ivy.",
+  "risk_factors": [
+    "frequent jewelry wear",
+    "occupational exposure to chemicals",
+    "history of atopy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_dermatology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Atopic Dermatitis",
+    "Allergic Contact Dermatitis",
+    "Psoriasis",
+    "Nummular Eczema"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Mild Hypothyroidism",
+  "specialty": "endocrinology",
+  "chief_complaint": "I've been feeling tired all the time and gaining weight without eating more",
+  "symptoms": [
+    "fatigue",
+    "weight gain",
+    "cold intolerance",
+    "dry skin"
+  ],
+  "physical_findings": [
+    "bradycardia",
+    "puffy face",
+    "delayed deep tendon reflexes"
+  ],
+  "lab_results": {
+    "TSH": "elevated",
+    "Free T4": "low"
+  },
+  "treatment": [
+    "levothyroxine replacement therapy",
+    "regular thyroid function monitoring"
+  ],
+  "prognosis": "Excellent with proper medication and follow-up",
+  "description": "A common endocrine disorder where the thyroid gland doesn't produce enough thyroid hormones, leading to a slowdown of metabolic processes",
+  "risk_factors": [
+    "female gender",
+    "family history of thyroid disease",
+    "autoimmune conditions"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_endocrinology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Depression",
+    "Mild Hypothyroidism",
+    "Chronic Fatigue Syndrome",
+    "Anemia"
+  ]
+}

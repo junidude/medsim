@@ -1,0 +1,48 @@
+{
+  "name": "Post-Traumatic Abdominal Compartment Syndrome with Septic Shock",
+  "specialty": "surgical_critical_care",
+  "chief_complaint": "My belly feels like it's going to explode and I can't breathe",
+  "symptoms": [
+    "severe abdominal distension",
+    "oliguria",
+    "tachypnea",
+    "altered mental status"
+  ],
+  "physical_findings": [
+    "tense, board-like abdomen",
+    "decreased breath sounds bilaterally",
+    "mottled extremities"
+  ],
+  "lab_results": {
+    "lactate": "6.8 mmol/L",
+    "WBC": "24,000/mm3",
+    "creatinine": "3.2 mg/dL",
+    "base deficit": "-12"
+  },
+  "treatment": [
+    "emergent decompressive laparotomy",
+    "vasopressor support",
+    "broad-spectrum antibiotics",
+    "renal replacement therapy"
+  ],
+  "prognosis": "Guarded (50-60% mortality in this presentation)",
+  "description": "A life-threatening condition where increased intra-abdominal pressure (>20mmHg) leads to multi-organ dysfunction, compounded by systemic sepsis. Typically occurs 24-48 hours after major abdominal trauma or surgery.",
+  "risk_factors": [
+    "massive fluid resuscitation",
+    "damage control laparotomy",
+    "pancreatic/duodenal injuries"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "9"
+  },
+  "case_id": "hard_surgical_critical_care_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Perforated Viscus",
+    "Post-Traumatic Abdominal Compartment Syndrome with Septic Shock",
+    "Acute Pancreatitis",
+    "Ruptured Abdominal Aortic Aneurysm"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Familial Hypophosphatemic Rickets",
+  "specialty": "medical_genetics",
+  "chief_complaint": "My child has been having bone pain and difficulty walking for the past few months.",
+  "symptoms": [
+    "bone pain",
+    "muscle weakness",
+    "short stature",
+    "dental abscesses"
+  ],
+  "physical_findings": [
+    "bowing of the legs",
+    "enlarged wrists and ankles",
+    "frontal bossing"
+  ],
+  "lab_results": {
+    "serum phosphate": "low",
+    "alkaline phosphatase": "elevated",
+    "urinary phosphate": "high"
+  },
+  "treatment": [
+    "oral phosphate supplements",
+    "active vitamin D analogs (calcitriol)",
+    "regular monitoring of growth and bone development"
+  ],
+  "prognosis": "Good with early diagnosis and treatment, but may require lifelong management to prevent complications.",
+  "description": "Familial Hypophosphatemic Rickets is an X-linked dominant disorder caused by mutations in the PHEX gene, leading to renal phosphate wasting and impaired bone mineralization. It primarily affects the skeletal system, causing rickets in children and osteomalacia in adults.",
+  "risk_factors": [
+    "family history of the condition",
+    "female sex (due to X-linked dominance)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_medical_genetics_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Osteogenesis Imperfecta",
+    "Familial Hypophosphatemic Rickets",
+    "Juvenile Rheumatoid Arthritis",
+    "Nutritional Rickets"
+  ]
+}

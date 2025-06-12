@@ -1,0 +1,49 @@
+{
+  "name": "Acute Mesenteric Ischemia",
+  "specialty": "emergency_medicine",
+  "chief_complaint": "Severe abdominal pain that came on suddenly",
+  "symptoms": [
+    "sudden severe abdominal pain",
+    "nausea",
+    "vomiting",
+    "diarrhea (possibly bloody)"
+  ],
+  "physical_findings": [
+    "abdominal tenderness",
+    "abdominal distension",
+    "tachycardia",
+    "hypotension"
+  ],
+  "lab_results": {
+    "lactate": "elevated",
+    "WBC": "elevated",
+    "metabolic panel": "metabolic acidosis"
+  },
+  "treatment": [
+    "IV fluids",
+    "pain management",
+    "antibiotics",
+    "emergency surgical consultation"
+  ],
+  "prognosis": "Poor if not treated promptly; mortality rate remains high even with treatment",
+  "description": "Acute mesenteric ischemia is a life-threatening vascular emergency that occurs when blood flow to the intestines is suddenly blocked, typically by a blood clot. This leads to intestinal tissue hypoxia and potential necrosis if not treated urgently.",
+  "risk_factors": [
+    "atrial fibrillation",
+    "atherosclerosis",
+    "hypercoagulable states",
+    "advanced age"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "medium_emergency_medicine_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Acute Pancreatitis",
+    "Acute Mesenteric Ischemia",
+    "Perforated Peptic Ulcer",
+    "Diverticulitis"
+  ]
+}

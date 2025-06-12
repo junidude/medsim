@@ -1,0 +1,53 @@
+{
+  "name": "Chronic Subdural Hematoma with Delirium",
+  "specialty": "geriatric_medicine",
+  "chief_complaint": "I've been feeling confused and my head hurts, especially when I stand up",
+  "symptoms": [
+    "intermittent headache",
+    "confusion",
+    "unsteady gait",
+    "mild nausea",
+    "recent memory lapses"
+  ],
+  "physical_findings": [
+    "mild bradycardia",
+    "positive Romberg sign",
+    "subtle pupillary asymmetry",
+    "mild pronator drift on left side"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "Basic Metabolic Panel": "mild hyponatremia (132 mEq/L)",
+    "INR": "1.2",
+    "CT head": "crescent-shaped hypodensity over right hemisphere with midline shift"
+  },
+  "treatment": [
+    "neurological monitoring",
+    "osmotic diuresis (mannitol)",
+    "surgical evacuation if worsening",
+    "symptomatic management of delirium",
+    "fall precautions"
+  ],
+  "prognosis": "Guarded - depends on timely intervention and pre-existing cognitive status. Full recovery possible with treatment but risk of recurrence remains.",
+  "description": "A slowly accumulating blood collection between the dura and arachnoid membranes, often following minor head trauma in elderly patients. The brain atrophy in aging allows larger collections before symptoms appear. Delirium results from mass effect and altered cerebral metabolism.",
+  "risk_factors": [
+    "advanced age (>75)",
+    "chronic alcohol use",
+    "anticoagulant therapy",
+    "recurrent falls",
+    "cerebral atrophy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "5"
+  },
+  "case_id": "medium_geriatric_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Normal Pressure Hydrocephalus",
+    "Chronic Subdural Hematoma with Delirium",
+    "Vascular Dementia",
+    "Brain Metastasis"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Transient Erythroblastopenia of Childhood (TEC)",
+  "specialty": "pediatric_hematology_oncology",
+  "chief_complaint": "My child has been pale and tired for the past few weeks",
+  "symptoms": [
+    "fatigue",
+    "pallor",
+    "decreased activity level",
+    "mild irritability"
+  ],
+  "physical_findings": [
+    "pale conjunctiva",
+    "no hepatosplenomegaly",
+    "normal vital signs"
+  ],
+  "lab_results": {
+    "CBC": "Hemoglobin 7.2 g/dL, Reticulocyte count 0.2%",
+    "Peripheral smear": "Normocytic anemia with absent reticulocytes",
+    "Bone marrow biopsy": "Erythroid hypoplasia (if performed)"
+  },
+  "treatment": [
+    "Observation (most cases resolve spontaneously)",
+    "Transfusion if symptomatic anemia (Hb <5-6 g/dL)",
+    "Folic acid supplementation"
+  ],
+  "prognosis": "Excellent, typically resolves within 1-2 months without sequelae",
+  "description": "A temporary suppression of red blood cell production in otherwise healthy children, typically occurring between 6 months and 4 years of age. The exact cause is unknown but may follow viral infections. Distinguished from other anemias by its transient nature and absence of other cell line abnormalities.",
+  "risk_factors": [
+    "Recent viral illness (especially parvovirus B19)",
+    "Age 1-3 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "2"
+  },
+  "case_id": "medium_pediatric_hematology_oncology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Iron deficiency anemia",
+    "Transient Erythroblastopenia of Childhood (TEC)",
+    "Aplastic anemia",
+    "Leukemia"
+  ]
+}

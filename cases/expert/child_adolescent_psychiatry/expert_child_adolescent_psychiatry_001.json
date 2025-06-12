@@ -1,0 +1,47 @@
+{
+  "name": "Disruptive Mood Dysregulation Disorder with Atypical Psychotic Features",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "My child has extreme temper outbursts and says he sees shadow people when angry",
+  "symptoms": [
+    "Severe recurrent temper outbursts (verbal/behavioral)",
+    "Chronic irritability between outbursts",
+    "Visual hallucinations during emotional dysregulation",
+    "Sleep disturbances with night terrors",
+    "Transient paranoid ideation"
+  ],
+  "physical_findings": [
+    "Elevated blood pressure during episodes",
+    "Self-inflicted scratches on arms"
+  ],
+  "lab_results": {
+    "Cortisol AM": "22.4 mcg/dL (elevated)",
+    "Thyroid panel": "normal",
+    "EEG": "mild temporal lobe dysrhythmia during stress testing"
+  },
+  "treatment": [
+    "Cognitive behavioral therapy with mood regulation focus",
+    "Low-dose atypical antipsychotic (aripiprazole)",
+    "Family systems therapy",
+    "Biofeedback training"
+  ],
+  "prognosis": "Guarded - symptoms often persist into adulthood but may transform into different mood disorder presentations",
+  "description": "A rare variant of DMDD where emotional dysregulation triggers brief psychotic-like symptoms without meeting criteria for schizophrenia spectrum disorders. Episodes typically last 30-90 minutes with complete reality testing between episodes.",
+  "risk_factors": [
+    "Family history of bipolar spectrum disorders",
+    "Early childhood trauma (especially emotional neglect)",
+    "Comorbid sensory processing disorder"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair (improves with rapport building)",
+    "pain_level": "3 (self-reported during calm periods)"
+  },
+  "case_id": "expert_child_adolescent_psychiatry_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Pediatric Bipolar Disorder",
+    "Disruptive Mood Dysregulation Disorder with Atypical Psychotic Features",
+    "Schizophrenia Childhood-Onset",
+    "Intermittent Explosive Disorder"
+  ]
+}

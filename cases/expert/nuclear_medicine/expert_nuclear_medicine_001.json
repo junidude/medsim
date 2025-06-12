@@ -1,0 +1,54 @@
+{
+  "name": "Radioiodine-Refractory Differentiated Thyroid Carcinoma with Paraneoplastic Syndromes",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "Persistent neck swelling despite treatment, recent episodes of muscle weakness and tremors",
+  "symptoms": [
+    "progressive neck mass",
+    "hoarseness",
+    "dysphagia",
+    "episodic muscle weakness",
+    "intention tremors",
+    "heat intolerance"
+  ],
+  "physical_findings": [
+    "firm, fixed thyroid nodule",
+    "vocal cord paralysis on laryngoscopy",
+    "hyperreflexia in upper extremities",
+    "mild exophthalmos"
+  ],
+  "lab_results": {
+    "thyroglobulin": ">10,000 ng/mL",
+    "TSH": "<0.01 mIU/L",
+    "anti-Yo antibodies": "positive",
+    "calcitonin": "normal",
+    "PTHrP": "elevated"
+  },
+  "treatment": [
+    "multikinase inhibitor therapy (lenvatinib)",
+    "palliative external beam radiation",
+    "immunotherapy trial",
+    "symptomatic management of paraneoplastic effects",
+    "bisphosphonates for bone metastases"
+  ],
+  "prognosis": "Guarded (median survival 3-5 years with current therapies)",
+  "description": "An aggressive variant of differentiated thyroid cancer that has lost iodine avidity while maintaining thyroglobulin production, accompanied by rare paraneoplastic neurological manifestations. The condition demonstrates resistance to conventional radioiodine therapy and often presents with distant metastases. The paraneoplastic component suggests cross-reactivity between tumor antigens and cerebellar Purkinje cells.",
+  "risk_factors": [
+    "previous exposure to therapeutic radioiodine",
+    "RET/PTC rearrangements",
+    "BRAF V600E mutation",
+    "history of head/neck radiation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "expert_nuclear_medicine_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Medullary Thyroid Carcinoma",
+    "Radioiodine-Refractory Differentiated Thyroid Carcinoma with Paraneoplastic Syndromes",
+    "Graves' Disease with Thyroid Nodule",
+    "Anaplastic Thyroid Carcinoma"
+  ]
+}

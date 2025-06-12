@@ -1,0 +1,45 @@
+{
+  "name": "Acute Appendicitis",
+  "specialty": "general_surgery",
+  "chief_complaint": "Severe pain in the lower right side of my belly",
+  "symptoms": [
+    "abdominal pain",
+    "nausea",
+    "loss of appetite",
+    "fever"
+  ],
+  "physical_findings": [
+    "tenderness in right lower quadrant",
+    "rebound tenderness",
+    "guarding"
+  ],
+  "lab_results": {
+    "WBC": "elevated",
+    "CRP": "positive"
+  },
+  "treatment": [
+    "appendectomy",
+    "IV antibiotics",
+    "pain management"
+  ],
+  "prognosis": "Excellent with timely surgical intervention",
+  "description": "Inflammation of the appendix, typically requiring surgical removal to prevent rupture and peritonitis",
+  "risk_factors": [
+    "age 10-30",
+    "family history",
+    "male gender"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "easy_general_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Ovarian torsion",
+    "Acute Appendicitis",
+    "Diverticulitis",
+    "Gastroenteritis"
+  ]
+}

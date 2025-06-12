@@ -1,0 +1,42 @@
+{
+  "name": "Cannabis Hyperemesis Syndrome",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I've been vomiting non-stop and hot showers are the only thing that helps",
+  "symptoms": [
+    "cyclic vomiting",
+    "abdominal pain",
+    "compulsive hot bathing"
+  ],
+  "physical_findings": [
+    "dehydration signs",
+    "epigastric tenderness"
+  ],
+  "lab_results": {
+    "electrolytes": "hypokalemia",
+    "urine drug screen": "THC-positive"
+  },
+  "treatment": [
+    "cannabis cessation",
+    "IV fluids",
+    "antiemetics"
+  ],
+  "prognosis": "Symptoms resolve with cannabis abstinence but may recur with reuse",
+  "description": "A paradoxical condition in chronic cannabis users characterized by cyclic vomiting episodes relieved by hot bathing. Pathophysiology involves CB1 receptor dysregulation in the hypothalamus and gastrointestinal tract.",
+  "risk_factors": [
+    "chronic cannabis use (>1 year)",
+    "high-potency cannabis products"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "medium_addiction_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gastroparesis",
+    "Cannabis Hyperemesis Syndrome",
+    "Peptic Ulcer Disease",
+    "Acute Pancreatitis"
+  ]
+}

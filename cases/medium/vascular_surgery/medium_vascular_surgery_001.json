@@ -1,0 +1,48 @@
+{
+  "name": "Iliac Artery Aneurysm with Partial Thrombosis",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "I have a throbbing pain in my lower abdomen that radiates to my back, and my left leg feels weak.",
+  "symptoms": [
+    "throbbing abdominal pain",
+    "radiating back pain",
+    "leg weakness",
+    "pulsatile abdominal mass"
+  ],
+  "physical_findings": [
+    "palpable pulsatile mass in lower abdomen",
+    "diminished left femoral pulse",
+    "mild left leg pallor"
+  ],
+  "lab_results": {
+    "D-dimer": "elevated",
+    "CRP": "moderately elevated",
+    "WBC": "normal"
+  },
+  "treatment": [
+    "urgent CT angiography",
+    "endovascular stent graft placement",
+    "anticoagulation therapy",
+    "blood pressure control"
+  ],
+  "prognosis": "Good with timely intervention, but risk of rupture without treatment",
+  "description": "A localized dilation of the iliac artery exceeding 1.5x normal diameter with partial thrombosis. The condition carries risk of rupture or distal embolism. Most common in elderly males with atherosclerosis.",
+  "risk_factors": [
+    "smoking",
+    "hypertension",
+    "atherosclerosis",
+    "male gender over 60"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "medium_vascular_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Lumbar Radiculopathy",
+    "Iliac Artery Aneurysm with Partial Thrombosis",
+    "Abdominal Aortic Aneurysm",
+    "Deep Vein Thrombosis"
+  ]
+}

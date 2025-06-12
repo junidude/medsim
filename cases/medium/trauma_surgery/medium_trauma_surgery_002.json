@@ -1,0 +1,42 @@
+{
+  "name": "Traumatic Diaphragmatic Hernia",
+  "specialty": "trauma_surgery",
+  "chief_complaint": "Severe chest and abdominal pain after a car accident",
+  "symptoms": [
+    "shortness of breath",
+    "abdominal pain radiating to shoulder",
+    "nausea"
+  ],
+  "physical_findings": [
+    "decreased breath sounds on left side",
+    "abdominal tenderness with guarding"
+  ],
+  "lab_results": {
+    "WBC": "12,500/uL",
+    "ABG": "respiratory alkalosis"
+  },
+  "treatment": [
+    "emergency surgical repair",
+    "NG tube decompression",
+    "pain management"
+  ],
+  "prognosis": "Good with prompt surgical intervention, but risk of complications if delayed",
+  "description": "A tear in the diaphragm allowing abdominal organs to herniate into the thoracic cavity, typically caused by blunt trauma. Often missed initially due to other obvious injuries.",
+  "risk_factors": [
+    "high-impact blunt trauma",
+    "seatbelt use without airbag deployment"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "medium_trauma_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Splenic Rupture",
+    "Traumatic Diaphragmatic Hernia",
+    "Rib Fracture",
+    "Hemothorax"
+  ]
+}

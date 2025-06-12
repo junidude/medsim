@@ -1,0 +1,53 @@
+{
+  "name": "Granulomatous Myocarditis with Conduction System Involvement",
+  "specialty": "internal_medicine",
+  "chief_complaint": "I keep feeling like my heart is skipping beats and I'm so tired I can barely walk to the bathroom",
+  "symptoms": [
+    "palpitations",
+    "severe fatigue",
+    "exertional dyspnea",
+    "presyncope episodes",
+    "night sweats"
+  ],
+  "physical_findings": [
+    "irregularly irregular pulse",
+    "bilateral pedal edema",
+    "S3 gallop on auscultation",
+    "jugular venous distension"
+  ],
+  "lab_results": {
+    "hs-Troponin": "378 ng/L",
+    "BNP": "1420 pg/mL",
+    "CRP": "48 mg/L",
+    "ESR": "62 mm/hr",
+    "ACE levels": "112 U/L"
+  },
+  "treatment": [
+    "high-dose corticosteroids",
+    "immunosuppressive therapy",
+    "temporary pacemaker placement",
+    "diuretics for volume management",
+    "antiarrhythmics for ventricular ectopy"
+  ],
+  "prognosis": "Guarded - depends on response to immunosuppression and degree of myocardial fibrosis. High risk for progression to complete heart block or dilated cardiomyopathy.",
+  "description": "A rare inflammatory condition characterized by non-caseating granulomas infiltrating the myocardium and conduction system, often with associated systemic sarcoidosis. Leads to arrhythmias, conduction abnormalities, and progressive heart failure through direct tissue destruction and fibrosis.",
+  "risk_factors": [
+    "African descent",
+    "history of pulmonary sarcoidosis",
+    "family history of autoimmune disease",
+    "age 30-50 years"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "hard_internal_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Atrial Fibrillation with CHF",
+    "Granulomatous Myocarditis with Conduction System Involvement",
+    "Dilated Cardiomyopathy",
+    "Cardiac Sarcoidosis"
+  ]
+}

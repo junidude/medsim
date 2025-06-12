@@ -1,0 +1,47 @@
+{
+  "name": "Idiopathic Aorto-Mesenteric Compression Syndrome",
+  "specialty": "vascular_surgery",
+  "chief_complaint": "Severe abdominal pain after eating and unexplained weight loss",
+  "symptoms": [
+    "Postprandial abdominal pain",
+    "Nausea with occasional vomiting",
+    "Unintentional 15% body weight loss over 3 months",
+    "Food fear due to pain association"
+  ],
+  "physical_findings": [
+    "Epigastric bruit on auscultation",
+    "Visible abdominal pulsations",
+    "Cachectic appearance with muscle wasting"
+  ],
+  "lab_results": {
+    "Albumin": "2.8 g/dL (low)",
+    "CRP": "18 mg/L (elevated)",
+    "D-dimer": "1200 ng/mL (elevated)"
+  },
+  "treatment": [
+    "Endovascular stenting of compressed segment",
+    "Surgical vascular decompression via aortomesenteric bypass",
+    "Total parenteral nutrition for preoperative optimization",
+    "Pain management with non-opioid alternatives"
+  ],
+  "prognosis": "Guarded - depends on timely intervention before irreversible bowel ischemia develops. 60% success rate with combined endovascular-surgical approach.",
+  "description": "A rare vascular compression disorder where the superior mesenteric artery becomes pathologically compressed between the aorta and overlying structures, causing chronic mesenteric ischemia. This variant lacks the typical anatomical predispositions seen in median arcuate ligament syndrome.",
+  "risk_factors": [
+    "Rapid growth spurts in adolescence",
+    "Connective tissue disorders",
+    "Extreme physical training with core muscle hypertrophy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_vascular_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Superior mesenteric artery syndrome",
+    "Chronic mesenteric ischemia",
+    "Idiopathic Aorto-Mesenteric Compression Syndrome",
+    "Gastric outlet obstruction"
+  ]
+}

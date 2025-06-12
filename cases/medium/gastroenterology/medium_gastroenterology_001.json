@@ -1,0 +1,47 @@
+{
+  "name": "Biliary Dyskinesia",
+  "specialty": "gastroenterology",
+  "chief_complaint": "I keep getting sharp pains in my upper right belly, especially after eating fatty foods",
+  "symptoms": [
+    "epigastric pain",
+    "nausea",
+    "bloating",
+    "fatty food intolerance"
+  ],
+  "physical_findings": [
+    "mild tenderness in RUQ",
+    "no palpable masses",
+    "negative Murphy's sign"
+  ],
+  "lab_results": {
+    "CBC": "normal",
+    "Liver enzymes": "normal",
+    "Lipase": "normal",
+    "HIDA scan EF": "28% (abnormally low)"
+  },
+  "treatment": [
+    "low-fat diet",
+    "ursodeoxycholic acid",
+    "consider cholecystectomy if refractory"
+  ],
+  "prognosis": "Good with dietary management, excellent with surgical intervention if needed",
+  "description": "A functional gallbladder disorder characterized by impaired gallbladder emptying without gallstones. Pain occurs due to biliary colic when the gallbladder fails to properly contract in response to meals, particularly fatty ones.",
+  "risk_factors": [
+    "female gender",
+    "obesity",
+    "rapid weight loss"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_gastroenterology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Cholelithiasis",
+    "Biliary Dyskinesia",
+    "Gastritis",
+    "Peptic Ulcer Disease"
+  ]
+}

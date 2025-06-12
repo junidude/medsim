@@ -1,0 +1,48 @@
+{
+  "name": "Paroxysmal Nocturnal Dissociative Episodes (PNDE)",
+  "specialty": "psychiatry",
+  "chief_complaint": "I wake up screaming and don't recognize my own family, but I don't remember it happening",
+  "symptoms": [
+    "Nocturnal episodes of extreme terror",
+    "Transient amnesia for the event",
+    "Visual hallucinations of shadowy figures",
+    "Tachycardia during episodes",
+    "Profuse sweating during episodes"
+  ],
+  "physical_findings": [
+    "Elevated blood pressure post-episode",
+    "Minor self-inflicted scratches (from flailing)"
+  ],
+  "lab_results": {
+    "Polysomnography": "No epileptiform activity",
+    "24hr cortisol": "Elevated nocturnal spikes",
+    "EEG during episode": "Diffuse theta waves without seizure patterns"
+  },
+  "treatment": [
+    "Clonidine at bedtime",
+    "Trauma-focused CBT",
+    "Sleep environment modification therapy",
+    "Emergency lorazepam protocol for prolonged episodes"
+  ],
+  "prognosis": "Variable; 40% achieve remission with treatment, 30% have chronic recurrent episodes, remainder show gradual improvement over years",
+  "description": "A rare dissociative sleep disorder where patients experience terrifying nocturnal episodes with complete lack of recognition of familiar people/environments, distinct from night terrors or REM behavior disorder by the presence of waking dissociative features and absence of sleepwalking. Episodes typically last 5-20 minutes with complete amnesia afterward.",
+  "risk_factors": [
+    "History of childhood trauma",
+    "Borderline personality traits",
+    "Family history of dissociative disorders",
+    "Recent major stressor"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_psychiatry_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Night terrors",
+    "Paroxysmal Nocturnal Dissociative Episodes (PNDE)",
+    "Nocturnal panic attacks",
+    "REM sleep behavior disorder"
+  ]
+}

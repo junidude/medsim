@@ -1,0 +1,50 @@
+{
+  "name": "Congenital Erythropoietic Porphyria (Günther Disease)",
+  "specialty": "pediatric_hematology_oncology",
+  "chief_complaint": "My child's skin blisters easily in sunlight, and their urine is dark red",
+  "symptoms": [
+    "Severe photosensitivity",
+    "Hemolytic anemia",
+    "Reddish-brown urine",
+    "Splenomegaly",
+    "Hypertrichosis (excessive hair growth)"
+  ],
+  "physical_findings": [
+    "Fragile blistering skin in sun-exposed areas",
+    "Erythrodontia (reddish-brown teeth under UV light)",
+    "Scleral icterus"
+  ],
+  "lab_results": {
+    "Porphyrin levels (urine)": "Markedly elevated uroporphyrin I",
+    "Complete blood count": "Hemolytic anemia with reticulocytosis",
+    "Direct antiglobulin test": "Negative (ruling out autoimmune hemolysis)",
+    "Bilirubin": "Elevated unconjugated bilirubin"
+  },
+  "treatment": [
+    "Strict sunlight avoidance and protective clothing",
+    "High-level UV protection (tinted windows, special lighting)",
+    "Splenectomy for severe hemolysis",
+    "Hematopoietic stem cell transplantation in severe cases",
+    "Red blood cell transfusions for symptomatic anemia"
+  ],
+  "prognosis": "Chronic condition with variable severity; severe cases have reduced life expectancy due to complications; early diagnosis and strict photoprotection improve quality of life",
+  "description": "An extremely rare autosomal recessive metabolic disorder affecting heme biosynthesis, characterized by accumulation of uroporphyrin I in bones, teeth, and tissues. Causes cutaneous photosensitivity, hemolytic anemia, and progressive mutilating photodermatosis. Onset typically occurs in infancy or early childhood.",
+  "risk_factors": [
+    "Consanguineous parentage",
+    "Family history of porphyria",
+    "Northern European descent (higher carrier frequency)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "hard_pediatric_hematology_oncology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Porphyria Cutanea Tarda",
+    "Congenital Erythropoietic Porphyria (Günther Disease)",
+    "Erythropoietic Protoporphyria",
+    "Hereditary Coproporphyria"
+  ]
+}

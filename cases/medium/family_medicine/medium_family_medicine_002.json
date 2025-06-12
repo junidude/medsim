@@ -1,0 +1,47 @@
+{
+  "name": "Subacute Thyroiditis",
+  "specialty": "family_medicine",
+  "chief_complaint": "I've had a sore throat and neck pain for weeks, and I feel tired all the time.",
+  "symptoms": [
+    "neck pain",
+    "fatigue",
+    "low-grade fever",
+    "palpitations",
+    "weight loss"
+  ],
+  "physical_findings": [
+    "tender thyroid enlargement",
+    "mild tachycardia",
+    "warm skin"
+  ],
+  "lab_results": {
+    "TSH": "low",
+    "Free T4": "elevated",
+    "ESR": "elevated"
+  },
+  "treatment": [
+    "NSAIDs for pain/inflammation",
+    "beta-blockers for tachycardia",
+    "monitoring for hypothyroid phase"
+  ],
+  "prognosis": "Generally good; most patients recover normal thyroid function within 12 months",
+  "description": "A self-limiting inflammatory thyroid disorder often following viral illness, characterized by thyroid pain, transient hyperthyroidism, and possible subsequent hypothyroid phase before recovery.",
+  "risk_factors": [
+    "recent viral infection",
+    "female gender",
+    "age 20-50"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "5"
+  },
+  "case_id": "medium_family_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Graves' Disease",
+    "Subacute Thyroiditis",
+    "Acute Pharyngitis",
+    "Hashimoto's Thyroiditis"
+  ]
+}

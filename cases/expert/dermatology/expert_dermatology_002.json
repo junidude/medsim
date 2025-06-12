@@ -1,0 +1,46 @@
+{
+  "name": "Erythrokeratoderma Variabilis et Progressiva (EKVP)",
+  "specialty": "dermatology",
+  "chief_complaint": "My skin has patches that keep changing color and texture, and they're spreading.",
+  "symptoms": [
+    "Migratory erythematous patches",
+    "Progressive hyperkeratotic plaques",
+    "Pruritus (itching)",
+    "Sensitivity to temperature changes"
+  ],
+  "physical_findings": [
+    "Sharply demarcated red patches with variable borders",
+    "Thickened, scaly plaques in fixed locations (e.g., elbows, knees)",
+    "Lesions that wax and wane in size and shape over hours to days"
+  ],
+  "lab_results": {
+    "Skin biopsy": "Hyperkeratosis, parakeratosis, and mild perivascular lymphocytic infiltrate",
+    "Genetic testing": "Mutation in GJB3 or GJB4 (connexin genes)"
+  },
+  "treatment": [
+    "Topical keratolytics (urea, salicylic acid)",
+    "Systemic retinoids (acitretin) for severe cases",
+    "Emollients and moisturizers",
+    "Avoidance of triggers (temperature extremes, friction)"
+  ],
+  "prognosis": "Chronic condition with variable course; lesions may stabilize in adulthood but rarely resolve completely",
+  "description": "EKVP is a rare genodermatosis characterized by two distinct features: (1) transient, migratory erythematous patches (variabilis) and (2) fixed hyperkeratotic plaques (progressiva). It results from mutations affecting gap junction proteins. The condition typically presents in infancy or early childhood.",
+  "risk_factors": [
+    "Family history of EKVP",
+    "Autosomal dominant inheritance pattern",
+    "Cold or dry climates (exacerbating factor)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "expert_dermatology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Psoriasis",
+    "Erythrokeratoderma Variabilis et Progressiva (EKVP)",
+    "Cutaneous T-cell Lymphoma",
+    "Pityriasis Rubra Pilaris"
+  ]
+}

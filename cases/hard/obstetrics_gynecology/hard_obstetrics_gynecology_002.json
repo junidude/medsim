@@ -1,0 +1,50 @@
+{
+  "name": "Uterine Arteriovenous Malformation (AVM) with Secondary Hemorrhage",
+  "specialty": "obstetrics_gynecology",
+  "chief_complaint": "I have heavy vaginal bleeding that won't stop, and I feel very dizzy",
+  "symptoms": [
+    "Profuse vaginal bleeding",
+    "Lightheadedness",
+    "Pelvic pressure/pain",
+    "Syncopal episodes"
+  ],
+  "physical_findings": [
+    "Pale conjunctiva (sign of anemia)",
+    "Tachycardia (HR 120 bpm)",
+    "Uterine bruit on auscultation",
+    "Boggy, enlarged uterus"
+  ],
+  "lab_results": {
+    "Hemoglobin": "6.2 g/dL",
+    "Beta-hCG": "Negative",
+    "Coagulation panel": "Prolonged PT/PTT",
+    "Ferritin": "8 ng/mL"
+  },
+  "treatment": [
+    "Emergency uterine artery embolization",
+    "Blood transfusion (PRBCs + FFP)",
+    "IV iron supplementation",
+    "Possible hysterectomy if unstable"
+  ],
+  "prognosis": "Guarded - high risk of life-threatening hemorrhage without prompt intervention; good outcomes with timely embolization",
+  "description": "A rare vascular anomaly where abnormal connections form between uterine arteries and veins, often causing torrential bleeding. May be congenital or acquired (post-D&C, C-section, or gestational trophoblastic disease). This case presents with acute hemorrhage requiring urgent intervention.",
+  "risk_factors": [
+    "Previous uterine surgery",
+    "Multiple curettage procedures",
+    "Gestational trophoblastic disease history",
+    "Pelvic trauma"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_obstetrics_gynecology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Retained products of conception",
+    "Uterine Arteriovenous Malformation (AVM) with Secondary Hemorrhage",
+    "Uterine atony",
+    "Cervical ectopic pregnancy"
+  ]
+}

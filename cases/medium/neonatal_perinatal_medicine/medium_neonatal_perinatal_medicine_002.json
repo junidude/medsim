@@ -1,0 +1,44 @@
+{
+  "name": "Transient Tachypnea of the Newborn (TTN)",
+  "specialty": "neonatal_perinatal_medicine",
+  "chief_complaint": "Baby breathing too fast since birth",
+  "symptoms": [
+    "rapid breathing",
+    "grunting",
+    "mild cyanosis"
+  ],
+  "physical_findings": [
+    "tachypnea (>60 breaths/min)",
+    "intercostal retractions",
+    "clear lung sounds"
+  ],
+  "lab_results": {
+    "arterial blood gas": "mild respiratory acidosis",
+    "chest x-ray": "prominent perihilar markings"
+  },
+  "treatment": [
+    "oxygen therapy",
+    "continuous positive airway pressure (CPAP) if needed",
+    "supportive care"
+  ],
+  "prognosis": "Excellent with resolution typically within 24-72 hours",
+  "description": "A self-limiting respiratory disorder caused by delayed clearance of fetal lung fluid, commonly seen in late preterm and cesarean-delivered infants",
+  "risk_factors": [
+    "cesarean delivery",
+    "late preterm birth",
+    "maternal diabetes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "2"
+  },
+  "case_id": "medium_neonatal_perinatal_medicine_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Respiratory Distress Syndrome",
+    "Transient Tachypnea of the Newborn (TTN)",
+    "Pneumonia",
+    "Congenital Heart Disease"
+  ]
+}

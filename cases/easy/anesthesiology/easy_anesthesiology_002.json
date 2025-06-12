@@ -1,0 +1,42 @@
+{
+  "name": "Postoperative Nausea and Vomiting (PONV)",
+  "specialty": "anesthesiology",
+  "chief_complaint": "I feel nauseous and might throw up after surgery",
+  "symptoms": [
+    "nausea",
+    "vomiting",
+    "dizziness"
+  ],
+  "physical_findings": [
+    "pale skin",
+    "mild tachycardia"
+  ],
+  "lab_results": {
+    "electrolytes": "mild hypokalemia"
+  },
+  "treatment": [
+    "IV fluids",
+    "ondansetron",
+    "hydration"
+  ],
+  "prognosis": "Excellent with prompt treatment, resolves within 24 hours",
+  "description": "A common complication after anesthesia characterized by nausea and vomiting in the postoperative period, often related to anesthetic agents or opioid use",
+  "risk_factors": [
+    "female gender",
+    "history of motion sickness",
+    "non-smoking status"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_anesthesiology_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Hypovolemia",
+    "Postoperative Nausea and Vomiting (PONV)",
+    "Opioid side effect",
+    "Gastroenteritis"
+  ]
+}

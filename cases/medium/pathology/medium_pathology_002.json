@@ -1,0 +1,45 @@
+{
+  "name": "Granulomatous Lymphadenitis",
+  "specialty": "pathology",
+  "chief_complaint": "I have swollen lymph nodes in my neck and I feel tired all the time.",
+  "symptoms": [
+    "fatigue",
+    "night sweats",
+    "unintentional weight loss",
+    "swollen lymph nodes"
+  ],
+  "physical_findings": [
+    "palpable cervical lymphadenopathy",
+    "low-grade fever"
+  ],
+  "lab_results": {
+    "CBC": "mild anemia",
+    "ESR": "elevated",
+    "lymph node biopsy": "non-caseating granulomas"
+  },
+  "treatment": [
+    "corticosteroids",
+    "immunosuppressive therapy if refractory",
+    "treat underlying cause if identified"
+  ],
+  "prognosis": "Generally good with treatment, but depends on underlying cause. May require long-term management.",
+  "description": "A chronic inflammatory condition characterized by formation of granulomas in lymph nodes. Can be caused by infections (like tuberculosis), autoimmune diseases, or be idiopathic. Requires thorough workup to determine etiology.",
+  "risk_factors": [
+    "history of tuberculosis exposure",
+    "autoimmune disorders",
+    "immunocompromised state"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_pathology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Lymphoma",
+    "Tuberculous Lymphadenitis",
+    "Granulomatous Lymphadenitis",
+    "Sarcoidosis"
+  ]
+}

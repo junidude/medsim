@@ -1,0 +1,45 @@
+{
+  "name": "Recurrent Laryngeal Nerve Palsy",
+  "specialty": "otolaryngology",
+  "chief_complaint": "My voice has been hoarse for weeks, and sometimes I choke when drinking water",
+  "symptoms": [
+    "hoarseness",
+    "weak voice",
+    "choking on liquids",
+    "breathiness when speaking"
+  ],
+  "physical_findings": [
+    "asymmetrical vocal cord movement on laryngoscopy",
+    "weak cough reflex",
+    "possible mild stridor"
+  ],
+  "lab_results": {
+    "thyroid function tests": "normal",
+    "CT neck with contrast": "no mass lesions identified"
+  },
+  "treatment": [
+    "voice therapy",
+    "possible vocal cord injection medialization",
+    "speech pathology referral"
+  ],
+  "prognosis": "Variable - may resolve spontaneously if caused by viral illness, but can be permanent if nerve damage is severe",
+  "description": "Unilateral paralysis of the recurrent laryngeal nerve causing vocal cord dysfunction. May result from viral infections, surgical trauma (especially thyroid surgery), or compressive lesions. Left side more commonly affected due to longer nerve course.",
+  "risk_factors": [
+    "recent neck/thyroid surgery",
+    "upper respiratory infection",
+    "esophageal cancer"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "medium_otolaryngology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Vocal Cord Paralysis",
+    "Laryngeal Tumor",
+    "Recurrent Laryngeal Nerve Palsy",
+    "Myasthenia Gravis"
+  ]
+}

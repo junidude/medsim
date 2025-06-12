@@ -1,0 +1,50 @@
+{
+  "name": "Radioiodine-Refractory Differentiated Thyroid Carcinoma",
+  "specialty": "nuclear_medicine",
+  "chief_complaint": "Persistent neck swelling and fatigue despite previous radioactive iodine treatment",
+  "symptoms": [
+    "Progressive neck mass",
+    "Hoarseness",
+    "Dysphagia",
+    "Unexplained weight loss",
+    "Bone pain"
+  ],
+  "physical_findings": [
+    "Firm, fixed thyroid nodule",
+    "Cervical lymphadenopathy",
+    "Vocal cord paralysis on laryngoscopy"
+  ],
+  "lab_results": {
+    "Thyroglobulin": ">1000 ng/mL (rising)",
+    "TSH": "Suppressed",
+    "FT4": "Normal",
+    "FT3": "Elevated"
+  },
+  "treatment": [
+    "Multikinase inhibitors (lenvatinib or sorafenib)",
+    "External beam radiation for symptomatic metastases",
+    "Palliative care coordination",
+    "Clinical trial enrollment"
+  ],
+  "prognosis": "Guarded with median survival of 3-5 years after diagnosis of refractoriness",
+  "description": "A challenging subset of differentiated thyroid cancer that loses the ability to concentrate radioactive iodine despite TSH stimulation, often with aggressive metastatic behavior. Typically develops after multiple I-131 treatments with progressive thyroglobulin elevation and imaging evidence of disease progression.",
+  "risk_factors": [
+    "Prior high-dose radioactive iodine exposure",
+    "Tall-cell variant histology",
+    "BRAF V600E mutation",
+    "Extrathyroidal extension at initial surgery"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "hard_nuclear_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Anaplastic Thyroid Carcinoma",
+    "Radioiodine-Refractory Differentiated Thyroid Carcinoma",
+    "Medullary Thyroid Carcinoma",
+    "Thyroid Lymphoma"
+  ]
+}

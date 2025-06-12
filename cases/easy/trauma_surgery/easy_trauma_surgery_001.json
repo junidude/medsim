@@ -1,0 +1,42 @@
+{
+  "name": "Simple Forearm Laceration",
+  "specialty": "trauma_surgery",
+  "chief_complaint": "I cut my arm on a piece of metal at work",
+  "symptoms": [
+    "bleeding from forearm",
+    "mild pain",
+    "no numbness"
+  ],
+  "physical_findings": [
+    "2cm linear laceration on volar forearm",
+    "no tendon exposure",
+    "capillary refill <2sec"
+  ],
+  "lab_results": {
+    "hemoglobin": "13.2 g/dL"
+  },
+  "treatment": [
+    "wound irrigation",
+    "primary closure with sutures",
+    "tetanus prophylaxis if needed"
+  ],
+  "prognosis": "excellent with proper wound care",
+  "description": "Superficial laceration of the forearm without neurovascular compromise or tendon involvement",
+  "risk_factors": [
+    "manual labor occupation",
+    "lack of protective equipment"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "easy_trauma_surgery_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Tendon Laceration",
+    "Simple Forearm Laceration",
+    "Cellulitis",
+    "Foreign Body Retention"
+  ]
+}

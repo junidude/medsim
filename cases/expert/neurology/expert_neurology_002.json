@@ -1,0 +1,50 @@
+{
+  "name": "Paroxysmal Hemicrania Continua with Trigeminal Neuralgia Overlap",
+  "specialty": "neurology",
+  "chief_complaint": "I get these sudden, excruciating headaches on one side of my head, and sometimes my face feels like it's being stabbed with electricity.",
+  "symptoms": [
+    "Unilateral severe orbital/supraorbital pain",
+    "Autonomic symptoms (ipsilateral tearing, nasal congestion)",
+    "Lancinating facial pain triggered by light touch",
+    "Pain attacks lasting 2-30 minutes",
+    "More than 5 attacks per day"
+  ],
+  "physical_findings": [
+    "Allodynia in V1/V2 trigeminal distribution",
+    "Horner's syndrome during attacks",
+    "No neurological deficits between attacks"
+  ],
+  "lab_results": {
+    "C-reactive protein": "Normal",
+    "ESR": "Normal",
+    "Brain MRI": "No structural abnormalities",
+    "Trigeminal reflexes": "Abnormal blink reflex"
+  },
+  "treatment": [
+    "Indomethacin trial (diagnostic and therapeutic)",
+    "Carbamazepine for neuralgic component",
+    "Occipital nerve blocks",
+    "High-flow oxygen during acute attacks"
+  ],
+  "prognosis": "Chronic condition with excellent response to indomethacin, though neuralgic component may require long-term management. Complete remission occurs in <10% of cases.",
+  "description": "A rare primary headache disorder combining features of paroxysmal hemicrania (indomethacin-responsive unilateral headache with autonomic features) and trigeminal neuralgia. The pathophysiology involves both trigeminovascular activation and trigeminal nerve hypersensitivity. Attacks are strictly unilateral, with pain maximal in the V1 distribution but radiating to V2/V3 territories.",
+  "risk_factors": [
+    "Female sex",
+    "History of migraine",
+    "Cervical spine trauma",
+    "Neurovascular compression seen in some cases"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "9"
+  },
+  "case_id": "expert_neurology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Cluster Headache",
+    "Trigeminal Neuralgia",
+    "Paroxysmal Hemicrania Continua with Trigeminal Neuralgia Overlap",
+    "Short-lasting Unilateral Neuralgiform Headache Attacks"
+  ]
+}

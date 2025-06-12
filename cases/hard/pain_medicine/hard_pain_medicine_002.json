@@ -1,0 +1,52 @@
+{
+  "name": "Central Sensitization Syndrome with Neuropathic Overlay",
+  "specialty": "pain_medicine",
+  "chief_complaint": "I have burning pain all over my body that won't go away, and even light touch hurts",
+  "symptoms": [
+    "widespread burning pain",
+    "allodynia (pain from non-painful stimuli)",
+    "fatigue",
+    "cognitive difficulties ('brain fog')",
+    "sleep disturbances"
+  ],
+  "physical_findings": [
+    "hyperalgesia to pinprick testing",
+    "normal muscle strength and reflexes",
+    "tenderness at multiple non-anatomic points",
+    "autonomic signs (mottled skin, temperature changes)"
+  ],
+  "lab_results": {
+    "CRP": "normal",
+    "ESR": "normal",
+    "ANA": "negative",
+    "Nerve conduction studies": "normal"
+  },
+  "treatment": [
+    "low-dose naltrexone",
+    "milnacipran or duloxetine",
+    "cognitive behavioral therapy",
+    "graded exercise program",
+    "ketamine infusion therapy (for refractory cases)"
+  ],
+  "prognosis": "Chronic condition requiring long-term management. Approximately 30% achieve significant functional improvement with multimodal therapy.",
+  "description": "A complex pain disorder characterized by amplified CNS processing of normal sensory input combined with neuropathic features. Involves dysfunction in descending inhibitory pathways and glial cell activation. Distinct from fibromyalgia by its prominent neuropathic component.",
+  "risk_factors": [
+    "history of childhood trauma",
+    "autoimmune disease in first-degree relatives",
+    "prolonged opioid use prior to onset",
+    "post-viral syndromes"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_pain_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Fibromyalgia",
+    "Peripheral Neuropathy",
+    "Central Sensitization Syndrome with Neuropathic Overlay",
+    "Complex Regional Pain Syndrome"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Simple Forearm Laceration",
+  "specialty": "trauma_surgery",
+  "chief_complaint": "I cut my arm on a piece of metal at work",
+  "symptoms": [
+    "bleeding",
+    "pain at wound site",
+    "mild swelling"
+  ],
+  "physical_findings": [
+    "2cm linear laceration on volar forearm",
+    "no tendon or nerve damage visible",
+    "capillary refill <2sec distal to wound"
+  ],
+  "lab_results": {
+    "hemoglobin": "13.2 g/dL",
+    "WBC": "7.8 x10^9/L"
+  },
+  "treatment": [
+    "wound irrigation",
+    "primary closure with sutures",
+    "tetanus prophylaxis if needed",
+    "analgesics"
+  ],
+  "prognosis": "Excellent with proper wound care, expected full healing in 10-14 days",
+  "description": "Superficial sharp-force injury to the forearm without involvement of deep structures. Common in occupational settings with metal handling.",
+  "risk_factors": [
+    "manual labor",
+    "improper tool use",
+    "lack of protective equipment"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "easy_trauma_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Cellulitis",
+    "Simple Forearm Laceration",
+    "Foreign Body Reaction",
+    "Superficial Thrombophlebitis"
+  ]
+}

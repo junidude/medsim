@@ -1,0 +1,46 @@
+{
+  "name": "Radiation-Induced Esophagitis",
+  "specialty": "radiation_oncology",
+  "chief_complaint": "Painful swallowing and chest discomfort after radiation therapy",
+  "symptoms": [
+    "Odynophagia (painful swallowing)",
+    "Dysphagia (difficulty swallowing)",
+    "Retrosternal chest pain",
+    "Heartburn"
+  ],
+  "physical_findings": [
+    "Erythema of the oropharyngeal mucosa",
+    "Mild dehydration due to reduced fluid intake"
+  ],
+  "lab_results": {
+    "CBC": "Normal",
+    "Electrolytes": "Mild hypokalemia"
+  },
+  "treatment": [
+    "Topical anesthetic mouthwashes (e.g., lidocaine)",
+    "Proton pump inhibitors for acid suppression",
+    "Dietary modifications (soft, non-acidic foods)",
+    "Hydration support"
+  ],
+  "prognosis": "Generally resolves within 2-4 weeks after completing radiation therapy, though severe cases may require temporary feeding tube placement",
+  "description": "Inflammation of the esophageal lining caused by radiation therapy, typically occurring 2-3 weeks into treatment for thoracic or head/neck cancers. The condition results from direct damage to the rapidly dividing mucosal cells.",
+  "risk_factors": [
+    "Concurrent chemotherapy",
+    "Higher radiation doses (>45 Gy)",
+    "Pre-existing GERD",
+    "Tobacco use"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "medium_radiation_oncology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Gastroesophageal reflux disease",
+    "Radiation-Induced Esophagitis",
+    "Infectious esophagitis",
+    "Eosinophilic esophagitis"
+  ]
+}

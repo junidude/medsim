@@ -1,0 +1,50 @@
+{
+  "name": "Acute Viral Myocarditis",
+  "specialty": "pediatric_critical_care",
+  "chief_complaint": "My chest hurts and I feel so tired",
+  "symptoms": [
+    "fatigue",
+    "chest pain",
+    "shortness of breath",
+    "fever",
+    "palpitations"
+  ],
+  "physical_findings": [
+    "tachycardia",
+    "gallop rhythm",
+    "muffled heart sounds",
+    "peripheral edema"
+  ],
+  "lab_results": {
+    "troponin": "elevated",
+    "CRP": "high",
+    "BNP": "elevated",
+    "viral PCR panel": "positive for enterovirus"
+  },
+  "treatment": [
+    "IV immunoglobulin therapy",
+    "diuretics for fluid management",
+    "anti-inflammatory medications",
+    "mechanical circulatory support if needed"
+  ],
+  "prognosis": "Guarded; most recover with supportive care but risk of chronic cardiomyopathy remains",
+  "description": "Viral infection causing inflammation of the heart muscle, leading to impaired cardiac function. Common in children after viral illnesses, particularly enteroviruses.",
+  "risk_factors": [
+    "recent viral illness",
+    "immunocompromised state",
+    "young age (peak incidence 2-5 years)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "6"
+  },
+  "case_id": "medium_pediatric_critical_care_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Pericarditis",
+    "Acute Viral Myocarditis",
+    "Congestive Heart Failure",
+    "Pulmonary Embolism"
+  ]
+}

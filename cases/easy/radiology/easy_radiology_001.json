@@ -1,0 +1,43 @@
+{
+  "name": "Uncomplicated Kidney Stone (Nephrolithiasis)",
+  "specialty": "radiology",
+  "chief_complaint": "Sudden sharp pain in my lower back that radiates to my groin",
+  "symptoms": [
+    "Flank pain",
+    "Nausea",
+    "Painful urination"
+  ],
+  "physical_findings": [
+    "Costovertebral angle tenderness",
+    "Restlessness due to pain"
+  ],
+  "lab_results": {
+    "Urinalysis": "Microscopic hematuria",
+    "Serum Creatinine": "Normal"
+  },
+  "treatment": [
+    "Hydration",
+    "Pain management (NSAIDs)",
+    "Alpha-blockers if stone >5mm"
+  ],
+  "prognosis": "Excellent with spontaneous passage of stone (80% of cases <4mm)",
+  "description": "A 3-4mm calcium oxalate stone lodged in the proximal ureter, causing hydronephrosis on ultrasound but no signs of infection.",
+  "risk_factors": [
+    "Dehydration",
+    "High sodium diet",
+    "Family history of stones"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "8"
+  },
+  "case_id": "easy_radiology_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Muscle Strain",
+    "Uncomplicated Kidney Stone",
+    "Appendicitis",
+    "Uncomplicated Kidney Stone (Nephrolithiasis)"
+  ]
+}

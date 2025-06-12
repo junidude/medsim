@@ -1,0 +1,52 @@
+{
+  "name": "Partial Meniscal Tear",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "Sharp pain and clicking in right knee when walking, worse with stairs",
+  "symptoms": [
+    "Knee pain during activity",
+    "Clicking or popping sensation",
+    "Occasional knee locking",
+    "Stiffness after sitting",
+    "Mild swelling after activity"
+  ],
+  "physical_findings": [
+    "Positive McMurray test",
+    "Joint line tenderness",
+    "Limited range of motion",
+    "Mild effusion",
+    "Pain with deep knee flexion"
+  ],
+  "lab_results": {
+    "MRI": "Grade 2 tear of medial meniscus",
+    "X-ray": "No acute osseous abnormality"
+  },
+  "treatment": [
+    "Physical therapy",
+    "NSAIDs for pain management",
+    "Activity modification",
+    "Arthroscopic meniscal repair if conservative treatment fails",
+    "Home exercise program"
+  ],
+  "prognosis": "Good with appropriate treatment; 80% success rate with conservative management in partial tears",
+  "description": "A partial tear of the meniscus cartilage in the knee joint, causing pain and mechanical symptoms. The meniscus acts as a shock absorber between the thighbone and shinbone.",
+  "risk_factors": [
+    "Sports activities with pivoting",
+    "Age over 40",
+    "Previous knee injuries",
+    "Obesity",
+    "Occupational kneeling or squatting"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "generated_20250612002017_3937",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Patellofemoral Pain Syndrome",
+    "Partial Meniscal Tear",
+    "Osteoarthritis",
+    "ACL Tear"
+  ]
+}

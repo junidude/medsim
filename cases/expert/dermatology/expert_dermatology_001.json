@@ -1,0 +1,47 @@
+{
+  "name": "Erythrokeratodermia Variabilis et Progressiva (EKVP)",
+  "specialty": "dermatology",
+  "chief_complaint": "My skin keeps getting thick, red patches that come and go, and it's spreading to new areas.",
+  "symptoms": [
+    "Migratory erythematous patches",
+    "Progressive hyperkeratotic plaques",
+    "Pruritus (itching)",
+    "Burning sensation in affected areas"
+  ],
+  "physical_findings": [
+    "Geographic, sharply demarcated erythematous lesions",
+    "Symmetrical hyperkeratotic plaques on extremities",
+    "Palmoplantar keratoderma",
+    "Lesions with variable morphology over time"
+  ],
+  "lab_results": {
+    "Genetic testing": "GJB3 or GJB4 mutation positive",
+    "Skin biopsy": "Hyperkeratosis, acanthosis, mild perivascular infiltrate"
+  },
+  "treatment": [
+    "Systemic retinoids (acitretin)",
+    "Topical keratolytics (urea, salicylic acid)",
+    "Emollients and moisturizers",
+    "Phototherapy in select cases"
+  ],
+  "prognosis": "Chronic condition with variable progression; lesions may stabilize in adulthood but rarely resolve completely",
+  "description": "EKVP is a rare genodermatosis characterized by two distinct features: (1) transient, migratory erythematous patches (erythrokeratodermia variabilis) and (2) fixed hyperkeratotic plaques (progressiva). It results from connexin gene mutations affecting gap junction function in keratinocytes. The condition typically presents in infancy or early childhood and shows autosomal dominant inheritance with complete penetrance but variable expressivity.",
+  "risk_factors": [
+    "Family history of EKVP",
+    "De novo GJB3/GJB4 mutations",
+    "Cold weather exacerbations"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "expert_dermatology_001",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Psoriasis",
+    "Erythrokeratodermia Variabilis et Progressiva (EKVP)",
+    "Pityriasis Rubra Pilaris",
+    "Ichthyosis Vulgaris"
+  ]
+}

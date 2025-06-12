@@ -1,0 +1,47 @@
+{
+  "name": "Juvenile Recurrent Parotitis",
+  "specialty": "pediatrics",
+  "chief_complaint": "My cheek keeps swelling and hurts when I eat",
+  "symptoms": [
+    "Recurrent cheek swelling",
+    "Pain with eating",
+    "Low-grade fever",
+    "Dry mouth"
+  ],
+  "physical_findings": [
+    "Unilateral parotid gland swelling",
+    "Tenderness on palpation",
+    "Mild erythema over parotid area"
+  ],
+  "lab_results": {
+    "CBC": "Mild leukocytosis",
+    "Amylase": "Elevated",
+    "Ultrasound": "Hypoechoic areas in parotid"
+  },
+  "treatment": [
+    "Warm compresses",
+    "Analgesics (acetaminophen)",
+    "Sialogogues",
+    "Antibiotics if bacterial superinfection"
+  ],
+  "prognosis": "Generally good with spontaneous resolution by adolescence, though recurrences are common during childhood",
+  "description": "A non-obstructive, non-suppurative inflammatory condition of the parotid gland characterized by recurrent episodes of swelling and pain. Most common in children aged 3-6 years, with episodes lasting 3-7 days. Etiology is unclear but may involve ductal abnormalities or autoimmune factors.",
+  "risk_factors": [
+    "Dehydration",
+    "Recent viral illness",
+    "Family history of parotitis"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "5"
+  },
+  "case_id": "medium_pediatrics_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Mumps",
+    "Juvenile Recurrent Parotitis",
+    "Parotid Abscess",
+    "Sialolithiasis"
+  ]
+}

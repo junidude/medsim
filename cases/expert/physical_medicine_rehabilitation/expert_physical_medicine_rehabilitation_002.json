@@ -1,0 +1,53 @@
+{
+  "name": "Post-Traumatic Heterotopic Ossification with Neurogenic Component",
+  "specialty": "physical_medicine_rehabilitation",
+  "chief_complaint": "I can't move my elbow anymore, and it feels like there's a rock growing in my arm. The pain wakes me up at night.",
+  "symptoms": [
+    "progressive joint stiffness",
+    "localized burning pain",
+    "unexplained warmth over affected area",
+    "new-onset contractures",
+    "sensory changes in distal limb"
+  ],
+  "physical_findings": [
+    "palpable bony mass near joint",
+    "20-degree flexion contracture of elbow",
+    "allodynia in ulnar nerve distribution",
+    "decreased active ROM > passive ROM",
+    "autonomic dysregulation (mottled skin)"
+  ],
+  "lab_results": {
+    "ALP": "320 U/L (elevated)",
+    "CRP": "4.8 mg/dL",
+    "SPECT-CT": "increased radiotracer uptake at ossification site",
+    "EMG": "ulnar neuropathy at elbow"
+  },
+  "treatment": [
+    "pulsed electromagnetic field therapy",
+    "indomethacin prophylaxis protocol",
+    "nerve hydrodissection under ultrasound",
+    "custom dynamic orthosis with pressure relief",
+    "staged surgical excision (after maturation phase)"
+  ],
+  "prognosis": "Guarded - high recurrence risk without aggressive rehabilitation. 60% achieve functional ROM with multimodal intervention.",
+  "description": "Pathologic bone formation in soft tissues following traumatic brain injury, compounded by neurogenic inflammation and autonomic dysfunction. Unique presentation combines ectopic ossification with peripheral nerve entrapment due to aberrant bone growth patterns influenced by CNS injury.",
+  "risk_factors": [
+    "severe TBI with diffuse axonal injury",
+    "prolonged mechanical ventilation",
+    "history of autonomic dysreflexia",
+    "concurrent spasticity management with NMES"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "expert_physical_medicine_rehabilitation_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Complex Regional Pain Syndrome",
+    "Post-Traumatic Heterotopic Ossification with Neurogenic Component",
+    "Osteosarcoma",
+    "Septic Arthritis"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Acute Sinusitis",
+  "specialty": "family_medicine",
+  "chief_complaint": "I've had a stuffy nose and face pain for 10 days that's not getting better",
+  "symptoms": [
+    "facial pressure and pain",
+    "nasal congestion",
+    "thick yellow-green nasal discharge",
+    "reduced sense of smell",
+    "headache"
+  ],
+  "physical_findings": [
+    "tenderness over maxillary sinuses",
+    "purulent nasal drainage",
+    "posterior pharyngeal drainage"
+  ],
+  "lab_results": {
+    "nasal culture": "not typically required for uncomplicated cases"
+  },
+  "treatment": [
+    "saline nasal irrigation",
+    "over-the-counter decongestants",
+    "amoxicillin if bacterial infection suspected",
+    "nasal corticosteroids"
+  ],
+  "prognosis": "Excellent with appropriate treatment; symptoms typically resolve within 7-14 days",
+  "description": "Inflammation of the paranasal sinuses usually following an upper respiratory infection or allergic response, causing obstruction of sinus drainage",
+  "risk_factors": [
+    "recent upper respiratory infection",
+    "allergies",
+    "anatomical nasal abnormalities",
+    "smoking"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "generated_20250612001845_6413",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Allergic Rhinitis",
+    "Acute Sinusitis",
+    "Common Cold",
+    "Migraine"
+  ]
+}

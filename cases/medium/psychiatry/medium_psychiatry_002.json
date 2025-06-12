@@ -1,0 +1,43 @@
+{
+  "name": "Dissociative Amnesia with Fugue State",
+  "specialty": "psychiatry",
+  "chief_complaint": "I don't remember who I am or how I got here",
+  "symptoms": [
+    "sudden memory loss",
+    "confusion about identity",
+    "unexplained travel",
+    "emotional numbness"
+  ],
+  "physical_findings": [
+    "normal neurological exam",
+    "no signs of physical trauma"
+  ],
+  "lab_results": {
+    "toxicology_screen": "negative",
+    "MRI_brain": "normal"
+  },
+  "treatment": [
+    "psychotherapy (trauma-focused)",
+    "hypnotherapy",
+    "supportive care"
+  ],
+  "prognosis": "Variable; most recover memories with treatment, but some gaps may persist",
+  "description": "A dissociative disorder characterized by sudden, unexpected travel away from home with inability to recall one's past and confusion about personal identity. Often triggered by severe stress or trauma.",
+  "risk_factors": [
+    "history of childhood trauma",
+    "recent severe stress"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "medium_psychiatry_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Transient Global Amnesia",
+    "Dissociative Amnesia with Fugue State",
+    "Complex Partial Seizure",
+    "Psychogenic Fugue"
+  ]
+}

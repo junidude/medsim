@@ -1,0 +1,31 @@
+{
+  "case_id": "medium_otolaryngology_002",
+  "name": "Common Cold",
+  "specialty": "otolaryngology",
+  "chief_complaint": "cold symptoms",
+  "symptoms": [
+    "runny nose",
+    "cough",
+    "fatigue"
+  ],
+  "physical_findings": [
+    "nasal congestion"
+  ],
+  "treatment": [
+    "rest",
+    "fluids"
+  ],
+  "prognosis": "resolves in 7-10 days",
+  "patient_behavior": {
+    "anxiety_level": "low",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Allergic Rhinitis",
+    "Common Cold",
+    "Acute Sinusitis",
+    "Influenza"
+  ]
+}

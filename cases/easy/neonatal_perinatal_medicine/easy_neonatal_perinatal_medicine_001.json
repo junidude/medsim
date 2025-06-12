@@ -1,0 +1,44 @@
+{
+  "name": "Neonatal Jaundice",
+  "specialty": "neonatal_perinatal_medicine",
+  "chief_complaint": "My baby looks yellow",
+  "symptoms": [
+    "yellow skin",
+    "yellow eyes",
+    "poor feeding",
+    "lethargy"
+  ],
+  "physical_findings": [
+    "yellow discoloration of skin",
+    "yellow sclerae",
+    "mild dehydration"
+  ],
+  "lab_results": {
+    "bilirubin": "elevated"
+  },
+  "treatment": [
+    "phototherapy",
+    "increased feeding",
+    "hydration support"
+  ],
+  "prognosis": "Excellent with timely treatment",
+  "description": "A common condition in newborns caused by elevated bilirubin levels, leading to yellow discoloration of the skin and eyes. Typically appears within the first week of life.",
+  "risk_factors": [
+    "prematurity",
+    "breastfeeding difficulties",
+    "blood type incompatibility"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "1"
+  },
+  "case_id": "easy_neonatal_perinatal_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Biliary Atresia",
+    "Neonatal Jaundice",
+    "Hepatitis",
+    "Hemolytic Anemia"
+  ]
+}

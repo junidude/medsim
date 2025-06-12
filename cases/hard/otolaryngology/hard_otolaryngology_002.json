@@ -1,0 +1,48 @@
+{
+  "name": "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+  "specialty": "otolaryngology",
+  "chief_complaint": "Persistent throat pain and voice changes that feel like electric shocks when speaking",
+  "symptoms": [
+    "Intermittent sharp laryngeal pain",
+    "Voice fatigue with prolonged use",
+    "Globus sensation (feeling of a lump in throat)",
+    "Occasional vocal cord spasms"
+  ],
+  "physical_findings": [
+    "Normal laryngeal mucosa on endoscopy",
+    "Hyperactive laryngeal reflex",
+    "Mild vocal tremor during sustained phonation"
+  ],
+  "lab_results": {
+    "Laryngeal EMG": "Increased spontaneous activity in thyroarytenoid muscle",
+    "Autoimmune panel": "Negative",
+    "CRP": "Normal range"
+  },
+  "treatment": [
+    "Gabapentin or pregabalin for neuropathic pain",
+    "Laryngeal botulinum toxin injections for refractory cases",
+    "Voice therapy with specialized SLP",
+    "Cognitive behavioral therapy for pain management"
+  ],
+  "prognosis": "Chronic but manageable condition; 60% achieve significant symptom reduction with multimodal therapy",
+  "description": "A rare neuropathic disorder affecting the laryngeal nerves, characterized by chronic pain and sensory disturbances without structural abnormalities. Thought to involve small fiber neuropathy of the superior laryngeal nerve branches.",
+  "risk_factors": [
+    "History of viral laryngitis",
+    "Autoimmune predisposition",
+    "Prior neck trauma or surgery",
+    "Chronic stress or anxiety disorders"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "7"
+  },
+  "case_id": "hard_otolaryngology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Laryngeal Dystonia",
+    "Idiopathic Laryngeal Neuropathic Syndrome (ILNS)",
+    "GERD-related Laryngitis",
+    "Muscle Tension Dysphonia"
+  ]
+}

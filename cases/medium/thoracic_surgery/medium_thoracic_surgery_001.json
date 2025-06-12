@@ -1,0 +1,50 @@
+{
+  "name": "Thoracic Outlet Syndrome with Venous Compression",
+  "specialty": "thoracic_surgery",
+  "chief_complaint": "My arm swells and turns blue when I raise it, and I have constant aching in my shoulder",
+  "symptoms": [
+    "arm swelling",
+    "arm discoloration (cyanosis)",
+    "shoulder pain",
+    "arm fatigue",
+    "tingling in fingers"
+  ],
+  "physical_findings": [
+    "supraclavicular tenderness",
+    "positive Adson's test",
+    "venous distension in affected arm",
+    "decreased radial pulse with arm elevation"
+  ],
+  "lab_results": {
+    "D-dimer": "negative",
+    "Complete Blood Count": "normal"
+  },
+  "treatment": [
+    "physical therapy",
+    "anticoagulation therapy",
+    "thoracic outlet decompression surgery",
+    "venoplasty if stenosis present"
+  ],
+  "prognosis": "Good with early intervention, may have recurrent symptoms if untreated. Surgical success rate 70-90% for venous TOS",
+  "description": "Compression of the subclavian vein as it passes through the thoracic outlet, causing venous obstruction and upper extremity symptoms. Often seen in repetitive overhead activities or post-traumatic cases. Can lead to Paget-Schroetter syndrome if thrombosis occurs.",
+  "risk_factors": [
+    "repetitive overhead activities",
+    "poor posture",
+    "cervical rib",
+    "previous clavicular fracture",
+    "weightlifting"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_thoracic_surgery_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Cervical Radiculopathy",
+    "Thoracic Outlet Syndrome with Venous Compression",
+    "Subclavian Vein Thrombosis",
+    "Rotator Cuff Tear"
+  ]
+}

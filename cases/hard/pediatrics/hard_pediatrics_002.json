@@ -1,0 +1,52 @@
+{
+  "name": "Congenital Leptin Receptor Deficiency (CLRD)",
+  "specialty": "pediatrics",
+  "chief_complaint": "My child is always hungry and gaining weight too fast",
+  "symptoms": [
+    "Severe hyperphagia (excessive hunger)",
+    "Rapid weight gain in infancy",
+    "Delayed puberty",
+    "Hypogonadotropic hypogonadism",
+    "Persistent fatigue"
+  ],
+  "physical_findings": [
+    "Extreme obesity (BMI >99th percentile)",
+    "Acantosis nigricans (dark skin patches)",
+    "Hypotonia (low muscle tone)",
+    "Short stature for age"
+  ],
+  "lab_results": {
+    "Leptin levels": "Normal or elevated",
+    "Leptin receptor gene sequencing": "Pathogenic mutation",
+    "Fasting glucose": "Elevated",
+    "Insulin levels": "Markedly elevated",
+    "LH/FSH": "Low"
+  },
+  "treatment": [
+    "Setmelanotide (MC4R agonist therapy)",
+    "Strict dietary management",
+    "Behavioral therapy for eating behaviors",
+    "Hormone replacement at puberty",
+    "Regular endocrine follow-up"
+  ],
+  "prognosis": "With early diagnosis and treatment, metabolic complications can be managed but lifelong therapy is required. Without treatment, severe obesity and metabolic syndrome develop.",
+  "description": "CLRD is an ultra-rare autosomal recessive disorder caused by mutations in the LEPR gene, leading to leptin receptor dysfunction. This results in failure of satiety signaling, severe early-onset obesity, and multiple endocrine abnormalities. The condition mimics simple obesity but has distinct genetic and metabolic features.",
+  "risk_factors": [
+    "Consanguineous parents",
+    "Family history of severe childhood obesity",
+    "Certain ethnic backgrounds (higher in Pakistani populations)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "hard_pediatrics_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Prader-Willi syndrome",
+    "Congenital Leptin Receptor Deficiency (CLRD)",
+    "Bardet-Biedl syndrome",
+    "Hypothyroidism"
+  ]
+}

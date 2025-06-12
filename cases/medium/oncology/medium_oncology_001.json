@@ -1,0 +1,45 @@
+{
+  "name": "Atypical Carcinoid Syndrome",
+  "specialty": "oncology",
+  "chief_complaint": "I've been having these weird flushing episodes and diarrhea that won't go away.",
+  "symptoms": [
+    "episodic facial flushing",
+    "chronic diarrhea",
+    "wheezing",
+    "palpitations"
+  ],
+  "physical_findings": [
+    "erythematous rash on face/neck",
+    "tachycardia",
+    "mild hepatomegaly"
+  ],
+  "lab_results": {
+    "5-HIAA urine": "elevated",
+    "Chromogranin A": "high",
+    "Serotonin": "increased"
+  },
+  "treatment": [
+    "somatostatin analogs (octreotide/lanreotide)",
+    "surgical resection if localized",
+    "symptom management with antidiarrheals"
+  ],
+  "prognosis": "Variable depending on tumor grade and spread, with 5-year survival ranging from 50-95% for localized disease",
+  "description": "A neuroendocrine tumor variant that secretes vasoactive substances like serotonin, causing paroxysmal symptoms. Grows slower than typical carcinoid but can metastasize. Often originates in lungs or GI tract.",
+  "risk_factors": [
+    "smoking history",
+    "family history of NETs"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "4"
+  },
+  "case_id": "medium_oncology_001",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Mastocytosis",
+    "Atypical Carcinoid Syndrome",
+    "Systemic Lupus Erythematosus",
+    "Pheochromocytoma"
+  ]
+}

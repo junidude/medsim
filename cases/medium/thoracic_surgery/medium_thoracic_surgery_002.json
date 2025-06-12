@@ -1,0 +1,50 @@
+{
+  "name": "Thoracic Outlet Syndrome with Venous Compression",
+  "specialty": "thoracic_surgery",
+  "chief_complaint": "My arm swells and turns blue when I raise it, and I feel a constant ache in my shoulder",
+  "symptoms": [
+    "arm swelling",
+    "cyanosis (bluish discoloration) of the arm",
+    "shoulder and neck pain",
+    "arm fatigue with activity",
+    "tingling in fingers"
+  ],
+  "physical_findings": [
+    "positive Adson's test (loss of radial pulse with arm maneuvers)",
+    "distended superficial veins on affected side",
+    "edema in the affected arm",
+    "tenderness over supraclavicular fossa"
+  ],
+  "lab_results": {
+    "D-dimer": "negative",
+    "CBC": "normal",
+    "Venous Doppler ultrasound": "shows compression of subclavian vein with arm abduction"
+  },
+  "treatment": [
+    "Physical therapy for postural correction",
+    "Anticoagulation therapy (if thrombosis present)",
+    "First rib resection via transaxillary approach",
+    "Botulinum toxin injection to scalene muscles in select cases"
+  ],
+  "prognosis": "Good with surgical intervention (80-90% symptom resolution), though may require prolonged physical therapy post-op",
+  "description": "Compression of the neurovascular structures (particularly subclavian vein) between the clavicle and first rib, often exacerbated by anatomical variations or repetitive overhead activities. The venous variant presents with positional venous obstruction and potential thrombosis.",
+  "risk_factors": [
+    "Repetitive overhead activities (swimming, baseball, painting)",
+    "Poor posture with forward head position",
+    "Presence of cervical rib (extra rib above first rib)",
+    "Previous clavicular fracture with malunion"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "medium_thoracic_surgery_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Subclavian vein thrombosis",
+    "Cervical radiculopathy",
+    "Thoracic Outlet Syndrome with Venous Compression",
+    "Rotator cuff tear"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Polysubstance-Induced Serotonin Syndrome",
+  "specialty": "addiction_medicine",
+  "chief_complaint": "I feel like my body is on fire, my muscles won't stop twitching, and I can't think straight",
+  "symptoms": [
+    "Severe agitation",
+    "Muscle rigidity",
+    "Hyperthermia",
+    "Confusion",
+    "Diaphoresis"
+  ],
+  "physical_findings": [
+    "Clonus (inducible/spontaneous)",
+    "Hyperreflexia",
+    "Tachycardia (HR 120-150)",
+    "Blood pressure lability"
+  ],
+  "lab_results": {
+    "CK": "Elevated (2000-5000 IU/L)",
+    "WBC": "Leukocytosis (15-20 x10^9/L)",
+    "Serotonin levels": "Markedly elevated",
+    "Toxicology screen": "Positive for MDMA, tramadol, SSRI"
+  },
+  "treatment": [
+    "Immediate discontinuation of serotonergic agents",
+    "Aggressive IV hydration and cooling",
+    "Benzodiazepines for agitation and muscle rigidity",
+    "Cyproheptadine (serotonin antagonist)",
+    "ICU monitoring for rhabdomyolysis/DIC"
+  ],
+  "prognosis": "Guarded - mortality 2-12% in severe cases. Full recovery possible with prompt treatment, but risk of residual cognitive effects",
+  "description": "Life-threatening condition caused by excessive serotonergic activity in CNS, typically from combination of serotonergic drugs (e.g., SSRIs + opioids + stimulants). Presents as a clinical triad of neuromuscular abnormalities, autonomic hyperactivity, and altered mental status.",
+  "risk_factors": [
+    "Polysubstance abuse",
+    "Concurrent use of multiple serotonergic drugs",
+    "Recent dose increase of serotonergic agents",
+    "Genetic polymorphisms in serotonin metabolism"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "poor",
+    "pain_level": "8"
+  },
+  "case_id": "hard_addiction_medicine_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Neuroleptic Malignant Syndrome",
+    "Polysubstance-Induced Serotonin Syndrome",
+    "Malignant Hyperthermia",
+    "Anticholinergic Toxicity"
+  ]
+}

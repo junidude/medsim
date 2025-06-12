@@ -1,0 +1,43 @@
+{
+  "name": "Mild Age-Related Cognitive Decline",
+  "specialty": "geriatric_medicine",
+  "chief_complaint": "I've been forgetting things more often lately",
+  "symptoms": [
+    "occasional memory lapses",
+    "misplacing items",
+    "mild difficulty with word-finding"
+  ],
+  "physical_findings": [
+    "normal neurological exam",
+    "intact orientation"
+  ],
+  "lab_results": {
+    "thyroid function": "normal",
+    "B12 levels": "normal"
+  },
+  "treatment": [
+    "cognitive exercises",
+    "regular physical activity",
+    "Mediterranean diet"
+  ],
+  "prognosis": "stable with lifestyle modifications",
+  "description": "A mild, age-related decrease in cognitive function that doesn't significantly impair daily activities but may cause concern for the patient",
+  "risk_factors": [
+    "advanced age",
+    "sedentary lifestyle",
+    "limited social engagement"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "1"
+  },
+  "case_id": "easy_geriatric_medicine_001",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Alzheimer's Disease",
+    "Mild Age-Related Cognitive Decline",
+    "Depression",
+    "Vitamin B12 Deficiency"
+  ]
+}

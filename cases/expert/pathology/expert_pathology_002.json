@@ -1,0 +1,49 @@
+{
+  "name": "Granulomatous Lymphocytic Interstitial Lung Disease (GLILD)",
+  "specialty": "pathology",
+  "chief_complaint": "I've been feeling short of breath and tired all the time, and I keep getting infections.",
+  "symptoms": [
+    "progressive dyspnea",
+    "chronic fatigue",
+    "recurrent infections",
+    "unintentional weight loss",
+    "dry cough"
+  ],
+  "physical_findings": [
+    "bibasilar crackles",
+    "lymphadenopathy",
+    "hepatosplenomegaly"
+  ],
+  "lab_results": {
+    "CBC": "lymphocytopenia",
+    "Immunoglobulin levels": "hypogammaglobulinemia",
+    "CT chest": "diffuse ground-glass opacities with nodules",
+    "Bronchoalveolar lavage": "lymphocytic predominance"
+  },
+  "treatment": [
+    "immunoglobulin replacement therapy",
+    "corticosteroids",
+    "rituximab",
+    "prophylactic antibiotics"
+  ],
+  "prognosis": "Variable; depends on severity and response to treatment. Progressive disease may lead to respiratory failure.",
+  "description": "GLILD is a rare, non-infectious pulmonary complication of common variable immunodeficiency (CVID) characterized by granulomatous inflammation and lymphocytic infiltration of the lung parenchyma. It represents a complex interplay between immune dysregulation and chronic antigenic stimulation.",
+  "risk_factors": [
+    "underlying CVID",
+    "autoimmune disorders",
+    "family history of immunodeficiency"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "expert_pathology_002",
+  "difficulty": "expert",
+  "multiple_choice": [
+    "Sarcoidosis",
+    "Granulomatous Lymphocytic Interstitial Lung Disease (GLILD)",
+    "Lymphocytic Interstitial Pneumonia",
+    "Hypersensitivity Pneumonitis"
+  ]
+}

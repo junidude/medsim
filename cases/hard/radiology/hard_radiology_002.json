@@ -1,0 +1,43 @@
+{
+  "name": "Bilateral Trigeminal-Tentorial Meningioma Syndrome",
+  "specialty": "radiology",
+  "chief_complaint": "Worsening facial numbness and headaches that feel like electric shocks",
+  "symptoms": [
+    "Unilateral facial pain (trigeminal distribution)",
+    "Progressive visual disturbances",
+    "Tinnitus with jaw movement",
+    "Episodic vertigo"
+  ],
+  "physical_findings": [
+    "Decreased corneal reflex on affected side",
+    "Mild ptosis ipsilateral to tumor"
+  ],
+  "lab_results": {
+    "CSF analysis": "Elevated protein (80 mg/dL)",
+    "Genetic testing": "NF2 mutation negative"
+  },
+  "treatment": [
+    "Fractionated stereotactic radiotherapy",
+    "Dexamethasone for peritumoral edema",
+    "Carbamazepine for neuropathic pain"
+  ],
+  "prognosis": "Guarded - 60% 5-year progression-free survival with current treatments",
+  "description": "Rare meningioma variant involving both trigeminal nerve sheaths and tentorium cerebelli, causing combined cranial nerve V and VIII compression. Characteristic 'kissing lesions' appearance on contrast-enhanced MRI with dural tail signs. Often misdiagnosed as atypical trigeminal neuralgia initially.",
+  "risk_factors": [
+    "Prior therapeutic radiation to head/neck",
+    "Prolonged estrogen therapy"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "8"
+  },
+  "case_id": "hard_radiology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Trigeminal neuralgia",
+    "Acoustic neuroma",
+    "Bilateral Trigeminal-Tentorial Meningioma Syndrome",
+    "Cavernous sinus thrombosis"
+  ]
+}

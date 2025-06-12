@@ -1,0 +1,54 @@
+{
+  "name": "Acute Bronchiolitis",
+  "specialty": "pediatrics",
+  "chief_complaint": "My 8-month-old baby has been wheezing and breathing fast for 2 days, with a runny nose",
+  "symptoms": [
+    "wheezing",
+    "tachypnea",
+    "nasal congestion",
+    "poor feeding",
+    "irritability",
+    "mild fever"
+  ],
+  "physical_findings": [
+    "respiratory rate 50-60 breaths/min",
+    "subcostal retractions",
+    "diffuse wheezing on auscultation",
+    "rhinorrhea",
+    "mild tachycardia"
+  ],
+  "lab_results": {
+    "pulse oximetry": "94%",
+    "respiratory viral panel": "RSV positive",
+    "chest x-ray": "hyperinflation with peribronchial thickening"
+  },
+  "treatment": [
+    "supplemental oxygen if needed",
+    "nasal suctioning",
+    "hydration maintenance",
+    "respiratory monitoring",
+    "bronchodilators if responsive"
+  ],
+  "prognosis": "Generally good with full recovery in 7-14 days; may have increased risk of reactive airway disease",
+  "description": "Viral infection of lower respiratory tract causing inflammation and mucus production in small airways, commonly seen in infants under 12 months",
+  "risk_factors": [
+    "age under 12 months",
+    "prematurity",
+    "exposure to tobacco smoke",
+    "lack of breastfeeding",
+    "daycare attendance"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "generated_20250612002008_2928",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Pneumonia",
+    "Acute Bronchiolitis",
+    "Asthma",
+    "Foreign Body Aspiration"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Charcot-Marie-Tooth Disease Type 4J",
+  "specialty": "orthopedic_surgery",
+  "chief_complaint": "I've been having trouble walking and my feet feel weak and numb",
+  "symptoms": [
+    "Progressive foot drop",
+    "Distal muscle weakness",
+    "Paresthesia in lower extremities",
+    "High-arched feet (pes cavus)",
+    "Frequent tripping"
+  ],
+  "physical_findings": [
+    "Distal muscle atrophy (legs more than arms)",
+    "Diminished deep tendon reflexes",
+    "Positive Romberg sign",
+    "Claw toe deformity",
+    "Sensory loss in stocking-glove distribution"
+  ],
+  "lab_results": {
+    "Nerve conduction studies": "Severely slowed motor and sensory conduction velocities",
+    "Genetic testing": "Positive for FIG4 gene mutation",
+    "CK levels": "Mildly elevated"
+  },
+  "treatment": [
+    "Custom orthotics and ankle-foot orthoses",
+    "Physical therapy for gait training",
+    "Surgical tendon transfers for foot drop",
+    "Pain management for neuropathic pain",
+    "Genetic counseling"
+  ],
+  "prognosis": "Slowly progressive disorder with significant disability over decades, but not life-threatening",
+  "description": "A rare autosomal recessive subtype of Charcot-Marie-Tooth disease characterized by early-onset progressive sensorimotor neuropathy with both demyelinating and axonal features. Caused by mutations in the FIG4 gene affecting phosphoinositide metabolism in Schwann cells.",
+  "risk_factors": [
+    "Family history of neuropathy",
+    "Consanguinity",
+    "Certain ethnic backgrounds (higher prevalence in some populations)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "6"
+  },
+  "case_id": "hard_orthopedic_surgery_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Hereditary sensory neuropathy",
+    "Spinal muscular atrophy",
+    "Charcot-Marie-Tooth Disease Type 4J",
+    "Chronic inflammatory demyelinating polyneuropathy"
+  ]
+}

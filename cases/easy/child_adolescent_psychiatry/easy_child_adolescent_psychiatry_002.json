@@ -1,0 +1,44 @@
+{
+  "name": "Separation Anxiety Disorder",
+  "specialty": "child_adolescent_psychiatry",
+  "chief_complaint": "I don't want to go to school, I miss my mom too much",
+  "symptoms": [
+    "excessive distress when separated from primary caregiver",
+    "reluctance to sleep away from home",
+    "nightmares about separation",
+    "physical complaints when separation is anticipated"
+  ],
+  "physical_findings": [
+    "tachycardia during separation episodes",
+    "tearfulness during examination"
+  ],
+  "lab_results": {
+    "none": "normal"
+  },
+  "treatment": [
+    "cognitive behavioral therapy",
+    "family therapy",
+    "gradual exposure to separation",
+    "SSRIs in severe cases"
+  ],
+  "prognosis": "Good with early intervention, symptoms often improve by adolescence",
+  "description": "A developmentally inappropriate and excessive fear or anxiety concerning separation from those to whom the individual is attached, typically beginning in early childhood and causing significant impairment in social, academic, or other areas of functioning.",
+  "risk_factors": [
+    "overprotective parenting style",
+    "family history of anxiety disorders",
+    "recent stressful life events"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "easy_child_adolescent_psychiatry_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Generalized Anxiety Disorder",
+    "Separation Anxiety Disorder",
+    "Social Anxiety Disorder",
+    "Adjustment Disorder"
+  ]
+}

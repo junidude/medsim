@@ -1,0 +1,48 @@
+{
+  "name": "Progressive Facial Hemiatrophy (Parry-Romberg Syndrome)",
+  "specialty": "plastic_surgery",
+  "chief_complaint": "My face is shrinking unevenly and I have severe pain on one side",
+  "symptoms": [
+    "Progressive facial tissue atrophy",
+    "Unilateral facial pain (trigeminal neuralgia)",
+    "Hyperpigmentation of affected skin",
+    "Seizures (in some cases)"
+  ],
+  "physical_findings": [
+    "Sharply demarcated facial atrophy (coup de sabre appearance)",
+    "Bone and cartilage involvement in advanced cases",
+    "Ipsilateral hair loss (scalp/eyebrows/eyelashes)",
+    "Enophthalmos on affected side"
+  ],
+  "lab_results": {
+    "Autoantibody panel": "Positive (60% cases)",
+    "MRI brain": "Ipsilateral white matter abnormalities",
+    "Skin biopsy": "Fibrosis and lymphocytic infiltration"
+  },
+  "treatment": [
+    "Microsurgical free flap reconstruction",
+    "Fat grafting with structural support",
+    "Immunomodulatory therapy (for active progression)",
+    "Trigeminal nerve decompression"
+  ],
+  "prognosis": "Variable; progression typically stabilizes after 2-10 years but existing damage is permanent",
+  "description": "A rare neurocutaneous syndrome characterized by progressive atrophy of skin, subcutaneous tissue, muscle and sometimes bone, typically affecting one side of the face. The condition often begins in childhood or adolescence with unknown etiology, though autoimmune mechanisms are suspected. The atrophy progresses slowly before spontaneously arresting, leaving significant facial asymmetry.",
+  "risk_factors": [
+    "Female gender (3:1 ratio)",
+    "History of trauma or infection (possible triggers)",
+    "Autoimmune disorders in family history"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "good",
+    "pain_level": "8"
+  },
+  "case_id": "hard_plastic_surgery_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Linear scleroderma",
+    "Progressive Facial Hemiatrophy (Parry-Romberg Syndrome)",
+    "Trigeminal trophic syndrome",
+    "Facial lipodystrophy"
+  ]
+}

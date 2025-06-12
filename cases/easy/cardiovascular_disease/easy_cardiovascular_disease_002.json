@@ -1,0 +1,41 @@
+{
+  "name": "Mild Hypertension",
+  "specialty": "cardiovascular_disease",
+  "chief_complaint": "I've been feeling a bit dizzy lately, and my doctor said my blood pressure was high at my last check-up.",
+  "symptoms": [
+    "dizziness",
+    "mild headache",
+    "occasional nosebleeds"
+  ],
+  "physical_findings": [
+    "elevated blood pressure (140/90 mmHg)",
+    "normal heart sounds"
+  ],
+  "lab_results": {
+    "blood_test": "normal electrolytes, no signs of kidney dysfunction"
+  },
+  "treatment": [
+    "lifestyle modifications (diet, exercise)",
+    "low-dose antihypertensive medication if needed"
+  ],
+  "prognosis": "Good with proper management; unlikely to progress if treated early",
+  "description": "A common condition where the force of blood against artery walls is consistently too high, often asymptomatic until complications arise.",
+  "risk_factors": [
+    "family history of hypertension",
+    "high sodium diet",
+    "sedentary lifestyle"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "2"
+  },
+  "case_id": "easy_cardiovascular_disease_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Anemia",
+    "Mild Hypertension",
+    "Benign Paroxysmal Positional Vertigo",
+    "Sinusitis"
+  ]
+}

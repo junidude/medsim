@@ -1,0 +1,40 @@
+{
+  "name": "Acute Appendicitis",
+  "specialty": "general_surgery",
+  "chief_complaint": "Severe pain in the lower right abdomen",
+  "symptoms": [
+    "abdominal pain",
+    "nausea",
+    "loss of appetite"
+  ],
+  "physical_findings": [
+    "tenderness in right lower quadrant",
+    "rebound tenderness"
+  ],
+  "lab_results": {
+    "WBC": "elevated"
+  },
+  "treatment": [
+    "appendectomy",
+    "antibiotics"
+  ],
+  "prognosis": "Excellent with timely surgical intervention",
+  "description": "Inflammation of the appendix requiring surgical removal to prevent rupture",
+  "risk_factors": [
+    "age 10-30",
+    "family history"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "8"
+  },
+  "case_id": "easy_general_surgery_002",
+  "difficulty": "easy",
+  "multiple_choice": [
+    "Ovarian Cyst",
+    "Acute Appendicitis",
+    "Diverticulitis",
+    "Gastroenteritis"
+  ]
+}

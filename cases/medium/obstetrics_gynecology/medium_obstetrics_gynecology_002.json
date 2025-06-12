@@ -1,0 +1,45 @@
+{
+  "name": "Asherman's Syndrome with Secondary Amenorrhea",
+  "specialty": "obstetrics_gynecology",
+  "chief_complaint": "I haven't had my period for 6 months after my D&C procedure",
+  "symptoms": [
+    "absent menstruation",
+    "pelvic pain during expected cycle",
+    "infertility"
+  ],
+  "physical_findings": [
+    "normal external genitalia",
+    "scant cervical mucus"
+  ],
+  "lab_results": {
+    "FSH": "normal",
+    "LH": "normal",
+    "Estradiol": "normal",
+    "hCG": "negative"
+  },
+  "treatment": [
+    "hysteroscopic adhesiolysis",
+    "postoperative estrogen therapy",
+    "intrauterine balloon stent placement"
+  ],
+  "prognosis": "Good with proper treatment, though recurrence risk exists. Fertility may be restored in 70-80% of cases.",
+  "description": "A condition characterized by intrauterine adhesions and scarring, often following uterine instrumentation (e.g., D&C). The adhesions can partially or completely obliterate the uterine cavity, leading to menstrual disturbances and infertility.",
+  "risk_factors": [
+    "previous uterine surgery",
+    "postpartum curettage",
+    "recurrent miscarriages"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "good",
+    "pain_level": "3"
+  },
+  "case_id": "medium_obstetrics_gynecology_002",
+  "difficulty": "medium",
+  "multiple_choice": [
+    "Polycystic Ovary Syndrome",
+    "Asherman's Syndrome with Secondary Amenorrhea",
+    "Premature Ovarian Failure",
+    "Hypothalamic Amenorrhea"
+  ]
+}

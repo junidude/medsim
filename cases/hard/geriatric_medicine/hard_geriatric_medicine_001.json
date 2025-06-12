@@ -1,0 +1,56 @@
+{
+  "name": "Multifactorial Geriatric Cachexia Syndrome",
+  "specialty": "geriatric_medicine",
+  "chief_complaint": "I've lost so much weight without trying, and I feel weaker every day",
+  "symptoms": [
+    "Unintentional weight loss (>10% in 6 months)",
+    "Severe fatigue",
+    "Loss of appetite",
+    "Muscle weakness",
+    "Cognitive fluctuations"
+  ],
+  "physical_findings": [
+    "Severe muscle wasting (sarcopenia)",
+    "Temporal wasting",
+    "Edema in lower extremities",
+    "Decreased skin turgor",
+    "Orthostatic hypotension"
+  ],
+  "lab_results": {
+    "Albumin": "2.1 g/dL (low)",
+    "C-reactive protein": "8.2 mg/L (elevated)",
+    "IL-6": "15 pg/mL (elevated)",
+    "Hemoglobin": "9.8 g/dL (low)",
+    "Vitamin D": "18 ng/mL (deficient)"
+  },
+  "treatment": [
+    "Comprehensive geriatric assessment",
+    "Multimodal nutritional intervention",
+    "Resistance exercise program",
+    "Anti-inflammatory therapy trial",
+    "Appetite stimulants (carefully monitored)",
+    "Polypharmacy review and deprescribing"
+  ],
+  "prognosis": "Guarded. Progressive functional decline likely without aggressive intervention. 1-year mortality risk ~30%",
+  "description": "A complex wasting syndrome in elderly patients involving chronic inflammation, metabolic dysregulation, and neuroendocrine dysfunction. Distinct from simple malnutrition or cancer cachexia, involving multiple interacting systems. Often precipitated by 'geriatric insults' like infections, fractures, or hospitalizations.",
+  "risk_factors": [
+    "Advanced age (>85)",
+    "Multiple chronic conditions",
+    "Recent hospitalization",
+    "Polypharmacy (≥9 medications)",
+    "Social isolation"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "medium",
+    "cooperation": "fair",
+    "pain_level": "4"
+  },
+  "case_id": "hard_geriatric_medicine_001",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Hyperthyroidism",
+    "Multifactorial Geriatric Cachexia Syndrome",
+    "Advanced Heart Failure",
+    "Metastatic Cancer"
+  ]
+}

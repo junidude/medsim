@@ -1,0 +1,52 @@
+{
+  "name": "Idiopathic Membranous Nephropathy with Secondary Focal Segmental Glomerulosclerosis",
+  "specialty": "nephrology",
+  "chief_complaint": "My legs are swollen, and I feel extremely tired all the time",
+  "symptoms": [
+    "Severe peripheral edema",
+    "Fatigue",
+    "Foamy urine",
+    "Unexplained weight gain",
+    "Decreased urine output"
+  ],
+  "physical_findings": [
+    "Pitting edema up to thighs",
+    "Hypertension (160/95 mmHg)",
+    "Pallor"
+  ],
+  "lab_results": {
+    "Urinalysis": "Proteinuria (8.2 g/24h), microscopic hematuria",
+    "Serum albumin": "2.1 g/dL",
+    "Serum creatinine": "2.8 mg/dL",
+    "Anti-PLA2R antibodies": "Positive",
+    "eGFR": "32 mL/min/1.73m²"
+  },
+  "treatment": [
+    "Rituximab immunotherapy",
+    "ACE inhibitor therapy",
+    "Salt restriction (<2g/day)",
+    "Diuretics for edema management",
+    "Possible future renal replacement therapy"
+  ],
+  "prognosis": "Guarded - 40% progress to ESRD within 10 years despite treatment",
+  "description": "A complex glomerular disorder featuring both membranous nephropathy and FSGS patterns, likely representing either two concurrent pathologies or FSGS developing secondary to long-standing membranous nephropathy. The condition leads to massive proteinuria and progressive renal dysfunction.",
+  "risk_factors": [
+    "Male gender",
+    "Age 40-60",
+    "History of autoimmune conditions",
+    "Exposure to certain medications (NSAIDs, gold salts)"
+  ],
+  "patient_behavior": {
+    "anxiety_level": "high",
+    "cooperation": "fair",
+    "pain_level": "3"
+  },
+  "case_id": "hard_nephrology_002",
+  "difficulty": "hard",
+  "multiple_choice": [
+    "Diabetic Nephropathy",
+    "Idiopathic Membranous Nephropathy with Secondary Focal Segmental Glomerulosclerosis",
+    "Minimal Change Disease",
+    "Lupus Nephritis"
+  ]
+}
