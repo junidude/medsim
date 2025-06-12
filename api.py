@@ -14,6 +14,7 @@ import os
 from core_medical_game import MedicalGameEngine, GameRole, Difficulty, Specialty
 from patient_interaction_logger import patient_logger
 from llm_providers import set_llm_provider
+from config import config
 
 # Pydantic models for API requests
 class CreateGameRequest(BaseModel):
@@ -53,6 +54,12 @@ class LogInteractionRequest(BaseModel):
     session_id: str
     action_type: str
     action_data: Dict[str, Any]
+
+class LogAdImpressionRequest(BaseModel):
+    session_id: str
+    ad_type: str = "banner"
+    placement: str = "bottom"
+    metadata: Optional[Dict[str, Any]] = None
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -561,6 +568,41 @@ async def end_session(request: EndSessionRequest):
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/api/config/adsense")
+async def get_adsense_config():
+    """Get AdSense configuration for the frontend."""
+    return {
+        "enabled": bool(config.adsense_client_id),
+        "client_id": config.adsense_client_id if config.adsense_client_id else None,
+        "slot_id": config.adsense_slot_id if config.adsense_slot_id else None
+    }
+
+@app.post("/api/game/log-ad-impression")
+async def log_ad_impression(request: LogAdImpressionRequest):
+    """Log ad impression event for analytics."""
+    try:
+        # Get game state to access session log
+        from session_logger import session_logger
+        
+        # Try to get session info
+        game_state_info = game_engine.get_game_state(request.session_id)
+        
+        if game_state_info and "session_log" in game_state_info:
+            session_log = game_state_info["session_log"]
+            session_logger.log_ad_impression(
+                session_log,
+                ad_type=request.ad_type,
+                placement=request.placement,
+                metadata=request.metadata
+            )
+            return {"status": "logged", "impression_count": len(session_log.ad_impressions)}
+        else:
+            return {"status": "skipped", "reason": "Session not found or no session log"}
+            
+    except Exception as e:
+        # Don't fail the request if logging fails
+        return {"status": "error", "message": str(e)}
 
 if __name__ == "__main__":
     import uvicorn

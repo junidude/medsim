@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MedSim - Medical Education Game</title>
+    <link rel="manifest" href="/static/manifest.json">
     <link rel="stylesheet" href="/static/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google AdSense placeholder - initialized by JavaScript -->
+    <script id="adsense-script-placeholder"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -548,6 +552,90 @@
         }
     </style>
 
+    <!-- AdSense Container -->
+    <div id="adsense-container" class="adsense-container" style="display: none;">
+        <!-- AdSense ads will be inserted here dynamically -->
+    </div>
+
     <script src="/static/app.js"></script>
+    
+    <!-- AdSense Initialization Script -->
+    <script>
+        (async function initializeAdsense() {
+            try {
+                // Fetch AdSense configuration from API
+                const response = await fetch('/api/config/adsense');
+                const config = await response.json();
+                
+                if (config.enabled && config.client_id) {
+                    // Create and insert AdSense script
+                    const script = document.createElement('script');
+                    script.async = true;
+                    script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
+                    script.setAttribute('data-ad-client', config.client_id);
+                    
+                    // Replace placeholder with actual script
+                    const placeholder = document.getElementById('adsense-script-placeholder');
+                    if (placeholder) {
+                        placeholder.parentNode.replaceChild(script, placeholder);
+                    }
+                    
+                    // Wait for script to load, then create ad
+                    script.onload = () => {
+                        // Use requestIdleCallback for performance
+                        const createAd = () => {
+                            const container = document.getElementById('adsense-container');
+                            if (container) {
+                                // Create responsive ad unit
+                                const adUnit = document.createElement('ins');
+                                adUnit.className = 'adsbygoogle';
+                                adUnit.style.display = 'block';
+                                adUnit.setAttribute('data-ad-client', config.client_id);
+                                adUnit.setAttribute('data-ad-slot', config.slot_id || 'auto');
+                                adUnit.setAttribute('data-ad-format', 'auto');
+                                adUnit.setAttribute('data-full-width-responsive', 'true');
+                                
+                                container.appendChild(adUnit);
+                                container.style.display = 'block';
+                                
+                                // Initialize the ad
+                                try {
+                                    (window.adsbygoogle = window.adsbygoogle || []).push({});
+                                    
+                                    // Log ad impression if in active session
+                                    if (window.medicalGameApp && window.medicalGameApp.currentSession) {
+                                        fetch('/api/game/log-ad-impression', {
+                                            method: 'POST',
+                                            headers: { 'Content-Type': 'application/json' },
+                                            body: JSON.stringify({
+                                                session_id: window.medicalGameApp.currentSession,
+                                                ad_type: 'banner',
+                                                placement: window.innerWidth <= 768 ? 'mobile-bottom' : 'desktop-bottom',
+                                                metadata: {
+                                                    viewport_width: window.innerWidth,
+                                                    viewport_height: window.innerHeight
+                                                }
+                                            })
+                                        }).catch(err => console.log('Ad impression logging failed:', err));
+                                    }
+                                } catch (e) {
+                                    console.error('AdSense initialization error:', e);
+                                }
+                            }
+                        };
+                        
+                        // Use requestIdleCallback if available, otherwise setTimeout
+                        if ('requestIdleCallback' in window) {
+                            requestIdleCallback(createAd);
+                        } else {
+                            setTimeout(createAd, 1);
+                        }
+                    };
+                }
+            } catch (error) {
+                console.error('Failed to initialize AdSense:', error);
+            }
+        })();
+    </script>
 </body>
 </html>

@@ -23,6 +23,10 @@ class Config:
         # AWS settings
         self.aws_region = os.getenv("AWS_REGION", "us-east-1")
         
+        # Google AdSense settings
+        self.adsense_client_id = os.getenv("ADSENSE_CLIENT_ID", "")
+        self.adsense_slot_id = os.getenv("ADSENSE_SLOT_ID", "")
+        
     def _get_api_key(self, env_name: str, key_name: str) -> Optional[str]:
         """Get API key from environment or api_keys.json file"""
         # First try environment variable

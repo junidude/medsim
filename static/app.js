@@ -686,10 +686,16 @@ class MedicalGameApp {
     
     showModal() {
         if (this.resultsModal) this.resultsModal.classList.add('active');
+        // Hide ads during critical interactions
+        const activeScreen = document.querySelector('.screen.active');
+        if (activeScreen) activeScreen.classList.add('no-ads');
     }
     
     closeModal() {
         if (this.resultsModal) this.resultsModal.classList.remove('active');
+        // Show ads again after modal closes
+        const activeScreen = document.querySelector('.screen.active');
+        if (activeScreen) activeScreen.classList.remove('no-ads');
     }
     
     showError(message) {
@@ -1055,6 +1061,9 @@ class MedicalGameApp {
         
         this.pexContent.innerHTML = content;
         this.pexModal.classList.add('active');
+        // Hide ads during medical examination
+        const activeScreen = document.querySelector('.screen.active');
+        if (activeScreen) activeScreen.classList.add('no-ads');
     }
     
     showLabTestResults(results) {
@@ -1077,6 +1086,9 @@ class MedicalGameApp {
         
         this.labContent.innerHTML = content;
         this.labModal.classList.add('active');
+        // Hide ads during lab results
+        const activeScreen = document.querySelector('.screen.active');
+        if (activeScreen) activeScreen.classList.add('no-ads');
     }
     
     showAnswerResults(results) {
@@ -1127,10 +1139,16 @@ class MedicalGameApp {
     
     closePexModal() {
         this.pexModal.classList.remove('active');
+        // Show ads again after modal closes
+        const activeScreen = document.querySelector('.screen.active');
+        if (activeScreen) activeScreen.classList.remove('no-ads');
     }
     
     closeLabModal() {
         this.labModal.classList.remove('active');
+        // Show ads again after modal closes
+        const activeScreen = document.querySelector('.screen.active');
+        if (activeScreen) activeScreen.classList.remove('no-ads');
     }
     
     showMultipleChoiceModal(data) {
@@ -1325,5 +1343,5 @@ document.head.insertAdjacentHTML('beforeend', additionalStyles);
 
 // Initialize the app when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
-    new MedicalGameApp();
+    window.medicalGameApp = new MedicalGameApp();
 });

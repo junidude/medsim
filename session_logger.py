@@ -49,6 +49,9 @@ class SessionLog:
     total_messages: int = 0
     session_duration_minutes: Optional[float] = None
     
+    # Ad Metrics
+    ad_impressions: List[Dict[str, Any]] = None
+    
     def __post_init__(self):
         if self.chat_history is None:
             self.chat_history = []
@@ -58,6 +61,8 @@ class SessionLog:
             self.user_data = {}
         if self.case_data is None:
             self.case_data = {}
+        if self.ad_impressions is None:
+            self.ad_impressions = []
 
 class SessionLogger:
     """Handles logging of user sessions and chat data."""
@@ -118,6 +123,17 @@ class SessionLogger:
             session_log.lab_tests_performed = True
         elif action == "show_answer":
             session_log.answer_shown = True
+    
+    def log_ad_impression(self, session_log: SessionLog, ad_type: str = "banner", 
+                          placement: str = "bottom", metadata: Dict[str, Any] = None):
+        """Log ad impression event."""
+        ad_event = {
+            "timestamp": datetime.datetime.now().isoformat(),
+            "type": ad_type,
+            "placement": placement,
+            "metadata": metadata or {}
+        }
+        session_log.ad_impressions.append(ad_event)
     
     def finalize_session(self, session_log: SessionLog):
         """Finalize and save the session log."""

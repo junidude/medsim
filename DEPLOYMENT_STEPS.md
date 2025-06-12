@@ -31,6 +31,8 @@ eb create medsim-env --sample --single --timeout 30
    - `ANTHROPIC_API_KEY`: Your Anthropic API key
    - `OPENAI_API_KEY`: Your OpenAI API key (optional)
    - `DEEPSEEK_API_KEY`: Your DeepSeek API key (optional)
+   - `ADSENSE_CLIENT_ID`: Your Google AdSense client ID (optional, format: ca-pub-XXXXXXXXXXXXXXXX)
+   - `ADSENSE_SLOT_ID`: Your AdSense ad slot ID (optional, or use "auto")
 
 ## 6. Trigger Deployment
 Once GitHub secrets are configured, the deployment will trigger automatically on push to main branch.
