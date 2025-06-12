@@ -824,21 +824,9 @@ class MedicalGameApp {
     }
     
     updateRetryStatus(attempt, maxRetries) {
-        // Update any loading messages to show retry status
-        const loadingText = document.querySelector('.loading-text');
-        if (loadingText) {
-            loadingText.textContent = `Loading... (attempt ${attempt}/${maxRetries})`;
-        }
-        
-        // Update button loading text if applicable
-        const loadingButtons = document.querySelectorAll('button[disabled] .fa-spinner');
-        loadingButtons.forEach(button => {
-            const parent = button.parentElement;
-            if (parent && parent.tagName === 'BUTTON') {
-                const originalText = parent.textContent.replace(/\(attempt \d+\/\d+\)/, '').trim();
-                parent.innerHTML = `<i class="fas fa-spinner fa-spin"></i> ${originalText} (attempt ${attempt}/${maxRetries})`;
-            }
-        });
+        // Silent retry - no visual indication of retry attempts
+        // Just keep the loading animation running
+        console.log(`[RETRY ${attempt}/${maxRetries}] Retrying silently...`);
     }
     
     async logInteraction(actionType, actionData) {
