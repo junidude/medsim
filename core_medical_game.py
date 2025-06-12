@@ -314,6 +314,12 @@ class MedicalGameEngine:
         
         self.active_sessions[session_id] = game_state
         self._save_session(session_id, game_state)
+        
+        # Verify session was saved
+        if not session_store.session_exists(session_id):
+            print(f"[SESSION] WARNING: Session {session_id} was not saved to disk!")
+        else:
+            print(f"[SESSION] Session {session_id} saved successfully")
         return game_state
     
     def setup_doctor_game(self, session_id: str) -> Dict[str, Any]:

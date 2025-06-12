@@ -16,8 +16,16 @@ class SessionStore:
     
     def __init__(self, storage_dir: str = "sessions"):
         self.storage_dir = Path(storage_dir)
-        self.storage_dir.mkdir(exist_ok=True)
+        self.storage_dir.mkdir(exist_ok=True, mode=0o755)
         self.lock = threading.Lock()
+        
+        # Ensure directory is writable
+        test_file = self.storage_dir / ".test_write"
+        try:
+            test_file.write_text("test")
+            test_file.unlink()
+        except Exception as e:
+            print(f"[SESSION] WARNING: Sessions directory may not be writable: {e}")
         
         # Clean up old sessions on startup
         self._cleanup_old_sessions()
@@ -29,11 +37,22 @@ class SessionStore:
     def save_session(self, session_id: str, data: Dict[str, Any]) -> None:
         """Save session data to file"""
         with self.lock:
-            session_path = self._get_session_path(session_id)
-            data['last_updated'] = datetime.now().isoformat()
-            
-            with open(session_path, 'w') as f:
-                json.dump(data, f, indent=2, default=str)
+            try:
+                session_path = self._get_session_path(session_id)
+                data['last_updated'] = datetime.now().isoformat()
+                
+                # Write to temporary file first
+                temp_path = session_path.with_suffix('.tmp')
+                with open(temp_path, 'w') as f:
+                    json.dump(data, f, indent=2, default=str)
+                
+                # Move temp file to final location (atomic operation)
+                temp_path.replace(session_path)
+                
+                print(f"[SESSION] Successfully saved session {session_id} to {session_path}")
+            except Exception as e:
+                print(f"[SESSION] Error saving session {session_id}: {e}")
+                raise
     
     def load_session(self, session_id: str) -> Optional[Dict[str, Any]]:
         """Load session data from file"""

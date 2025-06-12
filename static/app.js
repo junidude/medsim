@@ -742,40 +742,103 @@ class MedicalGameApp {
         }
     }
     
-    async apiCall(endpoint, method = 'GET', data = null, timeout = 10000) {
-        const config = {
-            method: method,
-            headers: {
-                'Content-Type': 'application/json'
-            }
-        };
+    async apiCall(endpoint, method = 'GET', data = null, timeout = 10000, maxRetries = 10) {
+        let lastError = null;
         
-        if (data) {
-            config.body = JSON.stringify(data);
+        // Retry loop
+        for (let attempt = 1; attempt <= maxRetries; attempt++) {
+            try {
+                const config = {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                };
+                
+                if (data) {
+                    config.body = JSON.stringify(data);
+                }
+                
+                // Create an AbortController for timeout
+                const controller = new AbortController();
+                const timeoutId = setTimeout(() => controller.abort(), timeout);
+                config.signal = controller.signal;
+                
+                const response = await fetch(endpoint, config);
+                clearTimeout(timeoutId);
+                
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    const errorMessage = errorData.detail || `HTTP ${response.status}`;
+                    
+                    // If it's a session not found error and we have retries left, retry
+                    if ((errorMessage.includes('session not found') || errorMessage.includes('Session not found')) && attempt < maxRetries) {
+                        console.log(`[RETRY ${attempt}/${maxRetries}] Session not found, retrying in ${attempt * 500}ms...`);
+                        // Update UI to show retry status
+                        this.updateRetryStatus(attempt, maxRetries);
+                        await new Promise(resolve => setTimeout(resolve, attempt * 500)); // Exponential backoff
+                        continue;
+                    }
+                    
+                    throw new Error(errorMessage);
+                }
+                
+                // Success - return the result
+                return await response.json();
+                
+            } catch (error) {
+                lastError = error;
+                
+                // Handle timeout errors
+                if (error.name === 'AbortError') {
+                    if (attempt < maxRetries) {
+                        console.log(`[RETRY ${attempt}/${maxRetries}] Request timeout, retrying...`);
+                        await new Promise(resolve => setTimeout(resolve, 1000));
+                        continue;
+                    }
+                    throw new Error('Request timeout after multiple attempts');
+                }
+                
+                // For session errors, retry silently
+                if ((error.message.includes('session not found') || error.message.includes('Session not found')) && attempt < maxRetries) {
+                    console.log(`[RETRY ${attempt}/${maxRetries}] Session error: ${error.message}`);
+                    this.updateRetryStatus(attempt, maxRetries);
+                    await new Promise(resolve => setTimeout(resolve, attempt * 500));
+                    continue;
+                }
+                
+                // For other errors, check if we should retry
+                if (attempt < maxRetries && !error.message.includes('400') && !error.message.includes('401')) {
+                    console.log(`[RETRY ${attempt}/${maxRetries}] API error: ${error.message}`);
+                    await new Promise(resolve => setTimeout(resolve, attempt * 500));
+                    continue;
+                }
+                
+                // No more retries - throw the error
+                throw error;
+            }
         }
         
-        // Create an AbortController for timeout
-        const controller = new AbortController();
-        const timeoutId = setTimeout(() => controller.abort(), timeout);
-        config.signal = controller.signal;
-        
-        try {
-            const response = await fetch(endpoint, config);
-            clearTimeout(timeoutId);
-            
-            if (!response.ok) {
-                const errorData = await response.json().catch(() => ({}));
-                throw new Error(errorData.detail || `HTTP ${response.status}`);
-            }
-            
-            return await response.json();
-        } catch (error) {
-            clearTimeout(timeoutId);
-            if (error.name === 'AbortError') {
-                throw new Error('Request timeout - please try again');
-            }
-            throw error;
+        // All retries exhausted
+        throw lastError || new Error('API call failed after ' + maxRetries + ' attempts');
+    }
+    
+    updateRetryStatus(attempt, maxRetries) {
+        // Update any loading messages to show retry status
+        const loadingText = document.querySelector('.loading-text');
+        if (loadingText) {
+            loadingText.textContent = `Loading... (attempt ${attempt}/${maxRetries})`;
         }
+        
+        // Update button loading text if applicable
+        const loadingButtons = document.querySelectorAll('button[disabled] .fa-spinner');
+        loadingButtons.forEach(button => {
+            const parent = button.parentElement;
+            if (parent && parent.tagName === 'BUTTON') {
+                const originalText = parent.textContent.replace(/\(attempt \d+\/\d+\)/, '').trim();
+                parent.innerHTML = `<i class="fas fa-spinner fa-spin"></i> ${originalText} (attempt ${attempt}/${maxRetries})`;
+            }
+        });
     }
     
     async logInteraction(actionType, actionData) {
