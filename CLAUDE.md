@@ -1,90 +1,166 @@
-# System Prompt: TDD Workflow Assistant with Project Memory
+# MedSim Project Guidelines and Memory
 
-You are an expert software engineer and TDD (Test-Driven Development) assistant, working within the following project guidelines:
+This document contains the accumulated knowledge and rules for the MedSim medical education platform.
 
 ---
 
-## Project Memory
+## Project Overview
+
+MedSim is an AI-powered medical education platform with two modes:
+- **Doctor Mode**: Practice diagnosing 400+ medical cases across 51 specialties
+- **Patient Mode**: Practice patient communication and history-taking skills
+
+### Tech Stack
+- **Backend**: FastAPI with Python 3.11
+- **Frontend**: Vanilla JavaScript with modern ES6+
+- **LLM Providers**: DeepSeek (primary), Anthropic Claude, OpenAI GPT-4
+- **Deployment**: AWS Elastic Beanstalk with GitHub Actions CI/CD
+- **Session Storage**: File-based persistence with automatic cleanup
+
+---
+
+## Development Guidelines
 
 ### Code Style
 - Use consistent indentation (follow existing patterns in each file)
 - Add meaningful comments only when necessary to explain complex logic
 - Follow the existing naming conventions in the codebase
 - Keep functions focused and single-purpose
+- NO COMMENTS unless explicitly requested
 
-### Development Workflow
-- Always read existing files before making changes to understand context
-- Test changes thoroughly before considering them complete
-- Use existing libraries and frameworks already present in the project
-- Follow security best practices - never expose secrets or keys
+### API and Session Management
+- **Retry Mechanism**: All API calls automatically retry up to 10 times for session errors
+- **Timeouts**: 
+  - Chat messages: 60 seconds
+  - Show Answer/Multiple Choice: 30 seconds
+  - Physical Exam/Lab Tests: 40 seconds
+  - Session creation: 60 seconds
+- **Session Persistence**: Sessions are saved to disk and survive server restarts
+- **Error Handling**: Retry silently without showing attempt counts to users
 
-### Project Structure
-- Respect the existing directory structure
-- Place new files in appropriate directories based on their purpose
-- Keep related functionality grouped together
+### UI/UX Rules
+- Keep loading states simple - no attempt counters or progress details
+- Show only essential information during loading/processing
+- Implement retry mechanisms silently in the background
+- Use loading spinners without additional text
+- Error messages only after all retries are exhausted
 
-### Error Handling
-- Handle errors gracefully with appropriate error messages
-- Log errors appropriately without exposing sensitive information
-- Validate inputs before processing
+### LLM Provider Configuration
+- **Default Provider**: DeepSeek (best cost/performance ratio)
+- **Fallback Order**: DeepSeek → Anthropic → OpenAI
+- **Environment Variables Required**:
+  - `DEEPSEEK_API_KEY`
+  - `ANTHROPIC_API_KEY` (optional)
+  - `OPENAI_API_KEY` (optional)
 
-### Performance
-- Consider performance implications of code changes
-- Avoid unnecessary complexity or over-optimization
-- Use efficient algorithms and data structures when appropriate
+### Patient Mode Special Rules
+- "Any Specialty" option randomly selects from 51 valid specialties
+- Patient sessions require both creation and setup steps
+- Add 500ms delay between session creation and setup
+- Handle empty specialty string as "any specialty"
+
+### Security and API Keys
+- **NEVER** commit API keys to version control
+- Use environment variables in production
+- Use `api_keys.json` for local development only
+- All API key files are in `.gitignore`
+
+### Deployment Process
+1. Push to `main` branch triggers automatic deployment
+2. GitHub Actions deploys to AWS Elastic Beanstalk
+3. Environment variables must be set in EB console
+4. Deployment takes ~2 minutes
+
+### Error Handling Patterns
+```python
+# Always use this pattern for session operations
+try:
+    game_state = self._get_session(session_id)
+except KeyError:
+    # Wait and retry once
+    time.sleep(0.5)
+    game_state = self._get_session(session_id)
+```
+
+### Session Storage
+- Sessions stored in `sessions/` directory
+- Automatic cleanup after 24 hours
+- Atomic writes using temporary files
+- Thread-safe operations with locks
 
 ---
 
-## TDD Workflow Instructions
+## Common Issues and Solutions
 
-For every feature or bugfix, strictly follow these TDD steps:
+### "Game session not found" Error
+1. Increased timeouts to 60 seconds
+2. Added retry logic with exponential backoff
+3. Sessions persist to disk between requests
+4. 10 automatic retries before showing error
 
-1. **Clarify Requirements:** Ask the user to clearly describe the feature or bug to be addressed.
-2. **Write a Failing Test:** Before any implementation, write a test that describes the expected behavior or outcome. The test should fail initially.
-3. **Implement the Minimum Code:** Write only enough code to make the test pass. Avoid extra features or optimizations.
-4. **Run the Test:** Confirm that the test now passes.
-5. **Refactor:** If necessary, improve the code and tests for readability, maintainability, or performance, ensuring all tests still pass.
-6. **Repeat:** For each new feature or bugfix, repeat this cycle.
+### "Any Specialty" in Patient Mode
+- Backend randomly selects from 51 specialties
+- Empty string is treated as "any specialty"
+- Selected specialty shown in UI
 
-### Rules
-- Never write implementation code before a failing test exists.
-- Always show the test results after running tests.
-- Encourage small, incremental changes.
-- Ask clarifying questions if requirements are ambiguous.
-- Remind the user to commit code after each green (passing) test.
-
-### Additional Guidance
-- Always adhere to the project’s code style, structure, and error handling guidelines.
-- Use existing libraries and frameworks already present in the project.
-- Never expose secrets or keys in code or logs.
-- Place new files in the correct directories and keep related functionality grouped.
-- Validate all inputs and handle errors gracefully.
-- Consider performance and avoid unnecessary complexity.
+### 502 Bad Gateway
+- Usually caused by Python syntax errors
+- Check indentation in modified files
+- Review deployment logs
 
 ---
 
-**Your responses should:**
-- Guide the user through each TDD step.
-- Provide code examples for tests and implementations that follow the project’s conventions.
-- Explain the reasoning behind each step.
-- Encourage best practices in testing, code quality, and project organization.
+## Testing and Debugging
+
+### API Health Check
+```
+GET /api/health
+```
+Shows:
+- LLM provider status
+- API keys configured
+- Active sessions count
+- Environment (development/production)
+
+### Session Validation
+```
+GET /api/session/{session_id}/validate
+```
+Checks if session exists in memory or storage
+
+### Debug Page
+```
+/static/debug.html
+```
+Tests all API endpoints and shows results
 
 ---
 
-## API Keys (Doctor Game)
+## Important Files
 
-**Warning:** API keys should NEVER be committed to version control.
+- `api.py` - Main FastAPI application
+- `core_medical_game.py` - Game engine logic
+- `llm_providers.py` - Multi-LLM abstraction
+- `session_store.py` - Session persistence
+- `static/app.js` - Frontend application
+- `cases/` - 400+ medical cases
 
-### Setting up API Keys
+---
 
-1. **For Local Development:**
-   - Copy `.env.example` to `.env`
-   - Add your API keys to the `.env` file
-   - Or use the `api_keys.json` file (already in .gitignore)
+## Deployment Checklist
 
-2. **For Production (AWS Elastic Beanstalk):**
-   - Add keys as environment variables in the EB console
-   - Go to Configuration → Software → Environment properties
-   - Add: ANTHROPIC_API_KEY, OPENAI_API_KEY, DEEPSEEK_API_KEY
+1. ✅ No API keys in code
+2. ✅ All tests passing
+3. ✅ Session persistence working
+4. ✅ Retry logic implemented
+5. ✅ Timeouts appropriate for LLM calls
+6. ✅ Error messages user-friendly
+7. ✅ Loading states clean and simple
 
-Never commit actual API keys to any file in the repository!
+---
+
+## Contact
+
+- **GitHub**: https://github.com/junidude/medsim
+- **Live App**: http://medsim-env.eba-jsd4bbrm.us-east-1.elasticbeanstalk.com
+- **Support**: junidude14@gmail.com
