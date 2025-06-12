@@ -137,7 +137,13 @@ async def create_game(request: CreateGameRequest):
         
         return response
         
+    except HTTPException:
+        raise
     except Exception as e:
+        import traceback
+        print(f"[ERROR] Failed to create game session: {str(e)}")
+        print(f"[ERROR] Request data: role={request.role}, difficulty={request.difficulty}, specialty={request.specialty}")
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/game/setup-patient")
@@ -169,7 +175,13 @@ async def setup_patient_game(request: SetupPatientGameRequest):
         
     except KeyError:
         raise HTTPException(status_code=404, detail="Game session not found")
+    except HTTPException:
+        raise
     except Exception as e:
+        import traceback
+        print(f"[ERROR] Failed to setup patient game: {str(e)}")
+        print(f"[ERROR] Request data: session_id={request.session_id}, patient_name={request.patient_name}, age={request.patient_age}, specialty={request.specialty}")
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/api/game/message")
@@ -317,6 +329,31 @@ def get_difficulty_description(difficulty: str) -> str:
         "expert": "Rare diseases and challenging diagnostic scenarios"
     }
     return descriptions.get(difficulty, "")
+
+@app.get("/api/session/{session_id}/validate")
+async def validate_session(session_id: str):
+    """Validate if a session exists and is active."""
+    try:
+        # Check if session exists
+        from session_store import session_store
+        
+        # First check in memory
+        if session_id in game_engine.active_sessions:
+            return {"valid": True, "location": "memory"}
+        
+        # Check in storage
+        if session_store.session_exists(session_id):
+            # Try to load it
+            session_data = session_store.load_session(session_id)
+            if session_data:
+                return {"valid": True, "location": "storage"}
+            else:
+                return {"valid": False, "error": "Session file corrupted or expired"}
+        
+        return {"valid": False, "error": "Session not found"}
+        
+    except Exception as e:
+        return {"valid": False, "error": str(e)}
 
 @app.get("/api/health")
 async def health_check():

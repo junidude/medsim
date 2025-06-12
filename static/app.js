@@ -324,7 +324,7 @@ class MedicalGameApp {
                 role: 'doctor',
                 difficulty: difficulty,
                 specialty: specialty
-            }, 20000); // 20 second timeout for game creation
+            }, 40000); // 40 second timeout for game creation
             
             this.currentSession = response.session_id;
             
@@ -350,14 +350,16 @@ class MedicalGameApp {
         try {
             this.showLoading('Setting up your appointment...');
             
-            // First create session
+            // First create session with longer timeout
             const sessionResponse = await this.apiCall('/api/game/create', 'POST', {
-                role: 'patient'
-            });
+                role: 'patient',
+                difficulty: 'medium'  // Default difficulty for patient mode
+            }, 30000); // 30 second timeout
             
             this.currentSession = sessionResponse.session_id;
+            console.log('Patient session created:', this.currentSession);
             
-            // Then setup patient
+            // Then setup patient with longer timeout
             const setupResponse = await this.apiCall('/api/game/setup-patient', 'POST', {
                 session_id: this.currentSession,
                 patient_name: this.patientNameInput.value,
@@ -365,7 +367,7 @@ class MedicalGameApp {
                 patient_gender: this.patientGenderSelect.value,
                 chief_complaint: this.chiefComplaintInput.value,
                 specialty: this.doctorSpecialtySelect.value
-            });
+            }, 30000); // 30 second timeout
             
             // Log game start
             await this.logInteraction('game_start', {
@@ -475,7 +477,7 @@ class MedicalGameApp {
             const response = await this.apiCall('/api/game/message', 'POST', {
                 session_id: this.currentSession,
                 message: message
-            }, 30000); // 30 second timeout for AI messages
+            }, 60000); // 60 second timeout for AI messages
             
             // Add AI response
             this.addAIMessage(response.response);
@@ -502,7 +504,7 @@ class MedicalGameApp {
             const response = await this.apiCall('/api/game/diagnose', 'POST', {
                 session_id: this.currentSession,
                 diagnosis: diagnosis
-            }, 15000); // 15 second timeout
+            }, 30000); // 30 second timeout
             
             this.diagnosisInput.value = '';
             this.attemptsCount.textContent = response.attempts;
@@ -863,7 +865,7 @@ class MedicalGameApp {
             
             const response = await this.apiCall('/api/game/physical-exam', 'POST', {
                 session_id: this.currentSession
-            }, 20000); // 20 second timeout
+            }, 40000); // 40 second timeout
             
             this.showPhysicalExamResults(response);
             
@@ -882,7 +884,7 @@ class MedicalGameApp {
             
             const response = await this.apiCall('/api/game/lab-tests', 'POST', {
                 session_id: this.currentSession
-            }, 20000); // 20 second timeout
+            }, 40000); // 40 second timeout
             
             this.showLabTestResults(response);
             
@@ -907,9 +909,14 @@ class MedicalGameApp {
         try {
             this.setInputLoading(true);
             
+            // First validate session exists
+            if (!this.currentSession) {
+                throw new Error('No active session. Please restart the game.');
+            }
+            
             const response = await this.apiCall('/api/game/show-answer', 'POST', {
                 session_id: this.currentSession
-            }, 15000); // 15 second timeout
+            }, 30000); // 30 second timeout
             
             this.showAnswerResults(response);
             
@@ -917,6 +924,9 @@ class MedicalGameApp {
             // More specific error handling
             if (error.message.includes('timeout')) {
                 this.showError('The request is taking longer than expected. Please try again.');
+            } else if (error.message.includes('session not found') || error.message.includes('Session not found')) {
+                this.showError('Your session has expired. Please refresh the page and start a new game.');
+                console.error('Session lost:', this.currentSession);
             } else {
                 this.showError('Failed to show answer: ' + error.message);
             }
@@ -946,7 +956,7 @@ class MedicalGameApp {
             
             const response = await this.apiCall('/api/game/show-multiple-choice', 'POST', {
                 session_id: this.currentSession
-            }, 15000); // 15 second timeout
+            }, 30000); // 30 second timeout
             
             if (response.error) {
                 this.showError(response.message || response.error);

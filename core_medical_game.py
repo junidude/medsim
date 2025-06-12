@@ -157,9 +157,27 @@ class MedicalGameEngine:
     def _save_session(self, session_id: str, game_state: GameState):
         """Save session to persistent storage"""
         try:
-            session_store.save_session(session_id, asdict(game_state))
+            # Convert GameState to dict, handling special types
+            data = asdict(game_state)
+            
+            # Convert enums to strings
+            if 'role' in data and data['role']:
+                data['role'] = data['role'].value if hasattr(data['role'], 'value') else str(data['role'])
+            if 'difficulty' in data and data['difficulty']:
+                data['difficulty'] = data['difficulty'].value if hasattr(data['difficulty'], 'value') else str(data['difficulty'])
+            if 'specialty' in data and data['specialty']:
+                data['specialty'] = data['specialty'].value if hasattr(data['specialty'], 'value') else str(data['specialty'])
+            
+            # Remove session_log as it can't be serialized
+            if 'session_log' in data:
+                data.pop('session_log', None)
+            
+            session_store.save_session(session_id, data)
+            print(f"[SESSION] Saved session: {session_id}")
         except Exception as e:
-            print(f"Error saving session {session_id}: {e}")
+            print(f"[SESSION] Error saving session {session_id}: {e}")
+            import traceback
+            traceback.print_exc()
     
     def _load_session(self, session_id: str) -> Optional[GameState]:
         """Load session from persistent storage"""
@@ -188,17 +206,33 @@ class MedicalGameEngine:
     
     def _get_session(self, session_id: str) -> GameState:
         """Get session from memory or storage"""
+        print(f"[SESSION] Looking for session: {session_id}")
+        
         # First check memory
         if session_id in self.active_sessions:
+            print(f"[SESSION] Found in memory: {session_id}")
             return self.active_sessions[session_id]
+        
+        print(f"[SESSION] Not in memory, checking storage...")
         
         # Then check storage
         game_state = self._load_session(session_id)
         if game_state:
+            print(f"[SESSION] Loaded from storage: {session_id}")
             self.active_sessions[session_id] = game_state
             return game_state
         
         # Session not found
+        print(f"[SESSION] Session not found: {session_id}")
+        print(f"[SESSION] Active sessions in memory: {list(self.active_sessions.keys())}")
+        
+        # Check if session file exists
+        from session_store import session_store
+        if session_store.session_exists(session_id):
+            print(f"[SESSION] File exists but couldn't load: {session_id}")
+        else:
+            print(f"[SESSION] File does not exist: {session_id}")
+        
         raise KeyError(f"Session {session_id} not found")
     
     def _generate_llm_response(self, prompt: str, system_prompt: Optional[str] = None,
