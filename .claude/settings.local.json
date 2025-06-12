@@ -24,7 +24,8 @@
       "Bash(eb status:*)",
       "Bash(eb init:*)",
       "Bash(eb appversion:*)",
-      "Bash(eb logs:*)"
+      "Bash(eb logs:*)",
+      "Bash(mv:*)"
     ],
     "deny": []
   }
