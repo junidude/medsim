@@ -7,6 +7,7 @@ FastAPI backend for web-based medical education game.
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 import os
@@ -85,7 +86,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 @app.get("/")
 async def read_root():
     """Serve main game page."""
-    return {"message": "Medical Simulation Game API", "version": "1.0.0"}
+    return FileResponse("static/index.html")
 
 @app.post("/api/game/create")
 async def create_game(request: CreateGameRequest):
