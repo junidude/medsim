@@ -16,7 +16,8 @@
       "Bash(open:*)",
       "Bash(diff:*)",
       "Bash(rg:*)",
-      "Bash(true)"
+      "Bash(true)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }

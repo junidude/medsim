@@ -17,7 +17,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.10'
+        python-version: '3.11'
     
     - name: Install dependencies
       run: |
@@ -29,7 +29,7 @@ jobs:
       with:
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ${{ secrets.AWS_REGION }}
+        aws-region: ${{ secrets.AWS_REGION || 'us-east-1' }}
     
     - name: Install EB CLI
       run: |
@@ -37,9 +37,9 @@ jobs:
     
     - name: Deploy to Elastic Beanstalk
       run: |
-        eb init medsim-app --platform python-3.10 --region ${{ secrets.AWS_REGION }}
+        eb init medsim-app --platform python-3.11 --region ${{ secrets.AWS_REGION || 'us-east-1' }}
         eb deploy medsim-env --timeout 30
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION }}
+        AWS_DEFAULT_REGION: ${{ secrets.AWS_REGION || 'us-east-1' }}
