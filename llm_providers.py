@@ -4,6 +4,7 @@ LLM Provider Abstraction Layer
 Supports Anthropic Claude, OpenAI GPT-4, and DeepSeek V3
 """
 
+import os
 import json
 from abc import ABC, abstractmethod
 from typing import Dict, List, Optional, Any
@@ -168,12 +169,34 @@ class LLMFactory:
     def create_provider(provider_type: str, api_keys_path: str = "api_keys.json") -> LLMProvider:
         """Create an LLM provider based on type"""
         
-        # Load API keys
-        try:
-            with open(api_keys_path, 'r') as f:
-                api_keys = json.load(f)
-        except FileNotFoundError:
-            raise ValueError(f"API keys file not found: {api_keys_path}")
+        # Load API keys - check environment variables first, then file
+        api_keys = {}
+        
+        # Check environment variables
+        if os.getenv("ANTHROPIC_API_KEY"):
+            api_keys["anthropic"] = {
+                "api_key": os.getenv("ANTHROPIC_API_KEY"),
+                "model": "claude-3-5-sonnet-20241022"
+            }
+        if os.getenv("OPENAI_API_KEY"):
+            api_keys["openai"] = {
+                "api_key": os.getenv("OPENAI_API_KEY"),
+                "model": "gpt-4-turbo-preview"
+            }
+        if os.getenv("DEEPSEEK_API_KEY"):
+            api_keys["deepseek"] = {
+                "api_key": os.getenv("DEEPSEEK_API_KEY"),
+                "model": "deepseek-chat",
+                "base_url": "https://api.deepseek.com/v1"
+            }
+        
+        # If no env vars, try loading from file
+        if not api_keys:
+            try:
+                with open(api_keys_path, 'r') as f:
+                    api_keys = json.load(f)
+            except FileNotFoundError:
+                raise ValueError(f"No API keys found in environment or file: {api_keys_path}")
         
         provider_type = provider_type.lower()
         

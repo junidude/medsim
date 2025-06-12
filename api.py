@@ -13,6 +13,7 @@ from typing import Optional, List, Dict, Any
 import os
 from core_medical_game import MedicalGameEngine, GameRole, Difficulty, Specialty
 from patient_interaction_logger import patient_logger
+from llm_providers import set_llm_provider
 
 # Pydantic models for API requests
 class CreateGameRequest(BaseModel):
@@ -69,16 +70,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Initialize game engine
-# The engine will use the LLM provider configured by run_server.py
-# For backward compatibility, also check for ANTHROPIC_API_KEY env var
-ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-if ANTHROPIC_API_KEY:
-    # Direct Anthropic key provided (backward compatibility)
-    game_engine = MedicalGameEngine(ANTHROPIC_API_KEY)
-else:
-    # Use the configured LLM provider
-    game_engine = MedicalGameEngine()
+# Initialize LLM provider - use DeepSeek for better performance and cost
+try:
+    set_llm_provider("deepseek")
+    print("✅ Using DeepSeek for AI conversations")
+except Exception as e:
+    print(f"⚠️ Failed to set DeepSeek, falling back to Anthropic: {e}")
+    # Fallback to Anthropic if DeepSeek fails
+    try:
+        set_llm_provider("anthropic")
+    except:
+        pass
+
+# Initialize game engine with LLM provider
+game_engine = MedicalGameEngine()
 
 # Serve static files (HTML, CSS, JS)
 app.mount("/static", StaticFiles(directory="static"), name="static")
