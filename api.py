@@ -327,13 +327,30 @@ async def health_check():
         "status": "healthy",
         "api_version": "1.0.0",
         "llm_provider": None,
-        "llm_status": "not_initialized"
+        "llm_status": "not_initialized",
+        "environment": os.getenv("ENVIRONMENT", "development"),
+        "api_keys_configured": {
+            "deepseek": bool(os.getenv("DEEPSEEK_API_KEY")),
+            "anthropic": bool(os.getenv("ANTHROPIC_API_KEY")),
+            "openai": bool(os.getenv("OPENAI_API_KEY"))
+        },
+        "sessions_directory": os.path.exists("sessions"),
+        "active_sessions": len(game_engine.active_sessions) if game_engine else 0
     }
     
     try:
         provider = get_llm_provider()
         health_status["llm_provider"] = provider.get_provider_name()
         health_status["llm_status"] = "initialized"
+        
+        # Test if provider actually works
+        try:
+            test_response = provider.generate("test", max_tokens=1)
+            health_status["llm_test"] = "working"
+        except Exception as test_error:
+            health_status["llm_test"] = f"failed: {str(test_error)}"
+            health_status["status"] = "degraded"
+            
     except Exception as e:
         health_status["llm_status"] = f"error: {str(e)}"
         health_status["status"] = "degraded"
