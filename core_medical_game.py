@@ -14,6 +14,7 @@ import anthropic
 from case_manager import case_manager
 from session_logger import session_logger, SessionLog
 from llm_providers import get_llm_provider, LLMProvider
+from session_store import session_store
 
 class GameRole(Enum):
     DOCTOR = "doctor"
@@ -146,6 +147,60 @@ class MedicalGameEngine:
             self.client = None
             self.llm_provider = get_llm_provider()  # Use the configured provider
         self.active_sessions: Dict[str, GameState] = {}
+        self._load_existing_sessions()
+    
+    def _load_existing_sessions(self):
+        """Load any existing sessions from storage on startup"""
+        # Sessions will be loaded on-demand to avoid memory issues
+        pass
+    
+    def _save_session(self, session_id: str, game_state: GameState):
+        """Save session to persistent storage"""
+        try:
+            session_store.save_session(session_id, asdict(game_state))
+        except Exception as e:
+            print(f"Error saving session {session_id}: {e}")
+    
+    def _load_session(self, session_id: str) -> Optional[GameState]:
+        """Load session from persistent storage"""
+        try:
+            data = session_store.load_session(session_id)
+            if data:
+                # Reconstruct GameState from dictionary
+                return GameState(
+                    session_id=data['session_id'],
+                    role=GameRole(data['role']),
+                    difficulty=Difficulty(data['difficulty']) if data.get('difficulty') else None,
+                    current_case=data.get('current_case'),
+                    conversation_history=data.get('conversation_history', []),
+                    patient_info=data.get('patient_info'),
+                    collected_info=data.get('collected_info', {}),
+                    start_time=data.get('start_time'),
+                    specialty=Specialty(data['specialty']) if data.get('specialty') else None,
+                    actions_taken=data.get('actions_taken', []),
+                    answer_shown=data.get('answer_shown', False),
+                    diagnostic_attempts=data.get('diagnostic_attempts', [])
+                )
+            return None
+        except Exception as e:
+            print(f"Error loading session {session_id}: {e}")
+            return None
+    
+    def _get_session(self, session_id: str) -> GameState:
+        """Get session from memory or storage"""
+        # First check memory
+        if session_id in self.active_sessions:
+            return self.active_sessions[session_id]
+        
+        # Then check storage
+        game_state = self._load_session(session_id)
+        if game_state:
+            self.active_sessions[session_id] = game_state
+        self._save_session(session_id, game_state)
+            return game_state
+        
+        # Session not found
+        raise KeyError(f"Session {session_id} not found")
     
     def _generate_llm_response(self, prompt: str, system_prompt: Optional[str] = None,
                               max_tokens: int = 1000, messages: Optional[List[Dict]] = None) -> str:
@@ -180,10 +235,10 @@ class MedicalGameEngine:
     
     def end_session(self, session_id: str) -> Dict[str, Any]:
         """End and log a game session."""
-        if session_id not in self.active_sessions:
+        try:
+            game_state = self._get_session(session_id)
+        except KeyError:
             return {"error": "Session not found"}
-        
-        game_state = self.active_sessions[session_id]
         
         # Finalize session log
         if game_state.session_log:
@@ -191,6 +246,7 @@ class MedicalGameEngine:
         
         # Remove from active sessions
         del self.active_sessions[session_id]
+        session_store.delete_session(session_id)
         
         return {
             "message": "Session ended and logged successfully",
@@ -224,11 +280,12 @@ class MedicalGameEngine:
         game_state.session_log = session_logger.create_session_log(session_id, role, user_data)
         
         self.active_sessions[session_id] = game_state
+        self._save_session(session_id, game_state)
         return game_state
     
     def setup_doctor_game(self, session_id: str) -> Dict[str, Any]:
         """Setup game for doctor role - use cached medical case."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         # Get cached medical case instead of generating new one
         specialty_value = game_state.specialty.value if game_state.specialty else None
@@ -281,7 +338,7 @@ class MedicalGameEngine:
                           patient_age: int, patient_gender: str, 
                           chief_complaint: str, specialty: str) -> Dict[str, Any]:
         """Setup game for patient role - create AI doctor."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         # Update patient info
         game_state.patient_name = patient_name
@@ -322,7 +379,7 @@ class MedicalGameEngine:
     
     def send_message(self, session_id: str, message: str) -> Dict[str, Any]:
         """Send message to AI and get response."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         # Add user message to history
         timestamp = datetime.datetime.now().isoformat()
@@ -347,6 +404,9 @@ class MedicalGameEngine:
             "timestamp": ai_timestamp
         })
         
+        # Save session after updating conversation
+        self._save_session(session_id, game_state)
+        
         # Log AI response
         if game_state.session_log:
             session_logger.log_message(game_state.session_log, "ai", ai_response, ai_timestamp)
@@ -358,7 +418,7 @@ class MedicalGameEngine:
     
     def submit_diagnosis(self, session_id: str, diagnosis: str) -> Dict[str, Any]:
         """Submit diagnosis attempt (doctor role only)."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         if game_state.role != GameRole.DOCTOR:
             return {"error": "Diagnosis submission only available in doctor mode"}
@@ -399,7 +459,7 @@ class MedicalGameEngine:
     
     def show_answer(self, session_id: str) -> Dict[str, Any]:
         """Show the correct answer for the current case (doctor role only)."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         if game_state.role != GameRole.DOCTOR:
             return {"error": "Answer viewing only available in doctor mode"}
@@ -429,7 +489,7 @@ class MedicalGameEngine:
     
     def show_multiple_choice(self, session_id: str) -> Dict[str, Any]:
         """Show multiple choice options for the current case (doctor role only)."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         if game_state.role != GameRole.DOCTOR:
             return {"error": "Multiple choice only available in doctor mode"}
@@ -457,7 +517,7 @@ class MedicalGameEngine:
     
     def perform_physical_exam(self, session_id: str) -> Dict[str, Any]:
         """Perform physical examination (doctor role only)."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         if game_state.role != GameRole.DOCTOR:
             return {"error": "Physical examination only available in doctor mode"}
@@ -502,7 +562,7 @@ class MedicalGameEngine:
     
     def perform_lab_tests(self, session_id: str) -> Dict[str, Any]:
         """Perform laboratory tests (doctor role only)."""
-        game_state = self.active_sessions[session_id]
+        game_state = self._get_session(session_id)
         
         if game_state.role != GameRole.DOCTOR:
             return {"error": "Laboratory tests only available in doctor mode"}
@@ -552,7 +612,10 @@ class MedicalGameEngine:
     
     def get_game_state(self, session_id: str) -> Dict[str, Any]:
         """Get current game state."""
-        game_state = self.active_sessions.get(session_id)
+        try:
+            game_state = self._get_session(session_id)
+        except KeyError:
+            game_state = None
         if not game_state:
             return {"error": "Session not found"}
         

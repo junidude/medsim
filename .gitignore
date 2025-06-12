@@ -145,6 +145,7 @@ api_keys.json
 patient_logs/
 saves/
 session_logs/
+sessions/
 *.db
 *.sqlite
 
