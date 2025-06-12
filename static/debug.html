@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedSim API Debug</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .success {
+            background: #d4edda;
+            border-color: #c3e6cb;
+        }
+        .error {
+            background: #f8d7da;
+            border-color: #f5c6cb;
+        }
+        pre {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MedSim API Debug</h1>
+        <p>Current URL: <span id="current-url"></span></p>
+        
+        <div id="tests"></div>
+        
+        <button onclick="runAllTests()">Run All Tests</button>
+        <button onclick="clearResults()">Clear Results</button>
+    </div>
+
+    <script>
+        document.getElementById('current-url').textContent = window.location.href;
+        
+        const apiTests = [
+            {
+                name: 'Health Check',
+                endpoint: '/api/health',
+                method: 'GET'
+            },
+            {
+                name: 'Get Specialties',
+                endpoint: '/api/specialties',
+                method: 'GET'
+            },
+            {
+                name: 'Get Difficulties',
+                endpoint: '/api/difficulties',
+                method: 'GET'
+            },
+            {
+                name: 'Create Doctor Game',
+                endpoint: '/api/game/create',
+                method: 'POST',
+                body: {
+                    role: 'doctor',
+                    difficulty: 'medium',
+                    specialty: 'cardiology'
+                }
+            }
+        ];
+        
+        async function testAPI(test) {
+            const testDiv = document.createElement('div');
+            testDiv.className = 'test';
+            
+            let result = `<h3>${test.name}</h3>`;
+            result += `<p><strong>Endpoint:</strong> ${test.endpoint}</p>`;
+            result += `<p><strong>Method:</strong> ${test.method}</p>`;
+            
+            if (test.body) {
+                result += `<p><strong>Body:</strong> <pre>${JSON.stringify(test.body, null, 2)}</pre></p>`;
+            }
+            
+            try {
+                const config = {
+                    method: test.method,
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                };
+                
+                if (test.body) {
+                    config.body = JSON.stringify(test.body);
+                }
+                
+                const startTime = Date.now();
+                const response = await fetch(test.endpoint, config);
+                const endTime = Date.now();
+                
+                const responseData = await response.json();
+                
+                result += `<p><strong>Status:</strong> ${response.status} ${response.statusText}</p>`;
+                result += `<p><strong>Time:</strong> ${endTime - startTime}ms</p>`;
+                result += `<p><strong>Response:</strong> <pre>${JSON.stringify(responseData, null, 2)}</pre></p>`;
+                
+                if (response.ok) {
+                    testDiv.classList.add('success');
+                } else {
+                    testDiv.classList.add('error');
+                }
+            } catch (error) {
+                result += `<p><strong>Error:</strong> ${error.message}</p>`;
+                testDiv.classList.add('error');
+            }
+            
+            testDiv.innerHTML = result;
+            document.getElementById('tests').appendChild(testDiv);
+        }
+        
+        async function runAllTests() {
+            clearResults();
+            for (const test of apiTests) {
+                await testAPI(test);
+                // Small delay between tests
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+        }
+        
+        function clearResults() {
+            document.getElementById('tests').innerHTML = '';
+        }
+        
+        // Run tests on load
+        runAllTests();
+    </script>
+</body>
+</html>

@@ -72,15 +72,23 @@ app.add_middleware(
 
 # Initialize LLM provider - use DeepSeek for better performance and cost
 try:
-    set_llm_provider("deepseek")
-    print("✅ Using DeepSeek for AI conversations")
-except Exception as e:
-    print(f"⚠️ Failed to set DeepSeek, falling back to Anthropic: {e}")
-    # Fallback to Anthropic if DeepSeek fails
-    try:
+    # Check if API keys are available
+    deepseek_key = os.getenv("DEEPSEEK_API_KEY")
+    anthropic_key = os.getenv("ANTHROPIC_API_KEY")
+    
+    if deepseek_key:
+        set_llm_provider("deepseek")
+        print("✅ Using DeepSeek for AI conversations")
+    elif anthropic_key:
         set_llm_provider("anthropic")
-    except:
-        pass
+        print("✅ Using Anthropic Claude for AI conversations")
+    else:
+        # Try loading from api_keys.json file
+        set_llm_provider("deepseek")
+        print("✅ Using DeepSeek from api_keys.json")
+except Exception as e:
+    print(f"⚠️ Failed to initialize LLM provider: {e}")
+    print("⚠️ API will run but AI features will not work")
 
 # Initialize game engine with LLM provider
 game_engine = MedicalGameEngine()
@@ -312,8 +320,25 @@ def get_difficulty_description(difficulty: str) -> str:
 
 @app.get("/api/health")
 async def health_check():
-    """API health check."""
-    return {"status": "healthy", "api_version": "1.0.0"}
+    """API health check with detailed status."""
+    from llm_providers import get_llm_provider
+    
+    health_status = {
+        "status": "healthy",
+        "api_version": "1.0.0",
+        "llm_provider": None,
+        "llm_status": "not_initialized"
+    }
+    
+    try:
+        provider = get_llm_provider()
+        health_status["llm_provider"] = provider.get_provider_name()
+        health_status["llm_status"] = "initialized"
+    except Exception as e:
+        health_status["llm_status"] = f"error: {str(e)}"
+        health_status["status"] = "degraded"
+    
+    return health_status
 
 @app.get("/api/specialties")
 async def get_available_specialties():
