@@ -161,6 +161,17 @@ async def setup_patient_game(request: SetupPatientGameRequest):
         elif specialty not in [s.value for s in Specialty]:
             raise HTTPException(status_code=400, detail="Invalid specialty")
         
+        # Verify session exists before setup
+        from session_store import session_store
+        if not session_store.session_exists(request.session_id) and request.session_id not in game_engine.active_sessions:
+            print(f"[API] Session {request.session_id} not found, waiting...")
+            import time
+            time.sleep(0.5)  # Give it a moment to save
+            
+            # Check again
+            if not session_store.session_exists(request.session_id) and request.session_id not in game_engine.active_sessions:
+                raise HTTPException(status_code=404, detail="Game session not found. Please try creating a new game.")
+        
         result = game_engine.setup_patient_game(
             session_id=request.session_id,
             patient_name=request.patient_name,

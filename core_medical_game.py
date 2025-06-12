@@ -377,7 +377,14 @@ class MedicalGameEngine:
                           patient_age: int, patient_gender: str, 
                           chief_complaint: str, specialty: str) -> Dict[str, Any]:
         """Setup game for patient role - create AI doctor."""
-        game_state = self._get_session(session_id)
+        try:
+            game_state = self._get_session(session_id)
+        except KeyError:
+            # If session not found, wait a bit and try again
+            print(f"[SESSION] Session {session_id} not found on first try, retrying...")
+            import time
+            time.sleep(0.5)
+            game_state = self._get_session(session_id)
         
         # Update patient info
         game_state.patient_name = patient_name

@@ -1,5 +1,7 @@
 # MedSim - AI-Powered Medical Education Platform
 
+WebApp: medsim-env.eba-jsd4bbrm.us-east-1.elasticbeanstalk.com
+
 [![Deploy to AWS](https://github.com/junidude/medsim/actions/workflows/deploy.yml/badge.svg)](https://github.com/junidude/medsim/actions/workflows/deploy.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -235,7 +237,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - Issues: [GitHub Issues](https://github.com/junidude/medsim/issues)
 - Documentation: See `/docs` folder
-- Email: support@medsim.app
+- Email: junidude14@gmail.com
 
 ---
 

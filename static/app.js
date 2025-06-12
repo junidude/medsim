@@ -354,10 +354,13 @@ class MedicalGameApp {
             const sessionResponse = await this.apiCall('/api/game/create', 'POST', {
                 role: 'patient',
                 difficulty: 'medium'  // Default difficulty for patient mode
-            }, 30000); // 30 second timeout
+            }, 60000); // 60 second timeout
             
             this.currentSession = sessionResponse.session_id;
             console.log('Patient session created:', this.currentSession);
+            
+            // Add a small delay to ensure session is saved
+            await new Promise(resolve => setTimeout(resolve, 500));
             
             // Then setup patient with longer timeout
             const setupResponse = await this.apiCall('/api/game/setup-patient', 'POST', {
@@ -366,8 +369,8 @@ class MedicalGameApp {
                 patient_age: parseInt(this.patientAgeInput.value),
                 patient_gender: this.patientGenderSelect.value,
                 chief_complaint: this.chiefComplaintInput.value,
-                specialty: this.doctorSpecialtySelect.value
-            }, 30000); // 30 second timeout
+                specialty: this.doctorSpecialtySelect.value || ""  // Ensure empty string for "any"
+            }, 60000); // 60 second timeout
             
             // Log game start
             await this.logInteraction('game_start', {
