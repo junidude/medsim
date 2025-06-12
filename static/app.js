@@ -319,12 +319,12 @@ class MedicalGameApp {
             
             console.log('Doctor session request:', { role: 'doctor', difficulty, specialty });
             
-            // Create game session
+            // Create game session with longer timeout
             const response = await this.apiCall('/api/game/create', 'POST', {
                 role: 'doctor',
                 difficulty: difficulty,
                 specialty: specialty
-            });
+            }, 20000); // 20 second timeout for game creation
             
             this.currentSession = response.session_id;
             
@@ -471,11 +471,11 @@ class MedicalGameApp {
             // Disable input while processing
             this.setInputLoading(true);
             
-            // Send to API
+            // Send to API with longer timeout for AI response
             const response = await this.apiCall('/api/game/message', 'POST', {
                 session_id: this.currentSession,
                 message: message
-            });
+            }, 30000); // 30 second timeout for AI messages
             
             // Add AI response
             this.addAIMessage(response.response);
@@ -502,7 +502,7 @@ class MedicalGameApp {
             const response = await this.apiCall('/api/game/diagnose', 'POST', {
                 session_id: this.currentSession,
                 diagnosis: diagnosis
-            });
+            }, 15000); // 15 second timeout
             
             this.diagnosisInput.value = '';
             this.attemptsCount.textContent = response.attempts;
@@ -740,7 +740,7 @@ class MedicalGameApp {
         }
     }
     
-    async apiCall(endpoint, method = 'GET', data = null) {
+    async apiCall(endpoint, method = 'GET', data = null, timeout = 10000) {
         const config = {
             method: method,
             headers: {
@@ -752,14 +752,28 @@ class MedicalGameApp {
             config.body = JSON.stringify(data);
         }
         
-        const response = await fetch(endpoint, config);
+        // Create an AbortController for timeout
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), timeout);
+        config.signal = controller.signal;
         
-        if (!response.ok) {
-            const errorData = await response.json().catch(() => ({}));
-            throw new Error(errorData.detail || `HTTP ${response.status}`);
+        try {
+            const response = await fetch(endpoint, config);
+            clearTimeout(timeoutId);
+            
+            if (!response.ok) {
+                const errorData = await response.json().catch(() => ({}));
+                throw new Error(errorData.detail || `HTTP ${response.status}`);
+            }
+            
+            return await response.json();
+        } catch (error) {
+            clearTimeout(timeoutId);
+            if (error.name === 'AbortError') {
+                throw new Error('Request timeout - please try again');
+            }
+            throw error;
         }
-        
-        return await response.json();
     }
     
     async logInteraction(actionType, actionData) {
@@ -849,7 +863,7 @@ class MedicalGameApp {
             
             const response = await this.apiCall('/api/game/physical-exam', 'POST', {
                 session_id: this.currentSession
-            });
+            }, 20000); // 20 second timeout
             
             this.showPhysicalExamResults(response);
             
@@ -868,7 +882,7 @@ class MedicalGameApp {
             
             const response = await this.apiCall('/api/game/lab-tests', 'POST', {
                 session_id: this.currentSession
-            });
+            }, 20000); // 20 second timeout
             
             this.showLabTestResults(response);
             
@@ -882,31 +896,57 @@ class MedicalGameApp {
     async showAnswer() {
         if (this.isLoading) return;
         
+        // Show loading message on button
+        const showAnswerBtn = document.getElementById('show-answer-btn');
+        const originalText = showAnswerBtn ? showAnswerBtn.innerHTML : '';
+        if (showAnswerBtn) {
+            showAnswerBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading answer...';
+            showAnswerBtn.disabled = true;
+        }
+        
         try {
             this.setInputLoading(true);
             
             const response = await this.apiCall('/api/game/show-answer', 'POST', {
                 session_id: this.currentSession
-            });
+            }, 15000); // 15 second timeout
             
             this.showAnswerResults(response);
             
         } catch (error) {
-            this.showError('Failed to show answer: ' + error.message);
+            // More specific error handling
+            if (error.message.includes('timeout')) {
+                this.showError('The request is taking longer than expected. Please try again.');
+            } else {
+                this.showError('Failed to show answer: ' + error.message);
+            }
         } finally {
             this.setInputLoading(false);
+            // Restore button
+            if (showAnswerBtn) {
+                showAnswerBtn.innerHTML = originalText;
+                showAnswerBtn.disabled = false;
+            }
         }
     }
     
     async showMultipleChoice() {
         if (this.isLoading) return;
         
+        // Show loading message on button
+        const multipleChoiceBtn = document.getElementById('show-multiple-choice-btn');
+        const originalText = multipleChoiceBtn ? multipleChoiceBtn.innerHTML : '';
+        if (multipleChoiceBtn) {
+            multipleChoiceBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading options...';
+            multipleChoiceBtn.disabled = true;
+        }
+        
         try {
             this.setInputLoading(true);
             
             const response = await this.apiCall('/api/game/show-multiple-choice', 'POST', {
                 session_id: this.currentSession
-            });
+            }, 15000); // 15 second timeout
             
             if (response.error) {
                 this.showError(response.message || response.error);
@@ -915,9 +955,19 @@ class MedicalGameApp {
             }
             
         } catch (error) {
-            this.showError('Failed to show multiple choice: ' + error.message);
+            // More specific error handling
+            if (error.message.includes('timeout')) {
+                this.showError('The request is taking longer than expected. Please try again.');
+            } else {
+                this.showError('Failed to show multiple choice: ' + error.message);
+            }
         } finally {
             this.setInputLoading(false);
+            // Restore button
+            if (multipleChoiceBtn) {
+                multipleChoiceBtn.innerHTML = originalText;
+                multipleChoiceBtn.disabled = false;
+            }
         }
     }
     
