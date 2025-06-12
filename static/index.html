@@ -574,14 +574,22 @@
                     script.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js';
                     script.setAttribute('data-ad-client', config.client_id);
                     
-                    // Replace placeholder with actual script
+                    // Replace placeholder with actual script or append to head
                     const placeholder = document.getElementById('adsense-script-placeholder');
                     if (placeholder) {
                         placeholder.parentNode.replaceChild(script, placeholder);
+                    } else {
+                        document.head.appendChild(script);
                     }
+                    
+                    // Handle script loading errors
+                    script.onerror = () => {
+                        console.error('[AdSense] Failed to load script');
+                    };
                     
                     // Wait for script to load, then create ad
                     script.onload = () => {
+                        
                         // Use requestIdleCallback for performance
                         const createAd = () => {
                             const container = document.getElementById('adsense-container');
@@ -639,10 +647,10 @@
                                                     ad_height: adHeight
                                                 }
                                             })
-                                        }).catch(err => console.log('Ad impression logging failed:', err));
+                                        }).catch(() => {});
                                     }
                                 } catch (e) {
-                                    console.error('AdSense initialization error:', e);
+                                    console.error('[AdSense] Initialization error:', e);
                                 }
                             }
                         };
@@ -671,7 +679,7 @@
                     });
                 }
             } catch (error) {
-                console.error('Failed to initialize AdSense:', error);
+                console.error('[AdSense] Initialization failed:', error);
             }
         })();
     </script>
