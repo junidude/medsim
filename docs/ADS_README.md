@@ -53,15 +53,20 @@ ADSENSE_SLOT_ID=test
 
 ## Ad Placement Guidelines
 
-### Desktop Layout
-- **Position**: Below game content, above footer
-- **Size**: Responsive horizontal banner
-- **Behavior**: Remains visible during scrolling
+### Desktop Layout (≥1200px)
+- **Position**: Fixed on right side, vertically centered
+- **Size**: 160x600 (Wide Skyscraper)
+- **Behavior**: Always visible, does not interfere with content
 
-### Mobile Layout
+### Tablet/Small Desktop (769px-1199px)
+- **Position**: Fixed at bottom center
+- **Size**: 320x50 (Banner)
+- **Behavior**: Small, unobtrusive banner
+
+### Mobile Layout (<768px)
 - **Position**: Fixed at bottom of viewport
-- **Size**: 320x50 or responsive
-- **Behavior**: Hides during critical interactions
+- **Size**: 320x50 (Mobile Banner)
+- **Behavior**: Minimal height to preserve screen space
 
 ### PWA Considerations
 - Same implementation as mobile web

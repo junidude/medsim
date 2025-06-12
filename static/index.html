@@ -552,12 +552,12 @@
         }
     </style>
 
-    <!-- AdSense Container -->
+    <script src="/static/app.js"></script>
+    
+    <!-- AdSense Container (moved inside body, will be positioned with CSS) -->
     <div id="adsense-container" class="adsense-container" style="display: none;">
         <!-- AdSense ads will be inserted here dynamically -->
     </div>
-
-    <script src="/static/app.js"></script>
     
     <!-- AdSense Initialization Script -->
     <script>
@@ -586,14 +586,35 @@
                         const createAd = () => {
                             const container = document.getElementById('adsense-container');
                             if (container) {
-                                // Create responsive ad unit
+                                // Determine ad size based on viewport
+                                const viewportWidth = window.innerWidth;
+                                let adWidth, adHeight, placement;
+                                
+                                if (viewportWidth >= 1200) {
+                                    // Desktop side - vertical banner
+                                    adWidth = 160;
+                                    adHeight = 600;
+                                    placement = 'desktop-side';
+                                } else if (viewportWidth >= 769) {
+                                    // Desktop bottom - horizontal banner
+                                    adWidth = 320;
+                                    adHeight = 50;
+                                    placement = 'desktop-bottom';
+                                } else {
+                                    // Mobile - small banner
+                                    adWidth = 320;
+                                    adHeight = 50;
+                                    placement = 'mobile-bottom';
+                                }
+                                
+                                // Create ad unit with specific size
                                 const adUnit = document.createElement('ins');
                                 adUnit.className = 'adsbygoogle';
-                                adUnit.style.display = 'block';
+                                adUnit.style.display = 'inline-block';
+                                adUnit.style.width = adWidth + 'px';
+                                adUnit.style.height = adHeight + 'px';
                                 adUnit.setAttribute('data-ad-client', config.client_id);
                                 adUnit.setAttribute('data-ad-slot', config.slot_id || 'auto');
-                                adUnit.setAttribute('data-ad-format', 'auto');
-                                adUnit.setAttribute('data-full-width-responsive', 'true');
                                 
                                 container.appendChild(adUnit);
                                 container.style.display = 'block';
@@ -610,10 +631,12 @@
                                             body: JSON.stringify({
                                                 session_id: window.medicalGameApp.currentSession,
                                                 ad_type: 'banner',
-                                                placement: window.innerWidth <= 768 ? 'mobile-bottom' : 'desktop-bottom',
+                                                placement: placement,
                                                 metadata: {
                                                     viewport_width: window.innerWidth,
-                                                    viewport_height: window.innerHeight
+                                                    viewport_height: window.innerHeight,
+                                                    ad_width: adWidth,
+                                                    ad_height: adHeight
                                                 }
                                             })
                                         }).catch(err => console.log('Ad impression logging failed:', err));
@@ -631,6 +654,21 @@
                             setTimeout(createAd, 1);
                         }
                     };
+                    
+                    // Handle window resize to adjust ad placement
+                    let resizeTimeout;
+                    window.addEventListener('resize', () => {
+                        clearTimeout(resizeTimeout);
+                        resizeTimeout = setTimeout(() => {
+                            const container = document.getElementById('adsense-container');
+                            if (container && container.style.display !== 'none') {
+                                // Clear existing ad
+                                container.innerHTML = '';
+                                // Recreate ad with new size
+                                createAd();
+                            }
+                        }, 250);
+                    });
                 }
             } catch (error) {
                 console.error('Failed to initialize AdSense:', error);
