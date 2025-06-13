@@ -228,13 +228,116 @@ class LLMClient:
         return response.choices[0].message.content
     
     def generate(self, prompt: str, **kwargs) -> str:
-        """Synchronous wrapper for generate_async."""
-        return asyncio.run(self.generate_async(prompt, **kwargs))
+        """Synchronous version of generate."""
+        # Check cache first
+        cache_key = self._get_cache_key(prompt, **kwargs)
+        cached_response = self._get_cached_response(cache_key)
+        if cached_response:
+            return cached_response
+        
+        # Get provider config
+        config = self.provider_configs.get(self.provider, {})
+        
+        # Merge with kwargs
+        temperature = kwargs.get("temperature", config.get("temperature", 0.7))
+        max_tokens = kwargs.get("max_tokens", config.get("max_tokens", 2000))
+        
+        try:
+            if self.provider == "deepseek":
+                response = self._generate_deepseek_sync(prompt, temperature, max_tokens)
+            elif self.provider == "anthropic":
+                response = self._generate_anthropic_sync(prompt, temperature, max_tokens)
+            elif self.provider == "openai":
+                response = self._generate_openai_sync(prompt, temperature, max_tokens)
+            else:
+                raise ValueError(f"Unknown provider: {self.provider}")
+            
+            # Cache the response
+            self._cache_response(cache_key, response)
+            return response
+            
+        except Exception as e:
+            print(f"Error generating response with {self.provider}: {e}")
+            # Try fallback providers
+            for fallback in ["deepseek", "anthropic", "openai"]:
+                if fallback != self.provider and self.api_keys.get(fallback):
+                    try:
+                        self.provider = fallback
+                        return self.generate(prompt, **kwargs)
+                    except:
+                        continue
+            raise
     
     async def generate_batch_async(self, prompts: List[str], **kwargs) -> List[str]:
         """Generate responses for multiple prompts concurrently."""
         tasks = [self.generate_async(prompt, **kwargs) for prompt in prompts]
         return await asyncio.gather(*tasks)
+    
+    def _generate_deepseek_sync(self, prompt: str, temperature: float, max_tokens: int) -> str:
+        """Generate response using DeepSeek API (synchronous)."""
+        import requests
+        
+        api_key = self.api_keys.get("deepseek")
+        if not api_key:
+            raise ValueError("DeepSeek API key not found")
+        
+        headers = {
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json"
+        }
+        
+        data = {
+            "model": "deepseek-chat",
+            "messages": [{"role": "user", "content": prompt}],
+            "temperature": temperature,
+            "max_tokens": max_tokens
+        }
+        
+        response = requests.post(
+            "https://api.deepseek.com/v1/chat/completions",
+            headers=headers,
+            json=data,
+            timeout=60
+        )
+        response.raise_for_status()
+        
+        return response.json()["choices"][0]["message"]["content"]
+    
+    def _generate_anthropic_sync(self, prompt: str, temperature: float, max_tokens: int) -> str:
+        """Generate response using Anthropic API (synchronous)."""
+        api_key = self.api_keys.get("anthropic")
+        if not api_key:
+            raise ValueError("Anthropic API key not found")
+        
+        import anthropic
+        client = anthropic.Anthropic(api_key=api_key)
+        
+        response = client.messages.create(
+            model="claude-3-5-sonnet-20241022",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature,
+            max_tokens=max_tokens
+        )
+        
+        return response.content[0].text
+    
+    def _generate_openai_sync(self, prompt: str, temperature: float, max_tokens: int) -> str:
+        """Generate response using OpenAI API (synchronous)."""
+        api_key = self.api_keys.get("openai")
+        if not api_key:
+            raise ValueError("OpenAI API key not found")
+        
+        from openai import OpenAI
+        client = OpenAI(api_key=api_key)
+        
+        response = client.chat.completions.create(
+            model="gpt-4",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=temperature,
+            max_tokens=max_tokens
+        )
+        
+        return response.choices[0].message.content
     
     def clear_cache(self):
         """Clear the response cache."""
