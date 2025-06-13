@@ -485,6 +485,133 @@ Doctor:"""
         except KeyError:
             return {"error": "Session not found"}
     
+    def show_answer(self, session_id: str) -> Dict[str, Any]:
+        """Show the correct answer for the current case (doctor role only)."""
+        game_state = self._get_session(session_id)
+        
+        if game_state.role != GameRole.DOCTOR:
+            return {"error": "Answer viewing only available in doctor mode"}
+        
+        # Mark that answer was shown
+        game_state.answer_shown = True
+        
+        # Save session
+        self._save_session(session_id, game_state)
+        
+        return {
+            "correct": True,
+            "message": f"The correct diagnosis is: {game_state.hidden_condition}",
+            "condition_info": {
+                "name": game_state.condition_data["name"],
+                "treatment": game_state.condition_data.get("treatment", []),
+                "prognosis": game_state.condition_data.get("prognosis", ""),
+                "difficulty": game_state.difficulty.value if game_state.difficulty else "unknown",
+                "description": game_state.condition_data.get("description", ""),
+                "symptoms": game_state.condition_data.get("symptoms", []),
+                "risk_factors": game_state.condition_data.get("risk_factors", [])
+            },
+            "attempts": len(game_state.diagnostic_attempts),
+            "answer_shown": True
+        }
+    
+    def show_multiple_choice(self, session_id: str) -> Dict[str, Any]:
+        """Show multiple choice options for the current case (doctor role only)."""
+        game_state = self._get_session(session_id)
+        
+        if game_state.role != GameRole.DOCTOR:
+            return {"error": "Multiple choice only available in doctor mode"}
+        
+        # Get multiple choice options from condition data
+        multiple_choice = game_state.condition_data.get("multiple_choice", [])
+        
+        if not multiple_choice:
+            # Fallback if no multiple choice data
+            return {
+                "error": "Multiple choice options not available for this case",
+                "message": "This case doesn't have multiple choice options. Try using 'Show Answer' instead."
+            }
+        
+        return {
+            "success": True,
+            "message": "Choose from the following differential diagnoses:",
+            "multiple_choice": multiple_choice
+            # Don't send the correct answer - let the player figure it out
+        }
+    
+    def perform_physical_exam(self, session_id: str) -> Dict[str, Any]:
+        """Perform physical examination (doctor role only)."""
+        game_state = self._get_session(session_id)
+        
+        if game_state.role != GameRole.DOCTOR:
+            return {"error": "Physical examination only available in doctor mode"}
+        
+        # Get physical findings from condition data
+        condition_data = game_state.condition_data
+        physical_findings = condition_data.get("physical_findings", [])
+        
+        # Format findings for display
+        formatted_findings = []
+        if isinstance(physical_findings, list) and physical_findings:
+            for finding in physical_findings:
+                if isinstance(finding, str):
+                    formatted_findings.append({
+                        "system": "General",
+                        "finding": finding
+                    })
+                elif isinstance(finding, dict):
+                    formatted_findings.append(finding)
+        
+        # If no specific findings, provide general examination results
+        if not formatted_findings:
+            formatted_findings = [
+                {
+                    "system": "General Appearance",
+                    "finding": f"Patient appears {condition_data.get('patient_behavior', {}).get('anxiety_level', 'comfortable')}"
+                },
+                {
+                    "system": "Vital Signs",
+                    "finding": "Blood pressure: 120/80 mmHg, Heart rate: 72 bpm, Temperature: 98.6°F"
+                }
+            ]
+        
+        return {
+            "physical_findings": formatted_findings,
+            "message": "Physical examination completed"
+        }
+    
+    def perform_lab_tests(self, session_id: str) -> Dict[str, Any]:
+        """Perform laboratory tests (doctor role only)."""
+        game_state = self._get_session(session_id)
+        
+        if game_state.role != GameRole.DOCTOR:
+            return {"error": "Laboratory tests only available in doctor mode"}
+        
+        # Get lab results from condition data
+        condition_data = game_state.condition_data
+        lab_results = condition_data.get("lab_results", {})
+        
+        # If no specific lab results, provide common tests
+        if not lab_results:
+            lab_results = {
+                "CBC": "Normal",
+                "Basic Metabolic Panel": "Normal",
+                "Liver Function": "Normal"
+            }
+        
+        # Determine which values are abnormal based on condition
+        abnormal_values = []
+        
+        # Mark abnormal values that are already in the data
+        for test, result in lab_results.items():
+            if isinstance(result, str) and any(word in result.lower() for word in ["elevated", "low", "high", "abnormal", "positive"]):
+                abnormal_values.append(test)
+        
+        return {
+            "lab_results": lab_results,
+            "abnormal_values": abnormal_values,
+            "message": "Laboratory test results available"
+        }
+    
     def end_session(self, session_id: str) -> Dict[str, Any]:
         """End a game session."""
         try:
