@@ -276,8 +276,38 @@ class OptimizedMedicalGameEngine:
         }
     
     def send_message(self, session_id: str, message: str) -> Dict[str, Any]:
-        """Synchronous wrapper for send_message_async."""
-        return asyncio.run(self.send_message_async(session_id, message))
+        """Send message with LLM call."""
+        game_state = self._get_session(session_id)
+        
+        # Add to conversation history
+        game_state.conversation_history.append({"role": "user", "content": message})
+        
+        # Log message
+        self.game_logger.log_message(session_id, "user", message)
+        
+        # Generate AI response synchronously
+        ai_response = self._generate_ai_response(game_state, message)
+        
+        # Add AI response to history
+        game_state.conversation_history.append({"role": "assistant", "content": ai_response})
+        
+        # Log AI response
+        self.game_logger.log_message(session_id, "assistant", ai_response)
+        
+        # Save session (buffered, not immediate)
+        self._save_session(session_id, game_state)
+        
+        return {
+            "response": ai_response,
+            "session_id": session_id
+        }
+    
+    def _generate_ai_response(self, game_state: GameState, user_message: str) -> str:
+        """Generate AI response using synchronous LLM client."""
+        if game_state.role == GameRole.DOCTOR:
+            return self._generate_patient_response(game_state, user_message)
+        else:
+            return self._generate_doctor_response(game_state, user_message)
     
     async def _generate_ai_response_async(self, game_state: GameState, 
                                         user_message: str) -> str:
@@ -286,6 +316,39 @@ class OptimizedMedicalGameEngine:
             return await self._generate_patient_response_async(game_state, user_message)
         else:
             return await self._generate_doctor_response_async(game_state, user_message)
+    
+    def _generate_patient_response(self, game_state: GameState, doctor_message: str) -> str:
+        """Generate patient response for doctor mode (synchronous)."""
+        # Build context from condition data
+        condition = game_state.condition_data or {}
+        
+        prompt = f"""You are playing the role of a patient with the following condition:
+Diagnosis: {game_state.hidden_condition}
+Chief Complaint: {condition.get('chief_complaint', 'Unknown')}
+Symptoms: {', '.join(condition.get('symptoms', []))}
+Medical History: {condition.get('medical_history', 'None')}
+
+Respond to the doctor's question/statement naturally as this patient would.
+Keep responses concise but informative. Don't reveal the diagnosis directly.
+
+Doctor: {doctor_message}
+Patient:"""
+        
+        return self.llm_client.generate(prompt, temperature=0.7)
+    
+    def _generate_doctor_response(self, game_state: GameState, patient_message: str) -> str:
+        """Generate doctor response for patient mode (synchronous)."""
+        prompt = f"""You are an experienced and compassionate doctor.
+The patient is: {game_state.patient_name}, {game_state.patient_age} year old {game_state.patient_gender}
+Chief complaint: {game_state.chief_complaint}
+
+Respond professionally to the patient's statement/question.
+Be thorough but clear, showing empathy and medical expertise.
+
+Patient: {patient_message}
+Doctor:"""
+        
+        return self.llm_client.generate(prompt, temperature=0.7)
     
     async def _generate_patient_response_async(self, game_state: GameState, 
                                              doctor_message: str) -> str:
