@@ -11,9 +11,9 @@ from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
 import os
-from core_medical_game_optimized import OptimizedMedicalGameEngine as MedicalGameEngine, GameRole, Difficulty, Specialty
-from game_logger import game_logger
-from llm_client import set_llm_provider
+from core_medical_game import MedicalGameEngine, GameRole, Difficulty, Specialty
+from patient_interaction_logger import patient_logger
+from llm_providers import set_llm_provider
 from config import config
 
 # Pydantic models for API requests
@@ -169,14 +169,14 @@ async def setup_patient_game(request: SetupPatientGameRequest):
             raise HTTPException(status_code=400, detail="Invalid specialty")
         
         # Verify session exists before setup
-        from session_manager import session_manager
-        if not session_manager.get_session(request.session_id) and request.session_id not in game_engine.active_games:
+        from session_store import session_store
+        if not session_store.session_exists(request.session_id) and request.session_id not in game_engine.active_sessions:
             print(f"[API] Session {request.session_id} not found, waiting...")
             import time
             time.sleep(0.5)  # Give it a moment to save
             
             # Check again
-            if not session_manager.get_session(request.session_id) and request.session_id not in game_engine.active_games:
+            if not session_store.session_exists(request.session_id) and request.session_id not in game_engine.active_sessions:
                 raise HTTPException(status_code=404, detail="Game session not found. Please try creating a new game.")
         
         result = game_engine.setup_patient_game(
@@ -189,7 +189,7 @@ async def setup_patient_game(request: SetupPatientGameRequest):
         )
         
         # Start patient interaction logging
-        game_logger.create_session(request.session_id, {
+        patient_logger.start_session(request.session_id, {
             "patient_name": request.patient_name,
             "patient_age": request.patient_age,
             "patient_gender": request.patient_gender,
@@ -223,13 +223,13 @@ async def send_message(request: SendMessageRequest):
         # Log patient conversations
         if game_state_info.get("role") == "patient":
             # Log user message
-            game_logger.log_message(request.session_id, "user", request.message)
+            patient_logger.log_conversation("user", request.message)
         
         result = game_engine.send_message(request.session_id, request.message)
         
         # Log AI response for patient mode
         if game_state_info.get("role") == "patient" and "response" in result:
-            game_logger.log_message(request.session_id, "ai_doctor", result["response"])
+            patient_logger.log_conversation("ai_doctor", result["response"])
         
         return result
         
@@ -361,18 +361,20 @@ async def validate_session(session_id: str):
     """Validate if a session exists and is active."""
     try:
         # Check if session exists
-        from session_manager import session_manager
+        from session_store import session_store
         
         # First check in memory
-        if session_id in game_engine.active_games:
+        if session_id in game_engine.active_sessions:
             return {"valid": True, "location": "memory"}
         
         # Check in storage
-        session_data = session_manager.get_session(session_id)
-        if session_data:
-            return {"valid": True, "location": "storage"}
-        else:
-            return {"valid": False, "error": "Session not found or expired"}
+        if session_store.session_exists(session_id):
+            # Try to load it
+            session_data = session_store.load_session(session_id)
+            if session_data:
+                return {"valid": True, "location": "storage"}
+            else:
+                return {"valid": False, "error": "Session file corrupted or expired"}
         
         return {"valid": False, "error": "Session not found"}
         
@@ -382,7 +384,7 @@ async def validate_session(session_id: str):
 @app.get("/api/health")
 async def health_check():
     """API health check with detailed status."""
-    from llm_client import llm_client
+    from llm_providers import get_llm_provider
     
     health_status = {
         "status": "healthy",
@@ -396,16 +398,17 @@ async def health_check():
             "openai": bool(os.getenv("OPENAI_API_KEY"))
         },
         "sessions_directory": os.path.exists("sessions"),
-        "active_sessions": len(game_engine.active_games) if game_engine else 0
+        "active_sessions": len(game_engine.active_sessions) if game_engine else 0
     }
     
     try:
-        health_status["llm_provider"] = llm_client.provider
+        provider = get_llm_provider()
+        health_status["llm_provider"] = provider.get_provider_name()
         health_status["llm_status"] = "initialized"
         
         # Test if provider actually works
         try:
-            test_response = llm_client.generate("test", max_tokens=1)
+            test_response = provider.generate("test", max_tokens=1)
             health_status["llm_test"] = "working"
         except Exception as test_error:
             health_status["llm_test"] = f"failed: {str(test_error)}"
@@ -537,7 +540,7 @@ async def log_interaction(request: LogInteractionRequest):
         game_state_info = game_engine.get_game_state(request.session_id)
         
         if game_state_info.get("role") == "patient":
-            game_logger.log_patient_interaction(request.action_type, request.action_data)
+            patient_logger.log_interaction(request.action_type, request.action_data)
             return {"status": "logged"}
         else:
             return {"status": "skipped", "reason": "Not patient mode"}
@@ -554,7 +557,7 @@ async def end_session(request: EndSessionRequest):
         game_state_info = game_engine.get_game_state(request.session_id)
         
         if game_state_info.get("role") == "patient":
-            game_logger.end_session(request.session_id)
+            patient_logger.end_session()
         
         result = game_engine.end_session(request.session_id)
         
@@ -579,18 +582,21 @@ async def get_adsense_config():
 async def log_ad_impression(request: LogAdImpressionRequest):
     """Log ad impression event for analytics."""
     try:
+        # Get game state to access session log
+        from session_logger import session_logger
+        
         # Try to get session info
         game_state_info = game_engine.get_game_state(request.session_id)
         
         if game_state_info and "session_log" in game_state_info:
             session_log = game_state_info["session_log"]
-            game_logger.log_ad_impression(
-                request.session_id,
+            session_logger.log_ad_impression(
+                session_log,
                 ad_type=request.ad_type,
                 placement=request.placement,
                 metadata=request.metadata
             )
-            return {"status": "logged", "impression_count": 1}
+            return {"status": "logged", "impression_count": len(session_log.ad_impressions)}
         else:
             return {"status": "skipped", "reason": "Session not found or no session log"}
             

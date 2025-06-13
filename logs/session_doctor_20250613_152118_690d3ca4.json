@@ -1,0 +1,30 @@
+{
+  "session_id": "690d3ca4-cfc0-401f-9868-1572e5c26364",
+  "timestamp": "2025-06-13T15:21:18.201481",
+  "log_type": "session",
+  "role": "doctor",
+  "data": {},
+  "start_time": "2025-06-13T15:21:18.201482",
+  "end_time": null,
+  "user_data": {
+    "difficulty": "medium",
+    "specialty": null
+  },
+  "difficulty": null,
+  "specialty": null,
+  "patient_name": null,
+  "patient_age": null,
+  "patient_gender": null,
+  "chief_complaint": null,
+  "hidden_condition": null,
+  "case_data": null,
+  "chat_history": [],
+  "diagnostic_attempts": [],
+  "correct_diagnosis": false,
+  "physical_exam_performed": false,
+  "lab_tests_performed": false,
+  "answer_shown": false,
+  "total_messages": 0,
+  "session_duration_minutes": null,
+  "ad_impressions": []
+}

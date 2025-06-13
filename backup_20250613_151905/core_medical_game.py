@@ -12,9 +12,9 @@ from dataclasses import dataclass, asdict
 from enum import Enum
 import anthropic
 from case_manager import case_manager
-from game_logger import game_logger
-from llm_client import llm_client
-from session_manager import session_manager
+from session_logger import session_logger, SessionLog
+from llm_providers import get_llm_provider, LLMProvider
+from session_store import session_store
 
 class GameRole(Enum):
     DOCTOR = "doctor"
@@ -145,7 +145,7 @@ class MedicalGameEngine:
             self.llm_provider = None  # Will use direct client
         else:
             self.client = None
-            self.llm_provider = llm_client  # Use the configured provider
+            self.llm_provider = get_llm_provider()  # Use the configured provider
         self.active_sessions: Dict[str, GameState] = {}
         self._load_existing_sessions()
     
@@ -172,7 +172,7 @@ class MedicalGameEngine:
             if 'session_log' in data:
                 data.pop('session_log', None)
             
-            session_manager.save_session(session_id, data)
+            session_store.save_session(session_id, data)
             print(f"[SESSION] Saved session: {session_id}")
         except Exception as e:
             print(f"[SESSION] Error saving session {session_id}: {e}")
@@ -182,7 +182,7 @@ class MedicalGameEngine:
     def _load_session(self, session_id: str) -> Optional[GameState]:
         """Load session from persistent storage"""
         try:
-            data = session_manager.get_session(session_id)
+            data = session_store.load_session(session_id)
             if data:
                 # Reconstruct GameState from dictionary
                 return GameState(
@@ -226,8 +226,9 @@ class MedicalGameEngine:
         print(f"[SESSION] Session not found: {session_id}")
         print(f"[SESSION] Active sessions in memory: {list(self.active_sessions.keys())}")
         
-        # Check if session file exists  
-        if session_manager.get_session(session_id):
+        # Check if session file exists
+        from session_store import session_store
+        if session_store.session_exists(session_id):
             print(f"[SESSION] File exists but couldn't load: {session_id}")
         else:
             print(f"[SESSION] File does not exist: {session_id}")
@@ -239,7 +240,7 @@ class MedicalGameEngine:
         """Generate response using configured LLM provider."""
         if self.llm_provider:
             # Use the LLM provider abstraction
-            return llm_client.generate(
+            return self.llm_provider.generate(
                 prompt=prompt,
                 system_prompt=system_prompt,
                 max_tokens=max_tokens,
@@ -274,11 +275,11 @@ class MedicalGameEngine:
         
         # Finalize session log
         if game_state.session_log:
-            game_logger.end_session(game_state.session_log)
+            session_logger.finalize_session(game_state.session_log)
         
         # Remove from active sessions
         del self.active_sessions[session_id]
-        session_manager.delete_session(session_id)
+        session_store.delete_session(session_id)
         
         return {
             "message": "Session ended and logged successfully",
@@ -309,13 +310,13 @@ class MedicalGameEngine:
             "difficulty": difficulty,
             "specialty": specialty
         }
-        game_state.session_log = game_logger.create_session(session_id, role, user_data)
+        game_state.session_log = session_logger.create_session_log(session_id, role, user_data)
         
         self.active_sessions[session_id] = game_state
         self._save_session(session_id, game_state)
         
         # Verify session was saved
-        if not session_manager.get_session(session_id):
+        if not session_store.session_exists(session_id):
             print(f"[SESSION] WARNING: Session {session_id} was not saved to disk!")
         else:
             print(f"[SESSION] Session {session_id} saved successfully")
@@ -348,7 +349,7 @@ class MedicalGameEngine:
         
         # Update session log with doctor game data
         if game_state.session_log:
-            game_logger.update_session_data(
+            session_logger.update_session_data(
                 game_state.session_log,
                 patient_name=patient_info["name"],
                 patient_age=patient_info["age"],
@@ -402,7 +403,7 @@ class MedicalGameEngine:
         
         # Update session log with patient game data
         if game_state.session_log:
-            game_logger.update_session_data(
+            session_logger.update_session_data(
                 game_state.session_log,
                 patient_name=patient_name,
                 patient_age=patient_age,
@@ -436,7 +437,7 @@ class MedicalGameEngine:
         
         # Log user message
         if game_state.session_log:
-            game_logger.log_message(game_state.session_log, "user", message, timestamp)
+            session_logger.log_message(game_state.session_log, "user", message, timestamp)
         
         # Generate AI response
         ai_response = self._generate_ai_response(game_state, message)
@@ -454,7 +455,7 @@ class MedicalGameEngine:
         
         # Log AI response
         if game_state.session_log:
-            game_logger.log_message(game_state.session_log, "ai", ai_response, ai_timestamp)
+            session_logger.log_message(game_state.session_log, "ai", ai_response, ai_timestamp)
         
         return {
             "response": ai_response,
@@ -480,7 +481,7 @@ class MedicalGameEngine:
         
         # Log diagnostic attempt
         if game_state.session_log:
-            game_logger.log_diagnostic_attempt(game_state.session_log, diagnosis, is_correct)
+            session_logger.log_diagnostic_attempt(game_state.session_log, diagnosis, is_correct)
         
         if is_correct:
             game_state.correct_diagnosis = True
@@ -514,7 +515,7 @@ class MedicalGameEngine:
         
         # Log action
         if game_state.session_log:
-            game_logger.log_action(game_state.session_log, "show_answer")
+            session_logger.log_action(game_state.session_log, "show_answer")
         
         return {
             "correct": True,
@@ -541,7 +542,7 @@ class MedicalGameEngine:
         
         # Log action
         if game_state.session_log:
-            game_logger.log_action(game_state.session_log, "show_multiple_choice")
+            session_logger.log_action(game_state.session_log, "show_multiple_choice")
         
         # Get multiple choice options from condition data
         multiple_choice = game_state.condition_data.get("multiple_choice", [])
@@ -569,7 +570,7 @@ class MedicalGameEngine:
         
         # Log action
         if game_state.session_log:
-            game_logger.log_action(game_state.session_log, "physical_exam")
+            session_logger.log_action(game_state.session_log, "physical_exam")
         
         # Get physical findings from condition data
         condition_data = game_state.condition_data
@@ -614,7 +615,7 @@ class MedicalGameEngine:
         
         # Log action
         if game_state.session_log:
-            game_logger.log_action(game_state.session_log, "lab_tests")
+            session_logger.log_action(game_state.session_log, "lab_tests")
         
         # Get lab results from condition data
         condition_data = game_state.condition_data
