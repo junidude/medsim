@@ -87,6 +87,7 @@ class MedicalGameApp {
         this.quickActionsDiv = document.getElementById('quick-actions');
         this.pexBtn = document.getElementById('pex-btn');
         this.labTestBtn = document.getElementById('lab-test-btn');
+        this.doctorGuideText = document.getElementById('doctor-guide-text');
         
         // Patient mode elements
         this.patientChatMessages = document.getElementById('patient-chat-messages');
@@ -413,6 +414,7 @@ class MedicalGameApp {
         
         // Show quick actions for doctor mode but keep buttons disabled initially
         if (this.quickActionsDiv) this.quickActionsDiv.style.display = 'flex';
+        if (this.doctorGuideText) this.doctorGuideText.style.display = 'flex';
         this.resetQuickActionButtons();
         
         // Remove patient-mode class for doctor layout
@@ -442,8 +444,9 @@ class MedicalGameApp {
         // Hide diagnosis panel (not needed in patient mode)
         if (this.diagnosisPanel) this.diagnosisPanel.style.display = 'none';
         
-        // Hide quick actions (not needed in patient mode)
+        // Hide quick actions and guide text (not needed in patient mode)
         if (this.quickActionsDiv) this.quickActionsDiv.style.display = 'none';
+        if (this.doctorGuideText) this.doctorGuideText.style.display = 'none';
         
         // Add patient-mode class for styling
         document.querySelector('.game-container').classList.add('patient-mode');
@@ -893,8 +896,14 @@ class MedicalGameApp {
     resetQuickActionButtons() {
         this.pexRequested = false;
         this.labRequested = false;
-        if (this.pexBtn) this.pexBtn.classList.add('disabled');
-        if (this.labTestBtn) this.labTestBtn.classList.add('disabled');
+        if (this.pexBtn) {
+            this.pexBtn.classList.add('disabled');
+            this.pexBtn.classList.remove('activated');
+        }
+        if (this.labTestBtn) {
+            this.labTestBtn.classList.add('disabled');
+            this.labTestBtn.classList.remove('activated');
+        }
     }
     
     checkForExamRequests(message) {
