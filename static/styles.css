@@ -523,9 +523,9 @@ body {
     box-shadow: var(--shadow-sm);
     display: flex;
     flex-direction: column;
-    height: 60vh; /* Fixed height to enable scrolling */
-    min-height: 400px;
-    max-height: 600px;
+    height: 72vh; /* Increased from 60vh to 72vh (1.2x) */
+    min-height: 480px; /* Increased from 400px to 480px (1.2x) */
+    max-height: 720px; /* Increased from 600px to 720px (1.2x) */
 }
 
 .chat-header {

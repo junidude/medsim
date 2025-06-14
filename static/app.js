@@ -412,6 +412,9 @@ class MedicalGameApp {
         // Show diagnosis panel
         if (this.diagnosisPanel) this.diagnosisPanel.style.display = 'block';
         
+        // Reset attempts count to 0
+        if (this.attemptsCount) this.attemptsCount.textContent = '0';
+        
         // Show quick actions for doctor mode but keep buttons disabled initially
         if (this.quickActionsDiv) this.quickActionsDiv.style.display = 'flex';
         if (this.doctorGuideText) this.doctorGuideText.style.display = 'flex';
